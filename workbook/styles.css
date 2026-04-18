@@ -1,19 +1,45 @@
 html[data-bs-theme="light"] {
-  --bs-primary: #0057b8;
-  --bs-primary-rgb: 0, 87, 184;
-  --bs-link-color: #0057b8;
-  --bs-link-color-rgb: 0, 87, 184;
-  --bs-link-hover-color: #003f86;
-  --bs-link-hover-color-rgb: 0, 63, 134;
+  --bs-primary: #cc0000;
+  --bs-primary-rgb: 204, 0, 0;
+  --bs-link-color: #cc0000;
+  --bs-link-color-rgb: 204, 0, 0;
+  --bs-link-hover-color: #990000;
+  --bs-link-hover-color-rgb: 153, 0, 0;
 }
 
 html[data-bs-theme="dark"] {
-  --bs-primary: #8fc2ff;
-  --bs-primary-rgb: 143, 194, 255;
-  --bs-link-color: #9cccff;
-  --bs-link-color-rgb: 156, 204, 255;
-  --bs-link-hover-color: #d8ebff;
-  --bs-link-hover-color-rgb: 216, 235, 255;
+  --bs-primary: #fac800;
+  --bs-primary-rgb: 250, 200, 0;
+  --bs-link-color: #fac800;
+  --bs-link-color-rgb: 250, 200, 0;
+  --bs-link-hover-color: #fff2b3;
+  --bs-link-hover-color-rgb: 255, 242, 179;
+}
+
+html[data-bs-theme="light"] #quarto-header .navbar {
+  background-color: #990000;
+}
+
+html[data-bs-theme="light"] #quarto-header .navbar a,
+html[data-bs-theme="light"] #quarto-header .navbar .navbar-title,
+html[data-bs-theme="light"] #quarto-header .navbar .nav-link,
+html[data-bs-theme="light"] #quarto-header .navbar .menu-text,
+html[data-bs-theme="light"] #quarto-header .navbar .bi,
+html[data-bs-theme="light"] #quarto-header .navbar #quarto-search {
+  color: #ffffff;
+}
+
+html[data-bs-theme="dark"] #quarto-header .navbar {
+  background-color: #000000;
+}
+
+html[data-bs-theme="dark"] #quarto-header .navbar a,
+html[data-bs-theme="dark"] #quarto-header .navbar .navbar-title,
+html[data-bs-theme="dark"] #quarto-header .navbar .nav-link,
+html[data-bs-theme="dark"] #quarto-header .navbar .menu-text,
+html[data-bs-theme="dark"] #quarto-header .navbar .bi,
+html[data-bs-theme="dark"] #quarto-header .navbar #quarto-search {
+  color: #fac800;
 }
 
 .quarto-title-block.default {
