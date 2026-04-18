@@ -2,6 +2,12 @@ project:
   type: book
 
 book:
+  navbar:
+    right:
+      - icon: github
+        href: https://github.com/
+        aria-label: GitHub
+  
   title: "MB 360 Lab Workbook"
   subtitle: "MB 360: Scientific Inquiry in Microbiology At the Bench – Microbial Metabolism and Genomics"
   author:
@@ -28,6 +34,10 @@ book:
     - module-08.qmd
     - appendix-supplies-reagents.qmd
     - references.qmd
+  
+  search:
+    location: navbar
+    type: overlay
 
 bibliography: references.bib
 
