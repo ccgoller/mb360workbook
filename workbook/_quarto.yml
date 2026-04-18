@@ -18,8 +18,6 @@ book:
   date: "4/17/2026"
   chapters:
     - index.qmd
-    - about.qmd
-    - figures.qmd
     - module-01.qmd
     - module-02.qmd
     - module-03.qmd
@@ -30,6 +28,8 @@ book:
     - module-08.qmd
     - appendix-supplies-reagents.qmd
     - references.qmd
+    - about.qmd
+    - figures.qmd
   
   search:
     location: navbar
