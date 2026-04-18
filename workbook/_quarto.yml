@@ -15,25 +15,25 @@ book:
 
   sidebar:
     contents:
-      - text: "Home"
+      - text: "Workbook Home"
         href: index.qmd
       - text: "Modules"
         contents:
-          - text: "Module 1: Microbial Metabolism"
+          - text: "Module 1: Getting Started"
             href: module-01.qmd
-          - text: "Module 2: Microbial Genomics"
+          - text: "Module 2: Microbial Propagation"
             href: module-02.qmd
-          - text: "Module 3: Microbial Metabolic Pathways"
+          - text: "Module 3: Microbial Growth Curves"
             href: module-03.qmd
-          - text: "Module 4: Microbial Genomic Analysis"
+          - text: "Module 4: Microbial Metabolism"
             href: module-04.qmd
-          - text: "Module 5: Microbial Metabolic Engineering"
+          - text: "Module 5: Microbial Interactions"
             href: module-05.qmd
-          - text: "Module 6: Microbial Genomic Tools and Techniques"
+          - text: "Module 6: Microbial Genome Sequencing"
             href: module-06.qmd
-          - text: "Module 7: Microbial Metabolism and Genomics in Biotechnology"
+          - text: "Module 7: Data Analysis and Experimental Design"
             href: module-07.qmd
-          - text: "Module 8: Case Studies in Microbial Metabolism and Genomics"
+          - text: "Module 8: Share Your Results"
             href: module-08.qmd
       - text: "Appendix"
         contents:
