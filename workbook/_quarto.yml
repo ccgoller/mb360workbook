@@ -74,12 +74,8 @@ bibliography: references.bib
 format:
   html:
     theme:
-      light:
-        - cosmo
-        - brand
-      dark:
-        - darkly
-        - brand
+      light: default
+      dark: default
     css: styles.css
     lightbox: true
   pdf:

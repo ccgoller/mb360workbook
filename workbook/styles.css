@@ -1,3 +1,21 @@
+html[data-bs-theme="light"] {
+  --bs-primary: #0057b8;
+  --bs-primary-rgb: 0, 87, 184;
+  --bs-link-color: #0057b8;
+  --bs-link-color-rgb: 0, 87, 184;
+  --bs-link-hover-color: #003f86;
+  --bs-link-hover-color-rgb: 0, 63, 134;
+}
+
+html[data-bs-theme="dark"] {
+  --bs-primary: #8fc2ff;
+  --bs-primary-rgb: 143, 194, 255;
+  --bs-link-color: #9cccff;
+  --bs-link-color-rgb: 156, 204, 255;
+  --bs-link-hover-color: #d8ebff;
+  --bs-link-hover-color-rgb: 216, 235, 255;
+}
+
 .quarto-title-block.default {
   margin-bottom: 2rem;
   padding: 1.5rem;
