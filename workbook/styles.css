@@ -1,4 +1,4 @@
-html[data-bs-theme="light"] {
+body.quarto-light {
   --bs-primary: #cc0000;
   --bs-primary-rgb: 204, 0, 0;
   --bs-link-color: #cc0000;
@@ -7,7 +7,7 @@ html[data-bs-theme="light"] {
   --bs-link-hover-color-rgb: 153, 0, 0;
 }
 
-html[data-bs-theme="dark"] {
+body.quarto-dark {
   --bs-primary: #fac800;
   --bs-primary-rgb: 250, 200, 0;
   --bs-link-color: #fac800;
@@ -16,29 +16,29 @@ html[data-bs-theme="dark"] {
   --bs-link-hover-color-rgb: 255, 242, 179;
 }
 
-html[data-bs-theme="light"] #quarto-header .navbar {
+body.quarto-light #quarto-header .navbar {
   background-color: #990000;
 }
 
-html[data-bs-theme="light"] #quarto-header .navbar a,
-html[data-bs-theme="light"] #quarto-header .navbar .navbar-title,
-html[data-bs-theme="light"] #quarto-header .navbar .nav-link,
-html[data-bs-theme="light"] #quarto-header .navbar .menu-text,
-html[data-bs-theme="light"] #quarto-header .navbar .bi,
-html[data-bs-theme="light"] #quarto-header .navbar #quarto-search {
+body.quarto-light #quarto-header .navbar a,
+body.quarto-light #quarto-header .navbar .navbar-title,
+body.quarto-light #quarto-header .navbar .nav-link,
+body.quarto-light #quarto-header .navbar .menu-text,
+body.quarto-light #quarto-header .navbar .bi,
+body.quarto-light #quarto-header .navbar #quarto-search {
   color: #ffffff;
 }
 
-html[data-bs-theme="dark"] #quarto-header .navbar {
+body.quarto-dark #quarto-header .navbar {
   background-color: #000000;
 }
 
-html[data-bs-theme="dark"] #quarto-header .navbar a,
-html[data-bs-theme="dark"] #quarto-header .navbar .navbar-title,
-html[data-bs-theme="dark"] #quarto-header .navbar .nav-link,
-html[data-bs-theme="dark"] #quarto-header .navbar .menu-text,
-html[data-bs-theme="dark"] #quarto-header .navbar .bi,
-html[data-bs-theme="dark"] #quarto-header .navbar #quarto-search {
+body.quarto-dark #quarto-header .navbar a,
+body.quarto-dark #quarto-header .navbar .navbar-title,
+body.quarto-dark #quarto-header .navbar .nav-link,
+body.quarto-dark #quarto-header .navbar .menu-text,
+body.quarto-dark #quarto-header .navbar .bi,
+body.quarto-dark #quarto-header .navbar #quarto-search {
   color: #fac800;
 }
 
