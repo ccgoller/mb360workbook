@@ -4,7 +4,7 @@ This page provides a quick index to the figures embedded throughout the workbook
 
 ## About
 
-- Figure @fig-author-portrait in [About](about.qmd): author portrait
+- Author portrait in [About](about.qmd)
 
 ## Module 1
 

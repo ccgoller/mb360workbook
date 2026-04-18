@@ -1,21 +1,21 @@
-# About The Author {#sec-about-author .unnumbered}
+---
+title: "About The Author"
+number-sections: false
+about:
+  template: trestles
+  image: images/author/GollerCarlos.jpg
+  image-shape: rounded
+  image-width: 13em
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/ccgoller
+    - icon: github
+      text: GitHub
+      href: https://github.com/ccgoller
+---
 
-::: {.about-hero}
-::: {.columns .v-center-container}
-::: {.column width="34%"}
-![Carlos C. Goller, Teaching Professor at North Carolina State University.](images/author/GollerCarlos.jpg){#fig-author-portrait .about-photo .nolightbox fig-alt="Portrait of Carlos C. Goller wearing a black lab coat."}
-:::
-::: {.column width="66%"}
-## Carlos C. Goller
-
-[GitHub](https://github.com/ccgoller) | [LinkedIn](https://linkedin.com/in/ccgoller)
-
-Carlos C. Goller is a Teaching Professor at North Carolina State University in Raleigh, NC. He teaches microbiology, life science, public health, and other fun courses as part of the Department of Biological Sciences. When not playing with Delftia acidovorans or code, Carlos enjoys spending time with his family and playing with his dog Sunshine.
-
-Figure @fig-author-portrait mirrors the author profile used on the reference site and is embedded locally in this workbook.
-:::
-:::
-:::
+Carlos C. Goller is a Teaching Professor at North Carolina State University in Raleigh, NC. He teaches microbiology, life science, public health, and other fun courses as part of the Department of Biological Sciences. When not playing with *Delftia acidovorans* or code, Carlos enjoys spending time with his family and playing with his dog Sunshine.
 
 ## Education
 
