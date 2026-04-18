@@ -6,45 +6,46 @@ book:
   favicon: cover.png
   page-navigation: true
   downloads: [pdf]
-  
+
   navbar:
     right:
       - icon: github
         href: https://github.com/
         aria-label: GitHub
-  
-  sidebar: 
-    - text: "Home"
-      href: index.qmd
-    - text: "Modules"
-      children:
-        - text: "Module 1: Microbial Metabolism"
-          href: module-01.qmd
-        - text: "Module 2: Microbial Genomics"
-          href: module-02.qmd
-        - text: "Module 3: Microbial Metabolic Pathways"
-          href: module-03.qmd
-        - text: "Module 4: Microbial Genomic Analysis"
-          href: module-04.qmd
-        - text: "Module 5: Microbial Metabolic Engineering"
-          href: module-05.qmd
-        - text: "Module 6: Microbial Genomic Tools and Techniques"
-          href: module-06.qmd
-        - text: "Module 7: Microbial Metabolism and Genomics in Biotechnology"
-          href: module-07.qmd
-        - text: "Module 8: Case Studies in Microbial Metabolism and Genomics"
-          href: module-08.qmd
-    - text: "Appendix"
-      children:
-        - text: "Supplies and Reagents"
-          href: appendix-supplies-reagents.qmd
-    - text: "References"
-      href: references.qmd
-    - text: "About the Author"
-      href: about.qmd
-    - text: "Figures Index"
-      href: figures.qmd
-  
+
+  sidebar:
+    contents:
+      - text: "Home"
+        href: index.qmd
+      - text: "Modules"
+        contents:
+          - text: "Module 1: Microbial Metabolism"
+            href: module-01.qmd
+          - text: "Module 2: Microbial Genomics"
+            href: module-02.qmd
+          - text: "Module 3: Microbial Metabolic Pathways"
+            href: module-03.qmd
+          - text: "Module 4: Microbial Genomic Analysis"
+            href: module-04.qmd
+          - text: "Module 5: Microbial Metabolic Engineering"
+            href: module-05.qmd
+          - text: "Module 6: Microbial Genomic Tools and Techniques"
+            href: module-06.qmd
+          - text: "Module 7: Microbial Metabolism and Genomics in Biotechnology"
+            href: module-07.qmd
+          - text: "Module 8: Case Studies in Microbial Metabolism and Genomics"
+            href: module-08.qmd
+      - text: "Appendix"
+        contents:
+          - text: "Supplies and Reagents"
+            href: appendix-supplies-reagents.qmd
+      - text: "References"
+        href: references.qmd
+      - text: "About the Author"
+        href: about.qmd
+      - text: "Figures Index"
+        href: figures.qmd
+
   title: "MB 360 Lab Workbook"
   subtitle: "MB 360: Scientific Inquiry in Microbiology At the Bench| Microbial Metabolism and Genomics"
   author:
@@ -67,7 +68,7 @@ book:
     - references.qmd
     - about.qmd
     - figures.qmd
-  
+
   search:
     location: navbar
     type: overlay
@@ -81,8 +82,11 @@ format:
       dark: darkly
     css: styles.css
     lightbox: true
+    page-footer:
+      center: "MB 360 Lab Workbook | Carlos C. Goller, Ph.D."
   pdf:
     documentclass: scrreprt
-
-
-
+    fontsize: 12pt
+    geometry: margin=1in
+    toc: true
+    number-sections: true
