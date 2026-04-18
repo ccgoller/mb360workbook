@@ -2,9 +2,17 @@ project:
   type: book
 
 book:
-  title: "MB 360 ELN Workbook"
+  title: "MB 360 Lab Workbook"
   subtitle: "Eight Modules for Microbial Genomics Lab Work"
-  author: "Carlos C. Goller"
+  author:
+    - name: "Carlos C. Goller"
+      degree: "Ph.D."
+      department: "Department of Biological Sciences"
+      affiliation: "North Carolina State University"
+    - name: "Camila Loyola"
+      degree: "Graduate Student Teaching Assistant"
+      department: "Master of Microbial Biotechnology Graduate Program"
+      affiliation: "North Carolina State University"
   date: "4/17/2026"
   chapters:
     - index.qmd

@@ -6,7 +6,7 @@ Week 15 is the capstone module. Students design or repeat an experiment, analyze
 
 Figure @fig-module8-capstone-banner provides a compact visual divider for the capstone week and surfaces the final remaining template image from the source document.
 
-![Capstone module banner carried over from the original workbook template.](images/template/image6.png){#fig-module8-capstone-banner fig-alt="Horizontal banner graphic from the original workbook template used as a divider for the capstone module."}
+![Figure 8.1. Capstone module banner carried over from the original workbook template.](images/template/image6.png){#fig-module8-capstone-banner fig-alt="Horizontal banner graphic from the original workbook template used as a divider for the capstone module."}
 
 ## Purpose
 

@@ -55,7 +55,7 @@ Biolog Blood Universal Growth agar and GEN III MicroPlates make it possible to t
 
 Figure @fig-module4-biolog-layout shows the overall GEN III plate layout used to interpret the phenotypic results.
 
-![Biolog GEN III plate layout with carbon-source and control wells.](images/template/image3.png){#fig-module4-biolog-layout fig-alt="Biolog GEN III plate layout showing the distribution of test conditions across the wells."}
+![Figure 4.1. Biolog GEN III plate layout with carbon-source and control wells.](images/template/image3.png){#fig-module4-biolog-layout fig-alt="Biolog GEN III plate layout showing the distribution of test conditions across the wells."}
 
 ## Procedures
 
@@ -89,11 +89,11 @@ Figure @fig-module4-biolog-layout shows the overall GEN III plate layout used to
 
 Figure @fig-module4-biolog-loading shows the multichannel loading pattern used to inoculate each column consistently.
 
-![Loading a Biolog GEN III plate with a multichannel pipette.](images/template/image8.png){#fig-module4-biolog-loading fig-alt="Illustration showing a multichannel pipette transferring inoculum into a 96-well Biolog plate."}
+![Figure 4.2. Loading a Biolog GEN III plate with a multichannel pipette.](images/template/image8.png){#fig-module4-biolog-loading fig-alt="Illustration showing a multichannel pipette transferring inoculum into a 96-well Biolog plate."}
 
 Figure @fig-module4-biolog-incubation shows the expected appearance of an inoculated Biolog plate after incubation.
 
-![Biolog GEN III plate after incubation with visible growth response.](images/template/image9.png){#fig-module4-biolog-incubation fig-alt="Illustration of a Biolog GEN III plate with several purple wells indicating post-incubation growth response."}
+![Figure 4.3. Biolog GEN III plate after incubation with visible growth response.](images/template/image9.png){#fig-module4-biolog-incubation fig-alt="Illustration of a Biolog GEN III plate with several purple wells indicating post-incubation growth response."}
 
 - Pour the prepared cell suspension into a multichannel reservoir.
 - Load the multichannel pipette and add 100 uL to each well of the GEN III plate.

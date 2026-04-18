@@ -56,7 +56,7 @@ The course uses teaching labs in Thomas Hall and focuses on work with Delftia ac
 
 Figure @fig-module1-pipette shows the micropipette volume display students should learn to read before beginning the practice-card exercise.
 
-![Micropipette volume display used for introductory pipetting practice.](images/template/image7.png){#fig-module1-pipette fig-alt="Illustration of a micropipette with the volume display highlighted for reading the setting."}
+![Figure 1.1. Micropipette volume display used for introductory pipetting practice.](images/template/image7.png){#fig-module1-pipette fig-alt="Illustration of a micropipette with the volume display highlighted for reading the setting."}
 
 - Add the correct amount of liquid to each circle and keep each drop within the circle.
 - Have each group member try at least two different volumes.
@@ -118,13 +118,13 @@ Serial dilution is the stepwise dilution of a solution by a constant factor. In 
 
 Figure @fig-module1-serial-overview summarizes the repeated transfer logic behind the serial dilution workflow.
 
-![Serial dilution overview showing stepwise dilution from a concentrated starting sample.](images/template/image15.jpg){#fig-module1-serial-overview fig-alt="Diagram showing a serial dilution sequence from a concentrated source through progressively diluted samples."}
+![Figure 1.2. Serial dilution overview showing stepwise dilution from a concentrated starting sample.](images/template/image15.jpg){#fig-module1-serial-overview fig-alt="Diagram showing a serial dilution sequence from a concentrated source through progressively diluted samples."}
 
 ### Protocol
 
 Use Figure @fig-module1-microplate to plan the first rows of the microplate before starting the transfers.
 
-![Top rows of a 96-well microplate used to plan the serial dilution setup.](images/template/image11.jpg){#fig-module1-microplate fig-alt="Photo of the top rows of a 96-well microplate used as a planning guide for serial dilution."}
+![Figure 1.3. Top rows of a 96-well microplate used to plan the serial dilution setup.](images/template/image11.jpg){#fig-module1-microplate fig-alt="Photo of the top rows of a 96-well microplate used as a planning guide for serial dilution."}
 
 1. Add 50 uL of water to each well in row A.
 2. Add 50 uL of crystal violet to well A1.
@@ -139,7 +139,7 @@ Use Figure @fig-module1-microplate to plan the first rows of the microplate befo
 
 Figure @fig-module1-plate-template can be copied into the ELN or notebook to sketch the intended arrangement of controls and dilutions.
 
-![Blank 96-well plate template for planning and annotation.](images/template/image10.png){#fig-module1-plate-template fig-alt="Blank 96-well plate diagram labeled by row and column for planning experimental layouts."}
+![Figure 1.4. Blank 96-well plate template for planning and annotation.](images/template/image10.png){#fig-module1-plate-template fig-alt="Blank 96-well plate diagram labeled by row and column for planning experimental layouts."}
 
 - Where does the water go?
 - How much water is added to each well?

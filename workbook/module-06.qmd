@@ -50,7 +50,7 @@ This module connects phenotype to genotype by sequencing the genome of the isola
 
 Figure @fig-module6-sequencing-overview summarizes the sequencing and downstream analysis pipeline from isolate DNA to annotated genome.
 
-![Nanopore sequencing and downstream analysis workflow.](images/template/image4.png){#fig-module6-sequencing-overview fig-alt="Workflow diagram showing nanopore sequencing followed by basecalling, assembly, and genome exploration."}
+![Figure 6.1. Nanopore sequencing and downstream analysis workflow.](images/template/image4.png){#fig-module6-sequencing-overview fig-alt="Workflow diagram showing nanopore sequencing followed by basecalling, assembly, and genome exploration."}
 
 ## Procedures
 
@@ -81,11 +81,11 @@ Figure @fig-module6-sequencing-overview summarizes the sequencing and downstream
 
 Figure @fig-module6-qubit illustrates the Qubit measurement setup used to quantify extracted DNA prior to library preparation.
 
-![Qubit fluorometer workflow for DNA quantification.](images/template/image2.png){#fig-module6-qubit fig-alt="Workflow diagram showing preparation of a Qubit assay tube and fluorometer-based DNA quantification."}
+![Figure 6.2. Qubit fluorometer workflow for DNA quantification.](images/template/image2.png){#fig-module6-qubit fig-alt="Workflow diagram showing preparation of a Qubit assay tube and fluorometer-based DNA quantification."}
 
 Figure @fig-module6-library-prep summarizes the rapid barcoding library-preparation workflow used before sequencing.
 
-![Nanopore rapid barcoding workflow for sequencing library preparation.](images/template/image5.png){#fig-module6-library-prep fig-alt="Workflow diagram showing the rapid barcoding steps used to prepare DNA for nanopore sequencing."}
+![Figure 6.3. Nanopore rapid barcoding workflow for sequencing library preparation.](images/template/image5.png){#fig-module6-library-prep fig-alt="Workflow diagram showing the rapid barcoding steps used to prepare DNA for nanopore sequencing."}
 
 ### Data Analysis
 

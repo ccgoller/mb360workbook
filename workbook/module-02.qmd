@@ -82,7 +82,7 @@ This module uses Delftia acidovorans and related environmental isolates. Each gr
 
 Figure @fig-module2-streaking illustrates the transfer of a single colony to a fresh plate during the streaking workflow.
 
-![Single-colony transfer onto a fresh TSA plate for streaking practice.](images/template/image13.png){#fig-module2-streaking fig-alt="Diagram showing a sterile loop transferring a single colony onto a fresh agar plate for streaking."}
+![Figure 2.1. Single-colony transfer onto a fresh TSA plate for streaking practice.](images/template/image13.png){#fig-module2-streaking fig-alt="Diagram showing a sterile loop transferring a single colony onto a fresh agar plate for streaking."}
 
 - Use a sterile loop to pick a single colony.
 - Open the plate as little as possible.

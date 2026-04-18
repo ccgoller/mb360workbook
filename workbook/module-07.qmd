@@ -49,7 +49,7 @@ Students now use sequence data generated earlier in the course to compare isolat
 
 Figure @fig-module7-sequencing-overview is reused from the sequencing workflow to anchor where assembly, annotation, and comparative analysis fit into the broader pipeline.
 
-![Sequencing-analysis pipeline reused for genome assembly and comparative interpretation.](images/template/image4.png){#fig-module7-sequencing-overview fig-alt="Workflow diagram showing how sequencing data moves into assembly, annotation, and comparative analysis."}
+![Figure 7.1. Sequencing-analysis pipeline reused for genome assembly and comparative interpretation.](images/template/image4.png){#fig-module7-sequencing-overview fig-alt="Workflow diagram showing how sequencing data moves into assembly, annotation, and comparative analysis."}
 
 ## Procedures
 
