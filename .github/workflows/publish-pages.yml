@@ -29,7 +29,7 @@ jobs:
         run: quarto install tinytex --no-prompt
 
       - name: Render book
-        run: quarto render --to html
+        run: quarto render
         working-directory: workbook
 
       - name: Set up Pages
