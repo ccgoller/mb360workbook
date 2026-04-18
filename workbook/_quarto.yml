@@ -2,6 +2,8 @@ project:
   type: book
 
 book:
+  image: opengraph.png
+  page-navigation: true
   downloads: [pdf]
   
   navbar:
@@ -43,12 +45,12 @@ book:
       href: figures.qmd
   
   title: "MB 360 Lab Workbook"
-  subtitle: "MB 360: Scientific Inquiry in Microbiology At the Bench – Microbial Metabolism and Genomics"
+  subtitle: "MB 360: Scientific Inquiry in Microbiology At the Bench| Microbial Metabolism and Genomics"
   author:
     - name: "Carlos C. Goller, Ph.D."
-      affiliation: "Department of Biological Sciences, North Carolina State University"
-    - name: "Camila Loyola, Graduate Student Teaching Assistant"
-      affiliation: "Master of Microbial Biotechnology Graduate Program, North Carolina State University"
+      affiliation: "Department of Biological Sciences, NC State University"
+    - name: "Camila Loyola, Graduate Teaching Assistant"
+      affiliation: "Master of Microbial Biotechnology, NC State University"
   date: "4/17/2026"
   chapters:
     - index.qmd
