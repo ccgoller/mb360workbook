@@ -1,4 +1,4 @@
-# About The Author {#sec-about-author}
+# About The Author {#sec-about-author .unnumbered}
 
 ::: {.about-hero}
 ::: {.columns .v-center-container}

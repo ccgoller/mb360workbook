@@ -68,7 +68,7 @@ After characterizing individual growth and metabolism, this module asks how isol
 
 Figure @fig-module5-duet-layout maps the isolate-only, control, and co-culture conditions across the Cerillo Duet platform.
 
-![Figure 5.1. Cerillo Duet co-culture layout with isolate-only, control, and co-culture conditions.](images/template/image14.png){#fig-module5-duet-layout fig-alt="Diagram of a Cerillo Duet co-culture plate with paired chambers for controls and co-culture conditions."}
+![Cerillo Duet co-culture layout with isolate-only, control, and co-culture conditions.](images/template/image14.png){#fig-module5-duet-layout fig-alt="Diagram of a Cerillo Duet co-culture plate with paired chambers for controls and co-culture conditions."}
 
 1. Dilute the overnight culture 1:1000 into fresh TSB.
 2. Add 800 uL of diluted culture to triplicate wells for the isolate-only condition.

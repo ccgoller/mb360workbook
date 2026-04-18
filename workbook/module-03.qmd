@@ -68,7 +68,7 @@ This module compares growth and biofilm formation in Delftia acidovorans, Delfti
 
 Figure @fig-module3-growth-layout provides a reusable 96-well template for mapping control wells and isolate conditions before loading the plate.
 
-![Figure 3.1. Blank 96-well plate layout for planning growth-curve wells and controls.](images/template/image10.png){#fig-module3-growth-layout fig-alt="Blank 96-well plate diagram for organizing growth-curve and control conditions."}
+![Blank 96-well plate layout for planning growth-curve wells and controls.](images/template/image10.png){#fig-module3-growth-layout fig-alt="Blank 96-well plate diagram for organizing growth-curve and control conditions."}
 
 - Prepare 1:1000 dilutions of the overnight cultures.
 - Use positive and negative controls.
@@ -88,7 +88,7 @@ Figure @fig-module3-growth-layout provides a reusable 96-well template for mappi
 
 Figure @fig-module3-biofilm-viability outlines the wash-and-detection workflow used to measure biofilm viability after incubation.
 
-![Figure 3.2. Biofilm viability workflow using wash plates and detection reagent.](images/template/image1.png){#fig-module3-biofilm-viability fig-alt="Workflow diagram showing peg-lid washing steps followed by incubation in detection reagent for a biofilm viability assay."}
+![Biofilm viability workflow using wash plates and detection reagent.](images/template/image1.png){#fig-module3-biofilm-viability fig-alt="Workflow diagram showing peg-lid washing steps followed by incubation in detection reagent for a biofilm viability assay."}
 
 - Wash the peg lid using PBS in separate plates.
 - Prepare the detection reagent with WST solution, electron mediator reagent, and TSB.

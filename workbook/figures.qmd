@@ -1,47 +1,47 @@
-# Figures
+# Figures {.unnumbered}
 
 This page provides a quick index to the figures embedded throughout the workbook.
 
 ## About
 
-- Figure @fig-author-portrait in @sec-about-author: author portrait
+- Figure @fig-author-portrait in [About](about.qmd): author portrait
 
 ## Module 1
 
-- Figure 1.1 (@fig-module1-pipette) in [Module 1](module-01.qmd): micropipette volume display
-- Figure 1.2 (@fig-module1-serial-overview) in [Module 1](module-01.qmd): serial dilution overview
-- Figure 1.3 (@fig-module1-microplate) in [Module 1](module-01.qmd): top rows of a 96-well microplate
-- Figure 1.4 (@fig-module1-plate-template) in [Module 1](module-01.qmd): blank 96-well plate template
+- Figure @fig-module1-pipette in [Module 1](module-01.qmd): micropipette volume display
+- Figure @fig-module1-serial-overview in [Module 1](module-01.qmd): serial dilution overview
+- Figure @fig-module1-microplate in [Module 1](module-01.qmd): top rows of a 96-well microplate
+- Figure @fig-module1-plate-template in [Module 1](module-01.qmd): blank 96-well plate template
 
 ## Module 2
 
-- Figure 2.1 (@fig-module2-streaking) in [Module 2](module-02.qmd): single-colony transfer for streaking
+- Figure @fig-module2-streaking in [Module 2](module-02.qmd): single-colony transfer for streaking
 
 ## Module 3
 
-- Figure 3.1 (@fig-module3-growth-layout) in [Module 3](module-03.qmd): growth-curve plate layout
-- Figure 3.2 (@fig-module3-biofilm-viability) in [Module 3](module-03.qmd): biofilm viability workflow
+- Figure @fig-module3-growth-layout in [Module 3](module-03.qmd): growth-curve plate layout
+- Figure @fig-module3-biofilm-viability in [Module 3](module-03.qmd): biofilm viability workflow
 
 ## Module 4
 
-- Figure 4.1 (@fig-module4-biolog-layout) in [Module 4](module-04.qmd): Biolog GEN III layout
-- Figure 4.2 (@fig-module4-biolog-loading) in [Module 4](module-04.qmd): multichannel loading of the Biolog plate
-- Figure 4.3 (@fig-module4-biolog-incubation) in [Module 4](module-04.qmd): Biolog plate after incubation
+- Figure @fig-module4-biolog-layout in [Module 4](module-04.qmd): Biolog GEN III layout
+- Figure @fig-module4-biolog-loading in [Module 4](module-04.qmd): multichannel loading of the Biolog plate
+- Figure @fig-module4-biolog-incubation in [Module 4](module-04.qmd): Biolog plate after incubation
 
 ## Module 5
 
-- Figure 5.1 (@fig-module5-duet-layout) in [Module 5](module-05.qmd): Cerillo Duet co-culture layout
+- Figure @fig-module5-duet-layout in [Module 5](module-05.qmd): Cerillo Duet co-culture layout
 
 ## Module 6
 
-- Figure 6.1 (@fig-module6-sequencing-overview) in [Module 6](module-06.qmd): sequencing and downstream analysis workflow
-- Figure 6.2 (@fig-module6-qubit) in [Module 6](module-06.qmd): Qubit quantification workflow
-- Figure 6.3 (@fig-module6-library-prep) in [Module 6](module-06.qmd): rapid barcoding workflow
+- Figure @fig-module6-sequencing-overview in [Module 6](module-06.qmd): sequencing and downstream analysis workflow
+- Figure @fig-module6-qubit in [Module 6](module-06.qmd): Qubit quantification workflow
+- Figure @fig-module6-library-prep in [Module 6](module-06.qmd): rapid barcoding workflow
 
 ## Module 7
 
-- Figure 7.1 (@fig-module7-sequencing-overview) in [Module 7](module-07.qmd): reused sequencing-analysis pipeline
+- Figure @fig-module7-sequencing-overview in [Module 7](module-07.qmd): reused sequencing-analysis pipeline
 
 ## Module 8
 
-- Figure 8.1 (@fig-module8-capstone-banner) in [Module 8](module-08.qmd): capstone module banner
+- Figure @fig-module8-capstone-banner in [Module 8](module-08.qmd): capstone module banner
