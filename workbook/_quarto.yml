@@ -2,9 +2,10 @@ project:
   type: book
 
 book:
-  image: opengraph.png
+  image: cover.png
+  favicon: cover.png
   page-navigation: true
-  downloads: [pdf]
+  downloads: [pdf, epub, docx]
   
   navbar:
     right:
