@@ -1,0 +1,70 @@
+# Appendix A: Supplies and Reagents
+
+This appendix provides a consolidated checklist of supplies and reagents used across Modules 1 through 8.
+
+## Core Supplies and Equipment
+
+- Lab coats, nitrile gloves, and safety goggles
+- Benchtop disinfectant (70% ethanol)
+- Micropipettes (single channel and multichannel)
+- Sterile pipette tips (appropriate volumes)
+- Sterile reservoirs for multichannel loading
+- Sterile microcentrifuge tubes and culture tubes
+- DNA LoBind tubes
+- Centrifuge and microcentrifuge
+- Vortex mixer
+- Shaking incubator
+- Plate incubator
+- 96-well microplates
+- Breathable plate seals
+- Peg-lid biofilm assay plates
+- Cerillo Duet co-culture plate system
+- Plate reader (OD600 and endpoint absorbance)
+- Qubit fluorometer and assay tubes
+- Turbidimeter
+- Sterile loops for colony transfer
+- Biohazard waste containers
+
+## Microbiology Media and Biological Materials
+
+- Delftia acidovorans isolates and comparison isolates
+- Tryptic Soy Agar (TSA) plates
+- Tryptic Soy Broth (TSB)
+- Biolog Blood Universal Growth (BUG) agar
+- Biolog GEN III MicroPlates
+- IF-A inoculating fluid (for Biolog workflow)
+- Phosphate-buffered saline (PBS)
+
+## Reagents for Pipetting and Assay Setup
+
+- Crystal violet solution (serial dilution activity)
+- Dyed water solutions (blue, yellow, red) for volume challenge
+- Biofilm viability detection reagent components:
+  - WST solution
+  - Electron mediator reagent
+  - TSB diluent
+
+## DNA Extraction and Sequencing Reagents
+
+- TE buffer
+- Lysozyme (10 mg/mL in TE)
+- Proteinase K
+- RNase A
+- CTAB buffer
+- Monarch gDNA Binding Buffer
+- Monarch wash buffers
+- Monarch gDNA Elution Buffer
+- Nanopore rapid barcoding kit reagents
+
+## Computational and Data Resources
+
+- Electronic lab notebook (ELN)
+- Quarto for workbook rendering
+- BV-BRC workspace and workflows
+- SeqHub for genome exploration
+
+## Notes
+
+- Prepare all sterile materials in advance and confirm lot numbers where required.
+- Record any reagent substitutions, concentration changes, or protocol deviations in the ELN.
+- Follow institutional biosafety and chemical safety policies at all times.

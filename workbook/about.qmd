@@ -3,7 +3,7 @@
 ::: {.about-hero}
 ::: {.columns .v-center-container}
 ::: {.column width="34%"}
-![Carlos C. Goller, Teaching Professor at North Carolina State University.](images/author/GollerCarlos.jpg){#fig-author-portrait .about-photo fig-alt="Portrait of Carlos C. Goller standing outdoors in a blazer and tie."}
+![Carlos C. Goller, Teaching Professor at North Carolina State University.](images/author/GollerCarlos.jpg){#fig-author-portrait .about-photo .nolightbox fig-alt="Portrait of Carlos C. Goller standing outdoors in a blazer and tie."}
 :::
 ::: {.column width="66%"}
 ## Carlos C. Goller

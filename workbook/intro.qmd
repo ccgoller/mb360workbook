@@ -1,5 +1,17 @@
 # Introduction
 
-This is a book created from markdown and executable code.
+This course introduces students to the core practices of experimental science, including formulating scientific questions, designing and carrying out experiments, maintaining a laboratory notebook, interpreting results, and presenting findings. These are the practical skills needed to work efficiently in a research laboratory, regardless of discipline.
 
-See @knuth84 for additional discussion of literate programming.
+Recommended background: Prior or current enrollment in MB 352 or MB 354.
+
+## 🎯 Course Outcomes
+Upon completion of this course, students will be able to:
+CO 1: Formulate meaningful and testable scientific questions and hypotheses
+CO 2: Design experimental tests to answer scientific questions, including appropriate controls and variable manipulation
+CO 3: Create detailed experimental plans
+CO 4: Design and prepare all materials required to carry out an experimental plan
+CO 5: Carry out experiments according to plan
+CO 6: Collect and critically interpret experimental data
+CO 7: Use data interpretation to refine or formulate new scientific questions or hypotheses
+CO 8: Maintain an appropriate and organized laboratory notebook
+CO 9: Summarize work and communicate findings through written and oral presentations

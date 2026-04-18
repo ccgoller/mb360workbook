@@ -2,7 +2,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "MB 360 ELN Workbook",
+    "title": "MB 360 Lab Workbook",
     "section": "",
     "text": "MB 360 ELN Workbook\nThis Quarto book reorganizes the MB 360 schedule and ELN outline into eight modules that follow the flow of the course from basic lab technique to final project design.",
     "crumbs": [
@@ -12,7 +12,7 @@
   {
     "objectID": "index.html#how-to-use-this-book",
     "href": "index.html#how-to-use-this-book",
-    "title": "MB 360 ELN Workbook",
+    "title": "MB 360 Lab Workbook",
     "section": "How To Use This Book",
     "text": "How To Use This Book\nEach module is structured as a working lab-book chapter with the same core parts:\n\npurpose and learning outcomes\nskills and knowledge\ntask and criteria for success\nbackground and procedures\nresults, analysis, and discussion prompts",
     "crumbs": [
@@ -22,7 +22,7 @@
   {
     "objectID": "index.html#module-sequence",
     "href": "index.html#module-sequence",
-    "title": "MB 360 ELN Workbook",
+    "title": "MB 360 Lab Workbook",
     "section": "Module Sequence",
     "text": "Module Sequence\n\nGetting Started: lab safety, pipetting, and serial dilutions\nMicrobial Propagation: plate streaking and liquid cultures\nMicrobial Growth Curves: strain comparisons and biofilms\nMicrobial Metabolism: Biolog GEN III characterization\nMicrobial Interactions: isolate co-culture\nMicrobial Genome Sequencing: DNA isolation, quantification, and sequencing\nData Analysis and Experimental Design: assembly, annotation, and interpretation\nShare Your Results: final experiment planning, execution, and reflection",
     "crumbs": [
@@ -32,7 +32,7 @@
   {
     "objectID": "index.html#notes",
     "href": "index.html#notes",
-    "title": "MB 360 ELN Workbook",
+    "title": "MB 360 Lab Workbook",
     "section": "Notes",
     "text": "Notes\nThe chapters preserve the structure of the source outline while adapting it to a cleaner Quarto book format. Module 8 remains intentionally open-ended because it is designed for student-defined experiments.",
     "crumbs": [
@@ -114,7 +114,7 @@
     "href": "figures.html#module-1",
     "title": "2  Figures",
     "section": "2.2 Module 1",
-    "text": "2.2 Module 1\n\nFigure Figure 3.1 in Module 1: micropipette volume display\nFigure Figure 3.2 in Module 1: serial dilution overview\nFigure Figure 3.3 in Module 1: top rows of a 96-well microplate\nFigure Figure 3.4 in Module 1: blank 96-well plate template",
+    "text": "2.2 Module 1\n\nFigure 1.1 (Figure 3.1) in Module 1: micropipette volume display\nFigure 1.2 (Figure 3.2) in Module 1: serial dilution overview\nFigure 1.3 (Figure 3.3) in Module 1: top rows of a 96-well microplate\nFigure 1.4 (Figure 3.4) in Module 1: blank 96-well plate template",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Figures</span>"
     ]
@@ -124,7 +124,7 @@
     "href": "figures.html#module-2",
     "title": "2  Figures",
     "section": "2.3 Module 2",
-    "text": "2.3 Module 2\n\nFigure Figure 4.1 in Module 2: single-colony transfer for streaking",
+    "text": "2.3 Module 2\n\nFigure 2.1 (Figure 4.1) in Module 2: single-colony transfer for streaking",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Figures</span>"
     ]
@@ -134,7 +134,7 @@
     "href": "figures.html#module-3",
     "title": "2  Figures",
     "section": "2.4 Module 3",
-    "text": "2.4 Module 3\n\nFigure Figure 5.1 in Module 3: growth-curve plate layout\nFigure Figure 5.2 in Module 3: biofilm viability workflow",
+    "text": "2.4 Module 3\n\nFigure 3.1 (Figure 5.1) in Module 3: growth-curve plate layout\nFigure 3.2 (Figure 5.2) in Module 3: biofilm viability workflow",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Figures</span>"
     ]
@@ -144,7 +144,7 @@
     "href": "figures.html#module-4",
     "title": "2  Figures",
     "section": "2.5 Module 4",
-    "text": "2.5 Module 4\n\nFigure Figure 6.1 in Module 4: Biolog GEN III layout\nFigure Figure 6.2 in Module 4: multichannel loading of the Biolog plate\nFigure Figure 6.3 in Module 4: Biolog plate after incubation",
+    "text": "2.5 Module 4\n\nFigure 4.1 (Figure 6.1) in Module 4: Biolog GEN III layout\nFigure 4.2 (Figure 6.2) in Module 4: multichannel loading of the Biolog plate\nFigure 4.3 (Figure 6.3) in Module 4: Biolog plate after incubation",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Figures</span>"
     ]
@@ -154,7 +154,7 @@
     "href": "figures.html#module-5",
     "title": "2  Figures",
     "section": "2.6 Module 5",
-    "text": "2.6 Module 5\n\nFigure Figure 7.1 in Module 5: Cerillo Duet co-culture layout",
+    "text": "2.6 Module 5\n\nFigure 5.1 (Figure 7.1) in Module 5: Cerillo Duet co-culture layout",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Figures</span>"
     ]
@@ -164,7 +164,7 @@
     "href": "figures.html#module-6",
     "title": "2  Figures",
     "section": "2.7 Module 6",
-    "text": "2.7 Module 6\n\nFigure Figure 8.1 in Module 6: sequencing and downstream analysis workflow\nFigure Figure 8.2 in Module 6: Qubit quantification workflow\nFigure Figure 8.3 in Module 6: rapid barcoding workflow",
+    "text": "2.7 Module 6\n\nFigure 6.1 (Figure 8.1) in Module 6: sequencing and downstream analysis workflow\nFigure 6.2 (Figure 8.2) in Module 6: Qubit quantification workflow\nFigure 6.3 (Figure 8.3) in Module 6: rapid barcoding workflow",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Figures</span>"
     ]
@@ -174,7 +174,7 @@
     "href": "figures.html#module-7",
     "title": "2  Figures",
     "section": "2.8 Module 7",
-    "text": "2.8 Module 7\n\nFigure Figure 9.1 in Module 7: reused sequencing-analysis pipeline",
+    "text": "2.8 Module 7\n\nFigure 7.1 (Figure 9.1) in Module 7: reused sequencing-analysis pipeline",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Figures</span>"
     ]
@@ -184,7 +184,7 @@
     "href": "figures.html#module-8",
     "title": "2  Figures",
     "section": "2.9 Module 8",
-    "text": "2.9 Module 8\n\nFigure Figure 10.1 in Module 8: capstone module banner",
+    "text": "2.9 Module 8\n\nFigure 8.1 (Figure 10.1) in Module 8: capstone module banner",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Figures</span>"
     ]
@@ -264,7 +264,7 @@
     "href": "module-01.html#procedures",
     "title": "3  Module 1: Getting Started",
     "section": "3.8 Procedures",
-    "text": "3.8 Procedures\n\n3.8.1 Lab Safety\n\nTreat all tips as potential biohazards.\nClean the bench before and after each session with 70% ethanol.\nDispose of cultures and plates using the designated biohazard procedures.\n\n\n\n3.8.2 Methods: Practice Micropipetting With the Pipette Practice Card\nFigure Figure 3.1 shows the micropipette volume display students should learn to read before beginning the practice-card exercise.\n\n\n\n\n\n\nFigure 3.1: Micropipette volume display used for introductory pipetting practice.\n\n\n\n\nAdd the correct amount of liquid to each circle and keep each drop within the circle.\nHave each group member try at least two different volumes.\nPractice picking up the entire drop without leaving liquid behind.\nPipette several 5 uL drops and compare them for consistency.\nCombine four 4 uL additions into a single spot, predict the total volume, then test whether you can recover it fully.\n\n\n\n3.8.3 Methods: Volume Challenge\nYour instructor will provide blue, yellow, and red dyed water. Use the Pipette Practice Card to complete the transfer and mixing exercise.\n\n3.8.3.1 Mixing With a Micropipette\n\nWhen adding a second liquid to a dot, press only to the first stop.\nRelease slowly to draw the same volume back up.\nRepeat until the colors are mixed evenly.\nFinish by pressing to the second stop and removing the tip cleanly.\n\n\n\n3.8.3.2 Instructions\n\nAdd 13.5 uL of blue dye to dot A.\nAdd 17.5 uL of yellow dye to dot C.\nAdd 17 uL of red dye to dot E.\nTransfer 2 uL from dot A to dot F.\nTransfer 4.5 uL from dot C to dot B.\nTransfer 3 uL from dot E to dot D.\nCalculate the volume now present on each dot.\nMix 6 uL from dot E into dot F.\nMix 3.5 uL from dot A into dot B.\nMix 5 uL from dot C into dot D.\n\n\n\n\n3.8.4 Protocol Notes\nRecord any mistakes, deviations, or adjustments made during the experiment.",
+    "text": "3.8 Procedures\n\n3.8.1 Lab Safety\n\nTreat all tips as potential biohazards.\nClean the bench before and after each session with 70% ethanol.\nDispose of cultures and plates using the designated biohazard procedures.\n\n\n\n3.8.2 Methods: Practice Micropipetting With the Pipette Practice Card\nFigure Figure 3.1 shows the micropipette volume display students should learn to read before beginning the practice-card exercise.\n\n\n\n\n\n\nFigure 3.1: Figure 1.1. Micropipette volume display used for introductory pipetting practice.\n\n\n\n\nAdd the correct amount of liquid to each circle and keep each drop within the circle.\nHave each group member try at least two different volumes.\nPractice picking up the entire drop without leaving liquid behind.\nPipette several 5 uL drops and compare them for consistency.\nCombine four 4 uL additions into a single spot, predict the total volume, then test whether you can recover it fully.\n\n\n\n3.8.3 Methods: Volume Challenge\nYour instructor will provide blue, yellow, and red dyed water. Use the Pipette Practice Card to complete the transfer and mixing exercise.\n\n3.8.3.1 Mixing With a Micropipette\n\nWhen adding a second liquid to a dot, press only to the first stop.\nRelease slowly to draw the same volume back up.\nRepeat until the colors are mixed evenly.\nFinish by pressing to the second stop and removing the tip cleanly.\n\n\n\n3.8.3.2 Instructions\n\nAdd 13.5 uL of blue dye to dot A.\nAdd 17.5 uL of yellow dye to dot C.\nAdd 17 uL of red dye to dot E.\nTransfer 2 uL from dot A to dot F.\nTransfer 4.5 uL from dot C to dot B.\nTransfer 3 uL from dot E to dot D.\nCalculate the volume now present on each dot.\nMix 6 uL from dot E into dot F.\nMix 3.5 uL from dot A into dot B.\nMix 5 uL from dot C into dot D.\n\n\n\n\n3.8.4 Protocol Notes\nRecord any mistakes, deviations, or adjustments made during the experiment.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Module 1: Getting Started</span>"
     ]
@@ -304,7 +304,7 @@
     "href": "module-01.html#serial-dilutions",
     "title": "3  Module 1: Getting Started",
     "section": "3.12 Serial Dilutions",
-    "text": "3.12 Serial Dilutions\n\n3.12.1 Purpose\nPractice accurate small-volume pipetting while learning how serial dilutions work.\n\n\n3.12.2 Background\nSerial dilution is the stepwise dilution of a solution by a constant factor. In this module, you will perform a 1:10 serial dilution of crystal violet in a 96-well plate to connect pipetting technique with quantitative analysis.\nFigure Figure 3.2 summarizes the repeated transfer logic behind the serial dilution workflow.\n\n\n\n\n\n\nFigure 3.2: Serial dilution overview showing stepwise dilution from a concentrated starting sample.\n\n\n\n\n\n3.12.3 Protocol\nUse Figure Figure 3.3 to plan the first rows of the microplate before starting the transfers.\n\n\n\n\n\n\nFigure 3.3: Top rows of a 96-well microplate used to plan the serial dilution setup.\n\n\n\n\nAdd 50 uL of water to each well in row A.\nAdd 50 uL of crystal violet to well A1.\nMix A1 gently, then transfer 50 uL from A1 to A2.\nRepeat across row A through A12.\nDiscard the final 50 uL after mixing A12.\nRepeat the same process for rows B, C, and D as assigned between partners.\nAdd 100 uL of water to well H12 as a negative control.\nCompare rows visually, then measure absorbance with the plate reader.\n\n\n\n3.12.4 Planning Prompts\nFigure Figure 3.4 can be copied into the ELN or notebook to sketch the intended arrangement of controls and dilutions.\n\n\n\n\n\n\nFigure 3.4: Blank 96-well plate template for planning and annotation.\n\n\n\n\nWhere does the water go?\nHow much water is added to each well?\nWhere is crystal violet added first?\nWhat transfer step is repeated each time?\nWhat should happen after mixing well A12?\n\n\n\n3.12.5 Reflection Prompts\n\nWhat is the dilution factor in this series?\nHow dilute is the final sample relative to the starting dye?\nDid the visual pattern match your prediction?\nDid the plate reader data match your qualitative observations?",
+    "text": "3.12 Serial Dilutions\n\n3.12.1 Purpose\nPractice accurate small-volume pipetting while learning how serial dilutions work.\n\n\n3.12.2 Background\nSerial dilution is the stepwise dilution of a solution by a constant factor. In this module, you will perform a 1:10 serial dilution of crystal violet in a 96-well plate to connect pipetting technique with quantitative analysis.\nFigure Figure 3.2 summarizes the repeated transfer logic behind the serial dilution workflow.\n\n\n\n\n\n\nFigure 3.2: Figure 1.2. Serial dilution overview showing stepwise dilution from a concentrated starting sample.\n\n\n\n\n\n3.12.3 Protocol\nUse Figure Figure 3.3 to plan the first rows of the microplate before starting the transfers.\n\n\n\n\n\n\nFigure 3.3: Figure 1.3. Top rows of a 96-well microplate used to plan the serial dilution setup.\n\n\n\n\nAdd 50 uL of water to each well in row A.\nAdd 50 uL of crystal violet to well A1.\nMix A1 gently, then transfer 50 uL from A1 to A2.\nRepeat across row A through A12.\nDiscard the final 50 uL after mixing A12.\nRepeat the same process for rows B, C, and D as assigned between partners.\nAdd 100 uL of water to well H12 as a negative control.\nCompare rows visually, then measure absorbance with the plate reader.\n\n\n\n3.12.4 Planning Prompts\nFigure Figure 3.4 can be copied into the ELN or notebook to sketch the intended arrangement of controls and dilutions.\n\n\n\n\n\n\nFigure 3.4: Figure 1.4. Blank 96-well plate template for planning and annotation.\n\n\n\n\nWhere does the water go?\nHow much water is added to each well?\nWhere is crystal violet added first?\nWhat transfer step is repeated each time?\nWhat should happen after mixing well A12?\n\n\n\n3.12.5 Reflection Prompts\n\nWhat is the dilution factor in this series?\nHow dilute is the final sample relative to the starting dye?\nDid the visual pattern match your prediction?\nDid the plate reader data match your qualitative observations?",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Module 1: Getting Started</span>"
     ]
@@ -384,7 +384,7 @@
     "href": "module-02.html#procedures",
     "title": "4  Module 2: Microbial Propagation",
     "section": "4.8 Procedures",
-    "text": "4.8 Procedures\n\n4.8.1 Lab Safety\n\n4.8.1.1 Before Lab\n\nWear a lab coat, goggles, and gloves.\nWipe the bench and pipettors with 70% ethanol.\n\n\n\n4.8.1.2 During Lab\n\nTreat all tips as potential biohazards.\nRemove PPE when leaving the lab.\nDiscard samples and disposables in the correct containers.\nKeep personal item use to a minimum.\n\n\n\n4.8.1.3 After Lab\n\nWipe the station with 70% ethanol.\nDecontaminate any personal items touched during lab.\nDispose of gloves in the main biohazard container.\n\n\n\n\n4.8.2 Methods: Observe Colony Morphology\n\nObtain a TSA plate containing colonies of your isolate.\nObserve colony appearance without opening the plate.\nRecord size, shape, and any additional visible features.\nPhotograph the plate using the provided black background.\nShare the photos with all team members.\n\n\n\n4.8.3 Methods: Plate Streaking\nFigure Figure 4.1 illustrates the transfer of a single colony to a fresh plate during the streaking workflow.\n\n\n\n\n\n\nFigure 4.1: Single-colony transfer onto a fresh TSA plate for streaking practice.\n\n\n\n\nUse a sterile loop to pick a single colony.\nOpen the plate as little as possible.\nStreak onto a fresh TSA plate.\nLabel the plate with your name, class, and date on the bottom edge.\n\n\n\n4.8.4 Methods: Starting a Liquid Culture\n\nObtain TSB and sterile culture tubes.\nLabel tubes for the TSB control, your isolate, and Delftia acidovorans SPH-1.\nTransfer a colony into the labeled tube without touching the loop to any other surface.\nCap each tube correctly and place them in a shaking incubator at 30 C.\nIncubate for 24 hours.\n\n\n\n4.8.5 Protocol Notes\nRecord any mistakes, deviations, or isolate-specific observations.",
+    "text": "4.8 Procedures\n\n4.8.1 Lab Safety\n\n4.8.1.1 Before Lab\n\nWear a lab coat, goggles, and gloves.\nWipe the bench and pipettors with 70% ethanol.\n\n\n\n4.8.1.2 During Lab\n\nTreat all tips as potential biohazards.\nRemove PPE when leaving the lab.\nDiscard samples and disposables in the correct containers.\nKeep personal item use to a minimum.\n\n\n\n4.8.1.3 After Lab\n\nWipe the station with 70% ethanol.\nDecontaminate any personal items touched during lab.\nDispose of gloves in the main biohazard container.\n\n\n\n\n4.8.2 Methods: Observe Colony Morphology\n\nObtain a TSA plate containing colonies of your isolate.\nObserve colony appearance without opening the plate.\nRecord size, shape, and any additional visible features.\nPhotograph the plate using the provided black background.\nShare the photos with all team members.\n\n\n\n4.8.3 Methods: Plate Streaking\nFigure Figure 4.1 illustrates the transfer of a single colony to a fresh plate during the streaking workflow.\n\n\n\n\n\n\nFigure 4.1: Figure 2.1. Single-colony transfer onto a fresh TSA plate for streaking practice.\n\n\n\n\nUse a sterile loop to pick a single colony.\nOpen the plate as little as possible.\nStreak onto a fresh TSA plate.\nLabel the plate with your name, class, and date on the bottom edge.\n\n\n\n4.8.4 Methods: Starting a Liquid Culture\n\nObtain TSB and sterile culture tubes.\nLabel tubes for the TSB control, your isolate, and Delftia acidovorans SPH-1.\nTransfer a colony into the labeled tube without touching the loop to any other surface.\nCap each tube correctly and place them in a shaking incubator at 30 C.\nIncubate for 24 hours.\n\n\n\n4.8.5 Protocol Notes\nRecord any mistakes, deviations, or isolate-specific observations.",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Module 2: Microbial Propagation</span>"
     ]
@@ -494,7 +494,7 @@
     "href": "module-03.html#procedures",
     "title": "5  Module 3: Microbial Growth Curves",
     "section": "5.8 Procedures",
-    "text": "5.8 Procedures\n\n5.8.1 Lab Safety\n\nWear the required PPE.\nClean the bench and pipettors with 70% ethanol.\nTreat all tips as biohazards.\nDispose of plates and gloves in the correct waste streams.\n\n\n\n5.8.2 Methods: Liquid Culture Setup\n\nIsolated colonies were transferred to liquid medium.\nInoculated tubes were grown overnight at 30 C with shaking at 200 to 250 RPM.\n\n\n\n5.8.3 Methods: Growth Assay Setup\nFigure Figure 5.1 provides a reusable 96-well template for mapping control wells and isolate conditions before loading the plate.\n\n\n\n\n\n\nFigure 5.1: Blank 96-well plate layout for planning growth-curve wells and controls.\n\n\n\n\nPrepare 1:1000 dilutions of the overnight cultures.\nUse positive and negative controls.\nPour diluted cultures into sterile reservoirs.\nUse a multichannel pipette to add 100 uL to the assigned 96-well plate columns.\nSeal the plate with a breathable seal.\nLoad the plate into the plate reader for 48 hours at 30 C with shaking.\n\n\n\n5.8.4 Methods: Biofilm Assay Setup\n\nPrepare fresh 1:1000 dilutions for the biofilm plate.\nSeed the assigned wells with 100 uL per well.\nAdd the peg lid without contaminating the pegs.\nIncubate for 48 hours at 30 C.\n\n\n\n5.8.5 Methods: Biofilm Viability\nFigure Figure 5.2 outlines the wash-and-detection workflow used to measure biofilm viability after incubation.\n\n\n\n\n\n\nFigure 5.2: Biofilm viability workflow using wash plates and detection reagent.\n\n\n\n\nWash the peg lid using PBS in separate plates.\nPrepare the detection reagent with WST solution, electron mediator reagent, and TSB.\nTransfer the peg lid to the reagent plate and incubate at 37 C.\nMeasure absorbance at 450 nm.\n\n\n\n5.8.6 Protocol Notes\nRecord any mistakes, deviations, or isolate-specific observations.",
+    "text": "5.8 Procedures\n\n5.8.1 Lab Safety\n\nWear the required PPE.\nClean the bench and pipettors with 70% ethanol.\nTreat all tips as biohazards.\nDispose of plates and gloves in the correct waste streams.\n\n\n\n5.8.2 Methods: Liquid Culture Setup\n\nIsolated colonies were transferred to liquid medium.\nInoculated tubes were grown overnight at 30 C with shaking at 200 to 250 RPM.\n\n\n\n5.8.3 Methods: Growth Assay Setup\nFigure Figure 5.1 provides a reusable 96-well template for mapping control wells and isolate conditions before loading the plate.\n\n\n\n\n\n\nFigure 5.1: Figure 3.1. Blank 96-well plate layout for planning growth-curve wells and controls.\n\n\n\n\nPrepare 1:1000 dilutions of the overnight cultures.\nUse positive and negative controls.\nPour diluted cultures into sterile reservoirs.\nUse a multichannel pipette to add 100 uL to the assigned 96-well plate columns.\nSeal the plate with a breathable seal.\nLoad the plate into the plate reader for 48 hours at 30 C with shaking.\n\n\n\n5.8.4 Methods: Biofilm Assay Setup\n\nPrepare fresh 1:1000 dilutions for the biofilm plate.\nSeed the assigned wells with 100 uL per well.\nAdd the peg lid without contaminating the pegs.\nIncubate for 48 hours at 30 C.\n\n\n\n5.8.5 Methods: Biofilm Viability\nFigure Figure 5.2 outlines the wash-and-detection workflow used to measure biofilm viability after incubation.\n\n\n\n\n\n\nFigure 5.2: Figure 3.2. Biofilm viability workflow using wash plates and detection reagent.\n\n\n\n\nWash the peg lid using PBS in separate plates.\nPrepare the detection reagent with WST solution, electron mediator reagent, and TSB.\nTransfer the peg lid to the reagent plate and incubate at 37 C.\nMeasure absorbance at 450 nm.\n\n\n\n5.8.6 Protocol Notes\nRecord any mistakes, deviations, or isolate-specific observations.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 3: Microbial Growth Curves</span>"
     ]
@@ -594,7 +594,7 @@
     "href": "module-04.html#background",
     "title": "6  Module 4: Microbial Metabolism",
     "section": "6.7 Background",
-    "text": "6.7 Background\nBiolog Blood Universal Growth agar and GEN III MicroPlates make it possible to test bacterial growth across many environmental and chemical conditions at once. The plate uses metabolic dye chemistry to report growth and biochemical activity across up to 94 tests.\nFigure Figure 6.1 shows the overall GEN III plate layout used to interpret the phenotypic results.\n\n\n\n\n\n\nFigure 6.1: Biolog GEN III plate layout with carbon-source and control wells.",
+    "text": "6.7 Background\nBiolog Blood Universal Growth agar and GEN III MicroPlates make it possible to test bacterial growth across many environmental and chemical conditions at once. The plate uses metabolic dye chemistry to report growth and biochemical activity across up to 94 tests.\nFigure Figure 6.1 shows the overall GEN III plate layout used to interpret the phenotypic results.\n\n\n\n\n\n\nFigure 6.1: Figure 4.1. Biolog GEN III plate layout with carbon-source and control wells.",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Module 4: Microbial Metabolism</span>"
     ]
@@ -604,7 +604,7 @@
     "href": "module-04.html#procedures",
     "title": "6  Module 4: Microbial Metabolism",
     "section": "6.8 Procedures",
-    "text": "6.8 Procedures\n\n6.8.1 Lab Safety\n\n6.8.1.1 Before Lab\n\nWear lab coat, goggles, and gloves.\nWipe benches and pipettors with 70% ethanol.\n\n\n\n6.8.1.2 During Lab\n\nTreat all tips as biohazards.\nRemove PPE when leaving the lab.\nUse personal devices as little as possible.\n\n\n\n6.8.1.3 After Lab\n\nClean work areas and personal items with ethanol.\nDispose of liquids, plates, gloves, and glass using the assigned workflow.\nReturn reusable materials and wash hands.\n\n\n\n\n6.8.2 Methods: Activity 1, Turbidimeter\n\nBlank the turbidimeter with uninoculated IF-A fluid.\nSwab bacteria from the BUG agar plate into IF-A inoculating fluid.\nMix gently and measure turbidity.\nAdjust the inoculum to a target density of 95% transmittance.\n\n\n\n6.8.3 Methods: Activity 2, Biolog Plate Preparation\nFigure Figure 6.2 shows the multichannel loading pattern used to inoculate each column consistently.\n\n\n\n\n\n\nFigure 6.2: Loading a Biolog GEN III plate with a multichannel pipette.\n\n\n\nFigure Figure 6.3 shows the expected appearance of an inoculated Biolog plate after incubation.\n\n\n\n\n\n\nFigure 6.3: Biolog GEN III plate after incubation with visible growth response.\n\n\n\n\nPour the prepared cell suspension into a multichannel reservoir.\nLoad the multichannel pipette and add 100 uL to each well of the GEN III plate.\nReplace tips whenever contamination is possible.\nConfirm that every well contains liquid.\nIncubate one plate in the plate reader and another statically at 33 C for 1 to 2 days.\n\n\n\n6.8.4 Protocol Notes\nRecord any mistakes, deviations, or strain-specific observations.",
+    "text": "6.8 Procedures\n\n6.8.1 Lab Safety\n\n6.8.1.1 Before Lab\n\nWear lab coat, goggles, and gloves.\nWipe benches and pipettors with 70% ethanol.\n\n\n\n6.8.1.2 During Lab\n\nTreat all tips as biohazards.\nRemove PPE when leaving the lab.\nUse personal devices as little as possible.\n\n\n\n6.8.1.3 After Lab\n\nClean work areas and personal items with ethanol.\nDispose of liquids, plates, gloves, and glass using the assigned workflow.\nReturn reusable materials and wash hands.\n\n\n\n\n6.8.2 Methods: Activity 1, Turbidimeter\n\nBlank the turbidimeter with uninoculated IF-A fluid.\nSwab bacteria from the BUG agar plate into IF-A inoculating fluid.\nMix gently and measure turbidity.\nAdjust the inoculum to a target density of 95% transmittance.\n\n\n\n6.8.3 Methods: Activity 2, Biolog Plate Preparation\nFigure Figure 6.2 shows the multichannel loading pattern used to inoculate each column consistently.\n\n\n\n\n\n\nFigure 6.2: Figure 4.2. Loading a Biolog GEN III plate with a multichannel pipette.\n\n\n\nFigure Figure 6.3 shows the expected appearance of an inoculated Biolog plate after incubation.\n\n\n\n\n\n\nFigure 6.3: Figure 4.3. Biolog GEN III plate after incubation with visible growth response.\n\n\n\n\nPour the prepared cell suspension into a multichannel reservoir.\nLoad the multichannel pipette and add 100 uL to each well of the GEN III plate.\nReplace tips whenever contamination is possible.\nConfirm that every well contains liquid.\nIncubate one plate in the plate reader and another statically at 33 C for 1 to 2 days.\n\n\n\n6.8.4 Protocol Notes\nRecord any mistakes, deviations, or strain-specific observations.",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Module 4: Microbial Metabolism</span>"
     ]
@@ -714,7 +714,7 @@
     "href": "module-05.html#procedures",
     "title": "7  Module 5: Microbial Interactions",
     "section": "7.8 Procedures",
-    "text": "7.8 Procedures\n\n7.8.1 Lab Safety\n\nWear required PPE and clean benches and pipettors with 70% ethanol.\nTreat all tips as biohazards.\nDecontaminate liquids, glass, and work surfaces after lab.\n\n\n\n7.8.2 Methods\n\n7.8.2.1 What Was Prepared in Advance\n\nOvernight cultures of each isolate were started in 2.5 mL TSB and incubated at 30 C with shaking.\n\n\n\n7.8.2.2 Day of the Lab\nFigure Figure 7.1 maps the isolate-only, control, and co-culture conditions across the Cerillo Duet platform.\n\n\n\n\n\n\nFigure 7.1: Cerillo Duet co-culture layout with isolate-only, control, and co-culture conditions.\n\n\n\n\nDilute the overnight culture 1:1000 into fresh TSB.\nAdd 800 uL of diluted culture to triplicate wells for the isolate-only condition.\nAdd 800 uL of TSB to the adjacent control wells.\nAdd 800 uL of diluted SPH-1 to the paired experimental wells for co-culture.\nSeal the plate carefully.\nIncubate with shaking at 30 C for 24 to 48 hours.\nAnalyze OD600 measurements collected every 5 minutes.\n\n\n\n\n7.8.3 Protocol Notes\nRecord any mistakes, deviations, or strain-specific observations.",
+    "text": "7.8 Procedures\n\n7.8.1 Lab Safety\n\nWear required PPE and clean benches and pipettors with 70% ethanol.\nTreat all tips as biohazards.\nDecontaminate liquids, glass, and work surfaces after lab.\n\n\n\n7.8.2 Methods\n\n7.8.2.1 What Was Prepared in Advance\n\nOvernight cultures of each isolate were started in 2.5 mL TSB and incubated at 30 C with shaking.\n\n\n\n7.8.2.2 Day of the Lab\nFigure Figure 7.1 maps the isolate-only, control, and co-culture conditions across the Cerillo Duet platform.\n\n\n\n\n\n\nFigure 7.1: Figure 5.1. Cerillo Duet co-culture layout with isolate-only, control, and co-culture conditions.\n\n\n\n\nDilute the overnight culture 1:1000 into fresh TSB.\nAdd 800 uL of diluted culture to triplicate wells for the isolate-only condition.\nAdd 800 uL of TSB to the adjacent control wells.\nAdd 800 uL of diluted SPH-1 to the paired experimental wells for co-culture.\nSeal the plate carefully.\nIncubate with shaking at 30 C for 24 to 48 hours.\nAnalyze OD600 measurements collected every 5 minutes.\n\n\n\n\n7.8.3 Protocol Notes\nRecord any mistakes, deviations, or strain-specific observations.",
     "crumbs": [
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 5: Microbial Interactions</span>"
     ]
@@ -814,7 +814,7 @@
     "href": "module-06.html#background",
     "title": "8  Module 6: Microbial Genome Sequencing",
     "section": "8.7 Background",
-    "text": "8.7 Background\nThis module connects phenotype to genotype by sequencing the genome of the isolate. DNA is extracted using the NO-MISS workflow and analyzed with Oxford Nanopore sequencing and downstream genome analysis tools such as BV-BRC and SeqHub.\nFigure Figure 8.1 summarizes the sequencing and downstream analysis pipeline from isolate DNA to annotated genome.\n\n\n\n\n\n\nFigure 8.1: Nanopore sequencing and downstream analysis workflow.",
+    "text": "8.7 Background\nThis module connects phenotype to genotype by sequencing the genome of the isolate. DNA is extracted using the NO-MISS workflow and analyzed with Oxford Nanopore sequencing and downstream genome analysis tools such as BV-BRC and SeqHub.\nFigure Figure 8.1 summarizes the sequencing and downstream analysis pipeline from isolate DNA to annotated genome.\n\n\n\n\n\n\nFigure 8.1: Figure 6.1. Nanopore sequencing and downstream analysis workflow.",
     "crumbs": [
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 6: Microbial Genome Sequencing</span>"
     ]
@@ -824,7 +824,7 @@
     "href": "module-06.html#procedures",
     "title": "8  Module 6: Microbial Genome Sequencing",
     "section": "8.8 Procedures",
-    "text": "8.8 Procedures\n\n8.8.1 Lab Safety\n\nWear lab coat, goggles, and gloves.\nClean benches and pipettors with 70% ethanol.\nTreat all culture-associated materials as biohazards.\nDecontaminate liquids, plates, and work areas at the end of the session.\n\n\n\n8.8.2 Methods\n\n8.8.2.1 What Was Prepared in Advance\n\nOvernight cultures were started in TSB.\nLysozyme was prepared in TE buffer at 10 mg/mL.\n\n\n\n8.8.2.2 Day of the Lab\n\nPellet 1.0 mL of culture in a DNA LoBind tube.\nResuspend in TE buffer with lysozyme.\nAdd Proteinase K and RNase A.\nAdd CTAB buffer and incubate at 56 C for 30 minutes.\nCombine lysate with Monarch gDNA Binding Buffer at a 2:1 ratio.\nBind DNA to the spin column, wash twice, and elute with preheated Monarch gDNA Elution Buffer.\nQuantify 1 uL of DNA with the Qubit fluorometer.\nPrepare sequencing-ready DNA according to the NO-MISS rapid barcoding workflow.\n\nFigure Figure 8.2 illustrates the Qubit measurement setup used to quantify extracted DNA prior to library preparation.\n\n\n\n\n\n\nFigure 8.2: Qubit fluorometer workflow for DNA quantification.\n\n\n\nFigure Figure 8.3 summarizes the rapid barcoding library-preparation workflow used before sequencing.\n\n\n\n\n\n\nFigure 8.3: Nanopore rapid barcoding workflow for sequencing library preparation.\n\n\n\n\n\n\n8.8.3 Data Analysis\n\nCreate a BV-BRC account and access the shared workspace.\nObtain the Nanopore and Illumina files for your isolate.\nRun the Comprehensive Genome Analysis workflow.\nUpload the assembled FASTA file to SeqHub for annotation and exploration.\n\n\n\n8.8.4 Protocol Notes\nRecord any mistakes, deviations, or strain-specific observations.",
+    "text": "8.8 Procedures\n\n8.8.1 Lab Safety\n\nWear lab coat, goggles, and gloves.\nClean benches and pipettors with 70% ethanol.\nTreat all culture-associated materials as biohazards.\nDecontaminate liquids, plates, and work areas at the end of the session.\n\n\n\n8.8.2 Methods\n\n8.8.2.1 What Was Prepared in Advance\n\nOvernight cultures were started in TSB.\nLysozyme was prepared in TE buffer at 10 mg/mL.\n\n\n\n8.8.2.2 Day of the Lab\n\nPellet 1.0 mL of culture in a DNA LoBind tube.\nResuspend in TE buffer with lysozyme.\nAdd Proteinase K and RNase A.\nAdd CTAB buffer and incubate at 56 C for 30 minutes.\nCombine lysate with Monarch gDNA Binding Buffer at a 2:1 ratio.\nBind DNA to the spin column, wash twice, and elute with preheated Monarch gDNA Elution Buffer.\nQuantify 1 uL of DNA with the Qubit fluorometer.\nPrepare sequencing-ready DNA according to the NO-MISS rapid barcoding workflow.\n\nFigure Figure 8.2 illustrates the Qubit measurement setup used to quantify extracted DNA prior to library preparation.\n\n\n\n\n\n\nFigure 8.2: Figure 6.2. Qubit fluorometer workflow for DNA quantification.\n\n\n\nFigure Figure 8.3 summarizes the rapid barcoding library-preparation workflow used before sequencing.\n\n\n\n\n\n\nFigure 8.3: Figure 6.3. Nanopore rapid barcoding workflow for sequencing library preparation.\n\n\n\n\n\n\n8.8.3 Data Analysis\n\nCreate a BV-BRC account and access the shared workspace.\nObtain the Nanopore and Illumina files for your isolate.\nRun the Comprehensive Genome Analysis workflow.\nUpload the assembled FASTA file to SeqHub for annotation and exploration.\n\n\n\n8.8.4 Protocol Notes\nRecord any mistakes, deviations, or strain-specific observations.",
     "crumbs": [
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 6: Microbial Genome Sequencing</span>"
     ]
@@ -924,7 +924,7 @@
     "href": "module-07.html#background",
     "title": "9  Module 7: Data Analysis and Experimental Design",
     "section": "9.7 Background",
-    "text": "9.7 Background\nStudents now use sequence data generated earlier in the course to compare isolates with Delftia acidovorans SPH-1 and other related genomes. The goal is to identify genetic features that explain observed growth and metabolic behavior.\nFigure Figure 9.1 is reused from the sequencing workflow to anchor where assembly, annotation, and comparative analysis fit into the broader pipeline.\n\n\n\n\n\n\nFigure 9.1: Sequencing-analysis pipeline reused for genome assembly and comparative interpretation.",
+    "text": "9.7 Background\nStudents now use sequence data generated earlier in the course to compare isolates with Delftia acidovorans SPH-1 and other related genomes. The goal is to identify genetic features that explain observed growth and metabolic behavior.\nFigure Figure 9.1 is reused from the sequencing workflow to anchor where assembly, annotation, and comparative analysis fit into the broader pipeline.\n\n\n\n\n\n\nFigure 9.1: Figure 7.1. Sequencing-analysis pipeline reused for genome assembly and comparative interpretation.",
     "crumbs": [
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 7: Data Analysis and Experimental Design</span>"
     ]
@@ -984,7 +984,7 @@
     "href": "module-08.html#overview",
     "title": "10  Module 8: Share Your Results",
     "section": "",
-    "text": "Figure 10.1: Capstone module banner carried over from the original workbook template.",
+    "text": "Figure 10.1: Figure 8.1. Capstone module banner carried over from the original workbook template.",
     "crumbs": [
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 8: Share Your Results</span>"
     ]
@@ -1097,6 +1097,76 @@
     "text": "10.12 Discussion Questions\n\nWhat did you learn from exploring your genome assembly and annotation with BV-BRC and SeqHub?\nWere you able to conduct and repeat your proposed experiment at least once? Why or why not?\nWhat findings did you obtain, and what are their implications?\nWhat experiment would you do next, and why?",
     "crumbs": [
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 8: Share Your Results</span>"
+    ]
+  },
+  {
+    "objectID": "appendix-supplies-reagents.html",
+    "href": "appendix-supplies-reagents.html",
+    "title": "11  Appendix A: Supplies and Reagents",
+    "section": "",
+    "text": "11.1 Core Supplies and Equipment\nThis appendix provides a consolidated checklist of supplies and reagents used across Modules 1 through 8.",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Appendix A: Supplies and Reagents</span>"
+    ]
+  },
+  {
+    "objectID": "appendix-supplies-reagents.html#core-supplies-and-equipment",
+    "href": "appendix-supplies-reagents.html#core-supplies-and-equipment",
+    "title": "11  Appendix A: Supplies and Reagents",
+    "section": "",
+    "text": "Lab coats, nitrile gloves, and safety goggles\nBenchtop disinfectant (70% ethanol)\nMicropipettes (single channel and multichannel)\nSterile pipette tips (appropriate volumes)\nSterile reservoirs for multichannel loading\nSterile microcentrifuge tubes and culture tubes\nDNA LoBind tubes\nCentrifuge and microcentrifuge\nVortex mixer\nShaking incubator\nPlate incubator\n96-well microplates\nBreathable plate seals\nPeg-lid biofilm assay plates\nCerillo Duet co-culture plate system\nPlate reader (OD600 and endpoint absorbance)\nQubit fluorometer and assay tubes\nTurbidimeter\nSterile loops for colony transfer\nBiohazard waste containers",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Appendix A: Supplies and Reagents</span>"
+    ]
+  },
+  {
+    "objectID": "appendix-supplies-reagents.html#microbiology-media-and-biological-materials",
+    "href": "appendix-supplies-reagents.html#microbiology-media-and-biological-materials",
+    "title": "11  Appendix A: Supplies and Reagents",
+    "section": "11.2 Microbiology Media and Biological Materials",
+    "text": "11.2 Microbiology Media and Biological Materials\n\nDelftia acidovorans isolates and comparison isolates\nTryptic Soy Agar (TSA) plates\nTryptic Soy Broth (TSB)\nBiolog Blood Universal Growth (BUG) agar\nBiolog GEN III MicroPlates\nIF-A inoculating fluid (for Biolog workflow)\nPhosphate-buffered saline (PBS)",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Appendix A: Supplies and Reagents</span>"
+    ]
+  },
+  {
+    "objectID": "appendix-supplies-reagents.html#reagents-for-pipetting-and-assay-setup",
+    "href": "appendix-supplies-reagents.html#reagents-for-pipetting-and-assay-setup",
+    "title": "11  Appendix A: Supplies and Reagents",
+    "section": "11.3 Reagents for Pipetting and Assay Setup",
+    "text": "11.3 Reagents for Pipetting and Assay Setup\n\nCrystal violet solution (serial dilution activity)\nDyed water solutions (blue, yellow, red) for volume challenge\nBiofilm viability detection reagent components:\n\nWST solution\nElectron mediator reagent\nTSB diluent",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Appendix A: Supplies and Reagents</span>"
+    ]
+  },
+  {
+    "objectID": "appendix-supplies-reagents.html#dna-extraction-and-sequencing-reagents",
+    "href": "appendix-supplies-reagents.html#dna-extraction-and-sequencing-reagents",
+    "title": "11  Appendix A: Supplies and Reagents",
+    "section": "11.4 DNA Extraction and Sequencing Reagents",
+    "text": "11.4 DNA Extraction and Sequencing Reagents\n\nTE buffer\nLysozyme (10 mg/mL in TE)\nProteinase K\nRNase A\nCTAB buffer\nMonarch gDNA Binding Buffer\nMonarch wash buffers\nMonarch gDNA Elution Buffer\nNanopore rapid barcoding kit reagents",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Appendix A: Supplies and Reagents</span>"
+    ]
+  },
+  {
+    "objectID": "appendix-supplies-reagents.html#computational-and-data-resources",
+    "href": "appendix-supplies-reagents.html#computational-and-data-resources",
+    "title": "11  Appendix A: Supplies and Reagents",
+    "section": "11.5 Computational and Data Resources",
+    "text": "11.5 Computational and Data Resources\n\nElectronic lab notebook (ELN)\nQuarto for workbook rendering\nBV-BRC workspace and workflows\nSeqHub for genome exploration",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Appendix A: Supplies and Reagents</span>"
+    ]
+  },
+  {
+    "objectID": "appendix-supplies-reagents.html#notes",
+    "href": "appendix-supplies-reagents.html#notes",
+    "title": "11  Appendix A: Supplies and Reagents",
+    "section": "11.6 Notes",
+    "text": "11.6 Notes\n\nPrepare all sterile materials in advance and confirm lot numbers where required.\nRecord any reagent substitutions, concentration changes, or protocol deviations in the ELN.\nFollow institutional biosafety and chemical safety policies at all times.",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Appendix A: Supplies and Reagents</span>"
     ]
   }
 ]

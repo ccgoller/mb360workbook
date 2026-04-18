@@ -3,7 +3,7 @@ project:
 
 book:
   title: "MB 360 Lab Workbook"
-  subtitle: "Eight Modules for Microbial Genomics Lab Work"
+  subtitle: "MB 360: Scientific Inquiry in Microbiology At the Bench – Microbial Metabolism and Genomics"
   author:
     - name: "Carlos C. Goller"
       degree: "Ph.D."
@@ -26,6 +26,7 @@ book:
     - module-06.qmd
     - module-07.qmd
     - module-08.qmd
+    - appendix-supplies-reagents.qmd
     - references.qmd
 
 bibliography: references.bib
