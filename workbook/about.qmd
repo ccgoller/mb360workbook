@@ -1,0 +1,60 @@
+# About The Author {#sec-about-author}
+
+::: {.about-hero}
+::: {.columns .v-center-container}
+::: {.column width="34%"}
+![Carlos C. Goller, Teaching Professor at North Carolina State University.](images/author/GollerCarlos.jpg){#fig-author-portrait .about-photo fig-alt="Portrait of Carlos C. Goller standing outdoors in a blazer and tie."}
+:::
+::: {.column width="66%"}
+## Carlos C. Goller
+
+[GitHub](https://github.com/ccgoller) | [LinkedIn](https://linkedin.com/in/ccgoller)
+
+Carlos C. Goller is a Teaching Professor at North Carolina State University in Raleigh, NC. He teaches microbiology, life science, public health, and other fun courses as part of the Department of Biological Sciences. When not playing with Delftia acidovorans or code, Carlos enjoys spending time with his family and playing with his dog Sunshine.
+
+Figure @fig-author-portrait mirrors the author profile used on the reference site and is embedded locally in this workbook.
+:::
+:::
+:::
+
+## Education
+
+### North Carolina State University
+
+Raleigh, NC  
+Advisor: Dr. Sue Carson  
+Topic: Biotechnology Education and Curriculum Development
+
+### Duke University Medical Center
+
+Durham, NC  
+Advisor: Patrick C. Seed  
+Topic: Bacterial Pathogenesis and Anti-infective Screening  
+The Hartwell Foundation Postdoctoral Fellowship  
+September 2008 - July 2012
+
+### Emory University
+
+Atlanta, GA  
+Advisor: Tony Romeo  
+Topic: Bacterial Biofilm Formation and Regulation  
+Ph.D. in Microbiology and Molecular Genetics  
+August 2002 - September 2008
+
+### Worcester Polytechnic Institute
+
+Worcester, MA  
+B.S. in Biology and Biotechnology  
+August 1998 - May 2002
+
+## Experience
+
+- Teaching Professor, North Carolina State University Department of Biological Sciences, 2024 - Present
+- Associate Teaching Professor, North Carolina State University Department of Biological Sciences, 2019 - 2024
+- Assistant Teaching Professor, North Carolina State University Department of Biological Sciences, 2015 - 2019
+
+## Additional Links
+
+- [BSC 495: The Hidden World's Code](https://ccgoller.github.io/bsc-fungal-genomics-lab/)
+- [GitHub Profile](https://github.com/ccgoller)
+- [LinkedIn Profile](https://linkedin.com/in/ccgoller)

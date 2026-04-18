@@ -1,0 +1,37 @@
+.about-hero {
+  margin: 1.5rem 0 2rem;
+  padding: 1.5rem;
+  border: 1px solid #d9e4ea;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #f7faf7 0%, #eef5f8 100%);
+}
+
+.about-photo {
+  display: block;
+  width: 100%;
+  max-width: 340px;
+  margin: 0 auto;
+  border-radius: 16px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
+}
+
+.quarto-figure {
+  margin: 1.5rem auto 1.75rem;
+}
+
+.quarto-figure img.figure-img {
+  border-radius: 12px;
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.08);
+}
+
+.quarto-float-caption.quarto-float-caption-bottom {
+  margin-top: 0.65rem;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  color: #425466;
+}
+
+.quarto-float-caption strong:first-child,
+.quarto-float-caption b:first-child {
+  color: #17324d;
+}

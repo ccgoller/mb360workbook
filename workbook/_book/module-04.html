@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.36">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>6&nbsp; Module 4: Microbial Metabolism – MB 360 ELN Workbook</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./module-05.html" rel="next">
+<link href="./module-03.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-5ccb035bea26c1e21f80f44cf7c27909.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./module-04.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Module 4: Microbial Metabolism</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">MB 360 ELN Workbook</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">MB 360 ELN Workbook</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./about.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">About The Author</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./figures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Figures</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./module-01.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Module 1: Getting Started</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./module-02.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Module 2: Microbial Propagation</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./module-03.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Module 3: Microbial Growth Curves</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./module-04.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Module 4: Microbial Metabolism</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./module-05.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Module 5: Microbial Interactions</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./module-06.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Module 6: Microbial Genome Sequencing</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./module-07.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Module 7: Data Analysis and Experimental Design</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./module-08.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Module 8: Share Your Results</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview"><span class="header-section-number">6.1</span> Overview</a></li>
+  <li><a href="#purpose" id="toc-purpose" class="nav-link" data-scroll-target="#purpose"><span class="header-section-number">6.2</span> Purpose</a></li>
+  <li><a href="#learning-outcomes" id="toc-learning-outcomes" class="nav-link" data-scroll-target="#learning-outcomes"><span class="header-section-number">6.3</span> Learning Outcomes</a></li>
+  <li><a href="#skills-and-knowledge" id="toc-skills-and-knowledge" class="nav-link" data-scroll-target="#skills-and-knowledge"><span class="header-section-number">6.4</span> Skills and Knowledge</a>
+  <ul class="collapse">
+  <li><a href="#skills" id="toc-skills" class="nav-link" data-scroll-target="#skills"><span class="header-section-number">6.4.1</span> Skills</a></li>
+  <li><a href="#knowledge" id="toc-knowledge" class="nav-link" data-scroll-target="#knowledge"><span class="header-section-number">6.4.2</span> Knowledge</a></li>
+  </ul></li>
+  <li><a href="#task" id="toc-task" class="nav-link" data-scroll-target="#task"><span class="header-section-number">6.5</span> Task</a></li>
+  <li><a href="#criteria-for-success" id="toc-criteria-for-success" class="nav-link" data-scroll-target="#criteria-for-success"><span class="header-section-number">6.6</span> Criteria for Success</a></li>
+  <li><a href="#background" id="toc-background" class="nav-link" data-scroll-target="#background"><span class="header-section-number">6.7</span> Background</a></li>
+  <li><a href="#procedures" id="toc-procedures" class="nav-link" data-scroll-target="#procedures"><span class="header-section-number">6.8</span> Procedures</a>
+  <ul class="collapse">
+  <li><a href="#lab-safety" id="toc-lab-safety" class="nav-link" data-scroll-target="#lab-safety"><span class="header-section-number">6.8.1</span> Lab Safety</a></li>
+  <li><a href="#methods-activity-1-turbidimeter" id="toc-methods-activity-1-turbidimeter" class="nav-link" data-scroll-target="#methods-activity-1-turbidimeter"><span class="header-section-number">6.8.2</span> Methods: Activity 1, Turbidimeter</a></li>
+  <li><a href="#methods-activity-2-biolog-plate-preparation" id="toc-methods-activity-2-biolog-plate-preparation" class="nav-link" data-scroll-target="#methods-activity-2-biolog-plate-preparation"><span class="header-section-number">6.8.3</span> Methods: Activity 2, Biolog Plate Preparation</a></li>
+  <li><a href="#protocol-notes" id="toc-protocol-notes" class="nav-link" data-scroll-target="#protocol-notes"><span class="header-section-number">6.8.4</span> Protocol Notes</a></li>
+  </ul></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results"><span class="header-section-number">6.9</span> Results</a>
+  <ul class="collapse">
+  <li><a href="#growth-curves" id="toc-growth-curves" class="nav-link" data-scroll-target="#growth-curves"><span class="header-section-number">6.9.1</span> Growth Curves</a></li>
+  </ul></li>
+  <li><a href="#result-analysis" id="toc-result-analysis" class="nav-link" data-scroll-target="#result-analysis"><span class="header-section-number">6.10</span> Result Analysis</a></li>
+  <li><a href="#discussion-questions" id="toc-discussion-questions" class="nav-link" data-scroll-target="#discussion-questions"><span class="header-section-number">6.11</span> Discussion Questions</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Module 4: Microbial Metabolism</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="overview" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="overview"><span class="header-section-number">6.1</span> Overview</h2>
+<p>Weeks 6 and 7 focus on Biolog GEN III phenotypic characterization, growth measurements, and metabolic interpretation.</p>
+</section>
+<section id="purpose" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="purpose"><span class="header-section-number">6.2</span> Purpose</h2>
+<ul>
+<li>Evaluate and analyze bacterial growth in different environments.</li>
+<li>Perform metabolic profiling.</li>
+<li>Identify conditions that support or inhibit bacterial growth.</li>
+<li>Use multichannel pipettes to seed 96-well plates for growth assays.</li>
+<li>Apply the principles behind Biolog GEN III plates to your overall experiment.</li>
+</ul>
+</section>
+<section id="learning-outcomes" class="level2" data-number="6.3">
+<h2 data-number="6.3" class="anchored" data-anchor-id="learning-outcomes"><span class="header-section-number">6.3</span> Learning Outcomes</h2>
+<ul>
+<li>List safety considerations for propagating microbes.</li>
+<li>Explain the purpose of GEN III Biolog plates and metabolic tests.</li>
+<li>Describe the features of biofilms.</li>
+<li>Discuss the significance of growth curves.</li>
+<li>Practice using a multichannel pipette.</li>
+<li>Use a turbidimeter to adjust inoculum turbidity.</li>
+<li>Seed 96-well plates consistently without contamination.</li>
+<li>Describe the purpose, methods, and preliminary results of GEN III phenotypic characterization experiments.</li>
+<li>Collect and interpret growth data from Biolog GEN III plates.</li>
+<li>Create a draft for the individual and group projects.</li>
+<li>Explain how the experiment contributes to the overall research goal.</li>
+</ul>
+</section>
+<section id="skills-and-knowledge" class="level2" data-number="6.4">
+<h2 data-number="6.4" class="anchored" data-anchor-id="skills-and-knowledge"><span class="header-section-number">6.4</span> Skills and Knowledge</h2>
+<section id="skills" class="level3" data-number="6.4.1">
+<h3 data-number="6.4.1" class="anchored" data-anchor-id="skills"><span class="header-section-number">6.4.1</span> Skills</h3>
+<ul>
+<li>Follow PPE and microbial safety procedures.</li>
+<li>Use Biolog plates and multichannel pipettors correctly.</li>
+<li>Use a turbidimeter to adjust bacterial density.</li>
+<li>Analyze bacterial growth data from 96-well plates.</li>
+</ul>
+</section>
+<section id="knowledge" class="level3" data-number="6.4.2">
+<h3 data-number="6.4.2" class="anchored" data-anchor-id="knowledge"><span class="header-section-number">6.4.2</span> Knowledge</h3>
+<ul>
+<li>PPE requirements for microbial work.</li>
+<li>Phenotypic assays and growth assessment.</li>
+<li>Seeding 96-well plates for bacterial growth.</li>
+</ul>
+</section>
+</section>
+<section id="task" class="level2" data-number="6.5">
+<h2 data-number="6.5" class="anchored" data-anchor-id="task"><span class="header-section-number">6.5</span> Task</h2>
+<p>Review the background and procedure information before lab and work with your partner to complete the assay setup and documentation.</p>
+</section>
+<section id="criteria-for-success" class="level2" data-number="6.6">
+<h2 data-number="6.6" class="anchored" data-anchor-id="criteria-for-success"><span class="header-section-number">6.6</span> Criteria for Success</h2>
+<p>Complete the in-lab assay setup, collect analyzable data, and finish the ELN entry with observations and interpretation.</p>
+</section>
+<section id="background" class="level2" data-number="6.7">
+<h2 data-number="6.7" class="anchored" data-anchor-id="background"><span class="header-section-number">6.7</span> Background</h2>
+<p>Biolog Blood Universal Growth agar and GEN III MicroPlates make it possible to test bacterial growth across many environmental and chemical conditions at once. The plate uses metabolic dye chemistry to report growth and biochemical activity across up to 94 tests.</p>
+<p>Figure <a href="#fig-module4-biolog-layout" class="quarto-xref">Figure&nbsp;<span>6.1</span></a> shows the overall GEN III plate layout used to interpret the phenotypic results.</p>
+<div id="fig-module4-biolog-layout" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Biolog GEN III plate layout showing the distribution of test conditions across the wells.">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-module4-biolog-layout-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="images/template/image3.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure&nbsp;6.1: Biolog GEN III plate layout with carbon-source and control wells."><img src="images/template/image3.png" class="img-fluid figure-img" alt="Biolog GEN III plate layout showing the distribution of test conditions across the wells."></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-module4-biolog-layout-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6.1: Biolog GEN III plate layout with carbon-source and control wells.
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="procedures" class="level2" data-number="6.8">
+<h2 data-number="6.8" class="anchored" data-anchor-id="procedures"><span class="header-section-number">6.8</span> Procedures</h2>
+<section id="lab-safety" class="level3" data-number="6.8.1">
+<h3 data-number="6.8.1" class="anchored" data-anchor-id="lab-safety"><span class="header-section-number">6.8.1</span> Lab Safety</h3>
+<section id="before-lab" class="level4" data-number="6.8.1.1">
+<h4 data-number="6.8.1.1" class="anchored" data-anchor-id="before-lab"><span class="header-section-number">6.8.1.1</span> Before Lab</h4>
+<ul>
+<li>Wear lab coat, goggles, and gloves.</li>
+<li>Wipe benches and pipettors with 70% ethanol.</li>
+</ul>
+</section>
+<section id="during-lab" class="level4" data-number="6.8.1.2">
+<h4 data-number="6.8.1.2" class="anchored" data-anchor-id="during-lab"><span class="header-section-number">6.8.1.2</span> During Lab</h4>
+<ul>
+<li>Treat all tips as biohazards.</li>
+<li>Remove PPE when leaving the lab.</li>
+<li>Use personal devices as little as possible.</li>
+</ul>
+</section>
+<section id="after-lab" class="level4" data-number="6.8.1.3">
+<h4 data-number="6.8.1.3" class="anchored" data-anchor-id="after-lab"><span class="header-section-number">6.8.1.3</span> After Lab</h4>
+<ul>
+<li>Clean work areas and personal items with ethanol.</li>
+<li>Dispose of liquids, plates, gloves, and glass using the assigned workflow.</li>
+<li>Return reusable materials and wash hands.</li>
+</ul>
+</section>
+</section>
+<section id="methods-activity-1-turbidimeter" class="level3" data-number="6.8.2">
+<h3 data-number="6.8.2" class="anchored" data-anchor-id="methods-activity-1-turbidimeter"><span class="header-section-number">6.8.2</span> Methods: Activity 1, Turbidimeter</h3>
+<ul>
+<li>Blank the turbidimeter with uninoculated IF-A fluid.</li>
+<li>Swab bacteria from the BUG agar plate into IF-A inoculating fluid.</li>
+<li>Mix gently and measure turbidity.</li>
+<li>Adjust the inoculum to a target density of 95% transmittance.</li>
+</ul>
+</section>
+<section id="methods-activity-2-biolog-plate-preparation" class="level3" data-number="6.8.3">
+<h3 data-number="6.8.3" class="anchored" data-anchor-id="methods-activity-2-biolog-plate-preparation"><span class="header-section-number">6.8.3</span> Methods: Activity 2, Biolog Plate Preparation</h3>
+<p>Figure <a href="#fig-module4-biolog-loading" class="quarto-xref">Figure&nbsp;<span>6.2</span></a> shows the multichannel loading pattern used to inoculate each column consistently.</p>
+<div id="fig-module4-biolog-loading" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Illustration showing a multichannel pipette transferring inoculum into a 96-well Biolog plate.">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-module4-biolog-loading-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="images/template/image8.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Figure&nbsp;6.2: Loading a Biolog GEN III plate with a multichannel pipette."><img src="images/template/image8.png" class="img-fluid figure-img" alt="Illustration showing a multichannel pipette transferring inoculum into a 96-well Biolog plate."></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-module4-biolog-loading-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6.2: Loading a Biolog GEN III plate with a multichannel pipette.
+</figcaption>
+</figure>
+</div>
+<p>Figure <a href="#fig-module4-biolog-incubation" class="quarto-xref">Figure&nbsp;<span>6.3</span></a> shows the expected appearance of an inoculated Biolog plate after incubation.</p>
+<div id="fig-module4-biolog-incubation" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Illustration of a Biolog GEN III plate with several purple wells indicating post-incubation growth response.">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-module4-biolog-incubation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="images/template/image9.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Figure&nbsp;6.3: Biolog GEN III plate after incubation with visible growth response."><img src="images/template/image9.png" class="img-fluid figure-img" alt="Illustration of a Biolog GEN III plate with several purple wells indicating post-incubation growth response."></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-module4-biolog-incubation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6.3: Biolog GEN III plate after incubation with visible growth response.
+</figcaption>
+</figure>
+</div>
+<ul>
+<li>Pour the prepared cell suspension into a multichannel reservoir.</li>
+<li>Load the multichannel pipette and add 100 uL to each well of the GEN III plate.</li>
+<li>Replace tips whenever contamination is possible.</li>
+<li>Confirm that every well contains liquid.</li>
+<li>Incubate one plate in the plate reader and another statically at 33 C for 1 to 2 days.</li>
+</ul>
+</section>
+<section id="protocol-notes" class="level3" data-number="6.8.4">
+<h3 data-number="6.8.4" class="anchored" data-anchor-id="protocol-notes"><span class="header-section-number">6.8.4</span> Protocol Notes</h3>
+<p>Record any mistakes, deviations, or strain-specific observations.</p>
+</section>
+</section>
+<section id="results" class="level2" data-number="6.9">
+<h2 data-number="6.9" class="anchored" data-anchor-id="results"><span class="header-section-number">6.9</span> Results</h2>
+<section id="growth-curves" class="level3" data-number="6.9.1">
+<h3 data-number="6.9.1" class="anchored" data-anchor-id="growth-curves"><span class="header-section-number">6.9.1</span> Growth Curves</h3>
+<ul>
+<li>Save and share the raw 600 nm readings.</li>
+<li>Export the blank-corrected table as CSV.</li>
+<li>Validate the data structure, convert time to minutes, and plot growth curves.</li>
+</ul>
+</section>
+</section>
+<section id="result-analysis" class="level2" data-number="6.10">
+<h2 data-number="6.10" class="anchored" data-anchor-id="result-analysis"><span class="header-section-number">6.10</span> Result Analysis</h2>
+<p>Interpret color changes, growth patterns, and wells with or without growth. Identify which carbon sources appear supportive and which conditions inhibited the isolate.</p>
+</section>
+<section id="discussion-questions" class="level2" data-number="6.11">
+<h2 data-number="6.11" class="anchored" data-anchor-id="discussion-questions"><span class="header-section-number">6.11</span> Discussion Questions</h2>
+<ol type="1">
+<li>What are the advantages and disadvantages of using a multichannel pipette?</li>
+<li>How do you maintain a pure culture during inoculation, and why is that necessary here?</li>
+<li>What does a turbidimeter measure, and why is that important for this assay?</li>
+<li>Why are BUG-grown bacteria used instead of TSA-grown bacteria?</li>
+<li>How has your multichannel technique changed over the semester?</li>
+</ol>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./module-03.html" class="pagination-link" aria-label="Module 3: Microbial Growth Curves">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Module 3: Microbial Growth Curves</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./module-05.html" class="pagination-link" aria-label="Module 5: Microbial Interactions">
+        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Module 5: Microbial Interactions</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
+
+
+
+
+</body></html>

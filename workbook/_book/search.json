@@ -1,0 +1,1102 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "MB 360 ELN Workbook",
+    "section": "",
+    "text": "MB 360 ELN Workbook\nThis Quarto book reorganizes the MB 360 schedule and ELN outline into eight modules that follow the flow of the course from basic lab technique to final project design.",
+    "crumbs": [
+      "MB 360 ELN Workbook"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use-this-book",
+    "href": "index.html#how-to-use-this-book",
+    "title": "MB 360 ELN Workbook",
+    "section": "How To Use This Book",
+    "text": "How To Use This Book\nEach module is structured as a working lab-book chapter with the same core parts:\n\npurpose and learning outcomes\nskills and knowledge\ntask and criteria for success\nbackground and procedures\nresults, analysis, and discussion prompts",
+    "crumbs": [
+      "MB 360 ELN Workbook"
+    ]
+  },
+  {
+    "objectID": "index.html#module-sequence",
+    "href": "index.html#module-sequence",
+    "title": "MB 360 ELN Workbook",
+    "section": "Module Sequence",
+    "text": "Module Sequence\n\nGetting Started: lab safety, pipetting, and serial dilutions\nMicrobial Propagation: plate streaking and liquid cultures\nMicrobial Growth Curves: strain comparisons and biofilms\nMicrobial Metabolism: Biolog GEN III characterization\nMicrobial Interactions: isolate co-culture\nMicrobial Genome Sequencing: DNA isolation, quantification, and sequencing\nData Analysis and Experimental Design: assembly, annotation, and interpretation\nShare Your Results: final experiment planning, execution, and reflection",
+    "crumbs": [
+      "MB 360 ELN Workbook"
+    ]
+  },
+  {
+    "objectID": "index.html#notes",
+    "href": "index.html#notes",
+    "title": "MB 360 ELN Workbook",
+    "section": "Notes",
+    "text": "Notes\nThe chapters preserve the structure of the source outline while adapting it to a cleaner Quarto book format. Module 8 remains intentionally open-ended because it is designed for student-defined experiments.",
+    "crumbs": [
+      "MB 360 ELN Workbook"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "1  About The Author",
+    "section": "",
+    "text": "1.2 Education",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>About The Author</span>"
+    ]
+  },
+  {
+    "objectID": "about.html#carlos-c.-goller",
+    "href": "about.html#carlos-c.-goller",
+    "title": "1  About The Author",
+    "section": "1.1 Carlos C. Goller",
+    "text": "1.1 Carlos C. Goller\nGitHub | LinkedIn\nCarlos C. Goller is a Teaching Professor at North Carolina State University in Raleigh, NC. He teaches microbiology, life science, public health, and other fun courses as part of the Department of Biological Sciences. When not playing with Delftia acidovorans or code, Carlos enjoys spending time with his family and playing with his dog Sunshine.\nFigure Figure 1.1 mirrors the author profile used on the reference site and is embedded locally in this workbook.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>About The Author</span>"
+    ]
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "1  About The Author",
+    "section": "",
+    "text": "1.2.1 North Carolina State University\nRaleigh, NC\nAdvisor: Dr. Sue Carson\nTopic: Biotechnology Education and Curriculum Development\n\n\n1.2.2 Duke University Medical Center\nDurham, NC\nAdvisor: Patrick C. Seed\nTopic: Bacterial Pathogenesis and Anti-infective Screening\nThe Hartwell Foundation Postdoctoral Fellowship\nSeptember 2008 - July 2012\n\n\n1.2.3 Emory University\nAtlanta, GA\nAdvisor: Tony Romeo\nTopic: Bacterial Biofilm Formation and Regulation\nPh.D. in Microbiology and Molecular Genetics\nAugust 2002 - September 2008\n\n\n1.2.4 Worcester Polytechnic Institute\nWorcester, MA\nB.S. in Biology and Biotechnology\nAugust 1998 - May 2002",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>About The Author</span>"
+    ]
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "1  About The Author",
+    "section": "1.3 Experience",
+    "text": "1.3 Experience\n\nTeaching Professor, North Carolina State University Department of Biological Sciences, 2024 - Present\nAssociate Teaching Professor, North Carolina State University Department of Biological Sciences, 2019 - 2024\nAssistant Teaching Professor, North Carolina State University Department of Biological Sciences, 2015 - 2019",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>About The Author</span>"
+    ]
+  },
+  {
+    "objectID": "about.html#additional-links",
+    "href": "about.html#additional-links",
+    "title": "1  About The Author",
+    "section": "1.4 Additional Links",
+    "text": "1.4 Additional Links\n\nBSC 495: The Hidden World’s Code\nGitHub Profile\nLinkedIn Profile",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>About The Author</span>"
+    ]
+  },
+  {
+    "objectID": "figures.html",
+    "href": "figures.html",
+    "title": "2  Figures",
+    "section": "",
+    "text": "2.1 About\nThis page provides a quick index to the figures embedded throughout the workbook.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Figures</span>"
+    ]
+  },
+  {
+    "objectID": "figures.html#about",
+    "href": "figures.html#about",
+    "title": "2  Figures",
+    "section": "",
+    "text": "Figure Figure 1.1 in Chapter 1: author portrait",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Figures</span>"
+    ]
+  },
+  {
+    "objectID": "figures.html#module-1",
+    "href": "figures.html#module-1",
+    "title": "2  Figures",
+    "section": "2.2 Module 1",
+    "text": "2.2 Module 1\n\nFigure Figure 3.1 in Module 1: micropipette volume display\nFigure Figure 3.2 in Module 1: serial dilution overview\nFigure Figure 3.3 in Module 1: top rows of a 96-well microplate\nFigure Figure 3.4 in Module 1: blank 96-well plate template",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Figures</span>"
+    ]
+  },
+  {
+    "objectID": "figures.html#module-2",
+    "href": "figures.html#module-2",
+    "title": "2  Figures",
+    "section": "2.3 Module 2",
+    "text": "2.3 Module 2\n\nFigure Figure 4.1 in Module 2: single-colony transfer for streaking",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Figures</span>"
+    ]
+  },
+  {
+    "objectID": "figures.html#module-3",
+    "href": "figures.html#module-3",
+    "title": "2  Figures",
+    "section": "2.4 Module 3",
+    "text": "2.4 Module 3\n\nFigure Figure 5.1 in Module 3: growth-curve plate layout\nFigure Figure 5.2 in Module 3: biofilm viability workflow",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Figures</span>"
+    ]
+  },
+  {
+    "objectID": "figures.html#module-4",
+    "href": "figures.html#module-4",
+    "title": "2  Figures",
+    "section": "2.5 Module 4",
+    "text": "2.5 Module 4\n\nFigure Figure 6.1 in Module 4: Biolog GEN III layout\nFigure Figure 6.2 in Module 4: multichannel loading of the Biolog plate\nFigure Figure 6.3 in Module 4: Biolog plate after incubation",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Figures</span>"
+    ]
+  },
+  {
+    "objectID": "figures.html#module-5",
+    "href": "figures.html#module-5",
+    "title": "2  Figures",
+    "section": "2.6 Module 5",
+    "text": "2.6 Module 5\n\nFigure Figure 7.1 in Module 5: Cerillo Duet co-culture layout",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Figures</span>"
+    ]
+  },
+  {
+    "objectID": "figures.html#module-6",
+    "href": "figures.html#module-6",
+    "title": "2  Figures",
+    "section": "2.7 Module 6",
+    "text": "2.7 Module 6\n\nFigure Figure 8.1 in Module 6: sequencing and downstream analysis workflow\nFigure Figure 8.2 in Module 6: Qubit quantification workflow\nFigure Figure 8.3 in Module 6: rapid barcoding workflow",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Figures</span>"
+    ]
+  },
+  {
+    "objectID": "figures.html#module-7",
+    "href": "figures.html#module-7",
+    "title": "2  Figures",
+    "section": "2.8 Module 7",
+    "text": "2.8 Module 7\n\nFigure Figure 9.1 in Module 7: reused sequencing-analysis pipeline",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Figures</span>"
+    ]
+  },
+  {
+    "objectID": "figures.html#module-8",
+    "href": "figures.html#module-8",
+    "title": "2  Figures",
+    "section": "2.9 Module 8",
+    "text": "2.9 Module 8\n\nFigure Figure 10.1 in Module 8: capstone module banner",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Figures</span>"
+    ]
+  },
+  {
+    "objectID": "module-01.html",
+    "href": "module-01.html",
+    "title": "3  Module 1: Getting Started",
+    "section": "",
+    "text": "3.1 Overview\nWeek 1 focuses on safe lab practice, pipetting fundamentals, and the first ELN entries for MB 360. Students review lab safety, practice using micropipettes, and document results in a way that prepares them for the rest of the course.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Module 1: Getting Started</span>"
+    ]
+  },
+  {
+    "objectID": "module-01.html#purpose",
+    "href": "module-01.html#purpose",
+    "title": "3  Module 1: Getting Started",
+    "section": "3.2 Purpose",
+    "text": "3.2 Purpose\nThe goal of this module is to prepare you to work safely and efficiently in the lab. You will review safety procedures for the teaching labs in Thomas Hall, use personal protective equipment correctly, and practice working with mechanical micropipettors and electronic multichannel pipettes.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Module 1: Getting Started</span>"
+    ]
+  },
+  {
+    "objectID": "module-01.html#learning-outcomes",
+    "href": "module-01.html#learning-outcomes",
+    "title": "3  Module 1: Getting Started",
+    "section": "3.3 Learning Outcomes",
+    "text": "3.3 Learning Outcomes\n\nList the personal protective equipment needed for MB 360.\nIdentify the features of the mechanical pipettes used in the course.\nExplain how streak plating helps dilute bacteria.\nDescribe the advantages of electronic and multichannel pipettes.\nCreate a lab entry in the ELN system.\nCollect and interpret pipetting data.\nCreate a team charter and communication plan.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Module 1: Getting Started</span>"
+    ]
+  },
+  {
+    "objectID": "module-01.html#skills-and-knowledge",
+    "href": "module-01.html#skills-and-knowledge",
+    "title": "3  Module 1: Getting Started",
+    "section": "3.4 Skills and Knowledge",
+    "text": "3.4 Skills and Knowledge\n\n3.4.1 Skills\n\nFollow basic safety precautions in a laboratory with live bacterial organisms.\nTransfer a range of liquid volumes reproducibly with pipettors.\nDocument protocols, observations, and results in an ELN.\nInterpret variability in pipetting performance.\n\n\n\n3.4.2 Knowledge\n\nPipettor types and their volume ranges.\nPPE expectations for microbial work.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Module 1: Getting Started</span>"
+    ]
+  },
+  {
+    "objectID": "module-01.html#task",
+    "href": "module-01.html#task",
+    "title": "3  Module 1: Getting Started",
+    "section": "3.5 Task",
+    "text": "3.5 Task\nReview the background and procedures before lab. During class, work with your lab partner to complete the pipetting activities, document all observations, and record any changes you made during the session.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Module 1: Getting Started</span>"
+    ]
+  },
+  {
+    "objectID": "module-01.html#criteria-for-success",
+    "href": "module-01.html#criteria-for-success",
+    "title": "3  Module 1: Getting Started",
+    "section": "3.6 Criteria for Success",
+    "text": "3.6 Criteria for Success\nSuccessful completion requires active participation in the in-lab activities, completion of the pipetting exercises, collection of usable data, and a complete ELN entry with results and reflection.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Module 1: Getting Started</span>"
+    ]
+  },
+  {
+    "objectID": "module-01.html#background",
+    "href": "module-01.html#background",
+    "title": "3  Module 1: Getting Started",
+    "section": "3.7 Background",
+    "text": "3.7 Background\nThe course uses teaching labs in Thomas Hall and focuses on work with Delftia acidovorans. Because environmental isolates may be naturally antibiotic-resistant, all work should minimize exposure and maintain good containment practices.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Module 1: Getting Started</span>"
+    ]
+  },
+  {
+    "objectID": "module-01.html#procedures",
+    "href": "module-01.html#procedures",
+    "title": "3  Module 1: Getting Started",
+    "section": "3.8 Procedures",
+    "text": "3.8 Procedures\n\n3.8.1 Lab Safety\n\nTreat all tips as potential biohazards.\nClean the bench before and after each session with 70% ethanol.\nDispose of cultures and plates using the designated biohazard procedures.\n\n\n\n3.8.2 Methods: Practice Micropipetting With the Pipette Practice Card\nFigure Figure 3.1 shows the micropipette volume display students should learn to read before beginning the practice-card exercise.\n\n\n\n\n\n\nFigure 3.1: Micropipette volume display used for introductory pipetting practice.\n\n\n\n\nAdd the correct amount of liquid to each circle and keep each drop within the circle.\nHave each group member try at least two different volumes.\nPractice picking up the entire drop without leaving liquid behind.\nPipette several 5 uL drops and compare them for consistency.\nCombine four 4 uL additions into a single spot, predict the total volume, then test whether you can recover it fully.\n\n\n\n3.8.3 Methods: Volume Challenge\nYour instructor will provide blue, yellow, and red dyed water. Use the Pipette Practice Card to complete the transfer and mixing exercise.\n\n3.8.3.1 Mixing With a Micropipette\n\nWhen adding a second liquid to a dot, press only to the first stop.\nRelease slowly to draw the same volume back up.\nRepeat until the colors are mixed evenly.\nFinish by pressing to the second stop and removing the tip cleanly.\n\n\n\n3.8.3.2 Instructions\n\nAdd 13.5 uL of blue dye to dot A.\nAdd 17.5 uL of yellow dye to dot C.\nAdd 17 uL of red dye to dot E.\nTransfer 2 uL from dot A to dot F.\nTransfer 4.5 uL from dot C to dot B.\nTransfer 3 uL from dot E to dot D.\nCalculate the volume now present on each dot.\nMix 6 uL from dot E into dot F.\nMix 3.5 uL from dot A into dot B.\nMix 5 uL from dot C into dot D.\n\n\n\n\n3.8.4 Protocol Notes\nRecord any mistakes, deviations, or adjustments made during the experiment.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Module 1: Getting Started</span>"
+    ]
+  },
+  {
+    "objectID": "module-01.html#results",
+    "href": "module-01.html#results",
+    "title": "3  Module 1: Getting Started",
+    "section": "3.9 Results",
+    "text": "3.9 Results\nPaste a picture of the completed card and annotate it, or add written notes describing your observations.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Module 1: Getting Started</span>"
+    ]
+  },
+  {
+    "objectID": "module-01.html#result-analysis",
+    "href": "module-01.html#result-analysis",
+    "title": "3  Module 1: Getting Started",
+    "section": "3.10 Result Analysis",
+    "text": "3.10 Result Analysis\nExplain what the results show, whether the liquid transfers matched expectations, and what they suggest about your current pipetting precision.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Module 1: Getting Started</span>"
+    ]
+  },
+  {
+    "objectID": "module-01.html#discussion-questions",
+    "href": "module-01.html#discussion-questions",
+    "title": "3  Module 1: Getting Started",
+    "section": "3.11 Discussion Questions",
+    "text": "3.11 Discussion Questions\n\nDid you make bubbles while mixing? What caused them?\nWas any liquid left on the card or was there air space in the pipette tip after transfer?\nBased on your results, how would you rate your pipetting skill?",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Module 1: Getting Started</span>"
+    ]
+  },
+  {
+    "objectID": "module-01.html#serial-dilutions",
+    "href": "module-01.html#serial-dilutions",
+    "title": "3  Module 1: Getting Started",
+    "section": "3.12 Serial Dilutions",
+    "text": "3.12 Serial Dilutions\n\n3.12.1 Purpose\nPractice accurate small-volume pipetting while learning how serial dilutions work.\n\n\n3.12.2 Background\nSerial dilution is the stepwise dilution of a solution by a constant factor. In this module, you will perform a 1:10 serial dilution of crystal violet in a 96-well plate to connect pipetting technique with quantitative analysis.\nFigure Figure 3.2 summarizes the repeated transfer logic behind the serial dilution workflow.\n\n\n\n\n\n\nFigure 3.2: Serial dilution overview showing stepwise dilution from a concentrated starting sample.\n\n\n\n\n\n3.12.3 Protocol\nUse Figure Figure 3.3 to plan the first rows of the microplate before starting the transfers.\n\n\n\n\n\n\nFigure 3.3: Top rows of a 96-well microplate used to plan the serial dilution setup.\n\n\n\n\nAdd 50 uL of water to each well in row A.\nAdd 50 uL of crystal violet to well A1.\nMix A1 gently, then transfer 50 uL from A1 to A2.\nRepeat across row A through A12.\nDiscard the final 50 uL after mixing A12.\nRepeat the same process for rows B, C, and D as assigned between partners.\nAdd 100 uL of water to well H12 as a negative control.\nCompare rows visually, then measure absorbance with the plate reader.\n\n\n\n3.12.4 Planning Prompts\nFigure Figure 3.4 can be copied into the ELN or notebook to sketch the intended arrangement of controls and dilutions.\n\n\n\n\n\n\nFigure 3.4: Blank 96-well plate template for planning and annotation.\n\n\n\n\nWhere does the water go?\nHow much water is added to each well?\nWhere is crystal violet added first?\nWhat transfer step is repeated each time?\nWhat should happen after mixing well A12?\n\n\n\n3.12.5 Reflection Prompts\n\nWhat is the dilution factor in this series?\nHow dilute is the final sample relative to the starting dye?\nDid the visual pattern match your prediction?\nDid the plate reader data match your qualitative observations?",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Module 1: Getting Started</span>"
+    ]
+  },
+  {
+    "objectID": "module-02.html",
+    "href": "module-02.html",
+    "title": "4  Module 2: Microbial Propagation",
+    "section": "",
+    "text": "4.1 Overview\nWeeks 2 and 3 focus on plate streaking, colony observation, and starting liquid cultures for later growth analysis.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Module 2: Microbial Propagation</span>"
+    ]
+  },
+  {
+    "objectID": "module-02.html#purpose",
+    "href": "module-02.html#purpose",
+    "title": "4  Module 2: Microbial Propagation",
+    "section": "4.2 Purpose",
+    "text": "4.2 Purpose\n\nRecover and propagate Delftia acidovorans from colonies.\nObserve colony morphology, streak plates, and start liquid cultures.\nReview safety procedures for working with live microbial isolates.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Module 2: Microbial Propagation</span>"
+    ]
+  },
+  {
+    "objectID": "module-02.html#learning-outcomes",
+    "href": "module-02.html#learning-outcomes",
+    "title": "4  Module 2: Microbial Propagation",
+    "section": "4.3 Learning Outcomes",
+    "text": "4.3 Learning Outcomes\n\nList the items needed to propagate microbes in liquid cultures and 96-well plates.\nExplain the stages of bacterial growth on a growth-curve graph.\nDescribe defined, complex, selective, enriched, and differential media.\nDiscuss the importance of controls.\nPractice inoculating and diluting liquid cultures.\nDescribe the purpose, methods, and preliminary results of microbial growth experiments.\nCollect and interpret colony morphology and growth data.\nCreate and use a team data management plan.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Module 2: Microbial Propagation</span>"
+    ]
+  },
+  {
+    "objectID": "module-02.html#skills-and-knowledge",
+    "href": "module-02.html#skills-and-knowledge",
+    "title": "4  Module 2: Microbial Propagation",
+    "section": "4.4 Skills and Knowledge",
+    "text": "4.4 Skills and Knowledge\n\n4.4.1 Skills\n\nWork safely with bacterial growth on agar plates.\nDocument protocols and results clearly.\nInterpret colony morphology and growth in liquid TSB medium.\nPropagate bacteria in liquid culture.\n\n\n\n4.4.2 Knowledge\n\nPPE for microbial work.\nLoop use, sterilization, and streaking methods.\nPropagation of microorganisms in solid and liquid media.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Module 2: Microbial Propagation</span>"
+    ]
+  },
+  {
+    "objectID": "module-02.html#task",
+    "href": "module-02.html#task",
+    "title": "4  Module 2: Microbial Propagation",
+    "section": "4.5 Task",
+    "text": "4.5 Task\nReview the protocol before lab and work with your partner to complete the propagation tasks, document observations, and record changes to the procedure.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Module 2: Microbial Propagation</span>"
+    ]
+  },
+  {
+    "objectID": "module-02.html#criteria-for-success",
+    "href": "module-02.html#criteria-for-success",
+    "title": "4  Module 2: Microbial Propagation",
+    "section": "4.6 Criteria for Success",
+    "text": "4.6 Criteria for Success\nYou should complete the solid- and liquid-media propagation tasks, collect observations that can be analyzed, and submit a complete ELN entry.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Module 2: Microbial Propagation</span>"
+    ]
+  },
+  {
+    "objectID": "module-02.html#background",
+    "href": "module-02.html#background",
+    "title": "4  Module 2: Microbial Propagation",
+    "section": "4.7 Background",
+    "text": "4.7 Background\nThis module uses Delftia acidovorans and related environmental isolates. Each group works with one isolate and is responsible for careful handling, observation, and documentation.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Module 2: Microbial Propagation</span>"
+    ]
+  },
+  {
+    "objectID": "module-02.html#procedures",
+    "href": "module-02.html#procedures",
+    "title": "4  Module 2: Microbial Propagation",
+    "section": "4.8 Procedures",
+    "text": "4.8 Procedures\n\n4.8.1 Lab Safety\n\n4.8.1.1 Before Lab\n\nWear a lab coat, goggles, and gloves.\nWipe the bench and pipettors with 70% ethanol.\n\n\n\n4.8.1.2 During Lab\n\nTreat all tips as potential biohazards.\nRemove PPE when leaving the lab.\nDiscard samples and disposables in the correct containers.\nKeep personal item use to a minimum.\n\n\n\n4.8.1.3 After Lab\n\nWipe the station with 70% ethanol.\nDecontaminate any personal items touched during lab.\nDispose of gloves in the main biohazard container.\n\n\n\n\n4.8.2 Methods: Observe Colony Morphology\n\nObtain a TSA plate containing colonies of your isolate.\nObserve colony appearance without opening the plate.\nRecord size, shape, and any additional visible features.\nPhotograph the plate using the provided black background.\nShare the photos with all team members.\n\n\n\n4.8.3 Methods: Plate Streaking\nFigure Figure 4.1 illustrates the transfer of a single colony to a fresh plate during the streaking workflow.\n\n\n\n\n\n\nFigure 4.1: Single-colony transfer onto a fresh TSA plate for streaking practice.\n\n\n\n\nUse a sterile loop to pick a single colony.\nOpen the plate as little as possible.\nStreak onto a fresh TSA plate.\nLabel the plate with your name, class, and date on the bottom edge.\n\n\n\n4.8.4 Methods: Starting a Liquid Culture\n\nObtain TSB and sterile culture tubes.\nLabel tubes for the TSB control, your isolate, and Delftia acidovorans SPH-1.\nTransfer a colony into the labeled tube without touching the loop to any other surface.\nCap each tube correctly and place them in a shaking incubator at 30 C.\nIncubate for 24 hours.\n\n\n\n4.8.5 Protocol Notes\nRecord any mistakes, deviations, or isolate-specific observations.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Module 2: Microbial Propagation</span>"
+    ]
+  },
+  {
+    "objectID": "module-02.html#results",
+    "href": "module-02.html#results",
+    "title": "4  Module 2: Microbial Propagation",
+    "section": "4.9 Results",
+    "text": "4.9 Results\nAdd a photo of the plate and notes describing what you observed.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Module 2: Microbial Propagation</span>"
+    ]
+  },
+  {
+    "objectID": "module-02.html#result-analysis",
+    "href": "module-02.html#result-analysis",
+    "title": "4  Module 2: Microbial Propagation",
+    "section": "4.10 Result Analysis",
+    "text": "4.10 Result Analysis\nExplain whether the observed colony features and culture setup matched expectations.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Module 2: Microbial Propagation</span>"
+    ]
+  },
+  {
+    "objectID": "module-02.html#discussion-questions",
+    "href": "module-02.html#discussion-questions",
+    "title": "4  Module 2: Microbial Propagation",
+    "section": "4.11 Discussion Questions",
+    "text": "4.11 Discussion Questions\n\nIf a student touched the agar with a thumb and unexpected colonies appeared later, what was the likely source of contamination and how could it have been prevented?\nWhat differences would you predict between static and shaking liquid growth?",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Module 2: Microbial Propagation</span>"
+    ]
+  },
+  {
+    "objectID": "module-03.html",
+    "href": "module-03.html",
+    "title": "5  Module 3: Microbial Growth Curves",
+    "section": "",
+    "text": "5.1 Overview\nWeeks 4 and 5 focus on growth-curve experiments, multichannel pipetting, and biofilm viability assays.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 3: Microbial Growth Curves</span>"
+    ]
+  },
+  {
+    "objectID": "module-03.html#purpose",
+    "href": "module-03.html#purpose",
+    "title": "5  Module 3: Microbial Growth Curves",
+    "section": "5.2 Purpose",
+    "text": "5.2 Purpose\n\nEvaluate growth rates of different Delftia species.\nPrepare liquid cultures from single colonies for 96-well growth assays.\nAnalyze growth parameters from shaking cultures.\nInvestigate differences in biofilm formation among isolates.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 3: Microbial Growth Curves</span>"
+    ]
+  },
+  {
+    "objectID": "module-03.html#learning-outcomes",
+    "href": "module-03.html#learning-outcomes",
+    "title": "5  Module 3: Microbial Growth Curves",
+    "section": "5.3 Learning Outcomes",
+    "text": "5.3 Learning Outcomes\n\nList safety considerations for propagating microbes.\nExplain the differences between static and shaking growth.\nDescribe the features of biofilms.\nDiscuss the significance of growth curves.\nPractice using a multichannel pipette.\nPractice diluting overnight cultures and seeding 96-well plates consistently.\nDescribe the purpose, methods, and preliminary results of microbial propagation experiments.\nCollect and interpret growth and biofilm data.\nCreate an annotated bibliography with at least five sources.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 3: Microbial Growth Curves</span>"
+    ]
+  },
+  {
+    "objectID": "module-03.html#skills-and-knowledge",
+    "href": "module-03.html#skills-and-knowledge",
+    "title": "5  Module 3: Microbial Growth Curves",
+    "section": "5.4 Skills and Knowledge",
+    "text": "5.4 Skills and Knowledge\n\n5.4.1 Skills\n\nWork safely with liquid cultures in 96-well plates.\nDocument protocols and results clearly.\nInterpret growth-curve and biofilm data.\nPropagate bacteria in liquid culture.\n\n\n\n5.4.2 Knowledge\n\nPPE requirements for microbial work.\nPropagation of microorganisms in liquid media.\nSeeding 96-well plates for growth and biofilm analyses.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 3: Microbial Growth Curves</span>"
+    ]
+  },
+  {
+    "objectID": "module-03.html#task",
+    "href": "module-03.html#task",
+    "title": "5  Module 3: Microbial Growth Curves",
+    "section": "5.5 Task",
+    "text": "5.5 Task\nReview the procedures before lab and work with your partner to complete the growth and biofilm assays and document all observations.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 3: Microbial Growth Curves</span>"
+    ]
+  },
+  {
+    "objectID": "module-03.html#criteria-for-success",
+    "href": "module-03.html#criteria-for-success",
+    "title": "5  Module 3: Microbial Growth Curves",
+    "section": "5.6 Criteria for Success",
+    "text": "5.6 Criteria for Success\nSuccessful completion requires participation in both assay workflows, collection of analyzable data, and a complete ELN entry.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 3: Microbial Growth Curves</span>"
+    ]
+  },
+  {
+    "objectID": "module-03.html#background",
+    "href": "module-03.html#background",
+    "title": "5  Module 3: Microbial Growth Curves",
+    "section": "5.7 Background",
+    "text": "5.7 Background\nThis module compares growth and biofilm formation in Delftia acidovorans, Delftia tsuruhatensis, and student isolates while maintaining strong contamination control.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 3: Microbial Growth Curves</span>"
+    ]
+  },
+  {
+    "objectID": "module-03.html#procedures",
+    "href": "module-03.html#procedures",
+    "title": "5  Module 3: Microbial Growth Curves",
+    "section": "5.8 Procedures",
+    "text": "5.8 Procedures\n\n5.8.1 Lab Safety\n\nWear the required PPE.\nClean the bench and pipettors with 70% ethanol.\nTreat all tips as biohazards.\nDispose of plates and gloves in the correct waste streams.\n\n\n\n5.8.2 Methods: Liquid Culture Setup\n\nIsolated colonies were transferred to liquid medium.\nInoculated tubes were grown overnight at 30 C with shaking at 200 to 250 RPM.\n\n\n\n5.8.3 Methods: Growth Assay Setup\nFigure Figure 5.1 provides a reusable 96-well template for mapping control wells and isolate conditions before loading the plate.\n\n\n\n\n\n\nFigure 5.1: Blank 96-well plate layout for planning growth-curve wells and controls.\n\n\n\n\nPrepare 1:1000 dilutions of the overnight cultures.\nUse positive and negative controls.\nPour diluted cultures into sterile reservoirs.\nUse a multichannel pipette to add 100 uL to the assigned 96-well plate columns.\nSeal the plate with a breathable seal.\nLoad the plate into the plate reader for 48 hours at 30 C with shaking.\n\n\n\n5.8.4 Methods: Biofilm Assay Setup\n\nPrepare fresh 1:1000 dilutions for the biofilm plate.\nSeed the assigned wells with 100 uL per well.\nAdd the peg lid without contaminating the pegs.\nIncubate for 48 hours at 30 C.\n\n\n\n5.8.5 Methods: Biofilm Viability\nFigure Figure 5.2 outlines the wash-and-detection workflow used to measure biofilm viability after incubation.\n\n\n\n\n\n\nFigure 5.2: Biofilm viability workflow using wash plates and detection reagent.\n\n\n\n\nWash the peg lid using PBS in separate plates.\nPrepare the detection reagent with WST solution, electron mediator reagent, and TSB.\nTransfer the peg lid to the reagent plate and incubate at 37 C.\nMeasure absorbance at 450 nm.\n\n\n\n5.8.6 Protocol Notes\nRecord any mistakes, deviations, or isolate-specific observations.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 3: Microbial Growth Curves</span>"
+    ]
+  },
+  {
+    "objectID": "module-03.html#results",
+    "href": "module-03.html#results",
+    "title": "5  Module 3: Microbial Growth Curves",
+    "section": "5.9 Results",
+    "text": "5.9 Results\n\n5.9.1 Growth Curves\n\nSave and share the raw plate-reader data.\nFormat the data for analysis.\nUpload the data file to the repository.\nPlot growth curves and compare isolates and wells.\n\n\n\n5.9.2 Biofilm Viability\n\nSave and share the raw absorbance values.\nSubtract the average TSB-only background.\nCalculate average absorbance and standard deviation for each condition.\nPlot the background-corrected averages for comparison.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 3: Microbial Growth Curves</span>"
+    ]
+  },
+  {
+    "objectID": "module-03.html#result-analysis",
+    "href": "module-03.html#result-analysis",
+    "title": "5  Module 3: Microbial Growth Curves",
+    "section": "5.10 Result Analysis",
+    "text": "5.10 Result Analysis\nUse your code and plots to explain whether the observed growth and biofilm behavior matched expectations.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 3: Microbial Growth Curves</span>"
+    ]
+  },
+  {
+    "objectID": "module-03.html#discussion-questions",
+    "href": "module-03.html#discussion-questions",
+    "title": "5  Module 3: Microbial Growth Curves",
+    "section": "5.11 Discussion Questions",
+    "text": "5.11 Discussion Questions\n\nWhy are biofilms difficult to eliminate, even when antibiotics are used?\nWhat growth-curve pattern would you expect for your isolate, and why?",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 3: Microbial Growth Curves</span>"
+    ]
+  },
+  {
+    "objectID": "module-04.html",
+    "href": "module-04.html",
+    "title": "6  Module 4: Microbial Metabolism",
+    "section": "",
+    "text": "6.1 Overview\nWeeks 6 and 7 focus on Biolog GEN III phenotypic characterization, growth measurements, and metabolic interpretation.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Module 4: Microbial Metabolism</span>"
+    ]
+  },
+  {
+    "objectID": "module-04.html#purpose",
+    "href": "module-04.html#purpose",
+    "title": "6  Module 4: Microbial Metabolism",
+    "section": "6.2 Purpose",
+    "text": "6.2 Purpose\n\nEvaluate and analyze bacterial growth in different environments.\nPerform metabolic profiling.\nIdentify conditions that support or inhibit bacterial growth.\nUse multichannel pipettes to seed 96-well plates for growth assays.\nApply the principles behind Biolog GEN III plates to your overall experiment.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Module 4: Microbial Metabolism</span>"
+    ]
+  },
+  {
+    "objectID": "module-04.html#learning-outcomes",
+    "href": "module-04.html#learning-outcomes",
+    "title": "6  Module 4: Microbial Metabolism",
+    "section": "6.3 Learning Outcomes",
+    "text": "6.3 Learning Outcomes\n\nList safety considerations for propagating microbes.\nExplain the purpose of GEN III Biolog plates and metabolic tests.\nDescribe the features of biofilms.\nDiscuss the significance of growth curves.\nPractice using a multichannel pipette.\nUse a turbidimeter to adjust inoculum turbidity.\nSeed 96-well plates consistently without contamination.\nDescribe the purpose, methods, and preliminary results of GEN III phenotypic characterization experiments.\nCollect and interpret growth data from Biolog GEN III plates.\nCreate a draft for the individual and group projects.\nExplain how the experiment contributes to the overall research goal.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Module 4: Microbial Metabolism</span>"
+    ]
+  },
+  {
+    "objectID": "module-04.html#skills-and-knowledge",
+    "href": "module-04.html#skills-and-knowledge",
+    "title": "6  Module 4: Microbial Metabolism",
+    "section": "6.4 Skills and Knowledge",
+    "text": "6.4 Skills and Knowledge\n\n6.4.1 Skills\n\nFollow PPE and microbial safety procedures.\nUse Biolog plates and multichannel pipettors correctly.\nUse a turbidimeter to adjust bacterial density.\nAnalyze bacterial growth data from 96-well plates.\n\n\n\n6.4.2 Knowledge\n\nPPE requirements for microbial work.\nPhenotypic assays and growth assessment.\nSeeding 96-well plates for bacterial growth.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Module 4: Microbial Metabolism</span>"
+    ]
+  },
+  {
+    "objectID": "module-04.html#task",
+    "href": "module-04.html#task",
+    "title": "6  Module 4: Microbial Metabolism",
+    "section": "6.5 Task",
+    "text": "6.5 Task\nReview the background and procedure information before lab and work with your partner to complete the assay setup and documentation.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Module 4: Microbial Metabolism</span>"
+    ]
+  },
+  {
+    "objectID": "module-04.html#criteria-for-success",
+    "href": "module-04.html#criteria-for-success",
+    "title": "6  Module 4: Microbial Metabolism",
+    "section": "6.6 Criteria for Success",
+    "text": "6.6 Criteria for Success\nComplete the in-lab assay setup, collect analyzable data, and finish the ELN entry with observations and interpretation.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Module 4: Microbial Metabolism</span>"
+    ]
+  },
+  {
+    "objectID": "module-04.html#background",
+    "href": "module-04.html#background",
+    "title": "6  Module 4: Microbial Metabolism",
+    "section": "6.7 Background",
+    "text": "6.7 Background\nBiolog Blood Universal Growth agar and GEN III MicroPlates make it possible to test bacterial growth across many environmental and chemical conditions at once. The plate uses metabolic dye chemistry to report growth and biochemical activity across up to 94 tests.\nFigure Figure 6.1 shows the overall GEN III plate layout used to interpret the phenotypic results.\n\n\n\n\n\n\nFigure 6.1: Biolog GEN III plate layout with carbon-source and control wells.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Module 4: Microbial Metabolism</span>"
+    ]
+  },
+  {
+    "objectID": "module-04.html#procedures",
+    "href": "module-04.html#procedures",
+    "title": "6  Module 4: Microbial Metabolism",
+    "section": "6.8 Procedures",
+    "text": "6.8 Procedures\n\n6.8.1 Lab Safety\n\n6.8.1.1 Before Lab\n\nWear lab coat, goggles, and gloves.\nWipe benches and pipettors with 70% ethanol.\n\n\n\n6.8.1.2 During Lab\n\nTreat all tips as biohazards.\nRemove PPE when leaving the lab.\nUse personal devices as little as possible.\n\n\n\n6.8.1.3 After Lab\n\nClean work areas and personal items with ethanol.\nDispose of liquids, plates, gloves, and glass using the assigned workflow.\nReturn reusable materials and wash hands.\n\n\n\n\n6.8.2 Methods: Activity 1, Turbidimeter\n\nBlank the turbidimeter with uninoculated IF-A fluid.\nSwab bacteria from the BUG agar plate into IF-A inoculating fluid.\nMix gently and measure turbidity.\nAdjust the inoculum to a target density of 95% transmittance.\n\n\n\n6.8.3 Methods: Activity 2, Biolog Plate Preparation\nFigure Figure 6.2 shows the multichannel loading pattern used to inoculate each column consistently.\n\n\n\n\n\n\nFigure 6.2: Loading a Biolog GEN III plate with a multichannel pipette.\n\n\n\nFigure Figure 6.3 shows the expected appearance of an inoculated Biolog plate after incubation.\n\n\n\n\n\n\nFigure 6.3: Biolog GEN III plate after incubation with visible growth response.\n\n\n\n\nPour the prepared cell suspension into a multichannel reservoir.\nLoad the multichannel pipette and add 100 uL to each well of the GEN III plate.\nReplace tips whenever contamination is possible.\nConfirm that every well contains liquid.\nIncubate one plate in the plate reader and another statically at 33 C for 1 to 2 days.\n\n\n\n6.8.4 Protocol Notes\nRecord any mistakes, deviations, or strain-specific observations.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Module 4: Microbial Metabolism</span>"
+    ]
+  },
+  {
+    "objectID": "module-04.html#results",
+    "href": "module-04.html#results",
+    "title": "6  Module 4: Microbial Metabolism",
+    "section": "6.9 Results",
+    "text": "6.9 Results\n\n6.9.1 Growth Curves\n\nSave and share the raw 600 nm readings.\nExport the blank-corrected table as CSV.\nValidate the data structure, convert time to minutes, and plot growth curves.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Module 4: Microbial Metabolism</span>"
+    ]
+  },
+  {
+    "objectID": "module-04.html#result-analysis",
+    "href": "module-04.html#result-analysis",
+    "title": "6  Module 4: Microbial Metabolism",
+    "section": "6.10 Result Analysis",
+    "text": "6.10 Result Analysis\nInterpret color changes, growth patterns, and wells with or without growth. Identify which carbon sources appear supportive and which conditions inhibited the isolate.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Module 4: Microbial Metabolism</span>"
+    ]
+  },
+  {
+    "objectID": "module-04.html#discussion-questions",
+    "href": "module-04.html#discussion-questions",
+    "title": "6  Module 4: Microbial Metabolism",
+    "section": "6.11 Discussion Questions",
+    "text": "6.11 Discussion Questions\n\nWhat are the advantages and disadvantages of using a multichannel pipette?\nHow do you maintain a pure culture during inoculation, and why is that necessary here?\nWhat does a turbidimeter measure, and why is that important for this assay?\nWhy are BUG-grown bacteria used instead of TSA-grown bacteria?\nHow has your multichannel technique changed over the semester?",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Module 4: Microbial Metabolism</span>"
+    ]
+  },
+  {
+    "objectID": "module-05.html",
+    "href": "module-05.html",
+    "title": "7  Module 5: Microbial Interactions",
+    "section": "",
+    "text": "7.1 Overview\nWeeks 8 and 9 focus on co-culture experiments that examine how isolates interact through diffusion-mediated contact.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 5: Microbial Interactions</span>"
+    ]
+  },
+  {
+    "objectID": "module-05.html#purpose",
+    "href": "module-05.html#purpose",
+    "title": "7  Module 5: Microbial Interactions",
+    "section": "7.2 Purpose",
+    "text": "7.2 Purpose\n\nEvaluate microbial interactions through co-culture growth of different isolates.\nObserve growth while maintaining fluidic contact across a membrane.\nAnalyze possible inhibition or facilitation patterns.\nUse pipettes to seed co-culture wells for growth assays.\nApply the principles of the Cerillo Duet system to your research question.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 5: Microbial Interactions</span>"
+    ]
+  },
+  {
+    "objectID": "module-05.html#learning-outcomes",
+    "href": "module-05.html#learning-outcomes",
+    "title": "7  Module 5: Microbial Interactions",
+    "section": "7.3 Learning Outcomes",
+    "text": "7.3 Learning Outcomes\n\nList safety considerations for propagating microbes.\nExplain the purpose of Duet wells and co-culture assays.\nDiscuss the significance of microbial fluid interactions.\nPractice diluting cultures to a target value.\nSeed wells consistently without contamination.\nDescribe the purpose, methods, and preliminary results of co-culture experiments.\nCollect and interpret co-culture growth data.\nRevise the draft for the individual and group projects.\nExplain how the experiment contributes to the overall research goal.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 5: Microbial Interactions</span>"
+    ]
+  },
+  {
+    "objectID": "module-05.html#skills-and-knowledge",
+    "href": "module-05.html#skills-and-knowledge",
+    "title": "7  Module 5: Microbial Interactions",
+    "section": "7.4 Skills and Knowledge",
+    "text": "7.4 Skills and Knowledge\n\n7.4.1 Skills\n\nFollow lab safety and PPE protocols.\nUse Cerillo vertical membrane co-culture systems correctly.\nAnalyze co-culture growth data.\n\n\n\n7.4.2 Knowledge\n\nPPE requirements for microbial work.\nCo-culture design and growth assessment.\nMicrobial interaction concepts.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 5: Microbial Interactions</span>"
+    ]
+  },
+  {
+    "objectID": "module-05.html#task",
+    "href": "module-05.html#task",
+    "title": "7  Module 5: Microbial Interactions",
+    "section": "7.5 Task",
+    "text": "7.5 Task\nReview the background and procedure information before lab and work with your partner to set up the co-culture assays and document results.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 5: Microbial Interactions</span>"
+    ]
+  },
+  {
+    "objectID": "module-05.html#criteria-for-success",
+    "href": "module-05.html#criteria-for-success",
+    "title": "7  Module 5: Microbial Interactions",
+    "section": "7.6 Criteria for Success",
+    "text": "7.6 Criteria for Success\nSuccessful completion requires participation in assay setup, collection of analyzable data, and a complete ELN record.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 5: Microbial Interactions</span>"
+    ]
+  },
+  {
+    "objectID": "module-05.html#background",
+    "href": "module-05.html#background",
+    "title": "7  Module 5: Microbial Interactions",
+    "section": "7.7 Background",
+    "text": "7.7 Background\nAfter characterizing individual growth and metabolism, this module asks how isolates behave in the presence of other organisms. The Cerillo Duet co-culture platform allows isolates to grow in adjacent chambers separated by a membrane that permits exchange of metabolites without direct mixing of cells.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 5: Microbial Interactions</span>"
+    ]
+  },
+  {
+    "objectID": "module-05.html#procedures",
+    "href": "module-05.html#procedures",
+    "title": "7  Module 5: Microbial Interactions",
+    "section": "7.8 Procedures",
+    "text": "7.8 Procedures\n\n7.8.1 Lab Safety\n\nWear required PPE and clean benches and pipettors with 70% ethanol.\nTreat all tips as biohazards.\nDecontaminate liquids, glass, and work surfaces after lab.\n\n\n\n7.8.2 Methods\n\n7.8.2.1 What Was Prepared in Advance\n\nOvernight cultures of each isolate were started in 2.5 mL TSB and incubated at 30 C with shaking.\n\n\n\n7.8.2.2 Day of the Lab\nFigure Figure 7.1 maps the isolate-only, control, and co-culture conditions across the Cerillo Duet platform.\n\n\n\n\n\n\nFigure 7.1: Cerillo Duet co-culture layout with isolate-only, control, and co-culture conditions.\n\n\n\n\nDilute the overnight culture 1:1000 into fresh TSB.\nAdd 800 uL of diluted culture to triplicate wells for the isolate-only condition.\nAdd 800 uL of TSB to the adjacent control wells.\nAdd 800 uL of diluted SPH-1 to the paired experimental wells for co-culture.\nSeal the plate carefully.\nIncubate with shaking at 30 C for 24 to 48 hours.\nAnalyze OD600 measurements collected every 5 minutes.\n\n\n\n\n7.8.3 Protocol Notes\nRecord any mistakes, deviations, or strain-specific observations.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 5: Microbial Interactions</span>"
+    ]
+  },
+  {
+    "objectID": "module-05.html#results",
+    "href": "module-05.html#results",
+    "title": "7  Module 5: Microbial Interactions",
+    "section": "7.9 Results",
+    "text": "7.9 Results\nAdd images of the co-culture plate and any figures generated from the growth data.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 5: Microbial Interactions</span>"
+    ]
+  },
+  {
+    "objectID": "module-05.html#result-analysis",
+    "href": "module-05.html#result-analysis",
+    "title": "7  Module 5: Microbial Interactions",
+    "section": "7.10 Result Analysis",
+    "text": "7.10 Result Analysis\nCompare isolate-only growth to co-culture growth. Explain whether the second organism appeared to support, suppress, or otherwise reshape your isolate’s growth profile.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 5: Microbial Interactions</span>"
+    ]
+  },
+  {
+    "objectID": "module-05.html#discussion-questions",
+    "href": "module-05.html#discussion-questions",
+    "title": "7  Module 5: Microbial Interactions",
+    "section": "7.11 Discussion Questions",
+    "text": "7.11 Discussion Questions\n\nHow can co-culture systems help researchers understand microbial behavior?\nWhat kinds of metabolites or resources might explain improved or reduced growth in co-culture?",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 5: Microbial Interactions</span>"
+    ]
+  },
+  {
+    "objectID": "module-06.html",
+    "href": "module-06.html",
+    "title": "8  Module 6: Microbial Genome Sequencing",
+    "section": "",
+    "text": "8.1 Overview\nWeeks 11 and 12 focus on DNA isolation, quantification, sequencing preparation, and early genome analysis.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 6: Microbial Genome Sequencing</span>"
+    ]
+  },
+  {
+    "objectID": "module-06.html#purpose",
+    "href": "module-06.html#purpose",
+    "title": "8  Module 6: Microbial Genome Sequencing",
+    "section": "8.2 Purpose",
+    "text": "8.2 Purpose\n\nEvaluate DNA sequencing results and microbial genome assemblies.\nFollow a standard DNA isolation protocol.\nApply bioinformatics tools to assemble microbial genomes and analyze predicted coding sequences.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 6: Microbial Genome Sequencing</span>"
+    ]
+  },
+  {
+    "objectID": "module-06.html#learning-outcomes",
+    "href": "module-06.html#learning-outcomes",
+    "title": "8  Module 6: Microbial Genome Sequencing",
+    "section": "8.3 Learning Outcomes",
+    "text": "8.3 Learning Outcomes\n\nList safety considerations for extracting DNA from microbial isolates.\nExplain the purpose of reagents used for DNA extraction.\nDiscuss the significance of high-molecular-weight DNA for sequencing.\nPractice extracting DNA from liquid cultures.\nPractice quantifying DNA with a Qubit fluorometer.\nDescribe the purpose, methods, and preliminary results of DNA extraction, quantification, and sequencing experiments.\nCollect and interpret DNA quantification and sequencing data.\nRevise the draft for the individual and group projects.\nExplain how the experiment contributes to the overall research goal.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 6: Microbial Genome Sequencing</span>"
+    ]
+  },
+  {
+    "objectID": "module-06.html#skills-and-knowledge",
+    "href": "module-06.html#skills-and-knowledge",
+    "title": "8  Module 6: Microbial Genome Sequencing",
+    "section": "8.4 Skills and Knowledge",
+    "text": "8.4 Skills and Knowledge\n\n8.4.1 Skills\n\nFollow lab safety and PPE procedures.\nExtract and quantify microbial DNA.\nAnalyze microbial DNA sequence data.\n\n\n\n8.4.2 Knowledge\n\nPPE requirements for DNA isolation and purification.\nDNA extraction and quantification methods.\nOxford Nanopore Technologies sequencing workflows.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 6: Microbial Genome Sequencing</span>"
+    ]
+  },
+  {
+    "objectID": "module-06.html#task",
+    "href": "module-06.html#task",
+    "title": "8  Module 6: Microbial Genome Sequencing",
+    "section": "8.5 Task",
+    "text": "8.5 Task\nReview the protocol before lab and work with your partner to isolate DNA from overnight cultures in duplicate, record all steps, and document the results.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 6: Microbial Genome Sequencing</span>"
+    ]
+  },
+  {
+    "objectID": "module-06.html#criteria-for-success",
+    "href": "module-06.html#criteria-for-success",
+    "title": "8  Module 6: Microbial Genome Sequencing",
+    "section": "8.6 Criteria for Success",
+    "text": "8.6 Criteria for Success\nSuccessful completion requires participation in DNA isolation and sequencing preparation, collection of analyzable data, and a complete ELN entry.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 6: Microbial Genome Sequencing</span>"
+    ]
+  },
+  {
+    "objectID": "module-06.html#background",
+    "href": "module-06.html#background",
+    "title": "8  Module 6: Microbial Genome Sequencing",
+    "section": "8.7 Background",
+    "text": "8.7 Background\nThis module connects phenotype to genotype by sequencing the genome of the isolate. DNA is extracted using the NO-MISS workflow and analyzed with Oxford Nanopore sequencing and downstream genome analysis tools such as BV-BRC and SeqHub.\nFigure Figure 8.1 summarizes the sequencing and downstream analysis pipeline from isolate DNA to annotated genome.\n\n\n\n\n\n\nFigure 8.1: Nanopore sequencing and downstream analysis workflow.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 6: Microbial Genome Sequencing</span>"
+    ]
+  },
+  {
+    "objectID": "module-06.html#procedures",
+    "href": "module-06.html#procedures",
+    "title": "8  Module 6: Microbial Genome Sequencing",
+    "section": "8.8 Procedures",
+    "text": "8.8 Procedures\n\n8.8.1 Lab Safety\n\nWear lab coat, goggles, and gloves.\nClean benches and pipettors with 70% ethanol.\nTreat all culture-associated materials as biohazards.\nDecontaminate liquids, plates, and work areas at the end of the session.\n\n\n\n8.8.2 Methods\n\n8.8.2.1 What Was Prepared in Advance\n\nOvernight cultures were started in TSB.\nLysozyme was prepared in TE buffer at 10 mg/mL.\n\n\n\n8.8.2.2 Day of the Lab\n\nPellet 1.0 mL of culture in a DNA LoBind tube.\nResuspend in TE buffer with lysozyme.\nAdd Proteinase K and RNase A.\nAdd CTAB buffer and incubate at 56 C for 30 minutes.\nCombine lysate with Monarch gDNA Binding Buffer at a 2:1 ratio.\nBind DNA to the spin column, wash twice, and elute with preheated Monarch gDNA Elution Buffer.\nQuantify 1 uL of DNA with the Qubit fluorometer.\nPrepare sequencing-ready DNA according to the NO-MISS rapid barcoding workflow.\n\nFigure Figure 8.2 illustrates the Qubit measurement setup used to quantify extracted DNA prior to library preparation.\n\n\n\n\n\n\nFigure 8.2: Qubit fluorometer workflow for DNA quantification.\n\n\n\nFigure Figure 8.3 summarizes the rapid barcoding library-preparation workflow used before sequencing.\n\n\n\n\n\n\nFigure 8.3: Nanopore rapid barcoding workflow for sequencing library preparation.\n\n\n\n\n\n\n8.8.3 Data Analysis\n\nCreate a BV-BRC account and access the shared workspace.\nObtain the Nanopore and Illumina files for your isolate.\nRun the Comprehensive Genome Analysis workflow.\nUpload the assembled FASTA file to SeqHub for annotation and exploration.\n\n\n\n8.8.4 Protocol Notes\nRecord any mistakes, deviations, or strain-specific observations.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 6: Microbial Genome Sequencing</span>"
+    ]
+  },
+  {
+    "objectID": "module-06.html#results",
+    "href": "module-06.html#results",
+    "title": "8  Module 6: Microbial Genome Sequencing",
+    "section": "8.9 Results",
+    "text": "8.9 Results\nAdd figures, screenshots, concentration values, and any sequencing outputs generated from your data.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 6: Microbial Genome Sequencing</span>"
+    ]
+  },
+  {
+    "objectID": "module-06.html#result-analysis",
+    "href": "module-06.html#result-analysis",
+    "title": "8  Module 6: Microbial Genome Sequencing",
+    "section": "8.10 Result Analysis",
+    "text": "8.10 Result Analysis\nDiscuss DNA yield, sample quality, and whether the sequencing-related results matched expectations. Include factors that may have affected DNA recovery and what you would change next time.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 6: Microbial Genome Sequencing</span>"
+    ]
+  },
+  {
+    "objectID": "module-06.html#discussion-questions",
+    "href": "module-06.html#discussion-questions",
+    "title": "8  Module 6: Microbial Genome Sequencing",
+    "section": "8.11 Discussion Questions",
+    "text": "8.11 Discussion Questions\n\nHow do microbial genome assembly and annotation tools support research?\nWhat makes nanopore sequencing different from other sequencing approaches?",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 6: Microbial Genome Sequencing</span>"
+    ]
+  },
+  {
+    "objectID": "module-07.html",
+    "href": "module-07.html",
+    "title": "9  Module 7: Data Analysis and Experimental Design",
+    "section": "",
+    "text": "9.1 Overview\nWeeks 13 and 14 focus on genome assembly, annotation review, comparative analysis, and connecting genomic results back to phenotype.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 7: Data Analysis and Experimental Design</span>"
+    ]
+  },
+  {
+    "objectID": "module-07.html#purpose",
+    "href": "module-07.html#purpose",
+    "title": "9  Module 7: Data Analysis and Experimental Design",
+    "section": "9.2 Purpose",
+    "text": "9.2 Purpose\n\nEvaluate DNA sequencing results and microbial genome assemblies.\nSubmit an assembly job to BV-BRC.\nApply bioinformatics tools to assemble genomes and analyze predicted coding sequences.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 7: Data Analysis and Experimental Design</span>"
+    ]
+  },
+  {
+    "objectID": "module-07.html#learning-outcomes",
+    "href": "module-07.html#learning-outcomes",
+    "title": "9  Module 7: Data Analysis and Experimental Design",
+    "section": "9.3 Learning Outcomes",
+    "text": "9.3 Learning Outcomes\n\nExplain the purpose of the bioinformatics tools and workflows used.\nDiscuss the significance of genome assembly.\nPractice using web-based bioinformatics tools.\nExplore genome assemblies and annotations.\nDescribe the workflow for microbial genome assembly.\nCollect and interpret genomic data in the context of phenotypic analyses.\nRevise the draft for the individual and group projects.\nExplain how this work contributes to the overall experimental goal.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 7: Data Analysis and Experimental Design</span>"
+    ]
+  },
+  {
+    "objectID": "module-07.html#skills-and-knowledge",
+    "href": "module-07.html#skills-and-knowledge",
+    "title": "9  Module 7: Data Analysis and Experimental Design",
+    "section": "9.4 Skills and Knowledge",
+    "text": "9.4 Skills and Knowledge\n\n9.4.1 Skills\n\nPerform sequence-read quality review.\nAssemble microbial genomes.\nAnnotate and explore genome content.\n\n\n\n9.4.2 Knowledge\n\nSteps required to assemble a microbial genome.\nTools for filtering, assembly, annotation, and metabolic modeling.\nCloud-based bioinformatics workflow submission.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 7: Data Analysis and Experimental Design</span>"
+    ]
+  },
+  {
+    "objectID": "module-07.html#task",
+    "href": "module-07.html#task",
+    "title": "9  Module 7: Data Analysis and Experimental Design",
+    "section": "9.5 Task",
+    "text": "9.5 Task\nWork in pairs to obtain, explore, and interpret genome data and then connect those results to the phenotypic evidence collected earlier in the course.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 7: Data Analysis and Experimental Design</span>"
+    ]
+  },
+  {
+    "objectID": "module-07.html#criteria-for-success",
+    "href": "module-07.html#criteria-for-success",
+    "title": "9  Module 7: Data Analysis and Experimental Design",
+    "section": "9.6 Criteria for Success",
+    "text": "9.6 Criteria for Success\nSuccessful completion requires use of BV-BRC and SeqHub, careful documentation of outputs, and a complete ELN entry.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 7: Data Analysis and Experimental Design</span>"
+    ]
+  },
+  {
+    "objectID": "module-07.html#background",
+    "href": "module-07.html#background",
+    "title": "9  Module 7: Data Analysis and Experimental Design",
+    "section": "9.7 Background",
+    "text": "9.7 Background\nStudents now use sequence data generated earlier in the course to compare isolates with Delftia acidovorans SPH-1 and other related genomes. The goal is to identify genetic features that explain observed growth and metabolic behavior.\nFigure Figure 9.1 is reused from the sequencing workflow to anchor where assembly, annotation, and comparative analysis fit into the broader pipeline.\n\n\n\n\n\n\nFigure 9.1: Sequencing-analysis pipeline reused for genome assembly and comparative interpretation.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 7: Data Analysis and Experimental Design</span>"
+    ]
+  },
+  {
+    "objectID": "module-07.html#procedures",
+    "href": "module-07.html#procedures",
+    "title": "9  Module 7: Data Analysis and Experimental Design",
+    "section": "9.8 Procedures",
+    "text": "9.8 Procedures\n\n9.8.1 Lab Safety\nThis is a bioinformatics lab.\n\n\n9.8.2 Methods: Data Analysis\n\nAccess the shared BV-BRC workspace.\nObtain the concatenated read files for your isolate.\nRun the Comprehensive Genome Analysis workflow with long-read and paired short-read data.\nCreate an output folder labeled with the isolate name.\nSubmit the job and monitor the results.\nUpload the assembled FASTA file to SeqHub.\n\n\n\n9.8.3 Methods: Genome Comparisons\n\nUse Similar Genome Finder in BV-BRC.\nCompare your isolate against representative and public genomes.\nSave the result tables and pie-chart images.\nUse the Genome Alignment workflow for follow-up comparisons.\n\n\n\n9.8.4 Methods: Annotation Review and Genome Exploration\n\nReview coding-sequence counts and other reported features.\nRecord the most abundant functional assignments.\nNote whether plasmids or antibiotic-resistance genes were identified.\nExplore low-confidence annotations, hypothetical genes, predicted protein interactions, and genes of interest in SeqHub.\n\n\n\n9.8.5 Protocol Notes\nRecord any mistakes, deviations, or isolate-specific observations.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 7: Data Analysis and Experimental Design</span>"
+    ]
+  },
+  {
+    "objectID": "module-07.html#results",
+    "href": "module-07.html#results",
+    "title": "9  Module 7: Data Analysis and Experimental Design",
+    "section": "9.9 Results",
+    "text": "9.9 Results\nInclude tables, figures, charts, and screenshots generated from your assembly and annotation workflows.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 7: Data Analysis and Experimental Design</span>"
+    ]
+  },
+  {
+    "objectID": "module-07.html#result-analysis",
+    "href": "module-07.html#result-analysis",
+    "title": "9  Module 7: Data Analysis and Experimental Design",
+    "section": "9.10 Result Analysis",
+    "text": "9.10 Result Analysis\nExplain how your isolate differs from the SPH-1 reference, how well the genomic data matches the phenotype, and what the assembly metrics suggest about data quality.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 7: Data Analysis and Experimental Design</span>"
+    ]
+  },
+  {
+    "objectID": "module-07.html#discussion-questions",
+    "href": "module-07.html#discussion-questions",
+    "title": "9  Module 7: Data Analysis and Experimental Design",
+    "section": "9.11 Discussion Questions",
+    "text": "9.11 Discussion Questions\n\nHow did BV-BRC assemble your genome, and how good was the assembly?\nWhat factors affect genome assembly quality?\nWhat applications beyond research rely on gene prediction and annotation?\nWhat can predicted protein interaction networks contribute to your project?",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 7: Data Analysis and Experimental Design</span>"
+    ]
+  },
+  {
+    "objectID": "module-08.html",
+    "href": "module-08.html",
+    "title": "10  Module 8: Share Your Results",
+    "section": "",
+    "text": "10.1 Overview\nWeek 15 is the capstone module. Students design or repeat an experiment, analyze the results, and connect the final experiment back to the semester’s genomic and phenotypic findings.\nFigure Figure 10.1 provides a compact visual divider for the capstone week and surfaces the final remaining template image from the source document.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 8: Share Your Results</span>"
+    ]
+  },
+  {
+    "objectID": "module-08.html#overview",
+    "href": "module-08.html#overview",
+    "title": "10  Module 8: Share Your Results",
+    "section": "",
+    "text": "Figure 10.1: Capstone module banner carried over from the original workbook template.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 8: Share Your Results</span>"
+    ]
+  },
+  {
+    "objectID": "module-08.html#purpose",
+    "href": "module-08.html#purpose",
+    "title": "10  Module 8: Share Your Results",
+    "section": "10.2 Purpose",
+    "text": "10.2 Purpose\n\nIdentify a focused research question for a specific bacterial strain.\nConstruct an experimental procedure.\nDetermine how to gather accurate and representative data.\nAnalyze results in the context of the experimental design.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 8: Share Your Results</span>"
+    ]
+  },
+  {
+    "objectID": "module-08.html#experiment-goals",
+    "href": "module-08.html#experiment-goals",
+    "title": "10  Module 8: Share Your Results",
+    "section": "10.3 Experiment Goals",
+    "text": "10.3 Experiment Goals\nList at least two specific goals for your final experiment.\n\n[Add goal here]\n[Add goal here]",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 8: Share Your Results</span>"
+    ]
+  },
+  {
+    "objectID": "module-08.html#learning-outcomes",
+    "href": "module-08.html#learning-outcomes",
+    "title": "10  Module 8: Share Your Results",
+    "section": "10.4 Learning Outcomes",
+    "text": "10.4 Learning Outcomes\n\nList safety considerations for working with microbial isolates.\nReview techniques, concepts, and experiments from the course.\nRepeat experiments to improve consistency and reproducibility.\nDescribe the purpose, methods, and results of the experiment your team designs.\nInterpret genomic data, including gene annotations and protein interaction predictions.\nRevise the draft for the individual and group projects.\nExplain how the experiment contributes to the overall research goal.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 8: Share Your Results</span>"
+    ]
+  },
+  {
+    "objectID": "module-08.html#skills-and-knowledge",
+    "href": "module-08.html#skills-and-knowledge",
+    "title": "10  Module 8: Share Your Results",
+    "section": "10.5 Skills and Knowledge",
+    "text": "10.5 Skills and Knowledge\n\n10.5.1 Skills\nSpecify the lab skills your final experiment develops.\n\n[Add skill here]\n[Add skill here]\n\n\n\n10.5.2 Knowledge\nSpecify the concepts, tools, and analysis techniques that this final experiment reinforces.\n\n[Add knowledge area here]\n[Add knowledge area here]",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 8: Share Your Results</span>"
+    ]
+  },
+  {
+    "objectID": "module-08.html#task",
+    "href": "module-08.html#task",
+    "title": "10  Module 8: Share Your Results",
+    "section": "10.6 Task",
+    "text": "10.6 Task\nReview the background and procedure information you have written before coming to lab. Work with your group to carry out the experiment, document all changes, and analyze the resulting data.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 8: Share Your Results</span>"
+    ]
+  },
+  {
+    "objectID": "module-08.html#criteria-for-success",
+    "href": "module-08.html#criteria-for-success",
+    "title": "10  Module 8: Share Your Results",
+    "section": "10.7 Criteria for Success",
+    "text": "10.7 Criteria for Success\nSuccessful completion requires full participation in the designed experiment, careful documentation, and a complete ELN entry with results and reflection.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 8: Share Your Results</span>"
+    ]
+  },
+  {
+    "objectID": "module-08.html#background",
+    "href": "module-08.html#background",
+    "title": "10  Module 8: Share Your Results",
+    "section": "10.8 Background",
+    "text": "10.8 Background\nWrite a short paragraph describing your strain, the experiment your team will perform, the science behind it, and how the experiment supports your final research goal.\n[Add background here]",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 8: Share Your Results</span>"
+    ]
+  },
+  {
+    "objectID": "module-08.html#procedures",
+    "href": "module-08.html#procedures",
+    "title": "10  Module 8: Share Your Results",
+    "section": "10.9 Procedures",
+    "text": "10.9 Procedures\n\n10.9.1 Lab Safety\n\n10.9.1.1 Before Lab\n\nWear lab coat, goggles, and gloves.\nWipe the bench and pipettors with 70% ethanol.\n\n\n\n10.9.1.2 During Lab\n\nTreat all tips as potential biohazards.\nRemove PPE when leaving the lab.\nDiscard samples and disposables correctly.\nMinimize use of personal devices.\n\n\n\n10.9.1.3 After Lab\n\nWipe the station and any touched personal items with 70% ethanol.\nDispose of gloves, plates, liquids, and glass in the correct locations.\nReturn reusable materials, remove PPE, and wash your hands.\n\n\n\n\n10.9.2 Methods\nWrite your methods so another group could reproduce the experiment, including setup, controls, measurements, and the data-analysis plan.\n[Add methods here]\n\n\n10.9.3 Protocol Notes\nRecord any changes, mistakes, or isolate-specific variables during the experiment.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 8: Share Your Results</span>"
+    ]
+  },
+  {
+    "objectID": "module-08.html#results",
+    "href": "module-08.html#results",
+    "title": "10  Module 8: Share Your Results",
+    "section": "10.10 Results",
+    "text": "10.10 Results\nSummarize what happened and include figures, tables, or photos as needed.\n[Add results here]",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 8: Share Your Results</span>"
+    ]
+  },
+  {
+    "objectID": "module-08.html#result-analysis",
+    "href": "module-08.html#result-analysis",
+    "title": "10  Module 8: Share Your Results",
+    "section": "10.11 Result Analysis",
+    "text": "10.11 Result Analysis\nExplain what the results mean and whether they matched expectations.\n[Add analysis here]",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 8: Share Your Results</span>"
+    ]
+  },
+  {
+    "objectID": "module-08.html#discussion-questions",
+    "href": "module-08.html#discussion-questions",
+    "title": "10  Module 8: Share Your Results",
+    "section": "10.12 Discussion Questions",
+    "text": "10.12 Discussion Questions\n\nWhat did you learn from exploring your genome assembly and annotation with BV-BRC and SeqHub?\nWere you able to conduct and repeat your proposed experiment at least once? Why or why not?\nWhat findings did you obtain, and what are their implications?\nWhat experiment would you do next, and why?",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 8: Share Your Results</span>"
+    ]
+  }
+]

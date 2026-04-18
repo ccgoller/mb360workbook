@@ -1,0 +1,114 @@
+# Module 8: Share Your Results
+
+## Overview
+
+Week 15 is the capstone module. Students design or repeat an experiment, analyze the results, and connect the final experiment back to the semester's genomic and phenotypic findings.
+
+Figure @fig-module8-capstone-banner provides a compact visual divider for the capstone week and surfaces the final remaining template image from the source document.
+
+![Capstone module banner carried over from the original workbook template.](images/template/image6.png){#fig-module8-capstone-banner fig-alt="Horizontal banner graphic from the original workbook template used as a divider for the capstone module."}
+
+## Purpose
+
+- Identify a focused research question for a specific bacterial strain.
+- Construct an experimental procedure.
+- Determine how to gather accurate and representative data.
+- Analyze results in the context of the experimental design.
+
+## Experiment Goals
+
+List at least two specific goals for your final experiment.
+
+1. [Add goal here]
+2. [Add goal here]
+
+## Learning Outcomes
+
+- List safety considerations for working with microbial isolates.
+- Review techniques, concepts, and experiments from the course.
+- Repeat experiments to improve consistency and reproducibility.
+- Describe the purpose, methods, and results of the experiment your team designs.
+- Interpret genomic data, including gene annotations and protein interaction predictions.
+- Revise the draft for the individual and group projects.
+- Explain how the experiment contributes to the overall research goal.
+
+## Skills and Knowledge
+
+### Skills
+
+Specify the lab skills your final experiment develops.
+
+- [Add skill here]
+- [Add skill here]
+
+### Knowledge
+
+Specify the concepts, tools, and analysis techniques that this final experiment reinforces.
+
+- [Add knowledge area here]
+- [Add knowledge area here]
+
+## Task
+
+Review the background and procedure information you have written before coming to lab. Work with your group to carry out the experiment, document all changes, and analyze the resulting data.
+
+## Criteria for Success
+
+Successful completion requires full participation in the designed experiment, careful documentation, and a complete ELN entry with results and reflection.
+
+## Background
+
+Write a short paragraph describing your strain, the experiment your team will perform, the science behind it, and how the experiment supports your final research goal.
+
+[Add background here]
+
+## Procedures
+
+### Lab Safety
+
+#### Before Lab
+
+- Wear lab coat, goggles, and gloves.
+- Wipe the bench and pipettors with 70% ethanol.
+
+#### During Lab
+
+- Treat all tips as potential biohazards.
+- Remove PPE when leaving the lab.
+- Discard samples and disposables correctly.
+- Minimize use of personal devices.
+
+#### After Lab
+
+- Wipe the station and any touched personal items with 70% ethanol.
+- Dispose of gloves, plates, liquids, and glass in the correct locations.
+- Return reusable materials, remove PPE, and wash your hands.
+
+### Methods
+
+Write your methods so another group could reproduce the experiment, including setup, controls, measurements, and the data-analysis plan.
+
+[Add methods here]
+
+### Protocol Notes
+
+Record any changes, mistakes, or isolate-specific variables during the experiment.
+
+## Results
+
+Summarize what happened and include figures, tables, or photos as needed.
+
+[Add results here]
+
+## Result Analysis
+
+Explain what the results mean and whether they matched expectations.
+
+[Add analysis here]
+
+## Discussion Questions
+
+1. What did you learn from exploring your genome assembly and annotation with BV-BRC and SeqHub?
+2. Were you able to conduct and repeat your proposed experiment at least once? Why or why not?
+3. What findings did you obtain, and what are their implications?
+4. What experiment would you do next, and why?

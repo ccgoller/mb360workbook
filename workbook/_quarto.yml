@@ -1,0 +1,36 @@
+project:
+  type: book
+
+book:
+  title: "MB 360 ELN Workbook"
+  subtitle: "Eight Modules for Microbial Genomics Lab Work"
+  author: "Carlos C. Goller"
+  date: "4/17/2026"
+  chapters:
+    - index.qmd
+    - about.qmd
+    - figures.qmd
+    - module-01.qmd
+    - module-02.qmd
+    - module-03.qmd
+    - module-04.qmd
+    - module-05.qmd
+    - module-06.qmd
+    - module-07.qmd
+    - module-08.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    lightbox: true
+  pdf:
+    documentclass: scrreprt
+
+
+
