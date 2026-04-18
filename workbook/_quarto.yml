@@ -2,8 +2,8 @@ project:
   type: book
 
 book:
-  image: mb360logo.png
-  favicon: mb360logo.png
+  image: MB360logo.png
+  favicon: MB360logo.png
   page-navigation: true
   downloads: [pdf]
 
