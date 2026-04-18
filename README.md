@@ -4,6 +4,12 @@
 
 Live site: https://ccgoller.github.io/mb360workbook/
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Chapter Index](#chapter-index)
+- [Publishing](#publishing)
+
 ## Overview
 
 This repository contains a Quarto book for the MB 360 ELN Workbook.
