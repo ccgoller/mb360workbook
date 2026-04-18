@@ -1,133 +1,32 @@
-:root,
-html[data-bs-theme="light"] {
-  --mb-page-bg: #ececec;
-  --mb-surface: #f6f6f6;
-  --mb-surface-strong: #ffffff;
-  --mb-border: #c7c7c7;
-  --mb-text: #2d2d2d;
-  --mb-text-muted: #585858;
-  --mb-accent: #a32638;
-  --mb-accent-soft: #f2d9de;
-  --mb-shadow: 0 16px 34px rgba(68, 68, 68, 0.12);
-}
-
-html[data-bs-theme="dark"] {
-  --mb-page-bg: #2b2b2b;
-  --mb-surface: #343434;
-  --mb-surface-strong: #3d3d3d;
-  --mb-border: #5a5a5a;
-  --mb-text: #f5f5f5;
-  --mb-text-muted: #d6d6d6;
-  --mb-accent: #ffffff;
-  --mb-accent-soft: rgba(255, 255, 255, 0.12);
-  --mb-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
-}
-
-body {
-  background: var(--mb-page-bg);
-  color: var(--mb-text);
-}
-
-.content,
-.page-columns,
-.quarto-title-block,
-.sidebar,
-.sidebar nav[role="doc-toc"] {
-  color: var(--mb-text);
-}
-
-a,
-.sidebar .sidebar-item a,
-.quarto-title-meta a,
-.quarto-xref {
-  color: var(--mb-accent);
-}
-
-a:hover,
-a:focus,
-.sidebar .sidebar-item a:hover,
-.sidebar .sidebar-item a:focus {
-  color: var(--mb-text);
-}
-
-#quarto-content,
-.page-layout-article,
-.quarto-title-block.default,
-.sidebar,
-.toc-actions,
-.quarto-search-container,
-.cell-output {
-  background: transparent;
-}
-
 .quarto-title-block.default {
   margin-bottom: 2rem;
   padding: 1.5rem;
-  border: 1px solid var(--mb-border);
+  border: 1px solid var(--bs-border-color);
   border-radius: 18px;
-  background: linear-gradient(145deg, var(--mb-surface) 0%, var(--mb-surface-strong) 100%);
-  box-shadow: var(--mb-shadow);
-}
-
-.quarto-title-block .title,
-.quarto-title-block .subtitle,
-.quarto-title-meta,
-.quarto-title-meta-heading,
-.quarto-title-meta-contents {
-  color: var(--mb-text);
+  background: linear-gradient(145deg, var(--bs-tertiary-bg) 0%, var(--bs-body-bg) 100%);
+  box-shadow: 0 16px 34px rgba(0, 0, 0, 0.12);
 }
 
 .quarto-title-meta-heading {
-  color: var(--mb-text-muted);
+  color: var(--bs-secondary-color);
 }
 
 .sidebar {
-  border-right: 1px solid var(--mb-border);
-  background: linear-gradient(180deg, var(--mb-surface) 0%, var(--mb-page-bg) 100%);
-}
-
-.sidebar .sidebar-title,
-.sidebar .sidebar-item-text,
-.sidebar .sidebar-link,
-.sidebar nav[role="doc-toc"] {
-  color: var(--mb-text);
+  border-right: 1px solid var(--bs-border-color);
 }
 
 .sidebar .active,
 .sidebar .sidebar-item a.active,
 .sidebar .sidebar-item a[aria-current="page"] {
-  color: var(--mb-accent);
   font-weight: 700;
 }
 
-.navbar,
-#quarto-header {
-  background: var(--mb-surface-strong);
-  border-bottom: 1px solid var(--mb-border);
-}
-
-.navbar .nav-link,
-.navbar-brand,
-.menu-text,
-.quarto-secondary-nav-title {
-  color: var(--mb-text);
-}
-
 .about-hero {
   margin: 1.5rem 0 2rem;
   padding: 1.5rem;
-  border: 1px solid var(--mb-border);
+  border: 1px solid var(--bs-border-color);
   border-radius: 18px;
-  background: linear-gradient(135deg, var(--mb-surface) 0%, var(--mb-surface-strong) 100%);
-  box-shadow: var(--mb-shadow);
-}
-
-.about-hero {
-  margin: 1.5rem 0 2rem;
-  padding: 1.5rem;
-  border: 1px solid var(--mb-border);
-  border-radius: 18px;
-  background: linear-gradient(135deg, var(--mb-surface) 0%, var(--mb-surface-strong) 100%);
+  background: linear-gradient(135deg, var(--bs-tertiary-bg) 0%, var(--bs-body-bg) 100%);
 }
 
 .about-photo {
@@ -136,7 +35,7 @@ a:focus,
   max-width: 340px;
   margin: 0 auto;
   border-radius: 16px;
-  box-shadow: var(--mb-shadow);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
 }
 
 .quarto-figure {
@@ -145,35 +44,29 @@ a:focus,
 
 .quarto-figure img.figure-img {
   border-radius: 12px;
-  box-shadow: var(--mb-shadow);
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.08);
 }
 
 .quarto-float-caption.quarto-float-caption-bottom {
   margin-top: 0.65rem;
   font-size: 0.95rem;
   line-height: 1.45;
-  color: var(--mb-text-muted);
+  color: var(--bs-secondary-color);
 }
 
 .quarto-float-caption strong:first-child,
 .quarto-float-caption b:first-child {
-  color: var(--mb-accent);
-}
-
-code,
-.sourceCode {
-  color: var(--mb-text);
+  color: var(--bs-body-color);
 }
 
 blockquote,
 div.callout {
-  border-left: 4px solid var(--mb-accent);
-  background: var(--mb-accent-soft);
+  border-left: 4px solid var(--bs-primary);
 }
 
 @media (max-width: 991.98px) {
   .sidebar {
     border-right: 0;
-    border-bottom: 1px solid var(--mb-border);
+    border-bottom: 1px solid var(--bs-border-color);
   }
 }
