@@ -16,7 +16,11 @@ book:
     position: below-navbar
   downloads: [pdf]  
 
-
+  navbar:
+    left:
+      - icon: book
+        href: index.qmd
+        text: "Home"
   sidebar:
     logo: MB360logo.png
     title: "MB 360 Lab Workbook"
