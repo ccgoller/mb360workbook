@@ -14,7 +14,7 @@ book:
     content: "**Alert** - this is some information that you should pay attention to"
     type: primary
     position: below-navbar
-  downloads: [pdf]  
+  downloads: [pdf, epub, docx]
 
   navbar:
     left:
@@ -106,5 +106,11 @@ format:
     documentclass: scrreprt
     fontsize: 12pt
     geometry: margin=1in
+    toc: true
+    number-sections: true
+  epub:
+    cover-image: MB360logo.png
+    toc: true
+  docx:
     toc: true
     number-sections: true
