@@ -4,10 +4,9 @@ numbered: false
 unnumbered: true
 number-sections: false
 about:
-  template: trestles
+  template: broadside
   image: images/author/GollerCarlos.jpg
   image-shape: rounded
-  image-width: 13em
   links:
     - icon: linkedin
       text: LinkedIn

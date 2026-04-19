@@ -4,7 +4,8 @@ numbered: false
 unnumbered: true
 number-sections: false
 about:
-  template: trestles
+  template: broadside
+  image-shape: rounded
 ---
 
 Camila Loyola is a Graduate Teaching Assistant in MB 360 and a student in the Master of Microbial Biotechnology program at North Carolina State University.
