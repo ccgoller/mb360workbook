@@ -1,5 +1,7 @@
 ---
 title: "Carlos C. Goller"
+numbered: false
+unnumbered: true
 number-sections: false
 about:
   template: trestles

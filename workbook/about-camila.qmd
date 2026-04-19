@@ -1,5 +1,7 @@
 ---
 title: "Camila Loyola"
+numbered: false
+unnumbered: true
 number-sections: false
 about:
   template: trestles

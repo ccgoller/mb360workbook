@@ -119,6 +119,15 @@ body.quarto-dark .sidebar .sidebar-item a[aria-current="page"] {
   font-weight: 700;
 }
 
+.sidebar a[href$="about.html"] .chapter-number,
+.sidebar a[href$="about-camila.html"] .chapter-number,
+.quarto-page-breadcrumbs a[href$="about.html"] .chapter-number,
+.quarto-page-breadcrumbs a[href$="about-camila.html"] .chapter-number,
+.pagination-link[aria-label="Carlos C. Goller"] .chapter-number,
+.pagination-link[aria-label="Camila Loyola"] .chapter-number {
+  display: none;
+}
+
 .about-hero {
   margin: 1.5rem 0 2rem;
   padding: 1.5rem;
