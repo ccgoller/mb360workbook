@@ -4,7 +4,8 @@ This page provides a quick index to the figures embedded throughout the workbook
 
 ## About
 
-- Author portrait in [About](about.qmd)
+- Author profile for Carlos C. Goller in [About](about.qmd)
+- Author profile for Camila Loyola in [About Camila Loyola](about-camila.qmd)
 
 ## Module 1
 

@@ -1,0 +1,21 @@
+---
+title: "About Camila Loyola"
+number-sections: false
+about:
+  template: trestles
+---
+
+Camila Loyola is a Graduate Teaching Assistant in MB 360 and a student in the Master of Microbial Biotechnology program at North Carolina State University.
+
+She supports student learning across the workflow from foundational lab practice to data analysis and experimental design in microbial metabolism and genomics.
+
+## Program
+
+Master of Microbial Biotechnology  
+North Carolina State University
+
+## Role in MB 360
+
+- Graduate Teaching Assistant
+- Supports laboratory instruction and student mentoring
+- Contributes to workbook implementation and module delivery

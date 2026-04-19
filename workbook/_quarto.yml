@@ -41,8 +41,12 @@ book:
             href: appendix-supplies-reagents.qmd
       - text: "References"
         href: references.qmd
-      - text: "About the Author"
-        href: about.qmd
+      - text: "About the Authors"
+        contents:
+          - text: "Carlos C. Goller"
+            href: about.qmd
+          - text: "Camila Loyola"
+            href: about-camila.qmd
       - text: "Figures Index"
         href: figures.qmd
 
@@ -67,6 +71,7 @@ book:
     - appendix-supplies-reagents.qmd
     - references.qmd
     - about.qmd
+    - about-camila.qmd
     - figures.qmd
 
   search:

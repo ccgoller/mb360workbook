@@ -1060,6 +1060,26 @@
     ]
   },
   {
+    "objectID": "about-camila.html",
+    "href": "about-camila.html",
+    "title": "About Camila Loyola",
+    "section": "",
+    "text": "Program\nCamila Loyola is a Graduate Teaching Assistant in MB 360 and a student in the Master of Microbial Biotechnology program at North Carolina State University.\nShe supports student learning across the workflow from foundational lab practice to data analysis and experimental design in microbial metabolism and genomics.\nMaster of Microbial Biotechnology\nNorth Carolina State University",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>About Camila Loyola</span>"
+    ]
+  },
+  {
+    "objectID": "about-camila.html#role-in-mb-360",
+    "href": "about-camila.html#role-in-mb-360",
+    "title": "About Camila Loyola",
+    "section": "Role in MB 360",
+    "text": "Role in MB 360\n\nGraduate Teaching Assistant\nSupports laboratory instruction and student mentoring\nContributes to workbook implementation and module delivery",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>About Camila Loyola</span>"
+    ]
+  },
+  {
     "objectID": "figures.html",
     "href": "figures.html",
     "title": "Figures",
@@ -1074,7 +1094,7 @@
     "href": "figures.html#about",
     "title": "Figures",
     "section": "",
-    "text": "Author portrait in About",
+    "text": "Author profile for Carlos C. Goller in About\nAuthor profile for Camila Loyola in About Camila Loyola",
     "crumbs": [
       "Figures"
     ]
