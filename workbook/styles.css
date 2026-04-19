@@ -65,6 +65,14 @@ body.quarto-dark #quarto-header .navbar #quarto-search {
   color: var(--bs-secondary-color);
 }
 
+.quarto-cover-image {
+  width: min(100%, 300px);
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin: 0.75rem auto 0;
+}
+
 .sidebar {
   border-right: 1px solid var(--bs-border-color);
 }
