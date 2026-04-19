@@ -8,12 +8,12 @@ book:
   page-navigation: true
   reader-mode: true
   repo-url: https://github.com/ccgoller/mb360workbook
-  announcement: 
-1    icon: info-circle
-2    dismissable: true
-3    content: "**Alert** - this is some information that you should pay attention to"
-4    type: primary
-5    position: below-navbar
+  announcement:
+    icon: info-circle
+    dismissable: true
+    content: "**Alert** - this is some information that you should pay attention to"
+    type: primary
+    position: below-navbar
   downloads: [pdf]
 
   navbar:
