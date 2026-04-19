@@ -3,6 +3,7 @@ project:
 
 book:
   image: MB360logo.png
+  cover-image: MB360logo.png
   favicon: MB360logo.png
   page-navigation: true
   downloads: [pdf]
@@ -70,8 +71,10 @@ book:
     - module-08.qmd
     - appendix-supplies-reagents.qmd
     - references.qmd
-    - about.qmd
-    - about-camila.qmd
+    - part: "About the Authors"
+      chapters:
+        - about.qmd
+        - about-camila.qmd
     - figures.qmd
 
   search:

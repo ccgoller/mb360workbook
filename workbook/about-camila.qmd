@@ -1,5 +1,5 @@
 ---
-title: "About Camila Loyola"
+title: "Camila Loyola"
 number-sections: false
 about:
   template: trestles

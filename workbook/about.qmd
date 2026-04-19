@@ -1,5 +1,5 @@
 ---
-title: "About The Author"
+title: "Carlos C. Goller"
 number-sections: false
 about:
   template: trestles
