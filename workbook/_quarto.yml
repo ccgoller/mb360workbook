@@ -14,13 +14,8 @@ book:
     content: "**Alert** - this is some information that you should pay attention to"
     type: primary
     position: below-navbar
-  downloads: [pdf]
+  downloads: [pdf]  
 
-  navbar:
-    right:
-      - icon: github
-        href: https://github.com/
-        aria-label: GitHub
 
   sidebar:
     logo: MB360logo.png
