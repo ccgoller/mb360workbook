@@ -1,0 +1,270 @@
+body.quarto-light {
+  --bs-primary: #cc0000;
+  --bs-primary-rgb: 204, 0, 0;
+  --bs-link-color: #cc0000;
+  --bs-link-color-rgb: 204, 0, 0;
+  --bs-link-hover-color: #990000;
+  --bs-link-hover-color-rgb: 153, 0, 0;
+}
+
+body.quarto-dark {
+  --bs-primary: #fac800;
+  --bs-primary-rgb: 250, 200, 0;
+  --bs-link-color: #fac800;
+  --bs-link-color-rgb: 250, 200, 0;
+  --bs-link-hover-color: #fff2b3;
+  --bs-link-hover-color-rgb: 255, 242, 179;
+}
+
+body.quarto-light #quarto-header .navbar {
+  background-color: #990000;
+}
+
+body.quarto-light #quarto-header .navbar a,
+body.quarto-light #quarto-header .navbar .navbar-title,
+body.quarto-light #quarto-header .navbar .nav-link,
+body.quarto-light #quarto-header .navbar .menu-text,
+body.quarto-light #quarto-header .navbar .bi,
+body.quarto-light #quarto-header .navbar #quarto-search {
+  color: #ffffff;
+}
+
+/* Download dropdown items in light mode */
+body.quarto-light .navbar .dropdown-menu .dropdown-item {
+  color: #212529;
+}
+
+body.quarto-light .navbar .dropdown-menu .dropdown-item:hover {
+  color: #990000;
+  background-color: #f8f9fa;
+}
+
+body.quarto-dark #quarto-header .navbar {
+  background-color: #000000;
+}
+
+body.quarto-dark #quarto-header .navbar a,
+body.quarto-dark #quarto-header .navbar .navbar-title,
+body.quarto-dark #quarto-header .navbar .nav-link,
+body.quarto-dark #quarto-header .navbar .menu-text,
+body.quarto-dark #quarto-header .navbar .bi,
+body.quarto-dark #quarto-header .navbar #quarto-search {
+  color: #fac800;
+}
+
+.quarto-title-block.default {
+  margin-bottom: 2rem;
+  padding: 0 0 1rem;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.quarto-title-meta-heading {
+  color: var(--bs-secondary-color);
+}
+
+.quarto-title .title {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.quarto-title .subtitle {
+  max-width: 52rem;
+  color: var(--bs-secondary-color);
+}
+
+.quarto-cover-image {
+  width: min(100%, 300px);
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin: 0.75rem auto 0;
+}
+
+.sidebar {
+  border-right: 1px solid var(--bs-border-color);
+}
+
+body.quarto-light .sidebar .sidebar-item-text,
+body.quarto-light .sidebar .sidebar-link,
+body.quarto-light .sidebar a {
+  color: #990000;
+}
+
+body.quarto-light .sidebar .sidebar-item-text:hover,
+body.quarto-light .sidebar .sidebar-link:hover,
+body.quarto-light .sidebar a:hover {
+  color: #cc0000;
+}
+
+body.quarto-light .sidebar .active,
+body.quarto-light .sidebar .sidebar-item a.active,
+body.quarto-light .sidebar .sidebar-item a[aria-current="page"] {
+  color: #cc0000;
+}
+
+body.quarto-dark .sidebar .sidebar-item-text,
+body.quarto-dark .sidebar .sidebar-link,
+body.quarto-dark .sidebar a {
+  color: #fac800;
+}
+
+body.quarto-dark .sidebar .sidebar-item-text:hover,
+body.quarto-dark .sidebar .sidebar-link:hover,
+body.quarto-dark .sidebar a:hover {
+  color: #fff2b3;
+}
+
+body.quarto-dark .sidebar .active,
+body.quarto-dark .sidebar .sidebar-item a.active,
+body.quarto-dark .sidebar .sidebar-item a[aria-current="page"] {
+  color: #fff2b3;
+}
+
+.sidebar .active,
+.sidebar .sidebar-item a.active,
+.sidebar .sidebar-item a[aria-current="page"] {
+  font-weight: 700;
+}
+
+.sidebar a[href$="about.html"] .chapter-number,
+.sidebar a[href$="about-camila.html"] .chapter-number,
+.quarto-page-breadcrumbs a[href$="about.html"] .chapter-number,
+.quarto-page-breadcrumbs a[href$="about-camila.html"] .chapter-number,
+.pagination-link[aria-label="Carlos C. Goller"] .chapter-number,
+.pagination-link[aria-label="Camila Loyola"] .chapter-number {
+  display: none;
+}
+
+.about-hero {
+  margin: 1.5rem 0 2rem;
+  padding: 1.5rem;
+  border: 1px solid var(--bs-border-color);
+  border-radius: 0;
+  background: var(--bs-body-bg);
+}
+
+.about-photo {
+  display: block;
+  width: 100%;
+  max-width: 250px;
+  margin: 0 auto;
+  border-radius: 16px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
+}
+
+.profile-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 0.6rem 0 1rem;
+}
+
+.profile-button {
+  display: inline-block;
+  padding: 0.35rem 0.8rem;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+body.quarto-light .profile-button {
+  color: #990000;
+  background: #ffffff;
+}
+
+body.quarto-light .profile-button:hover,
+body.quarto-light .profile-button:focus {
+  color: #cc0000;
+  background: #fff3f3;
+}
+
+body.quarto-dark .profile-button {
+  color: #fac800;
+  background: rgba(250, 200, 0, 0.08);
+}
+
+body.quarto-dark .profile-button:hover,
+body.quarto-dark .profile-button:focus {
+  color: #fff2b3;
+  background: rgba(250, 200, 0, 0.18);
+}
+
+body.quarto-light .quarto-about-trestles .about-entity {
+  border: 1px solid var(--bs-border-color);
+  background: #fff8f8;
+}
+
+body.quarto-dark .quarto-about-trestles .about-entity {
+  border: 1px solid var(--bs-border-color);
+  background: rgba(250, 200, 0, 0.06);
+}
+
+.quarto-about-trestles .about-link {
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+body.quarto-light .quarto-about-trestles .about-link {
+  color: #990000;
+  border-color: #990000;
+  background: #ffffff;
+}
+
+body.quarto-light .quarto-about-trestles .about-link:hover,
+body.quarto-light .quarto-about-trestles .about-link:focus {
+  color: #cc0000;
+  border-color: #cc0000;
+  background: #fff3f3;
+}
+
+body.quarto-dark .quarto-about-trestles .about-link {
+  color: #fac800;
+  border-color: #fac800;
+  background: rgba(250, 200, 0, 0.08);
+}
+
+body.quarto-dark .quarto-about-trestles .about-link:hover,
+body.quarto-dark .quarto-about-trestles .about-link:focus {
+  color: #fff2b3;
+  border-color: #fff2b3;
+  background: rgba(250, 200, 0, 0.18);
+}
+
+.quarto-figure {
+  margin: 1.5rem auto 1.75rem;
+}
+
+.quarto-figure img.figure-img {
+  border-radius: 4px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.quarto-float-caption.quarto-float-caption-bottom {
+  margin-top: 0.65rem;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  color: var(--bs-secondary-color);
+}
+
+.quarto-float-caption strong:first-child,
+.quarto-float-caption b:first-child {
+  color: var(--bs-body-color);
+}
+
+blockquote,
+div.callout {
+  border-left: 4px solid var(--bs-primary);
+}
+
+@media (max-width: 991.98px) {
+  .sidebar {
+    border-right: 0;
+    border-bottom: 1px solid var(--bs-border-color);
+  }
+}
