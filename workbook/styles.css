@@ -30,11 +30,11 @@ body.quarto-light #quarto-header .navbar #quarto-search {
 }
 
 /* Download dropdown items in light mode */
-body.quarto-light .navbar .dropdown-menu .dropdown-item {
+body.quarto-light #quarto-header .navbar .dropdown-menu .dropdown-item {
   color: #212529;
 }
 
-body.quarto-light .navbar .dropdown-menu .dropdown-item:hover {
+body.quarto-light #quarto-header .navbar .dropdown-menu .dropdown-item:hover {
   color: #990000;
   background-color: #f8f9fa;
 }
