@@ -95,7 +95,7 @@ Figure @fig-module2-streaking illustrates the transfer of a single colony to a f
 ### Methods: Starting a Liquid Culture
 
 - Obtain TSB and sterile culture tubes.
-- Label tubes for the TSB control, your isolate, and Delftia acidovorans SPH-1.
+- Label tubes for the TSB control, your isolate, and *Delftia acidovorans* SPH-1.
 - Transfer a colony into the labeled tube without touching the loop to any other surface.
 - Cap each tube correctly and place them in a shaking incubator at 30 C.
 - Incubate for 24 hours.
