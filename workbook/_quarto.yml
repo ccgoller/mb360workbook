@@ -1,5 +1,8 @@
 project:
   type: book
+  resources:
+    - appendix-supplies-reagents.pdf
+    - appendix-supplies-reagents.docx
 
 website:
   announcement:
