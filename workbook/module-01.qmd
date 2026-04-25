@@ -10,13 +10,13 @@ The goal of this module is to prepare you to work safely and efficiently in the 
 
 ## Learning Outcomes
 
-- List the personal protective equipment needed for MB 360.
-- Identify the features of the mechanical pipettes used in the course.
-- Explain how streak plating helps dilute bacteria.
-- Describe the advantages of electronic and multichannel pipettes.
-- Create a lab entry in the ELN system.
-- Collect and interpret pipetting data.
-- Create a team charter and communication plan.
+- **List** the personal protective equipment needed for MB 360.
+- **Identify** the features of the mechanical pipettes used in the course.
+- **Explain** how streak plating helps dilute bacteria.
+- **Describe** the advantages of electronic and multichannel pipettes.
+- **Create** a lab entry in the ELN system.
+- **Collect** and **interpret** pipetting data.
+- **Create** a team charter and communication plan.
 
 ## Skills and Knowledge
 
@@ -141,6 +141,10 @@ Figure @fig-module1-plate-template can be copied into the ELN or notebook to ske
 
 ![Blank 96-well plate template for planning and annotation.](images/template/image10.png){#fig-module1-plate-template fig-alt="Blank 96-well plate diagram labeled by row and column for planning experimental layouts."}
 
+:::{.callout-important}
+Note that you will need to respond to the questions below as part of your ELN entry, so consider them as you plan your workflow.
+:::
+
 - Where does the water go?
 - How much water is added to each well?
 - Where is crystal violet added first?
@@ -148,6 +152,10 @@ Figure @fig-module1-plate-template can be copied into the ELN or notebook to ske
 - What should happen after mixing well A12?
 
 ### Reflection Prompts
+
+:::{.callout-note}
+Note that each module will have a set of reflection questions to help you connect the activities to the learning outcomes. You will need to answer these questions in your ELN entry, so consider them as you work through the activity.
+:::
 
 1. What is the dilution factor in this series?
 2. How dilute is the final sample relative to the starting dye?

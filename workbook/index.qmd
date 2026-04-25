@@ -14,14 +14,14 @@ Each module is structured as a working lab-book chapter with the same core parts
 
 ## Module Sequence
 
-1. [Getting Started](module-01.qmd): lab safety, pipetting, and serial dilutions
-2. [Microbial Propagation](module-02.qmd): plate streaking and liquid cultures
-3. [Microbial Growth Curves](module-03.qmd): strain comparisons and biofilms
+1. [Getting Started](module-01.qmd): Lab safety, pipetting, and serial dilutions
+2. [Microbial Propagation](module-02.qmd): Plate streaking and liquid cultures
+3. [Microbial Growth Curves](module-03.qmd): Strain comparisons and biofilms
 4. [Microbial Metabolism](module-04.qmd): Biolog GEN III characterization
-5. [Microbial Interactions](module-05.qmd): isolate co-culture
+5. [Microbial Interactions](module-05.qmd): Isolate co-culture
 6. [Microbial Genome Sequencing](module-06.qmd): DNA isolation, quantification, and sequencing
-7. [Data Analysis and Experimental Design](module-07.qmd): assembly, annotation, and interpretation
-8. [Share Your Results](module-08.qmd): final experiment planning, execution, and reflection
+7. [Data Analysis and Experimental Design](module-07.qmd): Assembly, annotation, and interpretation
+8. [Share Your Results](module-08.qmd): Final experiment planning, execution, and reflection
 
 ## Notes
 

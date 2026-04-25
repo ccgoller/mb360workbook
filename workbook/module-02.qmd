@@ -12,14 +12,14 @@ Weeks 2 and 3 focus on plate streaking, colony observation, and starting liquid 
 
 ## Learning Outcomes
 
-- List the items needed to propagate microbes in liquid cultures and 96-well plates.
-- Explain the stages of bacterial growth on a growth-curve graph.
-- Describe defined, complex, selective, enriched, and differential media.
-- Discuss the importance of controls.
-- Practice inoculating and diluting liquid cultures.
-- Describe the purpose, methods, and preliminary results of microbial growth experiments.
-- Collect and interpret colony morphology and growth data.
-- Create and use a team data management plan.
+- **List** the items needed to propagate microbes in liquid cultures and 96-well plates.
+- **Explain** the stages of bacterial growth on a growth-curve graph.
+- **Describe** defined, complex, selective, enriched, and differential media.
+- **Discuss** the importance of controls.
+- **Practice** inoculating and diluting liquid cultures.
+- **Describe** the purpose, methods, and preliminary results of microbial growth experiments.
+- **Collect** and **interpret** colony morphology and growth data.
+- **Create** and **use** a team data management plan.
 
 ## Skills and Knowledge
 
@@ -54,6 +54,9 @@ This module uses Delftia acidovorans and related environmental isolates. Each gr
 
 #### Before Lab
 
+:::{.callout-caution}
+Note that we will be working with live microbial isolates today. Please follow all safety protocols and dispose of potentially biohazardous materials properly.
+:::
 - Wear a lab coat, goggles, and gloves.
 - Wipe the bench and pipettors with 70% ethanol.
 

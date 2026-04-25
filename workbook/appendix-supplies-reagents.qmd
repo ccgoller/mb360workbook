@@ -4,64 +4,67 @@ This appendix provides a consolidated checklist of supplies and reagents used ac
 
 ## Core Supplies and Equipment
 
-- Lab coats, nitrile gloves, and safety goggles
+- Disposable lab coats, nitrile gloves, and safety goggles
 - Benchtop disinfectant (70% ethanol)
 - Micropipettes (single channel and multichannel)
-- Sterile pipette tips (appropriate volumes)
+- Sterile pipette tips (appropriate volumes, preferably filtered)
 - Sterile reservoirs for multichannel loading
 - Sterile microcentrifuge tubes and culture tubes
-- DNA LoBind tubes
+- DNA LoBind 1.5 ml microfuge tubes (Eppendorf)
 - Centrifuge and microcentrifuge
 - Vortex mixer
-- Shaking incubator
-- Plate incubator
+- Shaking incubator for 30°C and 33°C incubation
+- Incubator for 30-33°C static cultures and plates
 - 96-well microplates
-- Breathable plate seals
+- Breathe-Easy breathable plate seals
 - Peg-lid biofilm assay plates
 - Cerillo Duet co-culture plate system
-- Plate reader (OD600 and endpoint absorbance)
-- Qubit fluorometer and assay tubes
-- Turbidimeter
+- Plate reader (OD600 kinetic and endpoint absorbance)
+- Invitrogen Qubit fluorometer and assay tubes
+- Invitrogen Qubit dsDNA HS Assay Kit
+- Turbidimeter (Biolog Turbidimeter or equivalent)
 - Sterile loops for colony transfer
 - Biohazard waste containers
 
 ## Microbiology Media and Biological Materials
 
-- Delftia acidovorans isolates and comparison isolates
-- Tryptic Soy Agar (TSA) plates
-- Tryptic Soy Broth (TSB)
+- *Delftia acidovorans* isolates and comparison isolates
+- Tryptic Soy Agar (TSA) plates (Teknova or Hardy Diagnostics))
+- Tryptic Soy Broth (TSB) for liquid cultures (Teknova or Hardy Diagnostics)
 - Biolog Blood Universal Growth (BUG) agar
-- Biolog GEN III MicroPlates
-- IF-A inoculating fluid (for Biolog workflow)
+- Biolog GEN III Microplates
+- Biolog IF-A inoculating fluid (for Biolog GEN III assays)
 - Phosphate-buffered saline (PBS)
 
 ## Reagents for Pipetting and Assay Setup
 
+- MiniPCR micropipetting cards
 - Crystal violet solution (serial dilution activity)
-- Dyed water solutions (blue, yellow, red) for volume challenge
-- Biofilm viability detection reagent components:
+- Dyed water solutions (blue, yellow, red food coloring) for volume challenge
+- Dojindo biofilm viability detection reagent components:
   - WST solution
   - Electron mediator reagent
   - TSB diluent
 
 ## DNA Extraction and Sequencing Reagents
 
-- TE buffer
-- Lysozyme (10 mg/mL in TE)
-- Proteinase K
-- RNase A
-- CTAB buffer
-- Monarch gDNA Binding Buffer
-- Monarch wash buffers
-- Monarch gDNA Elution Buffer
-- Nanopore rapid barcoding kit reagents
+- TE buffer (Ambion)
+- Sigma Lysozyme (10 mg/mL in TE; powder form stored at -80°C)
+- New England Biolabs (NEB) Monarch Proteinase K
+- New England Biolabs (NEB) Monarch RNase A
+- CTAB buffer (Promega)
+- New England Biolabs (NEB) Monarch gDNA Binding Buffer
+- New England Biolabs (NEB) Monarch wash buffers
+- New England Biolabs (NEB) Monarch gDNA Elution Buffer
+- Oxford Nanopore Technologies (ONT) Rapid Barcoding Kit (SQK-RBK114.24)reagents
+- ONT Flow Cells (FLO-MIN114) and associated reagents for sequencing runs
 
 ## Computational and Data Resources
 
 - Electronic lab notebook (ELN)
 - Quarto for workbook rendering
-- BV-BRC workspace and workflows
-- SeqHub for genome exploration
+- BV-BRC.org account and workspace for assembly and annotation workflows
+- SeqHub.org for genome exploration
 
 ## Notes
 
