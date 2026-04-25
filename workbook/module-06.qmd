@@ -76,7 +76,7 @@ Figure @fig-module6-sequencing-overview summarizes the sequencing and downstream
 4. Add CTAB buffer and incubate at 56 C for 30 minutes.
 5. Combine lysate with Monarch gDNA Binding Buffer at a 2:1 ratio.
 6. Bind DNA to the spin column, wash twice, and elute with preheated Monarch gDNA Elution Buffer.
-7. Quantify 1 uL of DNA with the Qubit fluorometer.
+7. Quantify 1 µL of DNA with the Qubit fluorometer.
 8. Prepare sequencing-ready DNA according to the NO-MISS rapid barcoding workflow.
 
 Figure @fig-module6-qubit illustrates the Qubit measurement setup used to quantify extracted DNA prior to library preparation.

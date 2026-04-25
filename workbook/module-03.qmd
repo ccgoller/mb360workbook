@@ -73,14 +73,14 @@ Figure @fig-module3-growth-layout provides a reusable 96-well template for mappi
 - Prepare 1:1000 dilutions of the overnight cultures.
 - Use positive and negative controls.
 - Pour diluted cultures into sterile reservoirs.
-- Use a multichannel pipette to add 100 uL to the assigned 96-well plate columns.
+- Use a multichannel pipette to add 100 µL to the assigned 96-well plate columns.
 - Seal the plate with a breathable seal.
 - Load the plate into the plate reader for 48 hours at 30 C with shaking.
 
 ### Methods: Biofilm Assay Setup
 
 - Prepare fresh 1:1000 dilutions for the biofilm plate.
-- Seed the assigned wells with 100 uL per well.
+- Seed the assigned wells with 100 µL per well.
 - Add the peg lid without contaminating the pegs.
 - Incubate for 48 hours at 30 C.
 

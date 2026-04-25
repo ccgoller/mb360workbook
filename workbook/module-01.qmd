@@ -61,8 +61,8 @@ Figure @fig-module1-pipette shows the micropipette volume display students shoul
 - Add the correct amount of liquid to each circle and keep each drop within the circle.
 - Have each group member try at least two different volumes.
 - Practice picking up the entire drop without leaving liquid behind.
-- Pipette several 5 uL drops and compare them for consistency.
-- Combine four 4 uL additions into a single spot, predict the total volume, then test whether you can recover it fully.
+- Pipette several 5 µL drops and compare them for consistency.
+- Combine four 4 µL additions into a single spot, predict the total volume, then test whether you can recover it fully.
 
 ### Methods: Volume Challenge
 
@@ -77,16 +77,16 @@ Your instructor will provide blue, yellow, and red dyed water. Use the Pipette P
 
 #### Instructions
 
-1. Add 13.5 uL of blue dye to dot A.
-2. Add 17.5 uL of yellow dye to dot C.
-3. Add 17 uL of red dye to dot E.
-4. Transfer 2 uL from dot A to dot F.
-5. Transfer 4.5 uL from dot C to dot B.
-6. Transfer 3 uL from dot E to dot D.
+1. Add 13.5 µL of blue dye to dot A.
+2. Add 17.5 µL of yellow dye to dot C.
+3. Add 17 µL of red dye to dot E.
+4. Transfer 2 µL from dot A to dot F.
+5. Transfer 4.5 µL from dot C to dot B.
+6. Transfer 3 µL from dot E to dot D.
 7. Calculate the volume now present on each dot.
-8. Mix 6 uL from dot E into dot F.
-9. Mix 3.5 uL from dot A into dot B.
-10. Mix 5 uL from dot C into dot D.
+8. Mix 6 µL from dot E into dot F.
+9. Mix 3.5 µL from dot A into dot B.
+10. Mix 5 µL from dot C into dot D.
 
 ### Protocol Notes
 
@@ -126,13 +126,13 @@ Use Figure @fig-module1-microplate to plan the first rows of the microplate befo
 
 ![Top rows of a 96-well microplate used to plan the serial dilution setup.](images/template/image11.jpg){#fig-module1-microplate fig-alt="Photo of the top rows of a 96-well microplate used as a planning guide for serial dilution."}
 
-1. Add 50 uL of water to each well in row A.
-2. Add 50 uL of crystal violet to well A1.
-3. Mix A1 gently, then transfer 50 uL from A1 to A2.
+1. Add 50 µL of water to each well in row A.
+2. Add 50 µL of crystal violet to well A1.
+3. Mix A1 gently, then transfer 50 µL from A1 to A2.
 4. Repeat across row A through A12.
-5. Discard the final 50 uL after mixing A12.
+5. Discard the final 50 µL after mixing A12.
 6. Repeat the same process for rows B, C, and D as assigned between partners.
-7. Add 100 uL of water to well H12 as a negative control.
+7. Add 100 µL of water to well H12 as a negative control.
 8. Compare rows visually, then measure absorbance with the plate reader.
 
 ### Planning Prompts

@@ -96,7 +96,7 @@ Figure @fig-module4-biolog-incubation shows the expected appearance of an inocul
 ![Biolog GEN III plate after incubation with visible growth response.](images/template/image9.png){#fig-module4-biolog-incubation fig-alt="Illustration of a Biolog GEN III plate with several purple wells indicating post-incubation growth response."}
 
 - Pour the prepared cell suspension into a multichannel reservoir.
-- Load the multichannel pipette and add 100 uL to each well of the GEN III plate.
+- Load the multichannel pipette and add 100 µL to each well of the GEN III plate.
 - Replace tips whenever contamination is possible.
 - Confirm that every well contains liquid.
 - Incubate one plate in the plate reader and another statically at 33 C for 1 to 2 days.
