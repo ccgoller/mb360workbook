@@ -1,6 +1,14 @@
 project:
   type: book
 
+website:
+  announcement:
+    icon: info-circle
+    dismissable: true
+    content: "**Alert** - this is some information that you should pay attention to"
+    type: primary
+    position: below-navbar
+
 book:
   image: MB360logo.png
   cover-image: MB360logo-transparent.png
@@ -8,12 +16,6 @@ book:
   page-navigation: true
   reader-mode: true
   repo-url: https://github.com/ccgoller/mb360workbook
-  announcement:
-    icon: info-circle
-    dismissable: true
-    content: "**Alert** - this is some information that you should pay attention to"
-    type: primary
-    position: below-navbar
   downloads: [pdf, epub, docx]
 
   navbar:
