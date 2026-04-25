@@ -3,7 +3,7 @@ project:
 
 book:
   image: MB360logo.png
-  cover-image: MB360logo.png
+  cover-image: MB360logo-transparent.png
   favicon: MB360logo.png
   page-navigation: true
   reader-mode: true
@@ -22,7 +22,7 @@ book:
         href: index.qmd
         text: "Home"
   sidebar:
-    logo: MB360logo.png
+    logo: MB360logo-transparent.png
     title: "MB 360 Lab Workbook"
     
     contents:
@@ -109,7 +109,7 @@ format:
     toc: true
     number-sections: true
   epub:
-    cover-image: MB360logo.png
+    cover-image: MB360logo-transparent.png
     toc: true
   docx:
     toc: true
