@@ -45,7 +45,7 @@ Successful completion requires use of BV-BRC and SeqHub, careful documentation o
 
 ## Background
 
-Students now use sequence data generated earlier in the course to compare isolates with Delftia acidovorans SPH-1 and other related genomes. The goal is to identify genetic features that explain observed growth and metabolic behavior.
+Students now use sequence data generated earlier in the course to compare isolates with *Delftia acidovorans* SPH-1 and other related genomes. The goal is to identify genetic features that explain observed growth and metabolic behavior.
 
 Figure @fig-module7-sequencing-overview is reused from the sequencing workflow to anchor where assembly, annotation, and comparative analysis fit into the broader pipeline.
 

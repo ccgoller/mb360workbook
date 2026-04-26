@@ -6,7 +6,7 @@ Weeks 2 and 3 focus on plate streaking, colony observation, and starting liquid 
 
 ## Purpose
 
-- Recover and propagate Delftia acidovorans from colonies.
+- Recover and propagate *Delftia acidovorans* from colonies.
 - Observe colony morphology, streak plates, and start liquid cultures.
 - Review safety procedures for working with live microbial isolates.
 
@@ -46,7 +46,7 @@ You should complete the solid- and liquid-media propagation tasks, collect obser
 
 ## Background
 
-This module uses Delftia acidovorans and related environmental isolates. Each group works with one isolate and is responsible for careful handling, observation, and documentation.
+This module uses *Delftia acidovorans* and related environmental isolates. Each group works with one isolate and is responsible for careful handling, observation, and documentation.
 
 ## Procedures
 

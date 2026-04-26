@@ -6,7 +6,7 @@ Weeks 4 and 5 focus on growth-curve experiments, multichannel pipetting, and bio
 
 ## Purpose
 
-- Evaluate growth rates of different Delftia species.
+- Evaluate growth rates of different *Delftia* species.
 - Prepare liquid cultures from single colonies for 96-well growth assays.
 - Analyze growth parameters from shaking cultures.
 - Investigate differences in biofilm formation among isolates.
@@ -48,7 +48,7 @@ Successful completion requires participation in both assay workflows, collection
 
 ## Background
 
-This module compares growth and biofilm formation in Delftia acidovorans, Delftia tsuruhatensis, and student isolates while maintaining strong contamination control.
+This module compares growth and biofilm formation in *Delftia acidovorans*, *Delftia tsuruhatensis*, and student isolates while maintaining strong contamination control.
 
 ## Procedures
 

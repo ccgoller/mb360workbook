@@ -42,7 +42,7 @@ Successful completion requires active participation in the in-lab activities, co
 
 ## Background
 
-The course uses teaching labs in Thomas Hall and focuses on work with Delftia acidovorans. Because environmental isolates may be naturally antibiotic-resistant, all work should minimize exposure and maintain good containment practices.
+The course uses teaching labs in Thomas Hall and focuses on work with *Delftia acidovorans*. Because environmental isolates may be naturally antibiotic-resistant, all work should minimize exposure and maintain good containment practices.
 
 ## Procedures
 
