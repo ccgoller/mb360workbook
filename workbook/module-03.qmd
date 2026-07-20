@@ -75,7 +75,7 @@ Figure @fig-module3-growth-layout provides a reusable 96-well template for mappi
 - Pour diluted cultures into sterile reservoirs.
 - Use a multichannel pipette to add 100 µL to the assigned 96-well plate columns. Check out the tutorial on how to use a multichannel pipette: https://www.youtube.com/watch?v=RmXqbyWYr20 
 - Seal the plate with a breathable seal.
-- Load the plate into the plate reader for 48 hours at 30 C with shaking.
+- Load the plate into the plate reader for 48 hours at 30 C with shaking. If using Breathe-Easy film, follow the video: https://www.youtube.com/watch?v=rk_F4fURBMU
 
 ### Methods: Biofilm Assay Setup
 
