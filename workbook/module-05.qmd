@@ -74,7 +74,7 @@ Figure @fig-module5-duet-layout maps the isolate-only, control, and co-culture c
 2. Add 800 µL of diluted culture to triplicate wells for the isolate-only condition.
 3. Add 800 µL of TSB to the adjacent control wells.
 4. Add 800 µL of diluted SPH-1 to the paired experimental wells for co-culture.
-5. Seal the plate carefully.
+5. Seal the plate carefully. If using Breathe-Easy film, follow the video: {{< video https://www.youtube.com/watch?v=rk_F4fURBMU >}}
 6. Incubate with shaking at 30 C for 24 to 48 hours.
 7. Analyze OD600 measurements collected every 5 minutes.
 
