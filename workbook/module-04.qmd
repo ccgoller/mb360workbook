@@ -99,7 +99,7 @@ Figure @fig-module4-biolog-incubation shows the expected appearance of an inocul
 - Load the multichannel pipette and add 100 µL to each well of the GEN III plate.
 - Replace tips whenever contamination is possible.
 - Confirm that every well contains liquid.
-- Incubate one plate in the plate reader and another statically at 33 C for 1 to 2 days. If using the Breathe-Easy Film, follow the tutorial: https://www.youtube.com/watch?v=rk_F4fURBMU
+- Incubate one plate in the plate reader and another statically at 33 C for 1 to 2 days. If using Breathe-Easy film, follow the video: {{< video https://www.youtube.com/watch?v=rk_F4fURBMU >}}
 
 ### Protocol Notes
 
