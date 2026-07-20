@@ -12,7 +12,7 @@ This page provides a quick index to the figures embedded throughout the workbook
 - Figure @fig-module1-pipette in [Module 1](module-01.qmd): Micropipette volume display
 - Figure @fig-module1-serial-overview in [Module 1](module-01.qmd): Serial dilution overview
 - Figure @fig-module1-microplate in [Module 1](module-01.qmd): Top rows of a 96-well microplate
-- Figure @fig-module1-plate-template in [Module 1](module-01.qmd): blank 96-well plate template
+- Figure @fig-module1-plate-template in [Module 1](module-01.qmd): Empty 96-well plate template
 
 ## Module 2
 
