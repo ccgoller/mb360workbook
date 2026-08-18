@@ -7,7 +7,7 @@ project:
     - appendix-supplies-reagents.pdf
     - appendix-supplies-reagents.docx
 
-website:
+book:
   announcement:
     icon: info-circle
     dismissable: true
@@ -15,7 +15,6 @@ website:
     type: secondary
     position: below-navbar
 
-book:
   site-url: https://ccgoller.github.io/mb360workbook/
   image: MB360logo.png
   cover-image: MB360logo-transparent.png
@@ -33,7 +32,7 @@ book:
   sidebar:
     logo: MB360logo-transparent.png
     title: "MB 360 Lab Workbook"
-    
+
     contents:
       - text: "Workbook Home"
         href: index.qmd
@@ -64,20 +63,20 @@ book:
       - text: "About the Authors"
         contents:
           - text: "Carlos C. Goller"
-            href: about.html
+            href: about.qmd
           - text: "Camila Loyola"
-            href: about-camila.html
+            href: about-camila.qmd
       - text: "Figures Index"
         href: figures.qmd
 
   title: "MB 360 Lab Workbook"
-  subtitle: "MB 360: Scientific Inquiry in Microbiology At the Bench| Microbial Metabolism and Genomics"
+  subtitle: "MB 360: Scientific Inquiry in Microbiology At the Bench | Microbial Metabolism and Genomics"
   author:
     - name: "Carlos C. Goller, Ph.D."
       affiliation: "Department of Biological Sciences, NC State University"
     - name: "Camila Loyola, Graduate Teaching Assistant"
       affiliation: "Master of Microbial Biotechnology, NC State University"
-  date: "4/17/2026"
+  date: today
   chapters:
     - index.qmd
     - module-01.qmd
@@ -101,6 +100,9 @@ book:
     type: overlay
 
 bibliography: references.bib
+
+execute:
+  freeze: auto
 
 format:
   html:

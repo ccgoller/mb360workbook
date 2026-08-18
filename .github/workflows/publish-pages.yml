@@ -35,12 +35,13 @@ jobs:
       - name: Render slides
         run: |
           mkdir -p _book/slides
-          if [ -d "slides" ] && [ "$(ls -A slides/*.qmd 2>/dev/null)" ]; then
-            for qmd in slides/*.qmd; do
-              name=$(basename "$qmd" .qmd)
-              quarto render "$qmd" -t revealjs --output "${name}.html"
-              mv "${name}.html" "_book/slides/${name}.html"
-            done
+          if [ -d "slides" ] && [ "$(find slides -maxdepth 1 -name '*.qmd' -print -quit)" ]; then
+            (
+              cd slides
+              for qmd in *.qmd; do
+                quarto render "$qmd" -t revealjs --output-dir "../_book/slides"
+              done
+            )
           fi
         working-directory: workbook
 
