@@ -1,21 +1,125 @@
 project:
   type: book
   output-dir: _book
+  render:
+    - "*.qmd"
+  resources:
+    - appendix-supplies-reagents.pdf
+    - appendix-supplies-reagents.docx
+
+website:
+  announcement:
+    icon: info-circle
+    dismissable: true
+    content: "**Information** - Please read Module 1 before proceeding."
+    type: secondary
+    position: below-navbar
 
 book:
-  title: "MB 360 Workbook"
-  site-url: "https://ccgoller.github.io/mb360workbook/"
-  repo-url: "https://github.com/ccgoller/mb360workbook"
-  repo-branch: "main"
+  site-url: https://ccgoller.github.io/mb360workbook/
+  image: MB360logo.png
+  cover-image: MB360logo-transparent.png
+  favicon: MB360logo.png
+  page-navigation: true
+  reader-mode: true
+  repo-url: https://github.com/ccgoller/mb360workbook
+  downloads: [pdf, epub, docx]
+
+  navbar:
+    left:
+      - icon: book
+        href: index.qmd
+        text: "Home"
+  sidebar:
+    logo: MB360logo-transparent.png
+    title: "MB 360 Lab Workbook"
+
+    contents:
+      - text: "Workbook Home"
+        href: index.qmd
+      - text: "Modules"
+        contents:
+          - text: "Module 1: Getting Started"
+            href: module-01.qmd
+          - text: "Module 2: Microbial Propagation"
+            href: module-02.qmd
+          - text: "Module 3: Microbial Growth Curves"
+            href: module-03.qmd
+          - text: "Module 4: Microbial Metabolism"
+            href: module-04.qmd
+          - text: "Module 5: Microbial Interactions"
+            href: module-05.qmd
+          - text: "Module 6: Microbial Genome Sequencing"
+            href: module-06.qmd
+          - text: "Module 7: Data Analysis and Experimental Design"
+            href: module-07.qmd
+          - text: "Module 8: Share Your Results"
+            href: module-08.qmd
+      - text: "Appendix"
+        contents:
+          - text: "Supplies and Reagents"
+            href: appendix-supplies-reagents.qmd
+      - text: "References"
+        href: references.qmd
+      - text: "About the Authors"
+        contents:
+          - text: "Carlos C. Goller"
+            href: about.html
+          - text: "Camila Loyola"
+            href: about-camila.html
+      - text: "Figures Index"
+        href: figures.qmd
+
+  title: "MB 360 Lab Workbook"
+  subtitle: "MB 360: Scientific Inquiry in Microbiology At the Bench| Microbial Metabolism and Genomics"
+  author:
+    - name: "Carlos C. Goller, Ph.D."
+      affiliation: "Department of Biological Sciences, NC State University"
+    - name: "Camila Loyola, Graduate Teaching Assistant"
+      affiliation: "Master of Microbial Biotechnology, NC State University"
+  date: "4/17/2026"
   chapters:
     - index.qmd
+    - module-01.qmd
+    - module-02.qmd
+    - module-03.qmd
+    - module-04.qmd
+    - module-05.qmd
+    - module-06.qmd
+    - module-07.qmd
+    - module-08.qmd
+    - appendix-supplies-reagents.qmd
+    - references.qmd
+    - part: "About the Authors"
+      chapters:
+        - about.qmd
+        - about-camila.qmd
+    - figures.qmd
+
+  search:
+    location: navbar
+    type: overlay
+
+bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: default
+      dark: darkly
+    css: styles.css
+    lightbox: true
+    page-footer:
+      center: "MB 360 Lab Workbook | Carlos C. Goller, Ph.D."
+  pdf:
+    documentclass: scrreprt
+    fontsize: 12pt
+    geometry: margin=1in
     toc: true
-    toc-depth: 3
     number-sections: true
-
-execute:
-  freeze: auto
+  epub:
+    cover-image: MB360logo-transparent.png
+    toc: true
+  docx:
+    toc: true
+    number-sections: true
