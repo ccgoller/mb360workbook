@@ -40,6 +40,7 @@ jobs:
 
       - name: Verify rendered slide decks
         run: |
+          set -e
           for module in 01 02 03 04 05 06 07 08; do
             test -f "workbook/_book/slides/module-${module}-slides.html"
           done

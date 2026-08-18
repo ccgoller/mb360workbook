@@ -54,7 +54,17 @@
     };
 
     enhanceSlides();
-    // Reveal.js injects controls and the slide logo after the initial DOM is written.
-    window.setTimeout(enhanceSlides, 300);
+    if (window.Reveal && typeof window.Reveal.on === "function") {
+      window.Reveal.on("ready", enhanceSlides);
+    }
+
+    const observer = new MutationObserver(() => {
+      enhanceSlides();
+      if (document.querySelector(".reveal .controls") && document.querySelector(".reveal .slide-logo")) {
+        observer.disconnect();
+      }
+    });
+
+    observer.observe(document.body, { childList: true, subtree: true });
   })();
 </script>
