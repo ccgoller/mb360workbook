@@ -7,7 +7,7 @@ project:
     - appendix-supplies-reagents.pdf
     - appendix-supplies-reagents.docx
 
-website:
+book:
   announcement:
     icon: info-circle
     dismissable: true
@@ -15,7 +15,6 @@ website:
     type: secondary
     position: below-navbar
 
-book:
   site-url: https://ccgoller.github.io/mb360workbook/
   image: MB360logo.png
   cover-image: MB360logo-transparent.png
@@ -64,9 +63,9 @@ book:
       - text: "About the Authors"
         contents:
           - text: "Carlos C. Goller"
-            href: about.html
+            href: about.qmd
           - text: "Camila Loyola"
-            href: about-camila.html
+            href: about-camila.qmd
       - text: "Figures Index"
         href: figures.qmd
 
