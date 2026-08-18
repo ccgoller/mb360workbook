@@ -1,5 +1,6 @@
 project:
   type: book
+  output-dir: _book
   render:
     - "*.qmd"
   resources:
@@ -15,6 +16,7 @@ website:
     position: below-navbar
 
 book:
+  site-url: https://ccgoller.github.io/mb360workbook/
   image: MB360logo.png
   cover-image: MB360logo-transparent.png
   favicon: MB360logo.png

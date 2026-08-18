@@ -8,19 +8,30 @@ institute: "NC State University | Department of Biological Sciences"
 date: today
 format:
   revealjs:
-    theme: mb360-revealjs.scss
+    theme: [default, theme-mb360.scss]
     logo: ../MB360logo-transparent.png
     footer: "MB 360 Lab Workbook | NC State University"
     slide-number: true
     controls: true
     progress: true
-    transition: slide
+    transition: fade
     center: false
+    margin: 0.08
+    width: 1600
+    height: 900
     highlight-style: github
     self-contained: true
+    title-slide: false
 ---
 
-## Overview {data-background-color="#990000"}
+# Module 1: Getting Started {.title-slide data-background-color="#1f4e79"}
+
+### MB 360: Scientific Inquiry in Microbiology At the Bench
+
+MB 360 Lab Workbook  
+NC State University | Department of Biological Sciences
+
+## Overview {data-background-color="#1f4e79"}
 
 :::{style="color:#ffffff; font-size:0.9em;"}
 **Week 1** · Lab safety · Pipetting fundamentals · First ELN entries
@@ -120,13 +131,11 @@ This module uses **1:10 dilutions of crystal violet** in a 96-well plate.
 
 ## Results & Analysis
 
-**Collect**
-
+### Collect
 - Photo of the completed pipetting card (annotated)
 - Written notes on observations during volume-challenge and serial-dilution steps
 
-**Analyze**
-
+### Analyze
 - Did liquid transfers match expectations?
 - What do results suggest about your current pipetting precision?
 

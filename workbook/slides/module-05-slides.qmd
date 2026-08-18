@@ -8,19 +8,30 @@ institute: "NC State University | Department of Biological Sciences"
 date: today
 format:
   revealjs:
-    theme: mb360-revealjs.scss
+    theme: [default, theme-mb360.scss]
     logo: ../MB360logo-transparent.png
     footer: "MB 360 Lab Workbook | NC State University"
     slide-number: true
     controls: true
     progress: true
-    transition: slide
+    transition: fade
     center: false
+    margin: 0.08
+    width: 1600
+    height: 900
     highlight-style: github
     self-contained: true
+    title-slide: false
 ---
 
-## Overview {data-background-color="#990000"}
+# Module 5: Microbial Interactions {.title-slide data-background-color="#1f4e79"}
+
+### MB 360: Scientific Inquiry in Microbiology At the Bench
+
+MB 360 Lab Workbook  
+NC State University | Department of Biological Sciences
+
+## Overview {data-background-color="#1f4e79"}
 
 :::{style="color:#ffffff; font-size:0.9em;"}
 **Weeks 8–9** · Co-culture experiments · Diffusion-mediated contact · Growth data analysis
@@ -96,13 +107,11 @@ Questions this module addresses:
 
 ## Results & Analysis
 
-**Collect**
-
+### Collect
 - Images of the co-culture plate
 - Figures generated from OD₆₀₀ growth data
 
-**Analyze**
-
+### Analyze
 - Compare isolate-only growth to co-culture growth
 - Did the second organism support, suppress, or reshape your isolate's growth profile?
 
