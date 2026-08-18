@@ -35,9 +35,9 @@ jobs:
       - name: Render slides
         run: |
           mkdir -p _book/slides
-          shopt -s nullglob
           for qmd in slides/*.qmd; do
-            quarto render "$qmd" --output-dir _book/slides
+            name=$(basename "$qmd" .qmd)
+            quarto render "$qmd" --output "../_book/slides/${name}.html"
           done
         working-directory: workbook
 
