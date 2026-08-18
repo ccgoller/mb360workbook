@@ -218,14 +218,14 @@ $borderRadius: 10px;
 }
 
 .reveal a {
-  color: $mb360-primary;
+  color: $mb360-red;
   text-decoration: underline;
   text-underline-offset: 0.08em;
 }
 
 .reveal a:hover,
 .reveal a:focus {
-  color: $mb360-primary;
+  color: $mb360-red-deep;
 }
 
 .reveal .footer {
