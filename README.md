@@ -60,7 +60,7 @@ This repository contains a Quarto book for the MB 360 ELN Workbook.
 
 ## Verify Slides Locally
 
-From `/home/runner/work/mb360workbook/mb360workbook/workbook`:
+From the `workbook/` directory of the cloned repository:
 
 - Render the book HTML: `quarto render --to html`
 - Render the slide decks into `_book/slides/`: `quarto render slides`
