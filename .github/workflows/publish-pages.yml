@@ -35,10 +35,12 @@ jobs:
       - name: Render slides
         run: |
           mkdir -p _book/slides
+          test -f slides/mb360-revealjs.scss || { echo "Missing slides/mb360-revealjs.scss"; exit 1; }
+
           if [ -d "slides" ] && [ "$(find slides -maxdepth 1 -name '*.qmd' -print -quit)" ]; then
             for qmd in slides/*.qmd; do
-              base="${qmd%.qmd}"
-              name="$(basename "$base")"
+              name="$(basename "${qmd%.qmd}")"
+              echo "Rendering $qmd"
               quarto render "$qmd" -t revealjs --output "${name}.html" --output-dir "_book/slides"
             done
           fi
