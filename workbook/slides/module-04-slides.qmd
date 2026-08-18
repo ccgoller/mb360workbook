@@ -1,0 +1,151 @@
+---
+title: "Module 4: Microbial Metabolism"
+subtitle: "MB 360: Scientific Inquiry in Microbiology At the Bench"
+author:
+  - "Carlos C. Goller, Ph.D."
+  - "Camila Loyola, Graduate Teaching Assistant"
+institute: "NC State University | Department of Biological Sciences"
+date: today
+format:
+  revealjs:
+    theme: mb360-revealjs.scss
+    logo: ../MB360logo-transparent.png
+    footer: "MB 360 Lab Workbook | NC State University"
+    slide-number: true
+    controls: true
+    progress: true
+    transition: slide
+    center: false
+    highlight-style: github
+    self-contained: true
+---
+
+## Overview {data-background-color="#990000"}
+
+:::{style="color:#ffffff; font-size:0.9em;"}
+**Weeks 6–7** · Biolog GEN III phenotypic characterization · Growth measurements · Metabolic interpretation
+
+- Evaluate bacterial growth across many chemical and environmental conditions
+- Perform metabolic profiling with GEN III MicroPlates
+- Connect phenotypic data to the overall research question
+:::
+
+## Learning Outcomes
+
+- **List** safety considerations for propagating microbes
+- **Explain** the purpose of GEN III Biolog plates and metabolic tests
+- **Describe** the features of biofilms
+- **Discuss** the significance of growth curves
+- **Practice** multichannel pipetting; use a turbidimeter to adjust inoculum density
+- **Collect** and **interpret** growth data from Biolog GEN III plates
+- **Create** a draft for the individual and group projects
+
+## Skills & Knowledge
+
+:::{.columns}
+:::{.column}
+:::{.column-label}
+Skills
+:::
+
+- Follow PPE and microbial safety procedures
+- Use Biolog plates and multichannel pipettors correctly
+- Adjust bacterial density with a turbidimeter
+- Analyze bacterial growth data from 96-well plates
+:::
+
+:::{.column}
+:::{.column-label}
+Knowledge
+:::
+
+- PPE requirements for microbial work
+- Phenotypic assays and growth assessment
+- Seeding 96-well plates for bacterial growth
+:::
+:::
+
+## Background: Biolog GEN III
+
+![Biolog GEN III plate layout with carbon-source and control wells.](../images/template/image3.png){fig-alt="Biolog GEN III plate layout showing the distribution of test conditions across the wells." style="max-height:260px; display:block; margin:0 auto;"}
+
+Biolog Blood Universal Growth (BUG) agar + GEN III MicroPlates  
+→ test bacterial growth across **94 conditions** at once using metabolic dye chemistry
+
+## Lab Safety
+
+:::{.columns}
+:::{.column}
+**Before Lab**
+
+- Wear lab coat, goggles, and gloves
+- Wipe benches and pipettors with 70% ethanol
+
+**During Lab**
+
+- Treat all tips as biohazards
+- Remove PPE when leaving the lab
+:::
+
+:::{.column}
+**After Lab**
+
+- Clean work areas and personal items with ethanol
+- Dispose of liquids, plates, gloves, and glass using the assigned workflow
+- Return reusable materials and wash hands
+:::
+
+## Methods: Activity 1 — Turbidimeter
+
+1. Blank the turbidimeter with uninoculated IF-A fluid
+2. Swab bacteria from the BUG agar plate into IF-A inoculating fluid
+3. Mix gently and measure turbidity
+4. Adjust the inoculum to a target density of **95% transmittance**
+
+## Methods: Activity 2 — Biolog Plate Loading
+
+![Loading a Biolog GEN III plate with a multichannel pipette.](../images/template/image8.png){fig-alt="Illustration showing a multichannel pipette transferring inoculum into a 96-well Biolog plate." style="max-height:200px; display:block; margin:0 auto;"}
+
+- Pour prepared cell suspension into a multichannel reservoir
+- Load multichannel pipette; add **100 µL** to each well
+- Replace tips whenever contamination is possible
+- Confirm every well contains liquid
+
+## Methods: Incubation
+
+![Biolog GEN III plate after incubation with visible growth response.](../images/template/image9.png){fig-alt="Illustration of a Biolog GEN III plate with several purple wells indicating post-incubation growth response." style="max-height:200px; display:block; margin:0 auto;"}
+
+- Incubate **one plate** in the plate reader
+- Incubate **another plate** statically at **33 °C** for 1–2 days
+
+## Results & Analysis
+
+**Collect**
+
+- Save and share raw 600 nm readings
+- Export blank-corrected table as CSV
+
+**Analyze**
+
+- Interpret colour changes, growth patterns, and wells with or without growth
+- Identify which carbon sources support growth vs. inhibit your isolate
+
+## Discussion Questions
+
+1. What are the advantages and disadvantages of using a multichannel pipette?
+2. How do you maintain a pure culture during inoculation, and why is that necessary here?
+3. What does a turbidimeter measure, and why is that important for this assay?
+4. Why are BUG-grown bacteria used instead of TSA-grown bacteria?
+5. How has your multichannel technique changed over the semester?
+
+## {.closing}
+
+:::{.closing}
+![](../MB360logo-transparent.png){.closing-logo fig-alt="MB 360 Lab Workbook logo"}
+
+**Module 4 Complete — Microbial Metabolism**
+
+:::{.closing-note}
+MB 360 Lab Workbook · Carlos C. Goller, Ph.D. · NC State University
+:::
+:::

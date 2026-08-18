@@ -1,5 +1,9 @@
 # Module 8: Share Your Results
 
+:::{.slide-link}
+[{{< bi easel2 >}} View Slide Deck](slides/module-08-slides.html){.btn target="_blank" aria-label="Open Module 8 slide deck in a new tab"}
+:::
+
 ## Overview
 
 Week 15 is the capstone module. Students design or repeat an experiment, analyze the results, and connect the final experiment back to the semester's genomic and phenotypic findings.

@@ -1,5 +1,9 @@
 # Module 1: Getting Started
 
+:::{.slide-link}
+[{{< bi easel2 >}} View Slide Deck](slides/module-01-slides.html){.btn target="_blank" aria-label="Open Module 1 slide deck in a new tab"}
+:::
+
 ## Overview
 
 Week 1 focuses on safe lab practice, pipetting fundamentals, and the first ELN entries for MB 360. Students review lab safety, practice using micropipettes, and document results in a way that prepares them for the rest of the course.

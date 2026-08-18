@@ -1,0 +1,144 @@
+---
+title: "Module 8: Share Your Results"
+subtitle: "MB 360: Scientific Inquiry in Microbiology At the Bench"
+author:
+  - "Carlos C. Goller, Ph.D."
+  - "Camila Loyola, Graduate Teaching Assistant"
+institute: "NC State University | Department of Biological Sciences"
+date: today
+format:
+  revealjs:
+    theme: mb360-revealjs.scss
+    logo: ../MB360logo-transparent.png
+    footer: "MB 360 Lab Workbook | NC State University"
+    slide-number: true
+    controls: true
+    progress: true
+    transition: slide
+    center: false
+    highlight-style: github
+    self-contained: true
+---
+
+## Overview {data-background-color="#990000"}
+
+:::{style="color:#ffffff; font-size:0.9em;"}
+**Week 15 — Capstone Module**
+
+- Design or repeat an experiment focused on your bacterial strain
+- Analyze results in the context of the semester's genomic and phenotypic findings
+- Connect everything back to your overall research goal
+:::
+
+## Learning Outcomes
+
+- **List** safety considerations for working with microbial isolates
+- **Review** techniques, concepts, and experiments from the course
+- **Repeat** experiments to improve consistency and reproducibility
+- **Describe** the purpose, methods, and results of your team's designed experiment
+- **Interpret** genomic data, gene annotations, and protein interaction predictions
+- **Revise** the draft for the individual and group projects
+
+## Skills & Knowledge
+
+:::{.columns}
+:::{.column}
+:::{.column-label}
+Skills
+:::
+
+Specify the lab skills your final experiment develops.
+
+- *(Add skill here)*
+- *(Add skill here)*
+:::
+
+:::{.column}
+:::{.column-label}
+Knowledge
+:::
+
+Specify concepts, tools, and analysis techniques reinforced.
+
+- *(Add knowledge area here)*
+- *(Add knowledge area here)*
+:::
+:::
+
+## Experiment Goals
+
+State at least two specific goals for your final experiment.
+
+1. *(Add goal here)*
+2. *(Add goal here)*
+
+## Background
+
+Write a short description of:
+
+- Your strain and the experiment your team will perform
+- The science behind the experiment
+- How the experiment supports your final research goal
+
+## Lab Safety
+
+:::{.columns}
+:::{.column}
+**Before Lab**
+
+- Wear lab coat, goggles, and gloves
+- Wipe bench and pipettors with 70% ethanol
+
+**During Lab**
+
+- Treat all tips as potential biohazards
+- Remove PPE when leaving the lab
+- Minimize use of personal devices
+:::
+
+:::{.column}
+**After Lab**
+
+- Wipe station and touched personal items with 70% ethanol
+- Dispose of gloves, plates, liquids, and glass correctly
+- Return reusable materials, remove PPE, and wash hands
+:::
+
+## Methods
+
+Write your methods so **another group could reproduce the experiment**, including:
+
+- Setup and controls
+- Measurements and data-collection plan
+- Data-analysis plan
+
+## Results & Analysis
+
+**Collect**
+
+- Figures, tables, or photos summarising what happened
+
+**Analyze**
+
+- What did the results mean, and did they match expectations?
+- How did the genomic data connect to the phenotypic findings?
+
+## Discussion Questions
+
+1. What did you learn from exploring your genome assembly and annotation with BV-BRC and SeqHub?
+2. Were you able to conduct and repeat your proposed experiment at least once? Why or why not?
+3. What findings did you obtain, and what are their implications?
+4. What experiment would you do next, and why?
+
+## {.closing}
+
+:::{.closing}
+![](../MB360logo-transparent.png){.closing-logo fig-alt="MB 360 Lab Workbook logo"}
+
+**Module 8 Complete — Share Your Results**
+
+:::{.closing-note}
+Congratulations on completing MB 360!  
+MB 360 Lab Workbook · Carlos C. Goller, Ph.D. · NC State University
+:::
+:::

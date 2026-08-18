@@ -1,0 +1,134 @@
+---
+title: "Module 3: Microbial Growth Curves"
+subtitle: "MB 360: Scientific Inquiry in Microbiology At the Bench"
+author:
+  - "Carlos C. Goller, Ph.D."
+  - "Camila Loyola, Graduate Teaching Assistant"
+institute: "NC State University | Department of Biological Sciences"
+date: today
+format:
+  revealjs:
+    theme: mb360-revealjs.scss
+    logo: ../MB360logo-transparent.png
+    footer: "MB 360 Lab Workbook | NC State University"
+    slide-number: true
+    controls: true
+    progress: true
+    transition: slide
+    center: false
+    highlight-style: github
+    self-contained: true
+---
+
+## Overview {data-background-color="#990000"}
+
+:::{style="color:#ffffff; font-size:0.9em;"}
+**Weeks 4–5** · Growth-curve experiments · Multichannel pipetting · Biofilm viability assays
+
+- Evaluate growth rates of different *Delftia* species
+- Analyze growth parameters from shaking cultures
+- Investigate biofilm formation differences among isolates
+:::
+
+## Learning Outcomes
+
+- **List** safety considerations for propagating microbes
+- **Explain** the differences between static and shaking growth
+- **Describe** the features of biofilms
+- **Discuss** the significance of growth curves
+- **Practice** multichannel pipetting and diluting overnight cultures
+- **Collect** and **interpret** growth and biofilm data
+- **Create** an annotated bibliography with at least five sources
+
+## Skills & Knowledge
+
+:::{.columns}
+:::{.column}
+:::{.column-label}
+Skills
+:::
+
+- Work safely with liquid cultures in 96-well plates
+- Document protocols and results clearly
+- Interpret growth-curve and biofilm data
+- Propagate bacteria in liquid culture
+:::
+
+:::{.column}
+:::{.column-label}
+Knowledge
+:::
+
+- PPE requirements for microbial work
+- Propagation in liquid media
+- Seeding 96-well plates for growth and biofilm analyses
+:::
+:::
+
+## Lab Safety
+
+- Wear required PPE
+- Clean the bench and pipettors with 70% ethanol
+- Treat all tips as biohazards
+- Dispose of plates and gloves in the correct waste streams
+
+## Methods: Liquid Culture Setup
+
+1. Isolated colonies were transferred to liquid medium
+2. Inoculated tubes were grown **overnight at 30 °C** with shaking at 200–250 RPM
+
+## Methods: Growth Assay Setup
+
+![Blank 96-well plate layout for planning growth-curve wells and controls.](../images/template/image10.png){fig-alt="Blank 96-well plate diagram for organizing growth-curve and control conditions." style="max-height:240px; display:block; margin:0 auto;"}
+
+- Prepare 1:1000 dilutions of overnight cultures
+- Use positive and negative controls
+- Add 100 µL per well with multichannel pipette
+- Seal with breathable seal; load into plate reader at 30 °C for 48 h
+
+## Methods: Biofilm Assay Setup
+
+- Prepare fresh 1:1000 dilutions for the biofilm plate
+- Seed assigned wells with **100 µL per well**
+- Add the peg lid without contaminating the pegs
+- Incubate for **48 hours at 30 °C**
+
+## Methods: Biofilm Viability
+
+![Biofilm viability workflow using wash plates and detection reagent.](../images/template/image1.png){fig-alt="Workflow diagram showing peg-lid washing steps followed by incubation in detection reagent for a biofilm viability assay." style="max-height:240px; display:block; margin:0 auto;"}
+
+1. Wash peg lid using PBS in separate plates
+2. Prepare detection reagent: WST solution + electron mediator + TSB
+3. Transfer peg lid to reagent plate; incubate at 37 °C
+4. Measure absorbance at **450 nm**
+
+## Results & Analysis
+
+**Growth Curves**
+
+- Save and share raw plate-reader data
+- Format data for analysis; upload to repository
+- Plot growth curves and compare isolates and wells
+
+**Biofilm Viability**
+
+- Subtract average TSB-only background
+- Calculate average absorbance and standard deviation per condition
+- Plot background-corrected averages for comparison
+
+## Discussion Questions
+
+1. Why are biofilms difficult to eliminate, even when antibiotics are used?
+2. What growth-curve pattern would you expect for your isolate, and why?
+
+## {.closing}
+
+:::{.closing}
+![](../MB360logo-transparent.png){.closing-logo fig-alt="MB 360 Lab Workbook logo"}
+
+**Module 3 Complete — Microbial Growth Curves**
+
+:::{.closing-note}
+MB 360 Lab Workbook · Carlos C. Goller, Ph.D. · NC State University
+:::
+:::

@@ -1,5 +1,9 @@
 # Module 5: Microbial Interactions
 
+:::{.slide-link}
+[{{< bi easel2 >}} View Slide Deck](slides/module-05-slides.html){.btn target="_blank" aria-label="Open Module 5 slide deck in a new tab"}
+:::
+
 ## Overview
 
 Weeks 8 and 9 focus on co-culture experiments that examine how isolates interact through diffusion-mediated contact.
