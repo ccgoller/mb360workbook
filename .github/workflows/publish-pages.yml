@@ -34,15 +34,30 @@ jobs:
 
       - name: Render slides
         run: |
+          set +e
           mkdir -p _book/slides
           test -f slides/mb360-revealjs.scss || { echo "Missing slides/mb360-revealjs.scss"; exit 1; }
+
+          failed=0
+          failed_files=""
 
           if [ -d "slides" ] && [ "$(find slides -maxdepth 1 -name '*.qmd' -print -quit)" ]; then
             for qmd in slides/*.qmd; do
               name="$(basename "${qmd%.qmd}")"
-              echo "Rendering $qmd"
+              echo "=== Rendering $qmd ==="
               quarto render "$qmd" -t revealjs --output "${name}.html" --output-dir "_book/slides"
+              rc=$?
+              if [ $rc -ne 0 ]; then
+                echo "::error::Failed rendering $qmd (exit $rc)"
+                failed=1
+                failed_files="$failed_files $qmd"
+              fi
             done
+          fi
+
+          if [ $failed -ne 0 ]; then
+            echo "::error::Slide render failures:$failed_files"
+            exit 1
           fi
         working-directory: workbook
 
