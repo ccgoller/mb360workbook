@@ -1,7 +1,7 @@
 # Module 2: Microbial Propagation
 
 :::{.slide-link}
-[View Slide Deck](slides/module-02-slides.html){.btn target="_blank" rel="noopener noreferrer" aria-label="Open Module 2 slide deck in a new tab"}
+[View Slide Deck](../_book/module-02-slides.html){.btn target="_blank" rel="noopener noreferrer" aria-label="Open Module 2 slide deck in a new tab"}
 :::
 
 ## Overview

@@ -1,7 +1,7 @@
 # Module 5: Microbial Interactions
 
 :::{.slide-link}
-[View Slide Deck](slides/module-05-slides.html){.btn target="_blank" rel="noopener noreferrer" aria-label="Open Module 5 slide deck in a new tab"}
+[View Slide Deck](../_book/module-05-slides.html){.btn target="_blank" rel="noopener noreferrer" aria-label="Open Module 5 slide deck in a new tab"}
 :::
 
 ## Overview

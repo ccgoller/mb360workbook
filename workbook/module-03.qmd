@@ -1,7 +1,7 @@
 # Module 3: Microbial Growth Curves
 
 :::{.slide-link}
-[View Slide Deck](slides/module-03-slides.html){.btn target="_blank" rel="noopener noreferrer" aria-label="Open Module 3 slide deck in a new tab"}
+[View Slide Deck](../_book/module-03-slides.html){.btn target="_blank" rel="noopener noreferrer" aria-label="Open Module 3 slide deck in a new tab"}
 :::
 
 ## Overview
@@ -92,7 +92,7 @@ Figure @fig-module3-growth-layout provides a reusable 96-well template for mappi
 
 Figure @fig-module3-biofilm-viability outlines the wash-and-detection workflow used to measure biofilm viability after incubation.
 
-![Biofilm viability workflow using wash plates and detection reagent.](images/template/image1.png){#fig-module3-biofilm-viability fig-alt="Workflow diagram showing peg-lid washing steps followed by incubation in detection reagent for a biofilm viability assay."}
+![Biofilm viability workflow using wash plates and detection reagent.](images/template/image1.png){#fig-module3-biofilm-viability fig-alt="Workflow diagram showing peg-lid washing steps followed by reagent detection."}
 
 - Wash the peg lid using PBS in separate plates.
 - Prepare the detection reagent with WST solution, electron mediator reagent, and TSB.
