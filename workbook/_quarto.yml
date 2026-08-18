@@ -1,9 +1,11 @@
 project:
   type: book
+  render:
+    - "*.qmd"
+    - "slides/*.qmd"
   resources:
     - appendix-supplies-reagents.pdf
     - appendix-supplies-reagents.docx
-    - slides/
 
 website:
   announcement:
