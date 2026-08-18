@@ -8,19 +8,30 @@ institute: "NC State University | Department of Biological Sciences"
 date: today
 format:
   revealjs:
-    theme: mb360-revealjs.scss
+    theme: [default, theme-mb360.scss]
     logo: ../MB360logo-transparent.png
     footer: "MB 360 Lab Workbook | NC State University"
     slide-number: true
     controls: true
     progress: true
-    transition: slide
+    transition: fade
     center: false
+    margin: 0.08
+    width: 1600
+    height: 900
     highlight-style: github
     self-contained: true
+    title-slide: false
 ---
 
-## Overview {data-background-color="#990000"}
+# Module 7: Data Analysis and Experimental Design {.title-slide data-background-color="#1f4e79"}
+
+### MB 360: Scientific Inquiry in Microbiology At the Bench
+
+MB 360 Lab Workbook  
+NC State University | Department of Biological Sciences
+
+## Overview {data-background-color="#1f4e79"}
 
 :::{style="color:#ffffff; font-size:0.9em;"}
 **Weeks 13–14** · Genome assembly · Annotation review · Comparative analysis · Phenotype connection
@@ -99,12 +110,10 @@ This is a **bioinformatics lab** — no live organisms or chemicals are used tod
 
 ## Results & Analysis
 
-**Collect**
-
+### Collect
 - Tables, figures, charts, and screenshots from assembly and annotation workflows
 
-**Analyze**
-
+### Analyze
 - How does your isolate differ from the SPH-1 reference?
 - How well does genomic data match the phenotype?
 - What do assembly metrics suggest about data quality?
