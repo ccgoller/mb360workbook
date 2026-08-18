@@ -32,6 +32,15 @@ jobs:
         run: quarto render
         working-directory: workbook
 
+      - name: Render slides
+        run: |
+          mkdir -p _book/slides
+          shopt -s nullglob
+          for qmd in slides/*.qmd; do
+            quarto render "$qmd" --output-dir _book/slides
+          done
+        working-directory: workbook
+
       - name: Set up Pages
         uses: actions/configure-pages@v5
 
