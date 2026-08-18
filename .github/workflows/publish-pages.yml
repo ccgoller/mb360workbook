@@ -39,7 +39,7 @@ jobs:
             for qmd in slides/*.qmd; do
               base="${qmd%.qmd}"
               name="$(basename "$base")"
-              quarto render "$qmd" -t revealjs --output "_book/slides/${name}.html"
+              quarto render "$qmd" -t revealjs --output "${name}.html" --output-dir "_book/slides"
             done
           fi
         working-directory: workbook
