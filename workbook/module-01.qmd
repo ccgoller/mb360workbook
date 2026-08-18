@@ -1,7 +1,7 @@
 # Module 1: Getting Started
 
 :::{.slide-link}
-[{{< bi easel2 >}} View Slide Deck](slides/module-01-slides.html){.btn target="_blank" rel="noopener noreferrer" aria-label="Open Module 1 slide deck in a new tab"}
+[View Slide Deck](slides/module-01-slides.html){.btn target="_blank" rel="noopener noreferrer" aria-label="Open Module 1 slide deck in a new tab"}
 :::
 
 ## Overview
