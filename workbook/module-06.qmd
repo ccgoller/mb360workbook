@@ -1,7 +1,7 @@
 # Module 6: Microbial Genome Sequencing
 
 :::{.slide-link}
-[View Slide Deck](slides/module-06-slides.html){.btn target="_blank" rel="noopener noreferrer" aria-label="Open Module 6 slide deck in a new tab"}
+[View Slide Deck](slides/module-06-slides.qmd){.btn target="_blank" rel="noopener noreferrer" aria-label="Open Module 6 slide deck in a new tab"}
 :::
 
 ## Overview
