@@ -34,14 +34,15 @@ jobs:
 
       - name: Render slides
         run: |
-          mkdir -p _book/slides
-          if [ -d "slides" ] && [ "$(ls -A slides/*.qmd 2>/dev/null)" ]; then
-            for qmd in slides/*.qmd; do
+          mkdir -p ../_book/slides
+          if [ "$(ls -A *.qmd 2>/dev/null)" ]; then
+            for qmd in *.qmd; do
               name=$(basename "$qmd" .qmd)
-              quarto render "$qmd" -t revealjs --output "../_book/slides/${name}.html"
+              quarto render "$qmd" -t revealjs --output "${name}.html"
+              mv "${name}.html" "../_book/slides/${name}.html"
             done
           fi
-        working-directory: workbook
+        working-directory: workbook/slides
 
       - name: Set up Pages
         uses: actions/configure-pages@v5
