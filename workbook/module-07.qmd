@@ -1,5 +1,9 @@
 # Module 7: Data Analysis and Experimental Design
 
+:::{.slide-link}
+[{{< bi easel2 >}} View Slide Deck](slides/module-07-slides.html){.btn target="_blank" aria-label="Open Module 7 slide deck in a new tab"}
+:::
+
 ## Overview
 
 Weeks 13 and 14 focus on genome assembly, annotation review, comparative analysis, and connecting genomic results back to phenotype.

@@ -1,0 +1,221 @@
+/*-- scss:defaults --*/
+
+// ── Brand colours ──────────────────────────────────────────────────────────
+$ncstate-red:        #cc0000;
+$ncstate-red-dark:   #990000;
+$ncstate-red-deeper: #6e0000;
+$ncstate-gold:       #fac800;
+$ncstate-gold-light: #fff2b3;
+$white:              #ffffff;
+$off-white:          #f8f4f4;
+$body-text:          #1a1a1a;
+$muted:              #5a5a5a;
+
+// ── Slide background ────────────────────────────────────────────────────────
+$backgroundColor: $white;
+
+// ── Typography ──────────────────────────────────────────────────────────────
+$mainFont: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$mainFontSize: 32px;
+$mainColor: $body-text;
+
+$headingFont: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$headingColor: $ncstate-red-dark;
+$headingFontWeight: 700;
+$headingTextTransform: none;
+$headingLetterSpacing: -0.01em;
+$headingTextShadow: none;
+
+$heading1Size: 2.0em;
+$heading2Size: 1.5em;
+$heading3Size: 1.2em;
+$heading4Size: 1.0em;
+
+$linkColor: $ncstate-red;
+$linkColorHover: $ncstate-red-dark;
+$selectionBackgroundColor: $ncstate-gold;
+$selectionColor: $body-text;
+
+// ── Block & code ────────────────────────────────────────────────────────────
+$blockMargin: 0.6em;
+$borderRadius: 4px;
+$codeFont: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+
+/*-- scss:rules --*/
+
+// ── Title slide — dark-red hero ──────────────────────────────────────────────
+.reveal .slides section.title-slide,
+.reveal .slides section[data-background-color="#6e0000"] {
+  background-color: $ncstate-red-deeper !important;
+  color: $white;
+
+  h1, h2, h3, .title, .subtitle {
+    color: $white;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  }
+
+  .subtitle, p.subtitle {
+    color: $ncstate-gold-light;
+    font-size: 0.75em;
+    font-weight: 400;
+    margin-top: 0.25em;
+  }
+
+  .quarto-title-authors, .author, .date, .affiliation {
+    color: rgba(255,255,255,0.85);
+    font-size: 0.65em;
+    margin-top: 0.2em;
+  }
+}
+
+// ── Section divider slides ───────────────────────────────────────────────────
+.reveal .slides section[data-background-color="#990000"] {
+  color: $white;
+
+  h1, h2, h3 {
+    color: $white;
+  }
+}
+
+// ── Normal slides ────────────────────────────────────────────────────────────
+.reveal .slides section {
+  text-align: left;
+}
+
+// ── Headings ─────────────────────────────────────────────────────────────────
+.reveal h2 {
+  border-bottom: 3px solid $ncstate-gold;
+  padding-bottom: 0.2em;
+  margin-bottom: 0.5em;
+}
+
+// ── Lists ─────────────────────────────────────────────────────────────────────
+.reveal ul {
+  list-style: none;
+  padding-left: 0;
+
+  li {
+    padding-left: 1.4em;
+    position: relative;
+    margin-bottom: 0.35em;
+
+    &::before {
+      content: "▸";
+      color: $ncstate-red;
+      position: absolute;
+      left: 0;
+      font-weight: bold;
+    }
+  }
+}
+
+.reveal ol {
+  padding-left: 1.4em;
+
+  li {
+    margin-bottom: 0.35em;
+  }
+
+  li::marker {
+    color: $ncstate-red;
+    font-weight: bold;
+  }
+}
+
+// ── Two-column layout helper ─────────────────────────────────────────────────
+.reveal .columns {
+  display: flex;
+  gap: 2em;
+  align-items: flex-start;
+
+  .column {
+    flex: 1;
+  }
+
+  .column-label {
+    font-weight: 700;
+    color: $ncstate-red-dark;
+    border-bottom: 2px solid $ncstate-gold;
+    padding-bottom: 0.15em;
+    margin-bottom: 0.4em;
+  }
+}
+
+// ── Callout / tip box ─────────────────────────────────────────────────────────
+.reveal .callout {
+  border-left: 4px solid $ncstate-gold;
+  background: $off-white;
+  padding: 0.5em 0.8em;
+  border-radius: $borderRadius;
+  font-size: 0.85em;
+  margin: 0.6em 0;
+}
+
+// ── Links ─────────────────────────────────────────────────────────────────────
+.reveal a {
+  color: $ncstate-red;
+  text-decoration: underline;
+
+  &:hover {
+    color: $ncstate-red-dark;
+  }
+}
+
+// ── Footer ───────────────────────────────────────────────────────────────────
+.reveal .footer {
+  font-size: 0.55em;
+  color: $muted;
+}
+
+// ── Logo ─────────────────────────────────────────────────────────────────────
+.reveal .slide-logo {
+  max-height: 44px;
+  bottom: 12px;
+  right: 14px;
+  opacity: 0.85;
+}
+
+// ── Slide numbers ─────────────────────────────────────────────────────────────
+.reveal .slide-number {
+  background-color: $ncstate-red-deeper;
+  color: $white;
+  font-size: 0.55em;
+  border-radius: 4px;
+  padding: 0.15em 0.45em;
+}
+
+// ── Progress bar ─────────────────────────────────────────────────────────────
+.reveal .progress {
+  color: $ncstate-gold;
+  height: 4px;
+}
+
+// ── Thank-you / closing slide ─────────────────────────────────────────────────
+.reveal .slides section.closing {
+  text-align: center;
+
+  h2 {
+    color: $ncstate-red-dark;
+    border-bottom: none;
+  }
+
+  .closing-logo {
+    max-width: 140px;
+    margin: 0.5em auto;
+    display: block;
+    opacity: 0.9;
+  }
+
+  .closing-note {
+    color: $muted;
+    font-size: 0.7em;
+    margin-top: 0.5em;
+  }
+}
+
+// ── Accessible focus ring ─────────────────────────────────────────────────────
+.reveal a:focus,
+.reveal button:focus {
+  outline: 3px solid $ncstate-gold;
+  outline-offset: 2px;
+}

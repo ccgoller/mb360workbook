@@ -1,5 +1,9 @@
 # Module 2: Microbial Propagation
 
+:::{.slide-link}
+[{{< bi easel2 >}} View Slide Deck](slides/module-02-slides.html){.btn target="_blank" aria-label="Open Module 2 slide deck in a new tab"}
+:::
+
 ## Overview
 
 Weeks 2 and 3 focus on plate streaking, colony observation, and starting liquid cultures for later growth analysis.
