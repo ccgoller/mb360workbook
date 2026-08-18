@@ -36,12 +36,11 @@ jobs:
         run: |
           mkdir -p _book/slides
           if [ -d "slides" ] && [ "$(find slides -maxdepth 1 -name '*.qmd' -print -quit)" ]; then
-            (
-              cd slides
-              for qmd in *.qmd; do
-                quarto render "$qmd" -t revealjs --output-dir "../_book/slides"
-              done
-            )
+            for qmd in slides/*.qmd; do
+              base="${qmd%.qmd}"
+              name="$(basename "$base")"
+              quarto render "$qmd" -t revealjs --output "_book/slides/${name}.html"
+            done
           fi
         working-directory: workbook
 
