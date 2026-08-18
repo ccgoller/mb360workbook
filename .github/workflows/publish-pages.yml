@@ -37,7 +37,11 @@ jobs:
           mkdir -p _book/slides
           shopt -s nullglob
           for qmd in slides/*.qmd; do
-            quarto render "$qmd" --output-dir _book/slides
+            quarto render "$qmd"
+            html="${qmd%.qmd}.html"
+            if [ -f "$html" ]; then
+              mv "$html" _book/slides/
+            fi
           done
         working-directory: workbook
 
