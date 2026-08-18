@@ -41,6 +41,8 @@ jobs:
             html="${qmd%.qmd}.html"
             if [ -f "$html" ]; then
               mv "$html" _book/slides/
+            else
+              echo "Error: expected output $html not found" && exit 1
             fi
           done
         working-directory: workbook
