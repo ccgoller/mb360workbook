@@ -25,13 +25,13 @@ format:
     include-after-body: slide-accessibility.html
 ---
 
-## Module 8: Share Your Results {.title-slide data-background-color="#1f4e79"}
+## Module 8: Share Your Results {.title-slide data-background-color="#990000"}
 
 <p class="slide-subtitle">MB 360: Scientific Inquiry in Microbiology At the Bench</p>
 
 <p class="slide-meta">MB 360 Lab Workbook<br>NC State University | Department of Biological Sciences</p>
 
-## Overview {data-background-color="#1f4e79"}
+## Overview {data-background-color="#990000"}
 
 :::{.overview-summary}
 **Week 15 — Capstone Module**
@@ -127,3 +127,24 @@ Write your methods so **another group could reproduce the experiment**, includin
 ## Results & Analysis
 
 ### Collect
+
+- Raw data files from your designed experiment
+- Plate-reader exports, images, or observation notes
+- Any quality-control checks performed
+
+### Analyse
+
+- Apply methods consistent with earlier modules (growth curves, biofilm values, etc.)
+- Identify patterns that confirm or contradict earlier findings
+- Note any unexpected results and consider confounding factors
+
+### Interpret
+
+- Connect experimental results to genomic and phenotypic evidence gathered this semester
+- Summarise what the designed experiment adds to your overall research narrative
+
+## Reflection Questions
+
+1. How did your experimental design account for variability or potential confounds?
+2. What would you change if you repeated the experiment with unlimited time and resources?
+3. What is the single most important finding from your semester of research?
