@@ -37,9 +37,7 @@ jobs:
           mkdir -p _book/slides
           if [ -d "slides" ] && [ "$(ls -A slides/*.qmd 2>/dev/null)" ]; then
             for qmd in slides/*.qmd; do
-              name=$(basename "$qmd" .qmd)
-              quarto render "$qmd" -t revealjs --output "${name}.html"
-              mv "${name}.html" "_book/slides/${name}.html"
+              quarto render "$qmd" -t revealjs --output-dir "_book/slides"
             done
           fi
         working-directory: workbook
