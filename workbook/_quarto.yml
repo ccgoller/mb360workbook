@@ -76,7 +76,7 @@ book:
       affiliation: "Department of Biological Sciences, NC State University"
     - name: "Camila Loyola, Graduate Teaching Assistant"
       affiliation: "Master of Microbial Biotechnology, NC State University"
-  date: "4/17/2026"
+  date: today
   chapters:
     - index.qmd
     - module-01.qmd
