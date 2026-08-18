@@ -10,6 +10,8 @@ $white:              #ffffff;
 $off-white:          #f8f4f4;
 $body-text:          #1a1a1a;
 $muted:              #5a5a5a;
+$mb360-blue:         #1f4e79;
+$mb360-blue-dark:    #17324d;
 
 // ── Slide background ────────────────────────────────────────────────────────
 $backgroundColor: $white;
@@ -43,38 +45,68 @@ $codeFont: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
 
 /*-- scss:rules --*/
 
-// ── Title slide — dark-red hero ──────────────────────────────────────────────
-.reveal .slides section.title-slide,
-.reveal .slides section[data-background-color="#6e0000"] {
-  background-color: $ncstate-red-deeper !important;
+// ── Title slide — blue hero ──────────────────────────────────────────────────
+.reveal .slides section#title-slide.quarto-title-block {
+  display: none !important;
+}
+
+.reveal .slides section.title-slide {
+  background: linear-gradient(135deg, $mb360-blue 0%, $mb360-blue-dark 100%) !important;
   color: $white;
 
-  h1, h2, h3, .title, .subtitle {
+  h1, h2, h3, .title, .subtitle, p {
     color: $white;
-    text-shadow: 0 2px 6px rgba(0,0,0,0.3);
   }
 
-  .subtitle, p.subtitle {
-    color: $ncstate-gold-light;
-    font-size: 0.75em;
-    font-weight: 400;
+  h1,
+  h2 {
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 0.35em;
+  }
+
+  .slide-subtitle {
+    color: rgba(255,255,255,0.96);
+    font-size: 0.8em;
+    font-weight: 600;
     margin-top: 0.25em;
+    margin-bottom: 0.9em;
   }
 
-  .quarto-title-authors, .author, .date, .affiliation {
-    color: rgba(255,255,255,0.85);
-    font-size: 0.65em;
-    margin-top: 0.2em;
+  .slide-meta {
+    color: rgba(255,255,255,0.9);
+    font-size: 0.66em;
+    max-width: 30em;
   }
 }
 
 // ── Section divider slides ───────────────────────────────────────────────────
+.reveal .slides section[data-background-color="#1f4e79"],
 .reveal .slides section[data-background-color="#990000"] {
   color: $white;
 
-  h1, h2, h3 {
+  h1, h2, h3, h4, p, li, strong, em, a, .column-label {
     color: $white;
   }
+
+  a {
+    text-decoration-color: rgba(255,255,255,0.72);
+  }
+
+  ul li::before {
+    color: $ncstate-gold-light;
+  }
+}
+
+.reveal .slides section[data-background-color="#1f4e79"] .overview-summary,
+.reveal .slides section[data-background-color="#990000"] .overview-summary {
+  color: $white;
+  font-size: 0.9em;
+}
+
+.reveal .slides section[data-background-color="#1f4e79"] .overview-summary :is(p, li, strong, em),
+.reveal .slides section[data-background-color="#990000"] .overview-summary :is(p, li, strong, em) {
+  color: inherit;
 }
 
 // ── Normal slides ────────────────────────────────────────────────────────────
@@ -159,6 +191,12 @@ $codeFont: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
   &:hover {
     color: $ncstate-red-dark;
   }
+}
+
+.reveal :is(a, button, .controls button):focus-visible {
+  outline: 3px solid $ncstate-gold;
+  outline-offset: 3px;
+  border-radius: 0.2em;
 }
 
 // ── Footer ───────────────────────────────────────────────────────────────────

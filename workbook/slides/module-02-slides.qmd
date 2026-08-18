@@ -22,18 +22,18 @@ format:
     highlight-style: github
     self-contained: true
     title-slide: false
+    include-after-body: slide-accessibility.html
 ---
 
-# Module 2: Microbial Propagation {.title-slide data-background-color="#1f4e79"}
+## Module 2: Microbial Propagation {.title-slide data-background-color="#1f4e79"}
 
-### MB 360: Scientific Inquiry in Microbiology At the Bench
+<p class="slide-subtitle">MB 360: Scientific Inquiry in Microbiology At the Bench</p>
 
-MB 360 Lab Workbook  
-NC State University | Department of Biological Sciences
+<p class="slide-meta">MB 360 Lab Workbook<br>NC State University | Department of Biological Sciences</p>
 
 ## Overview {data-background-color="#1f4e79"}
 
-:::{style="color:#ffffff; font-size:0.9em;"}
+:::{.overview-summary}
 **Weeks 2–3** · Plate streaking · Colony observation · Liquid cultures
 
 - Recover and propagate *Delftia acidovorans* from colonies
@@ -99,11 +99,12 @@ Knowledge
 - Decontaminate any personal items touched during lab
 - Dispose of gloves in the main biohazard container
 :::
+:::
 
 ## Methods: Colony Morphology
 
-:::{.callout}
-⚠ We are working with live microbial isolates today — follow all safety protocols.
+:::{.callout role="note" aria-label="Lab safety reminder"}
+**Important:** We are working with live microbial isolates today — follow all safety protocols.
 :::
 
 - Obtain a TSA plate containing colonies of your isolate

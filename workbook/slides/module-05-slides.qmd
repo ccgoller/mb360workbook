@@ -22,18 +22,18 @@ format:
     highlight-style: github
     self-contained: true
     title-slide: false
+    include-after-body: slide-accessibility.html
 ---
 
-# Module 5: Microbial Interactions {.title-slide data-background-color="#1f4e79"}
+## Module 5: Microbial Interactions {.title-slide data-background-color="#1f4e79"}
 
-### MB 360: Scientific Inquiry in Microbiology At the Bench
+<p class="slide-subtitle">MB 360: Scientific Inquiry in Microbiology At the Bench</p>
 
-MB 360 Lab Workbook  
-NC State University | Department of Biological Sciences
+<p class="slide-meta">MB 360 Lab Workbook<br>NC State University | Department of Biological Sciences</p>
 
 ## Overview {data-background-color="#1f4e79"}
 
-:::{style="color:#ffffff; font-size:0.9em;"}
+:::{.overview-summary}
 **Weeks 8–9** · Co-culture experiments · Diffusion-mediated contact · Growth data analysis
 
 - Evaluate microbial interactions through co-culture of different isolates

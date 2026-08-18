@@ -1,0 +1,5 @@
+project:
+  type: default
+  output-dir: ../_book/slides
+  render:
+    - "*.qmd"

@@ -8,6 +8,7 @@ Live site: https://ccgoller.github.io/mb360workbook/
 
 - [Overview](#overview)
 - [Chapter Index](#chapter-index)
+- [Verify Slides Locally](#verify-slides-locally)
 - [Publishing](#publishing)
 
 ## Overview
@@ -56,6 +57,23 @@ This repository contains a Quarto book for the MB 360 ELN Workbook.
 12. References  
     Source: [workbook/references.qmd](workbook/references.qmd)  
     Web: https://ccgoller.github.io/mb360workbook/references.html
+
+## Verify Slides Locally
+
+From the `workbook/` directory of the cloned repository:
+
+- Render the book HTML: `quarto render --to html`
+- Render the slide decks into `_book/slides/`: `quarto render slides`
+- Preview an individual slide deck while editing: `quarto preview slides/module-01-slides.qmd`
+- Open a generated deck from `_book/slides/`, for example `_book/slides/module-01-slides.html`
+
+Quick accessibility/rendering checks for each deck:
+
+- Confirm the first visible slide is the intended title slide (no extra blank Quarto title slide)
+- Tab through links and slide controls to verify visible focus indicators
+- Verify dark-background slides keep high-contrast text and informative image alt text
+
+If you want a CI-equivalent full render that includes the downloadable PDF output, install TinyTeX first with `quarto install tinytex --no-prompt`.
 
 ## Publishing
 

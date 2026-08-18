@@ -1,0 +1,70 @@
+<script>
+  (() => {
+    const enhanceSlides = () => {
+      const deckTitle =
+        document.querySelector('meta[name="title"]')?.getAttribute("content") ||
+        document.title ||
+        "MB 360 slide deck";
+      const slides = document.querySelector(".reveal .slides");
+
+      if (slides) {
+        slides.id = "slide-content";
+        slides.setAttribute("role", "region");
+        slides.setAttribute("aria-label", `${deckTitle} slide deck`);
+      }
+
+      const generatedTitleSlide = document.getElementById("title-slide");
+      if (generatedTitleSlide?.classList.contains("quarto-title-block")) {
+        generatedTitleSlide.remove();
+      }
+
+      const titleHeading = document.querySelector(".reveal .slides section.title-slide h2");
+      if (titleHeading) {
+        const topHeading = document.createElement("h1");
+        topHeading.innerHTML = titleHeading.innerHTML;
+        topHeading.className = titleHeading.className;
+        if (titleHeading.id) {
+          topHeading.id = titleHeading.id;
+        }
+        titleHeading.replaceWith(topHeading);
+      }
+
+      const footer = document.querySelector(".reveal .footer");
+      if (footer) {
+        footer.setAttribute("role", "contentinfo");
+      }
+
+      const controls = document.querySelector(".reveal .controls");
+      if (controls) {
+        controls.setAttribute("role", "navigation");
+        controls.setAttribute("aria-label", "Slide navigation controls");
+      }
+
+      document.querySelectorAll(".reveal .slide-number, .reveal .slide-logo").forEach((node) => {
+        node.setAttribute("aria-hidden", "true");
+        if (node.tagName === "IMG") {
+          node.setAttribute("alt", "");
+          node.setAttribute("role", "presentation");
+        }
+        node.querySelectorAll?.("img").forEach((image) => {
+          image.setAttribute("alt", "");
+          image.setAttribute("role", "presentation");
+        });
+      });
+    };
+
+    enhanceSlides();
+    if (window.Reveal && typeof window.Reveal.on === "function") {
+      window.Reveal.on("ready", enhanceSlides);
+    }
+
+    const observer = new MutationObserver(() => {
+      enhanceSlides();
+      if (document.querySelector(".reveal .controls") && document.querySelector(".reveal .slide-logo")) {
+        observer.disconnect();
+      }
+    });
+
+    observer.observe(document.body, { childList: true, subtree: true });
+  })();
+</script>
