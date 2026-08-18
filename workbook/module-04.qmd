@@ -1,7 +1,7 @@
 # Module 4: Microbial Metabolism
 
 :::{.slide-link}
-[View Slide Deck](../_book/module-04-slides.html){.btn target="_blank" rel="noopener noreferrer" aria-label="Open Module 4 slide deck in a new tab"}
+[View Slide Deck](slides/module-04-slides.html){.btn target="_blank" rel="noopener noreferrer" aria-label="Open Module 4 slide deck in a new tab"}
 :::
 
 ## Overview

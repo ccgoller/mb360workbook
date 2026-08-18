@@ -1,7 +1,7 @@
 # Module 7: Data Analysis and Experimental Design
 
 :::{.slide-link}
-[View Slide Deck](../_book/module-07-slides.html){.btn target="_blank" rel="noopener noreferrer" aria-label="Open Module 7 slide deck in a new tab"}
+[View Slide Deck](slides/module-07-slides.html){.btn target="_blank" rel="noopener noreferrer" aria-label="Open Module 7 slide deck in a new tab"}
 :::
 
 ## Overview
