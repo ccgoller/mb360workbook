@@ -34,6 +34,16 @@ jobs:
         run: quarto render
         working-directory: workbook
 
+      - name: Render slide decks
+        run: quarto render slides
+        working-directory: workbook
+
+      - name: Verify rendered slide decks
+        run: |
+          for module in 01 02 03 04 05 06 07 08; do
+            test -f "workbook/_book/slides/module-${module}-slides.html"
+          done
+
       - name: Set up Pages
         uses: actions/configure-pages@v5
 

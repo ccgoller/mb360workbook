@@ -22,18 +22,18 @@ format:
     highlight-style: github
     self-contained: true
     title-slide: false
+    include-after-body: slide-accessibility.html
 ---
 
-# Module 8: Share Your Results {.title-slide data-background-color="#1f4e79"}
+## Module 8: Share Your Results {.title-slide data-background-color="#1f4e79"}
 
-### MB 360: Scientific Inquiry in Microbiology At the Bench
+<p class="slide-subtitle">MB 360: Scientific Inquiry in Microbiology At the Bench</p>
 
-MB 360 Lab Workbook  
-NC State University | Department of Biological Sciences
+<p class="slide-meta">MB 360 Lab Workbook<br>NC State University | Department of Biological Sciences</p>
 
 ## Overview {data-background-color="#1f4e79"}
 
-:::{style="color:#ffffff; font-size:0.9em;"}
+:::{.overview-summary}
 **Week 15 — Capstone Module**
 
 - Design or repeat an experiment focused on your bacterial strain
@@ -113,6 +113,7 @@ Write a short description of:
 - Wipe station and touched personal items with 70% ethanol
 - Dispose of gloves, plates, liquids, and glass correctly
 - Return reusable materials, remove PPE, and wash hands
+:::
 :::
 
 ## Methods

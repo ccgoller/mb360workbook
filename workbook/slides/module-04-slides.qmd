@@ -22,18 +22,18 @@ format:
     highlight-style: github
     self-contained: true
     title-slide: false
+    include-after-body: slide-accessibility.html
 ---
 
-# Module 4: Microbial Metabolism {.title-slide data-background-color="#1f4e79"}
+## Module 4: Microbial Metabolism {.title-slide data-background-color="#1f4e79"}
 
-### MB 360: Scientific Inquiry in Microbiology At the Bench
+<p class="slide-subtitle">MB 360: Scientific Inquiry in Microbiology At the Bench</p>
 
-MB 360 Lab Workbook  
-NC State University | Department of Biological Sciences
+<p class="slide-meta">MB 360 Lab Workbook<br>NC State University | Department of Biological Sciences</p>
 
 ## Overview {data-background-color="#1f4e79"}
 
-:::{style="color:#ffffff; font-size:0.9em;"}
+:::{.overview-summary}
 **Weeks 6–7** · Biolog GEN III phenotypic characterization · Growth measurements · Metabolic interpretation
 
 - Evaluate bacterial growth across many chemical and environmental conditions
@@ -102,3 +102,37 @@ Biolog Blood Universal Growth (BUG) agar + GEN III MicroPlates
 **After Lab**
 
 - Clean work areas and personal items with ethanol
+- Dispose of liquids, plates, gloves, and glass using the assigned workflow
+- Return reusable materials and wash hands
+:::
+:::
+
+## Methods: Activity 1, Turbidimeter
+
+- Blank the turbidimeter with uninoculated IF-A fluid
+- Swab bacteria from the BUG agar plate into IF-A inoculating fluid
+- Mix gently and measure turbidity
+- Adjust the inoculum to **95% transmittance**
+
+## Methods: Activity 2, Biolog Plate Preparation
+
+![Loading a Biolog GEN III plate with a multichannel pipette.](../images/template/image8.png){fig-alt="Illustration showing a multichannel pipette transferring inoculum into a Biolog plate." style="max-height:260px; display:block; margin:0 auto;"}
+
+- Pour the prepared cell suspension into a multichannel reservoir
+- Add **100 µL** to each well of the GEN III plate with the multichannel pipette
+- Replace tips whenever contamination is possible
+- Confirm that every well contains liquid before incubation
+- Incubate one plate in the plate reader and one statically at **33 °C** for 1 to 2 days
+
+## Results & Discussion
+
+- Save and share the raw **600 nm** readings
+- Export the blank-corrected table as CSV
+- Plot growth curves and interpret wells with or without growth
+- Identify carbon sources that appear supportive and conditions that inhibited the isolate
+
+## Reflection Questions
+
+1. What does a turbidimeter measure, and why is it important for this assay?
+2. Why are BUG-grown bacteria used instead of TSA-grown bacteria?
+3. How has your multichannel technique changed over the semester?
