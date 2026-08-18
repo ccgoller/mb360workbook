@@ -41,6 +41,10 @@
           node.setAttribute("alt", "");
           node.setAttribute("role", "presentation");
         }
+        node.querySelectorAll?.("img").forEach((image) => {
+          image.setAttribute("alt", "");
+          image.setAttribute("role", "presentation");
+        });
       });
     };
 
