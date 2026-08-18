@@ -6,6 +6,7 @@ $mb360-ink: #1f2937;
 $mb360-muted: #4b5563;
 $mb360-accent: #f59e0b;
 $mb360-surface: #f8fafc;
+$mb360-code-surface: #f3f7fb;
 $mb360-white: #ffffff;
 $mb360-border: #cbd5e1;
 
@@ -79,7 +80,8 @@ $borderRadius: 10px;
   }
 }
 
-.reveal .slides section[data-background-color="#1f4e79"] {
+.reveal .slides section.overview-slide {
+  background-color: $mb360-primary !important;
   color: $mb360-white;
 
   h1,
@@ -154,7 +156,7 @@ $borderRadius: 10px;
   font-size: 0.58em;
   line-height: 1.35;
   padding: 0.45em 0.6em;
-  background: #f3f7fb;
+  background: $mb360-code-surface;
   border: 1px solid rgba($mb360-primary, 0.12);
   border-radius: $borderRadius;
   box-shadow: none;
@@ -180,7 +182,7 @@ $borderRadius: 10px;
 .reveal table th,
 .reveal table td {
   padding: 0.45em 0.55em;
-  border: 1px solid rgba($mb360-border, 0.95);
+  border: 1px solid $mb360-border;
 }
 
 .reveal table th {
@@ -242,7 +244,7 @@ $borderRadius: 10px;
 .reveal .slide-number {
   color: rgba($mb360-muted, 0.92);
   background: rgba($mb360-white, 0.88);
-  border: 1px solid rgba($mb360-border, 0.95);
+  border: 1px solid $mb360-border;
   border-radius: 999px;
   font-size: 0.44em;
   padding: 0.14em 0.5em;

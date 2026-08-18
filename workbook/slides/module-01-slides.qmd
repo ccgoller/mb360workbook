@@ -31,7 +31,7 @@ format:
 MB 360 Lab Workbook  
 NC State University | Department of Biological Sciences
 
-## Overview {data-background-color="#1f4e79"}
+## Overview {.overview-slide data-background-color="#1f4e79"}
 
 :::{style="color:#ffffff; font-size:0.9em;"}
 **Week 1** · Lab safety · Pipetting fundamentals · First ELN entries
