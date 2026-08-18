@@ -20,8 +20,13 @@
 
       const titleHeading = document.querySelector(".reveal .slides section.title-slide h2");
       if (titleHeading) {
-        titleHeading.setAttribute("role", "heading");
-        titleHeading.setAttribute("aria-level", "1");
+        const topHeading = document.createElement("h1");
+        topHeading.innerHTML = titleHeading.innerHTML;
+        topHeading.className = titleHeading.className;
+        if (titleHeading.id) {
+          topHeading.id = titleHeading.id;
+        }
+        titleHeading.replaceWith(topHeading);
       }
 
       const footer = document.querySelector(".reveal .footer");
@@ -49,6 +54,7 @@
     };
 
     enhanceSlides();
+    // Reveal.js injects controls and the slide logo after the initial DOM is written.
     window.setTimeout(enhanceSlides, 300);
   })();
 </script>
