@@ -43,7 +43,9 @@ format:
 
 :::{.columns}
 :::{.column}
-:::{.column-label}Skills:::{.column-label}
+:::{.column-label}
+Skills
+:::
 
 - Follow lab safety and PPE procedures
 - Extract and quantify microbial DNA
@@ -51,7 +53,9 @@ format:
 :::
 
 :::{.column}
-:::{.column-label}Knowledge:::{.column-label}
+:::{.column-label}
+Knowledge
+:::
 
 - PPE requirements for DNA isolation
 - DNA extraction and quantification methods

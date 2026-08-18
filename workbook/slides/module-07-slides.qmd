@@ -43,7 +43,9 @@ format:
 
 :::{.columns}
 :::{.column}
-:::{.column-label}Skills:::{.column-label}
+:::{.column-label}
+Skills
+:::
 
 - Perform sequence-read quality review
 - Assemble microbial genomes
@@ -51,7 +53,9 @@ format:
 :::
 
 :::{.column}
-:::{.column-label}Knowledge:::{.column-label}
+:::{.column-label}
+Knowledge
+:::
 
 - Steps required to assemble a microbial genome
 - Tools for filtering, assembly, annotation, and metabolic modelling

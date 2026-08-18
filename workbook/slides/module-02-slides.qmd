@@ -44,7 +44,9 @@ format:
 
 :::{.columns}
 :::{.column}
-:::{.column-label}Skills:::{.column-label}
+:::{.column-label}
+Skills
+:::
 
 - Work safely with bacterial growth on agar plates
 - Document protocols and results clearly
@@ -53,7 +55,9 @@ format:
 :::
 
 :::{.column}
-:::{.column-label}Knowledge:::{.column-label}
+:::{.column-label}
+Knowledge
+:::
 
 - PPE for microbial work
 - Loop use, sterilization, and streaking methods

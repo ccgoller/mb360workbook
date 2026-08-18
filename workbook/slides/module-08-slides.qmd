@@ -43,7 +43,9 @@ format:
 
 :::{.columns}
 :::{.column}
-:::{.column-label}Skills:::{.column-label}
+:::{.column-label}
+Skills
+:::
 
 Specify the lab skills your final experiment develops.
 
@@ -52,7 +54,9 @@ Specify the lab skills your final experiment develops.
 :::
 
 :::{.column}
-:::{.column-label}Knowledge:::{.column-label}
+:::{.column-label}
+Knowledge
+:::
 
 Specify concepts, tools, and analysis techniques reinforced.
 

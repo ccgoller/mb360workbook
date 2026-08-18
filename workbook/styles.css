@@ -318,3 +318,8 @@ body.quarto-dark .slide-link a.btn:focus {
   outline: 3px solid #fac800;
   outline-offset: 2px;
 }
+
+body.quarto-dark .slide-link a.btn:focus-visible {
+  outline: 3px solid #1a1a1a;
+  outline-offset: 2px;
+}

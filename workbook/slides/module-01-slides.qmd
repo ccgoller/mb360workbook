@@ -23,7 +23,7 @@ format:
 ## Overview {data-background-color="#990000"}
 
 :::{style="color:#ffffff; font-size:0.9em;"}
-**Weeks 1** · Lab safety · Pipetting fundamentals · First ELN entries
+**Week 1** · Lab safety · Pipetting fundamentals · First ELN entries
 
 - Review Thomas Hall lab-safety rules and personal protective equipment
 - Practice mechanical micropipettes and electronic multichannel pipettes
@@ -45,7 +45,9 @@ format:
 
 :::{.columns}
 :::{.column}
-:::{.column-label}Skills:::{.column-label}
+:::{.column-label}
+Skills
+:::
 
 - Follow basic safety precautions with live bacterial organisms
 - Transfer liquid volumes reproducibly with pipettors
@@ -54,7 +56,9 @@ format:
 :::
 
 :::{.column}
-:::{.column-label}Knowledge:::{.column-label}
+:::{.column-label}
+Knowledge
+:::
 
 - Pipettor types and their volume ranges
 - PPE expectations for microbial work

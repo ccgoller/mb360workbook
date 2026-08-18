@@ -44,7 +44,9 @@ format:
 
 :::{.columns}
 :::{.column}
-:::{.column-label}Skills:::{.column-label}
+:::{.column-label}
+Skills
+:::
 
 - Follow PPE and microbial safety procedures
 - Use Biolog plates and multichannel pipettors correctly
@@ -53,7 +55,9 @@ format:
 :::
 
 :::{.column}
-:::{.column-label}Knowledge:::{.column-label}
+:::{.column-label}
+Knowledge
+:::
 
 - PPE requirements for microbial work
 - Phenotypic assays and growth assessment

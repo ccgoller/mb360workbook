@@ -44,7 +44,9 @@ format:
 
 :::{.columns}
 :::{.column}
-:::{.column-label}Skills:::{.column-label}
+:::{.column-label}
+Skills
+:::
 
 - Work safely with liquid cultures in 96-well plates
 - Document protocols and results clearly
@@ -53,7 +55,9 @@ format:
 :::
 
 :::{.column}
-:::{.column-label}Knowledge:::{.column-label}
+:::{.column-label}
+Knowledge
+:::
 
 - PPE requirements for microbial work
 - Propagation in liquid media
