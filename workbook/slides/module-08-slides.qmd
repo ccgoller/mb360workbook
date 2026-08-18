@@ -8,7 +8,7 @@ institute: "NC State University | Department of Biological Sciences"
 date: today
 format:
   revealjs:
-    theme: [default, theme-mb360.scss]
+    theme: [default, mb360-revealjs.scss]
     logo: ../MB360logo-transparent.png
     footer: "MB 360 Lab Workbook | NC State University"
     slide-number: true
@@ -126,28 +126,3 @@ Write your methods so **another group could reproduce the experiment**, includin
 ## Results & Analysis
 
 ### Collect
-- Figures, tables, or photos summarising what happened
-
-### Analyze
-- What did the results mean, and did they match expectations?
-- How did the genomic data connect to the phenotypic findings?
-
-## Discussion Questions
-
-1. What did you learn from exploring your genome assembly and annotation with BV-BRC and SeqHub?
-2. Were you able to conduct and repeat your proposed experiment at least once? Why or why not?
-3. What findings did you obtain, and what are their implications?
-4. What experiment would you do next, and why?
-
-## {.closing}
-
-:::{.closing}
-![](../MB360logo-transparent.png){.closing-logo fig-alt="MB 360 Lab Workbook logo"}
-
-**Module 8 Complete — Share Your Results**
-
-:::{.closing-note}
-Congratulations on completing MB 360!  
-MB 360 Lab Workbook · Carlos C. Goller, Ph.D. · NC State University
-:::
-:::

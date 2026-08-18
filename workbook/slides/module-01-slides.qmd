@@ -8,7 +8,7 @@ institute: "NC State University | Department of Biological Sciences"
 date: today
 format:
   revealjs:
-    theme: [default, theme-mb360.scss]
+    theme: [default, mb360-revealjs.scss]
     logo: ../MB360logo-transparent.png
     footer: "MB 360 Lab Workbook | NC State University"
     slide-number: true
@@ -97,65 +97,3 @@ Knowledge
 - Practice picking up the entire drop without leaving liquid behind
 
 ## Methods: Volume Challenge
-
-Work with blue, yellow, and red dyed water on the Pipette Practice Card.
-
-| Step | Action |
-|------|--------|
-| 1–3 | Add 13.5 µL blue → dot A; 17.5 µL yellow → dot C; 17 µL red → dot E |
-| 4–6 | Transfer 2 µL A→F; 4.5 µL C→B; 3 µL E→D |
-| 7 | Calculate volume on each dot |
-| 8–10 | Mix 6 µL E→F; 3.5 µL A→B; 5 µL C→D |
-
-:::{.callout}
-Mix by pressing to the **first stop** and releasing slowly until colors blend.
-:::
-
-## Serial Dilutions: Background
-
-![Serial dilution overview — stepwise dilution from a concentrated starting sample.](../images/template/image15.jpg){fig-alt="Diagram showing a serial dilution sequence from a concentrated source through progressively diluted samples." style="max-height:260px; display:block; margin:0 auto;"}
-
-Serial dilution = stepwise dilution by a constant factor  
-This module uses **1:10 dilutions of crystal violet** in a 96-well plate.
-
-## Serial Dilutions: Protocol
-
-![96-well microplate — planning the serial dilution setup.](../images/template/image11.jpg){fig-alt="Photo of the top rows of a 96-well microplate used as a planning guide for serial dilution." style="max-height:200px; display:block; margin:0 auto;"}
-
-1. Add 50 µL water to each well in row A
-2. Add 50 µL crystal violet to well A1 and mix
-3. Transfer 50 µL A1 → A2; repeat through A12
-4. Discard final 50 µL after mixing A12
-5. Repeat for rows B, C, D; add 100 µL water to H12 (negative control)
-6. Compare rows visually, then measure absorbance with plate reader
-
-## Results & Analysis
-
-### Collect
-- Photo of the completed pipetting card (annotated)
-- Written notes on observations during volume-challenge and serial-dilution steps
-
-### Analyze
-- Did liquid transfers match expectations?
-- What do results suggest about your current pipetting precision?
-
-## Discussion Questions
-
-1. Did you make bubbles while mixing? What caused them?
-2. Was any liquid left on the card, or was there air space in the pipette tip after transfer?
-3. Based on your results, how would you rate your pipetting skill?
-4. What is the dilution factor in the serial dilution series?
-5. Did the visual pattern match your prediction?
-6. Did the plate-reader data match your qualitative observations?
-
-## {.closing}
-
-:::{.closing}
-![](../MB360logo-transparent.png){.closing-logo fig-alt="MB 360 Lab Workbook logo"}
-
-**Module 1 Complete — Getting Started**
-
-:::{.closing-note}
-MB 360 Lab Workbook · Carlos C. Goller, Ph.D. · NC State University
-:::
-:::

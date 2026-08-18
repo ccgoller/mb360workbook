@@ -8,7 +8,7 @@ institute: "NC State University | Department of Biological Sciences"
 date: today
 format:
   revealjs:
-    theme: [default, theme-mb360.scss]
+    theme: [default, mb360-revealjs.scss]
     logo: ../MB360logo-transparent.png
     footer: "MB 360 Lab Workbook | NC State University"
     slide-number: true
@@ -110,49 +110,3 @@ Knowledge
 - Observe colony appearance **without opening the plate**
 - Record: size, shape, colour, texture, any other visible features
 - Photograph the plate on the black background
-- Share photos with all team members
-
-## Methods: Plate Streaking
-
-![Single-colony transfer onto a fresh TSA plate for streaking practice.](../images/template/image13.png){fig-alt="Diagram showing a sterile loop transferring a single colony onto a fresh agar plate for streaking." style="max-height:260px; display:block; margin:0 auto;"}
-
-- Use a sterile loop to pick a **single colony**
-- Open the plate as little as possible
-- Streak onto a fresh TSA plate
-- Label the bottom edge: name · class · date
-
-## Methods: Starting a Liquid Culture
-
-1. Obtain TSB and sterile culture tubes
-2. Label tubes: TSB control, your isolate, *Delftia acidovorans* SPH-1
-3. Transfer a colony into the labeled tube (do not touch loop to any other surface)
-4. Cap each tube correctly
-5. Place in a shaking incubator at **30 °C**
-6. Incubate for **24 hours**
-
-## Results & Analysis
-
-### Collect
-- Photo of the streak plate
-- Notes on colony features (size, shape, colour, surface)
-
-### Analyze
-- Did the observed colony features and culture setup match expectations?
-- What differences would you predict between static and shaking liquid growth?
-
-## Discussion Questions
-
-1. If a student touched the agar with a thumb and unexpected colonies appeared later, what was the likely source of contamination and how could it have been prevented?
-2. What differences would you predict between static and shaking liquid growth?
-
-## {.closing}
-
-:::{.closing}
-![](../MB360logo-transparent.png){.closing-logo fig-alt="MB 360 Lab Workbook logo"}
-
-**Module 2 Complete — Microbial Propagation**
-
-:::{.closing-note}
-MB 360 Lab Workbook · Carlos C. Goller, Ph.D. · NC State University
-:::
-:::

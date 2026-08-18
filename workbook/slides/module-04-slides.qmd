@@ -8,7 +8,7 @@ institute: "NC State University | Department of Biological Sciences"
 date: today
 format:
   revealjs:
-    theme: [default, theme-mb360.scss]
+    theme: [default, mb360-revealjs.scss]
     logo: ../MB360logo-transparent.png
     footer: "MB 360 Lab Workbook | NC State University"
     slide-number: true
@@ -102,59 +102,3 @@ Biolog Blood Universal Growth (BUG) agar + GEN III MicroPlates
 **After Lab**
 
 - Clean work areas and personal items with ethanol
-- Dispose of liquids, plates, gloves, and glass using the assigned workflow
-- Return reusable materials and wash hands
-:::
-
-## Methods: Activity 1 — Turbidimeter
-
-1. Blank the turbidimeter with uninoculated IF-A fluid
-2. Swab bacteria from the BUG agar plate into IF-A inoculating fluid
-3. Mix gently and measure turbidity
-4. Adjust the inoculum to a target density of **95% transmittance**
-
-## Methods: Activity 2 — Biolog Plate Loading
-
-![Loading a Biolog GEN III plate with a multichannel pipette.](../images/template/image8.png){fig-alt="Illustration showing a multichannel pipette transferring inoculum into a 96-well Biolog plate." style="max-height:200px; display:block; margin:0 auto;"}
-
-- Pour prepared cell suspension into a multichannel reservoir
-- Load multichannel pipette; add **100 µL** to each well
-- Replace tips whenever contamination is possible
-- Confirm every well contains liquid
-
-## Methods: Incubation
-
-![Biolog GEN III plate after incubation with visible growth response.](../images/template/image9.png){fig-alt="Illustration of a Biolog GEN III plate with several purple wells indicating post-incubation growth response." style="max-height:200px; display:block; margin:0 auto;"}
-
-- Incubate **one plate** in the plate reader
-- Incubate **another plate** statically at **33 °C** for 1–2 days
-
-## Results & Analysis
-
-### Collect
-- Save and share raw 600 nm readings
-- Export blank-corrected table as CSV
-
-### Analyze
-- Interpret colour changes, growth patterns, and wells with or without growth
-- Identify which carbon sources support growth vs. inhibit your isolate
-
-## Discussion Questions
-
-1. What are the advantages and disadvantages of using a multichannel pipette?
-2. How do you maintain a pure culture during inoculation, and why is that necessary here?
-3. What does a turbidimeter measure, and why is that important for this assay?
-4. Why are BUG-grown bacteria used instead of TSA-grown bacteria?
-5. How has your multichannel technique changed over the semester?
-
-## {.closing}
-
-:::{.closing}
-![](../MB360logo-transparent.png){.closing-logo fig-alt="MB 360 Lab Workbook logo"}
-
-**Module 4 Complete — Microbial Metabolism**
-
-:::{.closing-note}
-MB 360 Lab Workbook · Carlos C. Goller, Ph.D. · NC State University
-:::
-:::

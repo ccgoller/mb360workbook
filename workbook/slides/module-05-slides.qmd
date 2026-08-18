@@ -8,7 +8,7 @@ institute: "NC State University | Department of Biological Sciences"
 date: today
 format:
   revealjs:
-    theme: [default, theme-mb360.scss]
+    theme: [default, mb360-revealjs.scss]
     logo: ../MB360logo-transparent.png
     footer: "MB 360 Lab Workbook | NC State University"
     slide-number: true
@@ -96,38 +96,3 @@ Questions this module addresses:
 
 1. Dilute overnight culture 1:1000 into fresh TSB
 2. Add 800 µL diluted culture to triplicate isolate-only wells
-3. Add 800 µL TSB to adjacent control wells
-4. Add 800 µL diluted SPH-1 to paired experimental wells
-
-## Methods: Incubation & Measurement
-
-5. Seal the plate carefully
-6. Incubate with shaking at **30 °C for 24–48 hours**
-7. Analyze OD₆₀₀ measurements collected **every 5 minutes**
-
-## Results & Analysis
-
-### Collect
-- Images of the co-culture plate
-- Figures generated from OD₆₀₀ growth data
-
-### Analyze
-- Compare isolate-only growth to co-culture growth
-- Did the second organism support, suppress, or reshape your isolate's growth profile?
-
-## Discussion Questions
-
-1. How can co-culture systems help researchers understand microbial behaviour?
-2. What kinds of metabolites or resources might explain improved or reduced growth in co-culture?
-
-## {.closing}
-
-:::{.closing}
-![](../MB360logo-transparent.png){.closing-logo fig-alt="MB 360 Lab Workbook logo"}
-
-**Module 5 Complete — Microbial Interactions**
-
-:::{.closing-note}
-MB 360 Lab Workbook · Carlos C. Goller, Ph.D. · NC State University
-:::
-:::

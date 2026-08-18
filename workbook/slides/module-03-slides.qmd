@@ -8,7 +8,7 @@ institute: "NC State University | Department of Biological Sciences"
 date: today
 format:
   revealjs:
-    theme: [default, theme-mb360.scss]
+    theme: [default, mb360-revealjs.scss]
     logo: ../MB360logo-transparent.png
     footer: "MB 360 Lab Workbook | NC State University"
     slide-number: true
@@ -96,50 +96,3 @@ Knowledge
 - Use positive and negative controls
 - Add 100 µL per well with multichannel pipette
 - Seal with breathable seal; load into plate reader at 30 °C for 48 h
-
-## Methods: Biofilm Assay Setup
-
-- Prepare fresh 1:1000 dilutions for the biofilm plate
-- Seed assigned wells with **100 µL per well**
-- Add the peg lid without contaminating the pegs
-- Incubate for **48 hours at 30 °C**
-
-## Methods: Biofilm Viability
-
-![Biofilm viability workflow using wash plates and detection reagent.](../images/template/image1.png){fig-alt="Workflow diagram showing peg-lid washing steps followed by incubation in detection reagent for a biofilm viability assay." style="max-height:240px; display:block; margin:0 auto;"}
-
-1. Wash peg lid using PBS in separate plates
-2. Prepare detection reagent: WST solution + electron mediator + TSB
-3. Transfer peg lid to reagent plate; incubate at 37 °C
-4. Measure absorbance at **450 nm**
-
-## Results & Analysis
-
-**Growth Curves**
-
-- Save and share raw plate-reader data
-- Format data for analysis; upload to repository
-- Plot growth curves and compare isolates and wells
-
-**Biofilm Viability**
-
-- Subtract average TSB-only background
-- Calculate average absorbance and standard deviation per condition
-- Plot background-corrected averages for comparison
-
-## Discussion Questions
-
-1. Why are biofilms difficult to eliminate, even when antibiotics are used?
-2. What growth-curve pattern would you expect for your isolate, and why?
-
-## {.closing}
-
-:::{.closing}
-![](../MB360logo-transparent.png){.closing-logo fig-alt="MB 360 Lab Workbook logo"}
-
-**Module 3 Complete — Microbial Growth Curves**
-
-:::{.closing-note}
-MB 360 Lab Workbook · Carlos C. Goller, Ph.D. · NC State University
-:::
-:::
