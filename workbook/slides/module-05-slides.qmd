@@ -25,13 +25,13 @@ format:
     include-after-body: slide-accessibility.html
 ---
 
-## Module 5: Microbial Interactions {.title-slide data-background-color="#1f4e79"}
+## Module 5: Microbial Interactions {.title-slide data-background-color="#990000"}
 
 <p class="slide-subtitle">MB 360: Scientific Inquiry in Microbiology At the Bench</p>
 
 <p class="slide-meta">MB 360 Lab Workbook<br>NC State University | Department of Biological Sciences</p>
 
-## Overview {data-background-color="#1f4e79"}
+## Overview {data-background-color="#990000"}
 
 :::{.overview-summary}
 **Weeks 8–9** · Co-culture experiments · Diffusion-mediated contact · Growth data analysis
@@ -96,3 +96,21 @@ Questions this module addresses:
 
 1. Dilute overnight culture 1:1000 into fresh TSB
 2. Add 800 µL diluted culture to triplicate isolate-only wells
+3. Add 800 µL diluted *Delftia* SPH-1 to triplicate co-culture wells
+4. Add 800 µL fresh TSB to triplicate negative-control wells
+5. Assemble Duet inserts; seat them securely in the co-culture wells
+6. Seal the plate with a breathable membrane seal
+7. Load into the plate reader at **30 °C** with continuous shaking; read **OD600** every 30 min for **48 h**
+
+## Results & Discussion
+
+- Export raw OD600 readings and apply blank correction
+- Plot growth curves for isolate-only, SPH-1-only, and co-culture conditions
+- Identify whether the interaction is neutral, mutualistic, or inhibitory
+- Connect the observed pattern to possible metabolite exchange or competition
+
+## Reflection Questions
+
+1. What is the purpose of the membrane in the Cerillo Duet system?
+2. How would you distinguish a mutualistic interaction from a commensal one in these data?
+3. What follow-up experiment would you design to test your hypothesis about the interaction?

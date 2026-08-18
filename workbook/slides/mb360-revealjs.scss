@@ -4,14 +4,15 @@
 $ncstate-red:        #cc0000;
 $ncstate-red-dark:   #990000;
 $ncstate-red-deeper: #6e0000;
-$ncstate-gold:       #fac800;
+$ncstate-gold:       #fac800;   // NC State yellow — used only for selective emphasis
 $ncstate-gold-light: #fff2b3;
 $white:              #ffffff;
 $off-white:          #f8f4f4;
+$gray-100:           #f5f5f5;
+$gray-300:           #d4d4d4;
+$gray-600:           #595959;
 $body-text:          #1a1a1a;
 $muted:              #5a5a5a;
-$mb360-blue:         #1f4e79;
-$mb360-blue-dark:    #17324d;
 
 // ── Slide background ────────────────────────────────────────────────────────
 $backgroundColor: $white;
@@ -33,9 +34,9 @@ $heading2Size: 1.5em;
 $heading3Size: 1.2em;
 $heading4Size: 1.0em;
 
-$linkColor: $ncstate-red;
-$linkColorHover: $ncstate-red-dark;
-$selectionBackgroundColor: $ncstate-gold;
+$linkColor: $ncstate-red-dark;
+$linkColorHover: $ncstate-red-deeper;
+$selectionBackgroundColor: $ncstate-gold;  // gold highlight on selection — justified emphasis
 $selectionColor: $body-text;
 
 // ── Block & code ────────────────────────────────────────────────────────────
@@ -45,13 +46,13 @@ $codeFont: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
 
 /*-- scss:rules --*/
 
-// ── Title slide — blue hero ──────────────────────────────────────────────────
+// ── Title slide — red hero ───────────────────────────────────────────────────
 .reveal .slides section#title-slide.quarto-title-block {
   display: none !important;
 }
 
 .reveal .slides section.title-slide {
-  background: linear-gradient(135deg, $mb360-blue 0%, $mb360-blue-dark 100%) !important;
+  background: linear-gradient(135deg, $ncstate-red-dark 0%, $ncstate-red-deeper 100%) !important;
   color: $white;
 
   h1, h2, h3, .title, .subtitle, p {
@@ -81,7 +82,6 @@ $codeFont: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
 }
 
 // ── Section divider slides ───────────────────────────────────────────────────
-.reveal .slides section[data-background-color="#1f4e79"],
 .reveal .slides section[data-background-color="#990000"] {
   color: $white;
 
@@ -94,17 +94,15 @@ $codeFont: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
   }
 
   ul li::before {
-    color: $ncstate-gold-light;
+    color: $ncstate-gold-light;  // warm tint on dark red — sufficient contrast
   }
 }
 
-.reveal .slides section[data-background-color="#1f4e79"] .overview-summary,
 .reveal .slides section[data-background-color="#990000"] .overview-summary {
   color: $white;
   font-size: 0.9em;
 }
 
-.reveal .slides section[data-background-color="#1f4e79"] .overview-summary :is(p, li, strong, em),
 .reveal .slides section[data-background-color="#990000"] .overview-summary :is(p, li, strong, em) {
   color: inherit;
 }

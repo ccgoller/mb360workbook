@@ -25,13 +25,13 @@ format:
     include-after-body: slide-accessibility.html
 ---
 
-## Module 6: Microbial Genome Sequencing {.title-slide data-background-color="#1f4e79"}
+## Module 6: Microbial Genome Sequencing {.title-slide data-background-color="#990000"}
 
 <p class="slide-subtitle">MB 360: Scientific Inquiry in Microbiology At the Bench</p>
 
 <p class="slide-meta">MB 360 Lab Workbook<br>NC State University | Department of Biological Sciences</p>
 
-## Overview {data-background-color="#1f4e79"}
+## Overview {data-background-color="#990000"}
 
 :::{.overview-summary}
 **Weeks 11–12** · DNA isolation · Quantification · Sequencing preparation · Early genome analysis
@@ -94,3 +94,27 @@ Knowledge
 3. Add **Proteinase K** and **RNase A**
 4. Add **CTAB buffer**; incubate at 56 °C for 30 minutes
 5. Combine lysate with Monarch gDNA Binding Buffer (2:1)
+6. Transfer lysate to a **Monarch gDNA Column**; centrifuge to bind DNA
+7. Wash with **Wash Buffer** (×2)
+8. Elute with **50 µL warm elution buffer** (pre-heated to 65 °C)
+
+## Methods: DNA Quantification (Qubit)
+
+1. Prepare the Qubit working solution: **199 µL buffer + 1 µL reagent** per sample
+2. Add **198 µL** working solution to two standard tubes; add 2 µL of each standard
+3. Add **197 µL** working solution to the sample tube; add **3 µL** of your eluate
+4. Vortex all tubes; incubate 2 min in the dark
+5. Read on the Qubit fluorometer using the **dsDNA BR** or **HS** assay
+6. Record ng/µL concentration and calculate total yield
+
+## Results & Discussion
+
+- Record Qubit concentration and total DNA yield
+- Determine whether yield meets the sequencing threshold (≥ 400 ng total)
+- Note any low-yield samples and discuss likely causes (over-dilution, lysis inefficiency)
+
+## Reflection Questions
+
+1. Why is high-molecular-weight DNA important for long-read nanopore sequencing?
+2. What role does the CTAB buffer play in the NO-MISS extraction workflow?
+3. How would you troubleshoot a Qubit reading of 0 ng/µL?

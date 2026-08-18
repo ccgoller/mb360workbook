@@ -25,13 +25,13 @@ format:
     include-after-body: slide-accessibility.html
 ---
 
-## Module 1: Getting Started {.title-slide data-background-color="#1f4e79"}
+## Module 1: Getting Started {.title-slide data-background-color="#990000"}
 
 <p class="slide-subtitle">MB 360: Scientific Inquiry in Microbiology At the Bench</p>
 
 <p class="slide-meta">MB 360 Lab Workbook<br>NC State University | Department of Biological Sciences</p>
 
-## Overview {data-background-color="#1f4e79"}
+## Overview {data-background-color="#990000"}
 
 :::{.overview-summary}
 **Week 1** · Lab safety · Pipetting fundamentals · First ELN entries
@@ -97,3 +97,19 @@ Knowledge
 - Practice picking up the entire drop without leaving liquid behind
 
 ## Methods: Volume Challenge
+
+- Each group member attempts three volumes: 5 µL, 20 µL, and 100 µL
+- Repeat each volume three times and weigh each drop
+- Record mass (mg) in the data table; calculate accuracy and coefficient of variation
+
+## Results & Discussion
+
+- Compare your gravimetric accuracy to the pipette specification (±2%)
+- Identify the volume where your group had the most and least variability
+- Discuss one adjustment you made to improve consistency
+
+## Reflection Questions
+
+1. Why is reproducibility important when setting up 96-well plate assays?
+2. Which pipette type works best for very small volumes (< 2 µL), and why?
+3. What did you include in your first ELN entry, and why does structure matter?
