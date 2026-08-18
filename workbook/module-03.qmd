@@ -1,7 +1,7 @@
 # Module 3: Microbial Growth Curves
 
 :::{.slide-link}
-[View Slide Deck](slides/module-03-slides.html){.btn target="_blank" rel="noopener noreferrer" aria-label="Open Module 3 slide deck in a new tab"}
+[View Slide Deck](slides/module-03-slides.qmd){.btn target="_blank" rel="noopener noreferrer" aria-label="Open Module 3 slide deck in a new tab"}
 :::
 
 ## Overview
