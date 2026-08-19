@@ -8,7 +8,7 @@ institute: "NC State University | Department of Biological Sciences"
 date: today
 format:
   revealjs:
-    theme: [default, mb360-revealjs.scss]
+    theme: [default, theme-mb360.scss]
     logo: ../MB360logo-transparent.png
     footer: "MB 360 Lab Workbook | NC State University"
     slide-number: true
@@ -25,13 +25,13 @@ format:
     include-after-body: slide-accessibility.html
 ---
 
-## Module 3: Microbial Growth Curves {.title-slide data-background-color="#990000"}
+## Module 3: Microbial Growth Curves {.title-slide data-background-color="#1f4e79"}
 
 <p class="slide-subtitle">MB 360: Scientific Inquiry in Microbiology At the Bench</p>
 
 <p class="slide-meta">MB 360 Lab Workbook<br>NC State University | Department of Biological Sciences</p>
 
-## Overview {data-background-color="#990000"}
+## Overview {data-background-color="#1f4e79"}
 
 :::{.overview-summary}
 **Weeks 4–5** · Growth-curve experiments · Multichannel pipetting · Biofilm viability assays
