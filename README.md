@@ -66,6 +66,7 @@ From the `workbook/` directory of the cloned repository:
 - Render the slide decks into `_book/slides/`: `quarto render slides`
 - Preview an individual slide deck while editing: `quarto preview slides/module-01-slides.qmd`
 - Open a generated deck from `_book/slides/`, for example `_book/slides/module-01-slides.html`
+- The shared accessible RevealJS theme for module decks lives in `workbook/slides/theme-mb360.scss`
 
 Quick accessibility/rendering checks for each deck:
 
