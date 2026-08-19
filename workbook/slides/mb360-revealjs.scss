@@ -82,6 +82,7 @@ $codeFont: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
 }
 
 // ── Section divider slides ───────────────────────────────────────────────────
+.reveal .slides section[data-background-color="#1f4e79"],
 .reveal .slides section[data-background-color="#990000"] {
   color: $white;
 
@@ -98,11 +99,13 @@ $codeFont: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
   }
 }
 
+.reveal .slides section[data-background-color="#1f4e79"] .overview-summary,
 .reveal .slides section[data-background-color="#990000"] .overview-summary {
   color: $white;
   font-size: 0.9em;
 }
 
+.reveal .slides section[data-background-color="#1f4e79"] .overview-summary :is(p, li, strong, em),
 .reveal .slides section[data-background-color="#990000"] .overview-summary :is(p, li, strong, em) {
   color: inherit;
 }
