@@ -1,13 +1,15 @@
 /*-- scss:defaults --*/
 
-$mb360-primary: #1f4e79;   // shared accessible reveal.js theme
-$mb360-teal: #0f766e;
-$mb360-ink: #1f2937;
-$mb360-muted: #4b5563;
-$mb360-accent: #f59e0b;
-$mb360-surface: #f8fafc;
+$mb360-primary: #990000;   // workbook navbar + NC State red dark
+$mb360-primary-bright: #cc0000;
+$mb360-primary-deep: #6e0000;
+$mb360-ink: #1a1a1a;
+$mb360-muted: #595959;
+$mb360-accent: #fac800;    // workbook dark-mode primary / emphasis only
+$mb360-accent-soft: #fff2b3;
+$mb360-surface: #f8f4f4;
 $mb360-white: #ffffff;
-$mb360-border: #cbd5e1;
+$mb360-border: #d4d4d4;
 
 $backgroundColor: $mb360-white;
 $mainFont: "Inter", "Segoe UI", Roboto, Arial, sans-serif;
@@ -23,8 +25,8 @@ $heading1Size: 1.9em;
 $heading2Size: 1.35em;
 $heading3Size: 1.05em;
 $heading4Size: 0.92em;
-$linkColor: $mb360-teal;
-$linkColorHover: darken($mb360-teal, 8%);
+$linkColor: $mb360-primary;
+$linkColorHover: $mb360-primary-deep;
 $selectionBackgroundColor: rgba($mb360-accent, 0.35);
 $selectionColor: $mb360-ink;
 $codeFont: "JetBrains Mono", "Fira Code", Consolas, monospace;
@@ -56,7 +58,7 @@ $borderRadius: 10px;
 }
 
 .reveal .slides section.title-slide {
-  background: linear-gradient(135deg, $mb360-primary 0%, darken($mb360-primary, 12%) 100%) !important;
+  background: linear-gradient(135deg, $mb360-primary 0%, $mb360-primary-deep 100%) !important;
   color: $mb360-white;
 
   h1,
@@ -93,7 +95,7 @@ $borderRadius: 10px;
   }
 }
 
-.reveal .slides section[data-background-color="#1f4e79"] {
+.reveal .slides section[data-background-color="#990000"] {
   color: $mb360-white;
 
   h1,
@@ -114,12 +116,12 @@ $borderRadius: 10px;
   }
 }
 
-.reveal .slides section[data-background-color="#1f4e79"] .overview-summary {
+.reveal .slides section[data-background-color="#990000"] .overview-summary {
   color: $mb360-white;
   font-size: 0.9em;
 }
 
-.reveal .slides section[data-background-color="#1f4e79"] .overview-summary :is(p, li, strong, em) {
+.reveal .slides section[data-background-color="#990000"] .overview-summary :is(p, li, strong, em) {
   color: inherit;
 }
 
@@ -136,11 +138,11 @@ $borderRadius: 10px;
 
 .reveal h2 {
   padding-bottom: 0.16em;
-  border-bottom: 3px solid rgba($mb360-accent, 0.9);
+  border-bottom: 3px solid rgba($mb360-primary-bright, 0.9);
 }
 
 .reveal h3 {
-  color: $mb360-teal;
+  color: $mb360-primary-bright;
   margin-top: 0.9em;
 }
 
@@ -176,7 +178,7 @@ $borderRadius: 10px;
 }
 
 .reveal em {
-  color: $mb360-teal;
+  color: $mb360-primary-bright;
 }
 
 .reveal pre {
@@ -185,8 +187,8 @@ $borderRadius: 10px;
   font-size: 0.58em;
   line-height: 1.35;
   padding: 0.45em 0.6em;
-  background: #f3f7fb;
-  border: 1px solid rgba($mb360-primary, 0.12);
+  background: #faf5f5;
+  border: 1px solid rgba($mb360-primary, 0.15);
   border-radius: $borderRadius;
   box-shadow: none;
 }
@@ -197,7 +199,7 @@ $borderRadius: 10px;
 
 .reveal :not(pre) > code {
   color: $mb360-primary;
-  background: rgba($mb360-primary, 0.08);
+  background: rgba($mb360-primary, 0.1);
   padding: 0.08em 0.24em;
   border-radius: 0.25em;
 }
@@ -248,14 +250,14 @@ $borderRadius: 10px;
 }
 
 .reveal a {
-  color: $mb360-teal;
+  color: $mb360-primary;
   text-decoration: underline;
   text-underline-offset: 0.08em;
 }
 
 .reveal a:hover,
 .reveal a:focus {
-  color: darken($mb360-teal, 8%);
+  color: $mb360-primary-deep;
 }
 
 .reveal .footer {
@@ -271,8 +273,8 @@ $borderRadius: 10px;
 }
 
 .reveal .slide-number {
-  color: rgba($mb360-muted, 0.92);
-  background: rgba($mb360-white, 0.88);
+  color: rgba($mb360-muted, 0.96);
+  background: rgba($mb360-white, 0.94);
   border: 1px solid rgba($mb360-border, 0.95);
   border-radius: 999px;
   font-size: 0.44em;
@@ -280,7 +282,7 @@ $borderRadius: 10px;
 }
 
 .reveal .progress {
-  color: $mb360-accent;
+  color: $mb360-primary-bright;
   height: 4px;
 }
 
