@@ -16,7 +16,8 @@ This page provides a quick index to the figures embedded throughout the workbook
 
 ## Module 2
 
-- Figure @fig-module2-streaking in [Module 2](module-02.qmd): Single-colony transfer for streaking
+- Figure @fig-module2-streaking in [Module 2](module-02.qmd): Three-phase streak pattern for single-colony isolation
+- Figure @fig-module2-labeling in [Module 2](module-02.qmd): Correct plate-labeling placement
 
 ## Module 3
 
