@@ -1,35 +1,3 @@
----
-title: "Module 5: Microbial Interactions"
-subtitle: "MB 360: Scientific Inquiry in Microbiology At the Bench"
-author:
-  - "Carlos C. Goller, Ph.D."
-  - "Camila Loyola, Graduate Teaching Assistant"
-institute: "NC State University | Department of Biological Sciences"
-date: today
-format:
-  revealjs:
-    theme: [default, theme-mb360.scss]
-    logo: ../MB360logo-transparent.png
-    footer: "MB 360 Lab Workbook | NC State University"
-    slide-number: true
-    controls: true
-    progress: true
-    transition: fade
-    center: false
-    margin: 0.08
-    width: 1600
-    height: 900
-    highlight-style: github
-    self-contained: true
-    title-slide: false
-    include-after-body: slide-accessibility.html
----
-
-## Module 5: Microbial Interactions {.title-slide data-background-color="#1f4e79"}
-
-<p class="slide-subtitle">MB 360: Scientific Inquiry in Microbiology At the Bench</p>
-
-<p class="slide-meta">MB 360 Lab Workbook<br>NC State University | Department of Biological Sciences</p>
 
 ## Overview {data-background-color="#1f4e79"}
 
@@ -92,7 +60,7 @@ Questions this module addresses:
 
 ## Methods: Day of the Lab
 
-![Cerillo Duet co-culture layout with isolate-only, control, and co-culture conditions.](../images/template/image14.png){fig-alt="Diagram of a Cerillo Duet co-culture plate with paired chambers for controls and co-culture conditions." style="max-height:220px; display:block; margin:0 auto;"}
+![Cerillo Duet co-culture layout with isolate-only, control, and co-culture conditions.](../images/module-05/cerillo-duet-coculture-layout.png){fig-alt="Diagram of a Cerillo Duet co-culture plate with paired chambers for controls and co-culture conditions." style="max-height:220px; display:block; margin:0 auto;"}
 
 1. Dilute overnight culture 1:1000 into fresh TSB
 2. Add 800 µL diluted culture to triplicate isolate-only wells

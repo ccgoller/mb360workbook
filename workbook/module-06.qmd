@@ -1,42 +1,3 @@
-# Module 6: Microbial Genome Sequencing
-
-:::{.slide-link}
-[View Slide Deck](slides/module-06-slides.html){.btn target="_blank" rel="noopener noreferrer" aria-label="Open Module 6 slide deck in a new tab"}
-:::
-
-## Overview
-
-Weeks 11 and 12 focus on DNA isolation, quantification, sequencing preparation, and early genome analysis.
-
-## Purpose
-
-- Evaluate DNA sequencing results and microbial genome assemblies.
-- Follow a standard DNA isolation protocol.
-- Apply bioinformatics tools to assemble microbial genomes and analyze predicted coding sequences.
-
-## Learning Outcomes
-
-- List safety considerations for extracting DNA from microbial isolates.
-- Explain the purpose of reagents used for DNA extraction.
-- Discuss the significance of high-molecular-weight DNA for sequencing.
-- Practice extracting DNA from liquid cultures.
-- Practice quantifying DNA with a Qubit fluorometer.
-- Describe the purpose, methods, and preliminary results of DNA extraction, quantification, and sequencing experiments.
-- Collect and interpret DNA quantification and sequencing data.
-- Revise the draft for the individual and group projects.
-- Explain how the experiment contributes to the overall research goal.
-
-## Skills and Knowledge
-
-### Skills
-
-- Follow lab safety and PPE procedures.
-- Extract and quantify microbial DNA.
-- Analyze microbial DNA sequence data.
-
-### Knowledge
-
-- PPE requirements for DNA isolation and purification.
 - DNA extraction and quantification methods.
 - Oxford Nanopore Technologies sequencing workflows.
 
@@ -54,7 +15,7 @@ This module connects phenotype to genotype by sequencing the genome of the isola
 
 Figure @fig-module6-sequencing-overview summarizes the sequencing and downstream analysis pipeline from isolate DNA to annotated genome.
 
-![Nanopore sequencing and downstream analysis workflow.](images/template/image4.png){#fig-module6-sequencing-overview fig-alt="Workflow diagram showing nanopore sequencing followed by basecalling, assembly, and genome exploration."}
+![Nanopore sequencing and downstream analysis workflow.](images/module-06/nanopore-sequencing-analysis-workflow.png){#fig-module6-sequencing-overview fig-alt="Workflow diagram showing nanopore sequencing followed by basecalling, assembly, and genome exploration."}
 
 ## Procedures
 
@@ -85,11 +46,11 @@ Figure @fig-module6-sequencing-overview summarizes the sequencing and downstream
 
 Figure @fig-module6-qubit illustrates the Qubit measurement setup used to quantify extracted DNA prior to library preparation.
 
-![Qubit fluorometer workflow for DNA quantification.](images/template/image2.png){#fig-module6-qubit fig-alt="Workflow diagram showing preparation of a Qubit assay tube and fluorometer-based DNA quantification."}
+![Qubit fluorometer workflow for DNA quantification.](images/module-06/qubit-dna-quantification-workflow.png){#fig-module6-qubit fig-alt="Workflow diagram showing preparation of a Qubit assay tube and fluorometer-based DNA quantification."}
 
 Figure @fig-module6-library-prep summarizes the rapid barcoding library-preparation workflow used before sequencing.
 
-![Nanopore rapid barcoding workflow for sequencing library preparation.](images/template/image5.png){#fig-module6-library-prep fig-alt="Workflow diagram showing the rapid barcoding steps used to prepare DNA for nanopore sequencing."}
+![Nanopore rapid barcoding workflow for sequencing library preparation.](images/module-06/nanopore-rapid-barcoding-workflow.png){#fig-module6-library-prep fig-alt="Workflow diagram showing the rapid barcoding steps used to prepare DNA for nanopore sequencing."}
 
 ### Data Analysis
 

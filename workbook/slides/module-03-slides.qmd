@@ -1,43 +1,4 @@
----
-title: "Module 3: Microbial Growth Curves"
-subtitle: "MB 360: Scientific Inquiry in Microbiology At the Bench"
-author:
-  - "Carlos C. Goller, Ph.D."
-  - "Camila Loyola, Graduate Teaching Assistant"
-institute: "NC State University | Department of Biological Sciences"
-date: today
-format:
-  revealjs:
-    theme: [default, theme-mb360.scss]
-    logo: ../MB360logo-transparent.png
-    footer: "MB 360 Lab Workbook | NC State University"
-    slide-number: true
-    controls: true
-    progress: true
-    transition: fade
-    center: false
-    margin: 0.08
-    width: 1600
-    height: 900
-    highlight-style: github
-    self-contained: true
-    title-slide: false
-    include-after-body: slide-accessibility.html
----
 
-## Module 3: Microbial Growth Curves {.title-slide data-background-color="#1f4e79"}
-
-<p class="slide-subtitle">MB 360: Scientific Inquiry in Microbiology At the Bench</p>
-
-<p class="slide-meta">MB 360 Lab Workbook<br>NC State University | Department of Biological Sciences</p>
-
-## Overview {data-background-color="#1f4e79"}
-
-:::{.overview-summary}
-**Weeks 4–5** · Growth-curve experiments · Multichannel pipetting · Biofilm viability assays
-
-- Evaluate growth rates of different *Delftia* species
-- Analyze growth parameters from shaking cultures
 - Investigate biofilm formation differences among isolates
 :::
 
@@ -90,7 +51,7 @@ Knowledge
 
 ## Methods: Growth Assay Setup
 
-![Blank 96-well plate layout for planning growth-curve wells and controls.](../images/template/image10.png){fig-alt="Blank 96-well plate diagram for organizing growth-curve and control conditions." style="max-height:240px; display:block; margin:0 auto;"}
+![Blank 96-well plate layout for planning growth-curve wells and controls.](../images/module-03/growth-curve-96well-layout.png){fig-alt="Blank 96-well plate diagram for organizing growth-curve and control conditions." style="max-height:240px; display:block; margin:0 auto;"}
 
 - Prepare 1:1000 dilutions of overnight cultures
 - Use positive and negative controls
@@ -99,7 +60,7 @@ Knowledge
 
 ## Methods: Biofilm Viability Assay
 
-![Crystal violet staining layout for quantifying biofilm biomass in a 96-well plate.](../images/template/image9.png){fig-alt="96-well plate diagram indicating wells used for biofilm staining with crystal violet." style="max-height:240px; display:block; margin:0 auto;"}
+![Crystal violet staining layout for quantifying biofilm biomass in a 96-well plate.](../images/module-04/biolog-geniii-incubation-results.png){fig-alt="96-well plate diagram indicating wells used for biofilm staining with crystal violet." style="max-height:240px; display:block; margin:0 auto;"}
 
 1. Remove medium from static-growth wells at 24 h and 48 h time points
 2. Wash each well gently with **sterile PBS** (×2) to remove planktonic cells

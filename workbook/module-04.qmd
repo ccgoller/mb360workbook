@@ -1,42 +1,3 @@
-# Module 4: Microbial Metabolism
-
-:::{.slide-link}
-[View Slide Deck](slides/module-04-slides.html){.btn target="_blank" rel="noopener noreferrer" aria-label="Open Module 4 slide deck in a new tab"}
-:::
-
-## Overview
-
-Weeks 6 and 7 focus on Biolog GEN III phenotypic characterization, growth measurements, and metabolic interpretation.
-
-## Purpose
-
-- Evaluate and analyze bacterial growth in different environments.
-- Perform metabolic profiling.
-- Identify conditions that support or inhibit bacterial growth.
-- Use multichannel pipettes to seed 96-well plates for growth assays.
-- Apply the principles behind Biolog GEN III plates to your overall experiment.
-
-## Learning Outcomes
-
-- List safety considerations for propagating microbes.
-- Explain the purpose of GEN III Biolog plates and metabolic tests.
-- Describe the features of biofilms.
-- Discuss the significance of growth curves.
-- Practice using a multichannel pipette.
-- Use a turbidimeter to adjust inoculum turbidity.
-- Seed 96-well plates consistently without contamination.
-- Describe the purpose, methods, and preliminary results of GEN III phenotypic characterization experiments.
-- Collect and interpret growth data from Biolog GEN III plates.
-- Create a draft for the individual and group projects.
-- Explain how the experiment contributes to the overall research goal.
-
-## Skills and Knowledge
-
-### Skills
-
-- Follow PPE and microbial safety procedures.
-- Use Biolog plates and multichannel pipettors correctly.
-- Use a turbidimeter to adjust bacterial density.
 - Analyze bacterial growth data from 96-well plates.
 
 ### Knowledge
@@ -59,7 +20,7 @@ Biolog Blood Universal Growth agar and GEN III MicroPlates make it possible to t
 
 Figure @fig-module4-biolog-layout shows the overall GEN III plate layout used to interpret the phenotypic results.
 
-![Biolog GEN III plate layout with carbon-source and control wells.](images/template/image3.png){#fig-module4-biolog-layout fig-alt="Biolog GEN III plate layout showing the distribution of test conditions across the wells."}
+![Biolog GEN III plate layout with carbon-source and control wells.](images/module-04/biolog-geniii-layout.png){#fig-module4-biolog-layout fig-alt="Biolog GEN III plate layout showing the distribution of test conditions across the wells."}
 
 ## Procedures
 
@@ -93,11 +54,11 @@ Figure @fig-module4-biolog-layout shows the overall GEN III plate layout used to
 
 Figure @fig-module4-biolog-loading shows the multichannel loading pattern used to inoculate each column consistently.
 
-![Loading a Biolog GEN III plate with a multichannel pipette.](images/template/image8.png){#fig-module4-biolog-loading fig-alt="Illustration showing a multichannel pipette transferring inoculum into a Biolog plate."}
+![Loading a Biolog GEN III plate with a multichannel pipette.](images/module-04/biolog-geniii-loading-pattern.png){#fig-module4-biolog-loading fig-alt="Illustration showing a multichannel pipette transferring inoculum into a Biolog plate."}
 
 Figure @fig-module4-biolog-incubation shows the expected appearance of an inoculated Biolog plate after incubation.
 
-![Biolog GEN III plate after incubation with visible growth response.](images/template/image9.png){#fig-module4-biolog-incubation fig-alt="Illustration of a Biolog GEN III plate with several purple and clear wells showing differential growth."}
+![Biolog GEN III plate after incubation with visible growth response.](images/module-04/biolog-geniii-incubation-results.png){#fig-module4-biolog-incubation fig-alt="Illustration of a Biolog GEN III plate with several purple and clear wells showing differential growth."}
 
 - Pour the prepared cell suspension into a multichannel reservoir.
 - Load the multichannel pipette and add 100 µL to each well of the GEN III plate.
@@ -116,15 +77,3 @@ Record any mistakes, deviations, or strain-specific observations.
 - Save and share the raw 600 nm readings.
 - Export the blank-corrected table as CSV.
 - Validate the data structure, convert time to minutes, and plot growth curves.
-
-## Result Analysis
-
-Interpret color changes, growth patterns, and wells with or without growth. Identify which carbon sources appear supportive and which conditions inhibited the isolate.
-
-## Discussion Questions
-
-1. What are the advantages and disadvantages of using a multichannel pipette?
-2. How do you maintain a pure culture during inoculation, and why is that necessary here?
-3. What does a turbidimeter measure, and why is that important for this assay?
-4. Why are BUG-grown bacteria used instead of TSA-grown bacteria?
-5. How has your multichannel technique changed over the semester?

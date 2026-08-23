@@ -5,7 +5,7 @@ unnumbered: true
 number-sections: false
 about:
   template: broadside
-  image: images/author/GollerCarlos.jpg
+  image: images/about/carlos-goller-portrait.jpg
   image-shape: rounded
   links:
     - icon: linkedin

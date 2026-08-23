@@ -1,50 +1,3 @@
-# Module 3: Microbial Growth Curves
-
-:::{.slide-link}
-[View Slide Deck](slides/module-03-slides.html){.btn target="_blank" rel="noopener noreferrer" aria-label="Open Module 3 slide deck in a new tab"}
-:::
-
-## Overview
-
-Weeks 4 and 5 focus on growth-curve experiments, multichannel pipetting, and biofilm viability assays.
-
-## Purpose
-
-- Evaluate growth rates of different *Delftia* species.
-- Prepare liquid cultures from single colonies for 96-well growth assays.
-- Analyze growth parameters from shaking cultures.
-- Investigate differences in biofilm formation among isolates.
-
-## Learning Outcomes
-
-- List safety considerations for propagating microbes.
-- Explain the differences between static and shaking growth.
-- Describe the features of biofilms.
-- Discuss the significance of growth curves.
-- Practice using a multichannel pipette.
-- Practice diluting overnight cultures and seeding 96-well plates consistently.
-- Describe the purpose, methods, and preliminary results of microbial propagation experiments.
-- Collect and interpret growth and biofilm data.
-- Create an annotated bibliography with at least five sources.
-
-## Skills and Knowledge
-
-### Skills
-
-- Work safely with liquid cultures in 96-well plates.
-- Document protocols and results clearly.
-- Interpret growth-curve and biofilm data.
-- Propagate bacteria in liquid culture.
-
-### Knowledge
-
-- PPE requirements for microbial work.
-- Propagation of microorganisms in liquid media.
-- Seeding 96-well plates for growth and biofilm analyses.
-
-## Task
-
-Review the procedures before lab and work with your partner to complete the growth and biofilm assays and document all observations.
 
 ## Criteria for Success
 
@@ -72,7 +25,7 @@ This module compares growth and biofilm formation in *Delftia acidovorans*, *Del
 
 Figure @fig-module3-growth-layout provides a reusable 96-well template for mapping control wells and isolate conditions before loading the plate.
 
-![Blank 96-well plate layout for planning growth-curve wells and controls.](images/template/image10.png){#fig-module3-growth-layout fig-alt="Blank 96-well plate diagram for organizing growth-curve and control conditions."}
+![Blank 96-well plate layout for planning growth-curve wells and controls.](images/module-03/growth-curve-96well-layout.png){#fig-module3-growth-layout fig-alt="Blank 96-well plate diagram for organizing growth-curve and control conditions."}
 
 - Prepare 1:1000 dilutions of the overnight cultures.
 - Use positive and negative controls.
@@ -92,7 +45,7 @@ Figure @fig-module3-growth-layout provides a reusable 96-well template for mappi
 
 Figure @fig-module3-biofilm-viability outlines the wash-and-detection workflow used to measure biofilm viability after incubation.
 
-![Biofilm viability workflow using wash plates and detection reagent.](images/template/image1.png){#fig-module3-biofilm-viability fig-alt="Workflow diagram showing peg-lid washing steps followed by reagent detection."}
+![Biofilm viability workflow using wash plates and detection reagent.](images/module-03/biofilm-viability-workflow.png){#fig-module3-biofilm-viability fig-alt="Workflow diagram showing peg-lid washing steps followed by reagent detection."}
 
 - Wash the peg lid using PBS in separate plates.
 - Prepare the detection reagent with WST solution, electron mediator reagent, and TSB.
@@ -124,6 +77,3 @@ Record any mistakes, deviations, or isolate-specific observations.
 Use your code and plots to explain whether the observed growth and biofilm behavior matched expectations.
 
 ## Discussion Questions
-
-1. Why are biofilms difficult to eliminate, even when antibiotics are used?
-2. What growth-curve pattern would you expect for your isolate, and why?
