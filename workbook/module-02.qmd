@@ -89,7 +89,7 @@ Note that we will be working with live microbial isolates today. Please follow a
 
 Figure @fig-module2-streaking illustrates the transfer of a single colony to a fresh plate during the streaking workflow.
 
-![Single-colony transfer onto a fresh TSA plate for streaking practice.](images/module-02/PlateStreaking.png){#fig-module2-streaking fig-alt="Diagram showing a sterile loop transferring a single colony onto a fresh agar plate for streaking."}
+![Single-colony transfer onto a fresh TSA plate for streaking practice. Created with BioRender.com.](images/module-02/PlateStreaking.png){#fig-module2-streaking fig-alt="Diagram showing a sterile loop transferring a single colony onto a fresh agar plate for streaking practice."}
 
 - Use a sterile loop to pick a single colony.
 - Open the plate as little as possible.
@@ -100,7 +100,7 @@ Figure @fig-module2-streaking illustrates the transfer of a single colony to a f
 
 Figure @fig-module2-labeling shows the correct placement and content of labels on the bottom of an agar plate.
 
-![Correct placement of labels on the bottom of a TSA plate.](images/module-02/PlateLabeling.png){#fig-module2-labeling fig-alt="Diagram showing how to label the bottom of an agar plate with isolate name, class section, and date."}
+![Correct placement of labels on the bottom of a TSA plate. Created with BioRender.com.](images/module-02/PlateLabeling.png){#fig-module2-labeling fig-alt="Diagram showing how to label the bottom of an agar plate with isolate name, section, group number, and date."}
 
 - Write on the **bottom** of the plate with a permanent marker.
 - Include your isolate name, class section, group number, and the date.
