@@ -89,21 +89,12 @@ Note that we will be working with live microbial isolates today. Please follow a
 
 Figure @fig-module2-streaking illustrates the transfer of a single colony to a fresh plate during the streaking workflow.
 
-![Three-phase streak pattern used to isolate single colonies on a fresh TSA plate.](images/module-02/PlateStreaking.png){#fig-module2-streaking fig-alt="Diagram showing a sterile loop performing a three-phase streak pattern on a fresh agar plate to isolate single colonies."}
+![Single-colony transfer onto a fresh TSA plate for streaking practice.](images/template/image13.png){#fig-module2-streaking fig-alt="Diagram showing a sterile loop transferring a single colony onto a fresh agar plate for streaking."}
 
 - Use a sterile loop to pick a single colony.
 - Open the plate as little as possible.
 - Streak onto a fresh TSA plate using a three-phase pattern to dilute toward single colonies.
-
-### Methods: Plate Labeling
-
-Figure @fig-module2-labeling shows the correct placement of labels on the bottom of an agar plate.
-
-![Correct label placement on the bottom edge of an agar plate, including isolate name, date, and group information.](images/module-02/PlateLabeling.png){#fig-module2-labeling fig-alt="Illustration of a labeled agar plate showing isolate name, class section, and date written on the bottom edge of the plate."}
-
 - Label the **bottom** of the plate (not the lid) with your isolate name, class section, and date.
-- Keep labels small and placed near the edge so they do not obscure colony observations.
-- Take a photo of the labeled plate for your ELN record.
 
 ### Methods: Starting a Liquid Culture
 

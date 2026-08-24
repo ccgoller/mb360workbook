@@ -114,7 +114,7 @@ Knowledge
 
 ## Methods: Streak Plating
 
-![Three-phase streak pattern for isolating single colonies on TSA plates.](../images/module-02/PlateStreaking.png){fig-alt="Diagram of a three-phase streak pattern on an agar plate for bacterial isolation." style="max-height:260px; display:block; margin:0 auto;"}
+![Single-colony transfer onto a fresh TSA plate for streaking practice.](../images/template/image13.png){fig-alt="Diagram showing a sterile loop transferring a single colony onto a fresh agar plate for streaking." style="max-height:260px; display:block; margin:0 auto;"}
 
 1. Sterilise the inoculation loop in the flame until glowing red
 2. Cool the loop briefly on the unused edge of the agar
