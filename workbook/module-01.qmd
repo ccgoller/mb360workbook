@@ -10,7 +10,7 @@
 
 ### Methods: Volume Challenge
 
-Your instructor will provide blue, yellow, and red dyed water. Use the Pipette Practice Card to complete the transfer and mixing exercise.
+Your instructor will provide blue, yellow, and red dyed water. Use the Pipette Practice Card to complete the transfer-and-mixing exercise.
 
 #### Mixing With a Micropipette
 
@@ -80,7 +80,7 @@ For this protocol, your instructor will provide you with the concentrated soluti
 
 Before pipetting anything, read the entire protocol (Parts 1-3) and create an experimental plan as described on page 3 (your first lab notebook entry, dated today).
 
-#### Part 1: Lab partner 1 pipets, lab partner 2 watches.
+#### Part 1: Lab partner 1 pipettes, lab partner 2 watches.
 - Pipette 50 μl of water into each well in row A of your microplate.
 - Carefully raise the plate to eye level and examine the wells from the side. Does it look like you pipetted the same volume into each well?
 - Pipette 50 μl of crystal violet solution only into well A1.
@@ -106,7 +106,7 @@ Add 100 μl of water to well H12.
 
 #### Part 5: Visual observations and data analysis.
 - Compare Rows A and B. Do you see any differences? Consider the overall pattern of color intensity going from left to right (column 1 to column 12), and also  compare each well (i.e., compare well A1 to well B1 and A2 to B2). Answer the relevant question on the post-lab.
-- Compare Rows C and D. Answer the relevant question on post lab.
+- Compare Rows C and D. Answer the relevant question on the post-lab.
 - Compare Row A to Row C (partner 1’s rows) and Row B to Row D (partner 2’s rows). Answer the relevant question on the post-lab.
 - Ask your instructor to help you use the lab’s microplate reader to measure the absorbance of the solutions in each well of your microplate.
 - Take a picture of your data.
@@ -126,7 +126,7 @@ To do this correctly, read the protocol and indicate the following in your lab n
 
 After you’ve finished drawing your plan, use a pen or pencil to shade the wells in row B to predict the color intensity (darkness or lightness) of the solution in each well.
 
-** Answer the following questions in your lab notebook:**
+**Answer the following questions in your lab notebook:**
 What is the dilution factor for this serial dilution? *If you don’t remember, read back over the explanation of the serial dilution technique above.
 Compared to the concentrated crystal violet solution provided by your instructor, how dilute will your final sample (well A12 or B12) be?
 
