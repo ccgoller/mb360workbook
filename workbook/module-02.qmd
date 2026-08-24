@@ -50,7 +50,7 @@ You should complete the solid- and liquid-media propagation tasks, collect obser
 
 ## Background
 
-This module uses *Delftia acidovorans* and related environmental isolates. Each group works with one isolate and is responsible for careful handling, observation, and documentation.
+Our lab experiments will use the bacterium *Delftia acidovorans*. Since we will work with environmental isolates that may be naturally antibiotic-resistant, we want to minimize exposure and contain any potential biohazards. We will work with several different isolates. Each group will characterize one isolate.
 
 ## Procedures
 
@@ -91,7 +91,7 @@ Figure @fig-module2-streaking illustrates the transfer of a single colony to a f
 
 ![Single-colony transfer onto a fresh TSA plate for streaking practice. Created with BioRender.com.](images/PlateStreaking.png){#fig-module2-streaking fig-alt="Diagram showing a sterile loop transferring a single colony onto a fresh agar plate for streaking practice."}
 
-- Use a sterile loop to pick a single colony.
+- Obtain a sterile loop and/or a package of disposable sterile loops. Take out a loop when you are ready to use it. Be careful not to touch the loop with anything else except the intended bacteria to prevent contamination.
 - Open the plate as little as possible.
 - Streak onto a fresh TSA plate using a three-phase pattern to dilute toward single colonies.
 - Label the **bottom** of the plate (not the lid) with your isolate name, class section, and date.
@@ -103,13 +103,13 @@ Figure @fig-module2-labeling shows the correct placement and content of labels o
 ![Correct placement of labels on the bottom of a TSA plate. Created with BioRender.com.](images/PlateLabeling.png){#fig-module2-labeling fig-alt="Diagram showing how to label the bottom of an agar plate with isolate name, section, group number, and date."}
 
 - Write on the **bottom** of the plate with a permanent marker.
-- Include your isolate name, class section, group number, and the date.
+- Include your **isolate name, class section, group number, and the date.**
 - Keep labels near the edge so they do not obscure the agar surface.
 - Photograph the labeled bottom for your ELN record.
 
 ### Methods: Starting a Liquid Culture
 
-- Obtain TSB and sterile culture tubes.
+- Obtain a 50 mL tube with Tryptic Soy Broth (TSB) and sterile culture tubes.
 - Label tubes for the TSB control, your isolate, and *Delftia acidovorans* SPH-1.
 - Transfer a colony into the labeled tube without touching the loop to any other surface.
 - Cap each tube correctly and place them in a shaking incubator at 30 C.
