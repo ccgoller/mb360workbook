@@ -114,7 +114,7 @@ Knowledge
 
 ## Methods: Streak Plating
 
-![Single-colony transfer onto a fresh TSA plate for streaking practice.](../images/template/image13.png){fig-alt="Diagram showing a sterile loop transferring a single colony onto a fresh agar plate for streaking." style="max-height:260px; display:block; margin:0 auto;"}
+![Single-colony transfer onto a fresh TSA plate for streaking practice.](../images/module-02/PlateStreaking.png){fig-alt="Diagram showing a sterile loop transferring a single colony onto a fresh agar plate for streaking." style="max-height:260px; display:block; margin:0 auto;"}
 
 1. Sterilise the inoculation loop in the flame until glowing red
 2. Cool the loop briefly on the unused edge of the agar
@@ -123,6 +123,14 @@ Knowledge
 5. Sterilise the loop; rotate the plate 90°; streak zone 2 from the end of zone 1
 6. Repeat to create zone 3 and zone 4 for maximum dilution
 7. Invert and incubate at 30 °C for 48 h
+
+## Methods: Plate Labeling
+
+![Correct placement of labels on the bottom of a TSA plate.](../images/module-02/PlateLabeling.png){fig-alt="Diagram showing how to label the bottom of an agar plate with isolate name, class section, and date." style="max-height:260px; display:block; margin:0 auto;"}
+
+- Write on the **bottom** of the plate with a permanent marker
+- Include isolate name, class section, group number, and date
+- Keep labels near the edge so they do not obscure the agar surface
 
 ## Methods: Liquid Culture Inoculation
 
