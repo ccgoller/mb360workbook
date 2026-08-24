@@ -111,8 +111,9 @@ Figure @fig-module2-labeling shows the correct placement and content of labels o
 
 - Obtain a 50 mL tube with Tryptic Soy Broth (TSB) and sterile culture tubes.
 - Label tubes for the TSB control, your isolate, and *Delftia acidovorans* SPH-1.
-- Transfer a colony into the labeled tube without touching the loop to any other surface.
-- Cap each tube correctly and place them in a shaking incubator at 30 C.
+- Transfer a colony into the labeled tube. Use a sterile loop to obtain a colony and, without touching it to any surface, use one hand to open the test tube slightly and the other to swirl the loop with bacteria in the media.
+- Confirm that the tubes are labeled and capped to the first stop; the caps will jiggle a little but not come off. This is ok!
+- Place the tubes in the shaking incubator set to 30°C.
 - Incubate for 24 hours.
 
 ### Protocol Notes
@@ -121,11 +122,11 @@ Record any mistakes, deviations, or isolate-specific observations.
 
 ## Results
 
-Add a photo of the plate and notes describing what you observed.
+Paste a picture of your plate and either annotate the image or write notes about your results. 
 
 ## Result Analysis
 
-Explain whether the observed colony features and culture setup matched expectations.
+Write an analysis of your results; explain what these results mean, and whether this matches what was expected: 
 
 ## Discussion Questions
 
