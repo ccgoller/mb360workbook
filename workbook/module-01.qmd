@@ -1,5 +1,6 @@
+# Module 1: Getting Started
 
-![Micropipette volume display used for introductory pipetting practice.](images/module-01/micropipette-volume-display.png){#fig-module1-pipette fig-alt="Illustration of a micropipette with the volume display highlighted for reading the setting."}
+![Micropipette volume display used for introductory pipetting practice. Created with BioRender.com.](images/module-01/micropipette-volume-display.png){#fig-module1-pipette fig-alt="Illustration of a micropipette with the volume display highlighted."}
 
 - Add the correct amount of liquid to each circle and keep each drop within the circle.
 - Have each group member try at least two different volumes.
@@ -57,14 +58,14 @@ Practice accurate small-volume pipetting while learning how serial dilutions wor
 
 ### Background
 
-Serial dilution is the stepwise dilution of a solution by a constant factor. In this module, you will perform a 1:10 serial dilution of crystal violet in a 96-well plate to connect pipetting technique to concentration changes.
+Serial dilution is the stepwise dilution of a solution by a constant factor. In this module, you will perform a 1:10 serial dilution of crystal violet in a 96-well plate to connect pipetting technique to the logic of dilution.
 
 Figure @fig-module1-serial-overview summarizes the repeated transfer logic behind the serial dilution workflow.
 
-![Serial dilution overview showing stepwise dilution from a concentrated starting sample.](images/module-01/serial-dilution-overview.jpg){#fig-module1-serial-overview fig-alt="Diagram showing a serial dilution sequence with decreasing dye concentration."}
+![Serial dilution overview showing stepwise dilution from a concentrated starting sample. Created with BioRender.com.](images/module-01/serial-dilution-overview.jpg){#fig-module1-serial-overview fig-alt="Diagram showing a serial dilution sequence from a concentrated source through progressively diluted samples."}
 
 ### Protocol
 
 Use Figure @fig-module1-microplate to plan the first rows of the microplate before starting the transfers.
 
-![Top rows of a 96-well microplate used to plan the serial dilution setup.](images/module-01/serial-dilution-microplate-plan.jpg){#fig-module1-microplate fig-alt="Photo of the top rows of a 96-well microplate used as a planning template."}
+![Top rows of a 96-well microplate used to plan the serial dilution setup. Created with BioRender.com.](images/module-01/serial-dilution-microplate-plan.jpg){#fig-module1-microplate fig-alt="Photo of the top rows of a 96-well microplate used as a planning guide for serial dilution."}

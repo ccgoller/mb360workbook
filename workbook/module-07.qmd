@@ -49,11 +49,11 @@ Successful completion requires use of BV-BRC and SeqHub, careful documentation o
 
 ## Background
 
-Students now use sequence data generated earlier in the course to compare isolates with *Delftia acidovorans* SPH-1 and other related genomes. The goal is to identify genetic features that explain observed growth and metabolic behavior.
+Students now use sequence data generated earlier in the course to compare isolates with *Delftia acidovorans* SPH-1 and other related genomes. The goal is to identify genetic features that explain the observed phenotype.
 
 Figure @fig-module7-sequencing-overview is reused from the sequencing workflow to anchor where assembly, annotation, and comparative analysis fit into the broader pipeline.
 
-![Sequencing-analysis pipeline reused for genome assembly and comparative interpretation.](images/template/image4.png){#fig-module7-sequencing-overview fig-alt="Workflow diagram showing how sequencing data moves into assembly, annotation, and comparative analysis."}
+![Sequencing-analysis pipeline reused for genome assembly and comparative interpretation. Created with BioRender.com.](images/template/image4.png){#fig-module7-sequencing-overview fig-alt="Workflow diagram showing how sequencing data feed into genome assembly and annotation."}
 
 ## Procedures
 
@@ -95,10 +95,3 @@ Include tables, figures, charts, and screenshots generated from your assembly an
 ## Result Analysis
 
 Explain how your isolate differs from the SPH-1 reference, how well the genomic data matches the phenotype, and what the assembly metrics suggest about data quality.
-
-## Discussion Questions
-
-1. How did BV-BRC assemble your genome, and how good was the assembly?
-2. What factors affect genome assembly quality?
-3. What applications beyond research rely on gene prediction and annotation?
-4. What can predicted protein interaction networks contribute to your project?

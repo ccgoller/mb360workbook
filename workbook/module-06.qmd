@@ -1,9 +1,4 @@
-- DNA extraction and quantification methods.
-- Oxford Nanopore Technologies sequencing workflows.
-
-## Task
-
-Review the protocol before lab and work with your partner to isolate DNA from overnight cultures in duplicate, record all steps, and document the results.
+# Module 6: Microbial Genome Sequencing
 
 ## Criteria for Success
 
@@ -11,11 +6,11 @@ Successful completion requires participation in DNA isolation and sequencing pre
 
 ## Background
 
-This module connects phenotype to genotype by sequencing the genome of the isolate. DNA is extracted using the NO-MISS workflow and analyzed with Oxford Nanopore sequencing and downstream genome analysis tools such as BV-BRC and SeqHub.
+This module connects phenotype to genotype by sequencing the genome of the isolate. DNA is extracted using the NO-MISS workflow and analyzed with Oxford Nanopore sequencing and downstream genome assembly tools.
 
 Figure @fig-module6-sequencing-overview summarizes the sequencing and downstream analysis pipeline from isolate DNA to annotated genome.
 
-![Nanopore sequencing and downstream analysis workflow.](images/module-06/nanopore-sequencing-analysis-workflow.png){#fig-module6-sequencing-overview fig-alt="Workflow diagram showing nanopore sequencing followed by basecalling, assembly, and genome exploration."}
+![Nanopore sequencing and downstream analysis workflow. Created with BioRender.com.](images/module-06/nanopore-sequencing-analysis-workflow.png){#fig-module6-sequencing-overview fig-alt="Workflow diagram showing nanopore sequencing, assembly, and downstream analysis steps."}
 
 ## Procedures
 
@@ -46,11 +41,11 @@ Figure @fig-module6-sequencing-overview summarizes the sequencing and downstream
 
 Figure @fig-module6-qubit illustrates the Qubit measurement setup used to quantify extracted DNA prior to library preparation.
 
-![Qubit fluorometer workflow for DNA quantification.](images/module-06/qubit-dna-quantification-workflow.png){#fig-module6-qubit fig-alt="Workflow diagram showing preparation of a Qubit assay tube and fluorometer-based DNA quantification."}
+![Qubit fluorometer workflow for DNA quantification. Created with BioRender.com.](images/module-06/qubit-dna-quantification-workflow.png){#fig-module6-qubit fig-alt="Workflow diagram showing preparation of a Qubit assay tube and fluorometer-based DNA quantification."}
 
 Figure @fig-module6-library-prep summarizes the rapid barcoding library-preparation workflow used before sequencing.
 
-![Nanopore rapid barcoding workflow for sequencing library preparation.](images/module-06/nanopore-rapid-barcoding-workflow.png){#fig-module6-library-prep fig-alt="Workflow diagram showing the rapid barcoding steps used to prepare DNA for nanopore sequencing."}
+![Nanopore rapid barcoding workflow for sequencing library preparation. Created with BioRender.com.](images/module-06/nanopore-rapid-barcoding-workflow.png){#fig-module6-library-prep fig-alt="Workflow diagram showing the rapid barcoding steps used to prepare DNA for nanopore sequencing."}
 
 ### Data Analysis
 
@@ -70,8 +65,3 @@ Add figures, screenshots, concentration values, and any sequencing outputs gener
 ## Result Analysis
 
 Discuss DNA yield, sample quality, and whether the sequencing-related results matched expectations. Include factors that may have affected DNA recovery and what you would change next time.
-
-## Discussion Questions
-
-1. How do microbial genome assembly and annotation tools support research?
-2. What makes nanopore sequencing different from other sequencing approaches?

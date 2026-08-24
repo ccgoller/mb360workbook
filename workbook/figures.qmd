@@ -1,6 +1,6 @@
 # Figures {.unnumbered}
 
-This page provides a quick index to the figures embedded throughout the workbook.
+This page provides a quick index to the figures embedded throughout the workbook. Created with BioRender.com.
 
 ## About
 
@@ -9,40 +9,40 @@ This page provides a quick index to the figures embedded throughout the workbook
 
 ## Module 1
 
-- Figure @fig-module1-pipette in [Module 1](module-01.qmd): Micropipette volume display
-- Figure @fig-module1-serial-overview in [Module 1](module-01.qmd): Serial dilution overview
-- Figure @fig-module1-microplate in [Module 1](module-01.qmd): Top rows of a 96-well microplate
+- Figure @fig-module1-pipette in [Module 1](module-01.qmd): Micropipette volume display. Created with BioRender.com.
+- Figure @fig-module1-serial-overview in [Module 1](module-01.qmd): Serial dilution overview. Created with BioRender.com.
+- Figure @fig-module1-microplate in [Module 1](module-01.qmd): Top rows of a 96-well microplate. Created with BioRender.com.
 
 ## Module 2
 
-- Figure @fig-module2-streaking in [Module 2](module-02.qmd): Single-colony transfer onto a fresh TSA plate for streaking practice
-- Figure @fig-module2-labeling in [Module 2](module-02.qmd): Correct placement of labels on the bottom of a TSA plate
+- Figure @fig-module2-streaking in [Module 2](module-02.qmd): Single-colony transfer onto a fresh TSA plate for streaking practice. Created with BioRender.com.
+- Figure @fig-module2-labeling in [Module 2](module-02.qmd): Correct placement of labels on the bottom of a TSA plate. Created with BioRender.com.
 
 ## Module 3
 
-- Figure @fig-module3-growth-layout in [Module 3](module-03.qmd): Growth-curve plate layout
-- Figure @fig-module3-biofilm-viability in [Module 3](module-03.qmd): Biofilm viability workflow
+- Figure @fig-module3-growth-layout in [Module 3](module-03.qmd): Growth-curve plate layout. Created with BioRender.com.
+- Figure @fig-module3-biofilm-viability in [Module 3](module-03.qmd): Biofilm viability workflow. Created with BioRender.com.
 
 ## Module 4
 
-- Figure @fig-module4-biolog-layout in [Module 4](module-04.qmd): Biolog GEN III layout
-- Figure @fig-module4-biolog-loading in [Module 4](module-04.qmd): Multichannel loading of the Biolog plate
-- Figure @fig-module4-biolog-incubation in [Module 4](module-04.qmd): Biolog plate after incubation
+- Figure @fig-module4-biolog-layout in [Module 4](module-04.qmd): Biolog GEN III layout. Created with BioRender.com.
+- Figure @fig-module4-biolog-loading in [Module 4](module-04.qmd): Multichannel loading of the Biolog plate. Created with BioRender.com.
+- Figure @fig-module4-biolog-incubation in [Module 4](module-04.qmd): Biolog plate after incubation. Created with BioRender.com.
 
 ## Module 5
 
-- Figure @fig-module5-duet-layout in [Module 5](module-05.qmd): Cerillo Duet co-culture plate layout
+- Figure @fig-module5-duet-layout in [Module 5](module-05.qmd): Cerillo Duet co-culture plate layout. Created with BioRender.com.
 
 ## Module 6
 
-- Figure @fig-module6-sequencing-overview in [Module 6](module-06.qmd): Nanopore sequencing and downstream analysis workflow
-- Figure @fig-module6-qubit in [Module 6](module-06.qmd): Qubit quantification workflow
-- Figure @fig-module6-library-prep in [Module 6](module-06.qmd): Oxford Nanopore Technologies (ONT) rapid barcoding workflow
+- Figure @fig-module6-sequencing-overview in [Module 6](module-06.qmd): Nanopore sequencing and downstream analysis workflow. Created with BioRender.com.
+- Figure @fig-module6-qubit in [Module 6](module-06.qmd): Qubit quantification workflow. Created with BioRender.com.
+- Figure @fig-module6-library-prep in [Module 6](module-06.qmd): Oxford Nanopore Technologies (ONT) rapid barcoding workflow. Created with BioRender.com.
 
 ## Module 7
 
-- Figure @fig-module7-sequencing-overview in [Module 7](module-07.qmd): Sequencing analysis pipeline
+- Figure @fig-module7-sequencing-overview in [Module 7](module-07.qmd): Sequencing analysis pipeline. Created with BioRender.com.
 
 ## Module 8
 
-- Figure @fig-module8-capstone-banner in [Module 8](module-08.qmd): Capstone module banner
+- Figure @fig-module8-capstone-banner in [Module 8](module-08.qmd): Capstone module banner. Created with BioRender.com.
