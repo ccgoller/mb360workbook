@@ -105,9 +105,9 @@ Lab partner 1 should repeat the exact same protocol, using Row C, and then lab p
 Add 100 μl of water to well H12.
 
 #### Part 5: Visual observations and data analysis.
-- Compare Rows A and B. Do you see any differences? Consider the overall pattern of color intensity going from left to right (column 1 to column 12), and also  compare each well (i.e., compare well A1 to well B1 and A2 to B2). Answer the relevant question on post lab.
+- Compare Rows A and B. Do you see any differences? Consider the overall pattern of color intensity going from left to right (column 1 to column 12), and also  compare each well (i.e., compare well A1 to well B1 and A2 to B2). Answer the relevant question on the post-lab.
 - Compare Rows C and D. Answer the relevant question on post lab.
-- Compare Row A to Row C (partner 1’s rows) and Row B to Row D (partner 2’s rows). Answer the relevant question on post lab.
+- Compare Row A to Row C (partner 1’s rows) and Row B to Row D (partner 2’s rows). Answer the relevant question on the post-lab.
 - Ask your instructor to help you use the lab’s microplate reader to measure the absorbance of the solutions in each well of your microplate.
 - Take a picture of your data.
 
@@ -120,13 +120,13 @@ To do this correctly, read the protocol and indicate the following in your lab n
 2) How much water are you pipetting?
 3) Where does the crystal violet dye go? 
 4) How much of the dye will you pipette first?
-	5) Then what do you do? 
-	6) What steps do you repeat?
+5) Then what do you do? 
+6) What steps do you repeat?
 7) What do you do after you mix the crystal violet with the water in well A12?
 
 After you’ve finished drawing your plan, use a pen or pencil to shade the wells in row B to predict the color intensity (darkness or lightness) of the solution in each well.
 
-Answer the following questions in your lab notebook:
+** Answer the following questions in your lab notebook:**
 What is the dilution factor for this serial dilution? *If you don’t remember, read back over the explanation of the serial dilution technique above.
 Compared to the concentrated crystal violet solution provided by your instructor, how dilute will your final sample (well A12 or B12) be?
 
@@ -136,4 +136,3 @@ Compare your replicates with your partner's. Are all four rows similar? If not, 
 
 After you’ve measured your plate with the plate reader, answer the following question in your lab notebook:
 Did the numerical (quantitative) data obtained from the plate reader match your visual (qualitative) observations? Why or why not? You can assess how well you performed your serial dilutions by measuring whether each subsequent well decreased in optical density value. Do you have any surprises?
-
