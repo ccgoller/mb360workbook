@@ -81,21 +81,21 @@ For this protocol, your instructor will provide you with the concentrated soluti
 Before pipetting anything, read the entire protocol (Parts 1-3) and create an experimental plan as described on page 3 (your first lab notebook entry, dated today).
 
 #### Part 1: Lab partner 1 pipettes, lab partner 2 watches.
-- Pipette 50 μl of water into each well in row A of your microplate.
-- Carefully raise the plate to eye level and examine the wells from the side. Does it look like you pipetted the same volume into each well?
-- Pipette 50 μl of crystal violet solution only into well A1.
-- Using your pipetter, mix the liquids in well A1 by slowly and gently “pipetting up and down”. Be sure to depress the pipette plunger only to the first stop.
-- After mixing, be sure that you have fully dispensed all of the liquid from your pipette tip.
-- Eject your pipette tip into your red waste bag.
-- With a new tip, transfer 50 μl from well A1 into well A2.
-- Repeat the mixing procedure used for well A1.
-- After mixing, be sure that you have fully dispensed all of the liquid from your pipette tip.
-- Eject your pipette tip into your red waste bag.
-- Repeat this process until you have transferred 50 μl from well A11 into well A12.
-- After mixing the liquids in well A12, draw 50 μl into your pipette tip as if you were going to continue diluting into well “A13”.
-- Dispense the 50 μl into your waste container and eject your tip.
+1. Pipette 50 μl of water into each well in row A of your microplate.
+2. Carefully raise the plate to eye level and examine the wells from the side. Does it look like you pipetted the same volume into each well?
+3. Pipette 50 μl of crystal violet solution only into well A1.
+4. Using your pipetter, mix the liquids in well A1 by slowly and gently “pipetting up and down”. Be sure to depress the pipette plunger only to the first stop.
+5. After mixing, be sure that you have fully dispensed all of the liquid from your pipette tip.
+6. Eject your pipette tip into your red waste bag.
+7. With a new tip, transfer 50 μl from well A1 into well A2.
+8. Repeat the mixing procedure used for well A1.
+9. After mixing, be sure that you have fully dispensed all of the liquid from your pipette tip.
+10. Eject your pipette tip into your red waste bag.
+11. Repeat this process until you have transferred 50 μl from well A11 into well A12.
+12. After mixing the liquids in well A12, draw 50 μl into your pipette tip as if you were going to continue diluting into well “A13”.
+13. Dispense the 50 μl into your waste container and eject your tip.
 
-#### Part 2: Lab partner 2 pipets, lab partner 1 watches.
+#### Part 2: Lab partner 2 pipets; lab partner 1 watches.
 Lab partner 2 should repeat the exact same protocol, using Row B of the microplate.
 
 #### Part 3: Repeat!
@@ -105,13 +105,11 @@ Lab partner 1 should repeat the exact same protocol, using Row C, and then lab p
 Add 100 μl of water to well H12.
 
 #### Part 5: Visual observations and data analysis.
-- Compare Rows A and B. Do you see any differences? Consider the overall pattern of color intensity going from left to right (column 1 to column 12), and also  compare each well (i.e., compare well A1 to well B1 and A2 to B2). Answer the relevant question on the post-lab.
-- Compare Rows C and D. Answer the relevant question on the post-lab.
-- Compare Row A to Row C (partner 1’s rows) and Row B to Row D (partner 2’s rows). Answer the relevant question on the post-lab.
-- Ask your instructor to help you use the lab’s microplate reader to measure the absorbance of the solutions in each well of your microplate.
-- Take a picture of your data.
-
-
+1. Compare Rows A and B. Do you see any differences? Consider the overall pattern of color intensity going from left to right (column 1 to column 12), and also  compare each well (i.e., compare well A1 to well B1 and A2 to B2). Answer the relevant question on the post-lab.
+2. Compare Rows C and D. Answer the relevant question on the post-lab.
+3. Compare Row A to Row C (partner 1’s rows) and Row B to Row D (partner 2’s rows). Answer the relevant question on the post-lab.
+4. Ask your instructor to help you use the lab’s microplate reader to measure the absorbance of the solutions in each well of your microplate.
+5. Take a picture of your data.
 
 Before you start actually pipetting, you should have your plan approved by your instructor. Below is an image of the top two rows of a 96-well microplate. Draw a similar image in your lab notebook. Then, using the serial dilution diagram shown on page 1 as a model, draw how you will set up your serial dilutions. (It is not necessary to draw this twice; just show what you will do with Row A.)
 
