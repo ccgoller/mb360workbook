@@ -135,13 +135,13 @@ Liquid culture setup
 ## Results
 
 ::: {.callout-note}
-## Replace the note with the description of the results obtained. Paste images of the original TSA plate, streaked TSA plate, and liquid culture tubes. Add short captions and describe what you observed
+Replace the note with the description of the results obtained. Paste images of the original TSA plate, streaked TSA plate, and liquid culture tubes. Add short captions and describe what you observed
 :::
 
 # Result Analysis
 
 ::: {.callout-note}
-## Write an analysis of your results; explain what these results mean, and whether this matches what was expected:
+Write an analysis of your results; explain what these results mean, and whether this matches what was expected:
 :::
 
 # Discussion
@@ -151,7 +151,7 @@ Liquid culture setup
 2. What differences would you predict between static and shaking liquid growth?
 
 ::: {.callout-note}
-## Replace the note with your discussion.
+Replace the note with your discussion.
 :::
 
 # Reflection
@@ -161,7 +161,7 @@ Liquid culture setup
 - What is one question you still have?
 
 ::: {.callout-note}
-## Replace the note with your Reflection.
+Replace the note with your Reflection.
 :::
 
 # Checklist Before Submission
