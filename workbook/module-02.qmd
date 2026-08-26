@@ -111,15 +111,22 @@ Figure @fig-module2-labeling shows the correct placement and content of labels o
 
 ### Methods: Starting a Liquid Culture
 
-1. Obtain Tryptic Soy Broth (TSB) and sterile culture tubes
-2. Label three tubes
-3. TSB Control (date, initials)
-4. Your isolate (date, initials). For example: _Delftia acidovorans_ SPH-1 (date, initials)
-5. Use a sterile loop to inoculate the media. Work quickly to avoid contamination
-6. Cap to the first stop
-7. Place tubes in the shaking incubator at 30 degrees Celsius for 24 hours
-8. Next session, compare shaking versus static growth
-9. Write your procedure notes below
+1. Obtain a 50 mL tube with Tryptic Soy Broth (TSB) and sterile culture tubes.
+2. Label three test tubes (one set per pair of scholars) as indicated below:
+
+     2.1. “TSB Control” and [current date and your initials]
+
+     2.2. [The name of your isolate] and [current date and your initials]
+
+     2.3. Delftia acidovorans SPH-1 and [current date and your initials]
+   
+3. Use a sterile loop to obtain a colony and, without touching it to any surface, use one hand to open the test tube slightly and the other to swirl the loop with bacteria in the medium.
+4. Work quickly and carefully to avoid contamination.
+5. Do not leave the rich media exposed to potential microbial contamination!
+6. Confirm that the tubes are labeled and capped to the first stop - the caps will jiggle a little but not come off. This is ok!
+7. Place the tubes in the shaking incubator set to 30°C.
+8. We will incubate with shaking for 24 hrs.
+9. Next session, we will repeat and grow without shaking to compare.
 
 ## Data
 Record observations of colony morphology:
