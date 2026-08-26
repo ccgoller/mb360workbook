@@ -126,22 +126,35 @@ Figure @fig-module3-biofilm-viability outlines the wash-and-detection workflow u
 6. Calculate the standard deviation for each column of background-corrected absorbance values.
 7. Plot the average absorbance for each column and then compare the average growth for each isolate.
 
-## Results
+## Data/Results
 
-### Growth Curves
-
-- Save and share the raw plate-reader data.
-- Format the data for analysis.
-- Upload the data file to the repository.
-- Plot growth curves and compare isolates and wells.
-
-### Biofilm Viability
-
-- Save and share the raw absorbance values.
-- Subtract the average TSB-only background.
-- Calculate average absorbance and standard deviation for each condition.
-- Plot the background-corrected averages for comparison.
+::: {.callout-note}
+Run the code with your data to produce the results and charts necessary for results analysis.
+:::
 
 ## Result Analysis
 
-Use your code and plots to explain whether the observed growth and biofilm behavior matched expectations.
+::: {.callout-note}
+Write an analysis of your results; explain what these results mean, and if this matches what was expected
+:::
+
+## Discussion 
+
+- Biofilms are notoriously difficult to eliminate and often require physical removal. In many cases, however, physical removal isn’t possible, and antibiotics are surprisingly ineffective. What makes biofilms so tough? Explain how their structure and behavior help them survive antibiotic treatment!
+
+- What results would you expect from your growth curve?
+
+::: {.callout-note}
+Write your answers to the questions above here
+:::
+
+## Checklist Before Submission
+
+- [ ] All sections completed
+- [ ] Images pasted and labeled
+- [ ] Discussion questions answered
+- [ ] Reflection written
+- [ ] Notebook saved and pushed to GitHub
+
+
+
