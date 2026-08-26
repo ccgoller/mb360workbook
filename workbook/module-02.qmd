@@ -143,13 +143,13 @@ Liquid culture setup
 Replace the note with the description of the results obtained. Paste images of the original TSA plate, streaked TSA plate, and liquid culture tubes. Add short captions and describe what you observed
 :::
 
-# Result Analysis
+## Result Analysis
 
 ::: {.callout-note}
 Write an analysis of your results; explain what these results mean, and whether this matches what was expected:
 :::
 
-# Discussion
+## Discussion
 
 1. If a student touched the agar with a thumb and unexpected colonies appeared later, what was the likely source of contamination and how could it have been prevented?
 
@@ -159,7 +159,7 @@ Write an analysis of your results; explain what these results mean, and whether 
 Replace the note with your discussion.
 :::
 
-# Reflection
+## Reflection
 - What worked well?
 - What challenges did you encounter?
 - What would you change next time?
