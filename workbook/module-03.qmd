@@ -60,9 +60,9 @@ Figure @fig-module3-growth-layout provides a reusable 96-well template for mappi
 For biofilm formation and viability, we will use the Dojindo Biofilm Viability Assay B603:
 1. For “seeding” your plate, take your overnight cultures and prepare **1:1000 dilutions** as follows:
 
-    a. **25 µl** of overnight culture into **25 ml** of fresh TSB prepared for you for your positive control (Delftia acidovorans SPH-1) and your isolate.
+    a. 25 µl of overnight culture into 25 ml of fresh TSB prepared for you for your positive control (Delftia acidovorans SPH-1) and your isolate.
 
-    b. **25 µl** of the overnight TSB control into **25 ml** of fresh TSB prepared for you as your negative control
+    b. 25 µl of the overnight TSB control into 25 ml of fresh TSB prepared for you as your negative control
 
 2. Mix each 50 mL conical tube by inverting several times and vortexing.
 3. Carefully pour your diluted culture into a white plastic sterile reservoir.
