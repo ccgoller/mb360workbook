@@ -116,19 +116,58 @@ Figure @fig-module2-labeling shows the correct placement and content of labels o
 - Place the tubes in the shaking incubator set to 30°C.
 - Incubate for 24 hours.
 
-### Protocol Notes
+## Data
+Record observations of colony morphology:
 
-Record any mistakes, deviations, or isolate-specific observations.
+- Color
+- Size range
+- Shape
+- Edges
+- Texture or sheen
+- Other observations
+
+Liquid culture setup
+- Tube labels used
+- Inoculation notes
+- Shaking versus static plan
+- Start time
 
 ## Results
 
-Paste a picture of your plate and either annotate the image or write notes about your results. 
+::: {.callout-note}
+## Replace the note with the description of the results obtained. Paste images of the original TSA plate, streaked TSA plate, and liquid culture tubes. Add short captions and describe what you observed
+:::
 
-## Result Analysis
+# Result Analysis
 
-Write an analysis of your results; explain what these results mean, and whether this matches what was expected: 
+::: {.callout-note}
+## Write an analysis of your results; explain what these results mean, and whether this matches what was expected:
+:::
 
-## Discussion Questions
+# Discussion
 
 1. If a student touched the agar with a thumb and unexpected colonies appeared later, what was the likely source of contamination and how could it have been prevented?
+
 2. What differences would you predict between static and shaking liquid growth?
+
+::: {.callout-note}
+## Replace the note with your discussion.
+:::
+
+# Reflection
+- What worked well?
+- What challenges did you encounter?
+- What would you change next time?
+- What is one question you still have?
+
+::: {.callout-note}
+## Replace the note with your Reflection.
+:::
+
+# Checklist Before Submission
+- [ ] All sections completed
+- [ ] Images pasted and labeled
+- [ ] Discussion questions answered
+- [ ] Reflection written
+- [ ] Notebook saved and pushed to GitHub
+
