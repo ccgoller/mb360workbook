@@ -16,28 +16,66 @@ Figure @fig-module6-sequencing-overview summarizes the sequencing and downstream
 
 ### Lab Safety
 
-- Wear lab coat, goggles, and gloves.
-- Clean benches and pipettors with 70% ethanol.
-- Treat all culture-associated materials as biohazards.
-- Decontaminate liquids, plates, and work areas at the end of the session.
+#### Before Lab:
+- Wear the correct PPE (lab coat, goggles, and gloves).
+- Wipe the lab bench with 70% ethanol.
+- Before working with microorganisms, carefully wipe pipettors with 70% ethanol.
+
+#### During Lab:
+- Treat all tips as potential biohazards.
+- Remove your PPE if you are leaving the lab (water/bio break).
+- Discard samples and disposable lab items in the correct trash bins.
+- Try to keep personal items (computers, phones, etc.) usage to a minimum.
+
+#### After Lab: 
+- Wipe your station with 70% alcohol.
+- If you touched any personal items during the lab, wipe them with 70% ethanol before leaving.
+- Dispose of gloves in the main biohazard waste container.
+- Dispose of used petri dishes in the biohazard bin.
+- All liquids containing bacteria must be poured into a beaker for bleach decontamination (can be found on the blue bench paper by this sink labeled "liquid").
+- Glass tubes can be placed into a beaker (on the blue bench paper by this sink, labeled "glass").
+- All bacterial growth plates can be thrown away in the biohazard trash.
+- Return all reusable materials to our storage drawers.
+- Wipe down all surfaces with ethanol.
+- Remove PPE.
+- Wash your hands.
 
 ### Methods
 
 #### What Was Prepared in Advance
 
-- Overnight cultures were started in TSB.
-- Lysozyme was prepared in TE buffer at 10 mg/mL.
+1. Start an overnight culture of your isolate in Tryptic Soy Broth (TSB, 2.5 mL per tube) by using a sterile loop to obtain one colony from an agar plate and inoculate TSB. 
+2. Incubate with shaking at 30°C overnight. 
+3. For general bacterial inputs, reconstitute the lysozyme in TE buffer to 10 mg/ml. We recommend preparing enzymes freshly on the day, as enzymatic activity reduces over time once reconstituted.
 
 #### Day of the Lab
 
-1. Pellet 1.0 mL of culture in a DNA LoBind tube.
-2. Resuspend in TE buffer with lysozyme.
-3. Add Proteinase K and RNase A.
-4. Add CTAB buffer and incubate at 56 C for 30 minutes.
-5. Combine lysate with Monarch gDNA Binding Buffer at a 2:1 ratio.
-6. Bind DNA to the spin column, wash twice, and elute with preheated Monarch gDNA Elution Buffer.
-7. Quantify 1 µL of DNA with the Qubit fluorometer.
-8. Prepare sequencing-ready DNA according to the NO-MISS rapid barcoding workflow.
+4. We will follow the [Nanopore-only Microbial Isolate Sequencing Solution (NO-MISS) associated extraction protocols](https://nanoporetech.com/document/extraction-method-group/nanopore-only-microbial-isolate-sequencing-solution-no-miss-associated).
+5. Obtain your liquid culture and spin down 1.0 mL of culture. 
+6. In a fresh 1.5 mL Eppendorf DNA LoBind tube, centrifuge 1,000 µl at 12,000 x g for 1 minute. 
+7. Remove the supernatant and resuspend the pellet in 100 µl TE buffer with 10 µl lysozyme.
+8. Incubate at 37°C for 10 minutes in a thermomixer at 500 RPM. If a thermomixer is unavailable, the reaction can be incubated stationary and agitated by gently flicking for 10 seconds every two minutes.
+9. Combine the following reagents with your sample in the 1.5 mL Eppendorf DNA LoBind tube, and mix by vortexing.
+
+
+
+10. Vortexing your sample before adding the **CTAB buffer allows the enzymes to fully mix with the bacterial cells, as the mixture can become viscous.**
+11. Add 200 µl of CTAB buffer and mix by vortexing. Extractions performed using the CTAB buffer improve sequencing health and output compared to using NEB Lysis Buffer from the Monarch Spin gDNA Extraction Kit.
+  
+  i) **IMPORTANT:** The full 30-minute incubation must be completed to ensure the proteinase and RNase activity occurs, regardless of turbidity.
+
+12. Incubate at 56°C for 30 minutes in a thermomixer at 1,000 RPM.
+  
+  i) **Note:** Depending on the bacterial input, the solution may become fully transparent or may remain hazy. 
+	
+  ii) **INFO:** The Monarch Spin gDNA Extraction Kit is used for gDNA extraction. The remainder of this method is written following the Genomic DNA Binding and Elution protocol with our recommended alterations.
+
+13. Preheat the Monarch® gDNA Elution Buffer to 60°C for later use.
+  
+  i) **IMPORTANT:** The ratio of binding buffer to lysate (2:1) is important for the column binding efficiency. We recommend taking through 200 µl of lysate for use with 400 µl of binding buffer per sample. To run more samples from the same isolate, the volumes can be increased in relation to the 2:1 ratio of buffer to lysate.
+
+14. Combine the following reagents in a clean 1.5 mL Eppendorf DNA LoBind tube:
+
 
 Figure @fig-module6-qubit illustrates the Qubit measurement setup used to quantify extracted DNA prior to library preparation.
 
