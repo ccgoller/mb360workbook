@@ -45,10 +45,33 @@ Figure @fig-module4-biolog-layout shows the overall GEN III plate layout used to
 
 ### Methods: Activity 1, Turbidimeter
 
-- Blank the turbidimeter with uninoculated IF-A fluid.
-- Swab bacteria from the BUG agar plate into IF-A inoculating fluid.
-- Mix gently and measure turbidity.
-- Adjust the inoculum to a target density of 95% transmittance.
+We will swab bacterial cells from your agar plates (BUG Agar: **BUG** (Biolog Universal Growth) Agar w/ 5% sheep blood), dilute in Biolog IF-A inoculation fluid, and check turbidity with a turbidimeter.
+
+Each **student researcher pair** will need:
+
+1. Calibrate the turbidimeter to a **"blank"** sample of inoculation fluid in a tube
+
+  i) Using the Biolog Turbidimeter, blank the turbidimeter with a clean tube (wiped clean of dirt and fingerprints) containing uninoculated IF-A. Because the tubes used are not optically uniform, they should be blanked individually.
+ 
+  ii) Set the 100% transmittance adjustment knob so that the meter reads 100%.
+ 
+  iii) Record the reading.
+
+2. Use a turbidimeter with a bacterial sample in the inoculation fluid in a tube 
+
+  i) Collect bacteria from your streak plate by touching the Inoculatorz™ swab to the bacteria (be gentle: do not push the swab through the agar media).
+
+  ii) Open your Inoculating Fluid **(IF)** tube and submerge the swab in the liquid. Swirl the swab around in the fluid for 15 seconds to ensure inoculation. Do not leave the liquid uncapped longer than necessary to prevent contamination. The tubes are glass: work carefully.
+
+  iii) Cap the tube and gently invert it three (3) times to ensure thorough mixing (no bubbles).
+
+  iv) The target cell density for our protocol is **95%T.**
+
+    A. Add more bacteria with the swab, if necessary, to get as close to this value as possible by continuing to add bacteria to the tube.
+
+    B. Work carefully and keep the tube capped. If necessary, use another swab if you think it has touched another surface.
+
+3. Once you've reached the target cell density at **95%T**, cap the tube and proceed to the next Activity.
 
 ### Methods: Activity 2, Biolog Plate Preparation
 
@@ -56,24 +79,43 @@ Figure @fig-module4-biolog-loading shows the multichannel loading pattern used t
 
 ![Loading a Biolog GEN III plate with a multichannel pipette. Created with BioRender.com.](images/module-04/biolog-geniii-loading-pattern.png){#fig-module4-biolog-loading fig-alt="Illustration showing a multichannel pipette loading a Biolog plate."}
 
+1. Pour the cell suspension into the multichannel pipette reservoir.
+2. Load 8 tips onto each gasket of the multichannel pipette and fill the tips by drawing up 100 μl of cell suspension from the reservoir.
+3. Use the multichannel to add **100 μl of diluted bacterial culture to each of the 96 wells** of the [GEN III MicroPlateTM](https://www.biolog.com/products/microbial-identification-microplates/gen-iii-test-panel/).
+
+  i) If the tips touch the wells, replace your tips before delivering inoculation fluid to the next column. **Work carefully to avoid contamination!**
+  ii) Use the technique practiced in Activity 1.
+
+4. Eject the pipettor tips if any tip touches the wells of the plate, as this can cause cross-contamination between wells. Reload tips as needed.
+5. Check that all wells have liquid
+6. Cover the GEN III microplate with its lid and eject the pipette tips.
+7. Incubate at 33°C for 1-2 days. **We will incubate four plates in a heated Agilent Biotek LogPhase 600 plate reader and take 600 nm readings every 15 minutes for 2 days to examine growth patterns.**
+8. **Your second plate will be incubated statically at 33°C for 1-2 days**
+
 Figure @fig-module4-biolog-incubation shows the expected appearance of an inoculated Biolog plate after incubation.
 
 ![Biolog GEN III plate after incubation with visible growth response. Created with BioRender.com.](images/module-04/biolog-geniii-incubation-results.png){#fig-module4-biolog-incubation fig-alt="Illustration of a Biolog GEN III plate after incubation with visible growth."}
 
-- Pour the prepared cell suspension into a multichannel reservoir.
-- Load the multichannel pipette and add 100 µL to each well of the GEN III plate.
-- Replace tips whenever contamination is possible.
-- Confirm that every well contains liquid.
-- Incubate one plate in the plate reader and another statically at 33 C for 1 to 2 days. If using Breathe-Easy film, follow the video: {{< video https://www.youtube.com/watch?v=rk_F4fURBMU >}}
+If using Breathe-Easy film, follow the video: {{< video https://www.youtube.com/watch?v=rk_F4fURBMU >}}
 
-### Protocol Notes
-
-Record any mistakes, deviations, or strain-specific observations.
-
-## Results
+## Data/ Results
 
 ### Growth Curves
+1. Save your raw data and share it with your group. The spreadsheet includes readings at every time point for your plate.
+2. Export the Blank 600 table as a .csv file and ensure it contains:
+  i) A Time column
+  ii) Well columns labeled A1 through H12
+  iii) No metadata rows above the table
+3. Upload the .csv file to your respective Lab folder in your repository. Use the provided notebook to:
+  i) Validate the dataset structure
+  ii) Convert time to minutes
+  iii) Plot growth curves for all wells and isolates
 
-- Save and share the raw 600 nm readings.
-- Export the blank-corrected table as CSV.
-- Validate the data structure, convert time to minutes, and plot growth curves.
+Run the code with your data to produce the results and charts necessary for results analysis.
+
+**Record your results.**
+> [!NOTE]
+> Replace the note with your results; add images if applicable.
+
+
+
