@@ -1,14 +1,5 @@
 # Module 4:  Microbial Metabolism: Biolog GEN III Characterization of Strains
 
-### Knowledge
-
-- PPE requirements for microbial work.
-- Phenotypic assays and growth assessment.
-- Seeding 96-well plates for bacterial growth.
-
-## Task
-
-Review the background and procedure information before lab and work with your partner to complete the assay setup and documentation.
 
 ## Criteria for Success
 
