@@ -113,9 +113,43 @@ If using Breathe-Easy film, follow the video: {{< video https://www.youtube.com/
 
 Run the code with your data to produce the results and charts necessary for results analysis.
 
-**Record your results.**
-> [!NOTE]
-> Replace the note with your results; add images if applicable.
+::: {.callout-note}
+Replace the note with your results; add images if applicable.
+:::
+
+### Result Analysis
+
+Write an analysis of your results; explain what these results mean, and if this matches what was expected. Evaluate and analyze your results. What wells presented a color change, and what carbon source was found on each of these wells? What does this tell you about your bacteria? Were there any wells in your Biolog plate that did not have any growth? What are some of the reasons for this? Ask yourself some of these questions when you receive your bacterial growth rate results!
+
+::: {.callout-note}
+ Replace the note with your result analysis.
+:::
+
+##Discussion
+- What are some advantages and disadvantages of using a multichannel pipette?
+
+- During the inoculation, describe how you ensure that you isolate a "pure culture." Why is a "pure culture" needed for this assay?
+
+- What is a turbidimeter, and why would measuring turbidity be important for this assay?
+
+- Why do we need to use bacteria grown on BUG plates rather than TSA plates?
+
+- How has your use of multichannels changed over the course of the semester? Why?
+
+- Identify at least one change made to the lab protocol, whether intentional or accidental (e.g., wrong amount of reagent used, contamination, etc). How did, or could, this change/accident impact your final results?
+
+::: {.callout-note}
+Replace the note with your discussion.
+:::
+
+## Checklist Before Submission
+- [ ] All sections completed
+- [ ] Images pasted and labeled
+- [ ] Discussion questions answered
+- [ ] Reflection written
+- [ ] Notebook saved and pushed to GitHub
+
+
 
 
 
