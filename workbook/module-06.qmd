@@ -166,17 +166,17 @@ Figure @fig-module6-library-prep summarizes the rapid barcoding library-preparat
 
 Paste a picture of any figures or images generated from your data:
 
-**Record your results.**
-> [!NOTE]
-> Replace the note with your results.
+::: {.callout-note}
+Replace the note with your results.
+:::
 
 ### Result Analysis
 
 Discuss DNA yield, sample quality, and whether the sequencing-related results matched expectations. Include factors that may have affected DNA recovery and what you would change next time.
 
-**Add your result analysis/ answer to the questions above.**
-> [!NOTE]
-> Replace the note with your result analysis.
+::: {.callout-note}
+Replace the note with your result analysis.
+:::
 
 ## Discussion 
 
@@ -186,9 +186,9 @@ Discuss DNA yield, sample quality, and whether the sequencing-related results ma
 
 - Identify at least one change made to the lab protocol, whether intentional or accidental (e.g., wrong amount of reagent used, contamination, etc). How did, or could, this change/accident impact your final results?
 
-**Write your discussion below/answer for each question.**
-> [!NOTE]
-> Replace the note with your discussion.
+::: {.callout-note}
+Replace the note with your discussion.
+:::
 
 ## Checklist Before Submission
 - [ ] All sections completed
