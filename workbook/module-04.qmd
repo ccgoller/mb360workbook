@@ -1,4 +1,4 @@
-- Analyze bacterial growth data from 96-well plates.
+# Module 4:  Microbial Metabolism: Biolog GEN III Characterization of Strains
 
 ### Knowledge
 
