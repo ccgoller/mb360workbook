@@ -58,15 +58,36 @@ After characterizing individual growth and metabolism, this module asks how isol
 
 ### Lab Safety
 
-- Wear required PPE and clean benches and pipettors with 70% ethanol.
-- Treat all tips as biohazards.
-- Decontaminate liquids, glass, and work surfaces after lab.
+#### Before Lab:
+- Wear the correct PPE (lab coat, goggles, and gloves).
+- Wipe the lab bench with 70% ethanol.
+- Before working with microorganisms, carefully wipe pipettors with 70% ethanol.
+
+#### During Lab:
+- Treat all tips as potential biohazards.
+- Remove your PPE if you are leaving the lab (water/bio break).
+- Discard samples and disposable lab items in the correct trash bins.
+- Try to keep personal items (computers, phones, etc.) usage to a minimum.
+
+#### After Lab:
+- Wipe your station with 70% alcohol.
+- If you touched any personal items during the lab, wipe them with 70% ethanol before leaving.
+- Dispose of gloves in the main biohazard waste container.
+- Dispose of used petri dishes in the biohazard bin.
+- All liquids containing bacteria must be poured into a beaker for bleach decontamination (can be found on the blue bench paper by this sink labeled "liquid").
+- Glass tubes can be placed into a beaker (on the blue bench paper by this sink, labeled "glass").
+- All bacterial growth plates can be thrown away in the biohazard trash.
+- Return all reusable materials to our storage drawers.
+- Wipe down all surfaces with ethanol.
+- Remove PPE.
+- Wash your hands.
 
 ### Methods
 
 #### What Was Prepared in Advance
 
-- Overnight cultures of each isolate were started in 2.5 mL TSB and incubated at 30 C with shaking.
+1. Start an overnight culture of your isolate in Tryptic Soy Broth (TSB, 2.5 mL per tube) by using a sterile loop to obtain one colony from an agar plate and inoculate TSB. 
+2. Incubate with shaking at 30°C overnight. 
 
 #### Day of the Lab
 
@@ -74,17 +95,24 @@ Figure @fig-module5-duet-layout maps the isolate-only, control, and co-culture c
 
 ![Cerillo Duet co-culture layout with isolate-only, control, and co-culture conditions. Created with BioRender.com.](images/template/image14.png){#fig-module5-duet-layout fig-alt="Diagram of a Cerillo Duet co-culture plate with paired chambers for controls and co-culture conditions."}
 
-1. Dilute the overnight culture 1:1000 into fresh TSB.
-2. Add 800 µL of diluted culture to triplicate wells for the isolate-only condition.
-3. Add 800 µL of TSB to the adjacent control wells.
-4. Add 800 µL of diluted SPH-1 to the paired experimental wells for co-culture.
-5. Seal the plate carefully. If using Breathe-Easy film, follow the video: {{< video https://www.youtube.com/watch?v=rk_F4fURBMU >}}
-6. Incubate with shaking at 30 C for 24 to 48 hours.
-7. Analyze OD600 measurements collected every 5 minutes.
+3. Obtain your liquid culture and dilute it **1:1000** into fresh Tryptic Soy Broth in a 15 mL tube with 10 mL of TSB. 
 
-### Protocol Notes
+  i) For a 1:1000 dilution, you will need 10 mL of TSB and 10 µL **of liquid culture.** 
 
-Record any mistakes, deviations, or strain-specific observations.
+4. Carefully pipette **800 µl of your diluted culture** into triplicate wells. 
+
+  i) Add **800 µl of TSB** to the adjacent wells. These will be your growth controls.
+
+5. Carefully pipette **800 µl of your diluted culture** into triplicate wells.
+
+  i) Add **800 µL of 1:1000-diluted SPH-1.** These will be your **co-culture experimental assays.**
+
+6. Work carefully to prevent cross-contamination of wells.
+
+7. Once all wells are prepared, carefully seal the co-culture wells with sealing tape.
+8. Incubate with shaking at 30°C for 24-48 hours. 
+9. OD measurements were recorded at 600 nm every 5 minutes. All experiments will be conducted in triplicate, with biological replicates.
+10. Obtain your data to plot and analyze growth curves.
 
 ## Results
 
