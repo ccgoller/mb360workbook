@@ -57,7 +57,11 @@ Figure @fig-module6-sequencing-overview summarizes the sequencing and downstream
 8. Incubate at 37°C for 10 minutes in a thermomixer at 500 RPM. If a thermomixer is unavailable, the reaction can be incubated stationary and agitated by gently flicking for 10 seconds every two minutes.
 9. Combine the following reagents with your sample in the 1.5 mL Eppendorf DNA LoBind tube, and mix by vortexing.
 
-
+|      Reagent     | Volume |
+|:----------------:|:------:|
+|   Proteinase K   |  10 uL |
+|      RNase A     |  3 uL  |
+| Total (w/ sample)| 113 uL |
 
 10. Vortexing your sample before adding the **CTAB buffer allows the enzymes to fully mix with the bacterial cells, as the mixture can become viscous.**
 11. Add 200 µl of CTAB buffer and mix by vortexing. Extractions performed using the CTAB buffer improve sequencing health and output compared to using NEB Lysis Buffer from the Monarch Spin gDNA Extraction Kit.
@@ -76,6 +80,52 @@ Figure @fig-module6-sequencing-overview summarizes the sequencing and downstream
 
 14. Combine the following reagents in a clean 1.5 mL Eppendorf DNA LoBind tube:
 
+|      Reagent                  | Volume |
+|:-----------------------------:|:------:|
+| Lysate from the previous step | 200 uL |
+| Monarch® gDNA Binding Buffer  | 400 uL |
+| Total (w/ sample)             | 600 uL |
+
+
+15. Ensure the reaction is thoroughly mixed by pipetting until the liquid is homogeneous.
+Thorough mixing is essential to ensure the DNA binds properly to the column and to homogenise the CTAB and Monarch® gDNA Binding Buffer, which solidify on initial contact.
+16. Transfer the reaction to a Monarch® Spin Column pre-inserted into a Monarch® collection tube, without touching the upper column area.	
+17. Close the tube and centrifuge for 3 minutes at 1,000 x g to bind the gDNA and then for 1 minute at maximum speed (>12,000 x g) to clear the membrane.
+	Do not empty or remove the collection tube from the centrifuge when changing settings.
+18. Remove the gDNA spin column from the collection tube and discard the tube with the flow-through.
+19. Transfer the gDNA spin column to a new collection tube and add **500 µl Monarch® gDNA Wash Buffer.**
+
+	i) **IMPORTANT: Do NOT vortex.**
+
+20. Close the collection tube and invert multiple times until the wash buffer reaches the cap.
+21. Immediately centrifuge the collection tube for 1 minute at maximum speed (>12,000 x g). Remove the gDNA spin column from the collection tube to discard the flow-through.
+22. Re-insert the gDNA spin column into the collection tube, add 500 µl gDNA wash buffer, and close the tube.
+23. Immediately centrifuge the collection tube for 1 minute at maximum speed (>12,000 x g). Remove the gDNA spin column from the collection tube to discard the flow-through.
+24. After centrifugation, ensure there is no liquid in the gDNA spin column above or below the silica membrane. If there is liquid, repeat the centrifugation until all liquid is removed.
+  
+	i) **IMPORTANT:** Preheating the Monarch® gDNA Elution Buffer to 60°C is essential for maximum recovery of larger gDNA fragments.
+
+25. Place the gDNA spin column in a DNase-free 1.5 mL microfuge tube and add **100 µl of preheated Monarch® gDNA Elution Buffer.** Close the tube and incubate at room temperature for 1 minute.
+  
+	i) **TIP:** If extractions are not yielding high enough concentrations of DNA for 200 ng per sample, less gDNA elution buffer can be run through the column to increase the concentration.
+
+	ii) **Note:** Elution of less than 100 µl results in lower total yield, and elution of less than 50 µl is not recommended.
+  
+	iii) **We recommend repeating the elution by passing 100 µl of eluate through the column once more.**
+
+26. Centrifuge for 1 minute at maximum speed (>12,000 x g) to elute the gDNA into the 1.5 mL microfuge tube. The gDNA spin column can be discarded.
+
+27. Quantify **1 µl of eluted sample using a Qubit fluorometer.**
+  
+	i) Add 1 µl of eluted sample (DNA) to a Qubit tube with 199 µl of 1X High Sensitivity (HS) Assay mix.
+
+	ii) Record the DNA concentration in your notes and on the tubes.
+  
+	iii) The **expected yield is ~15-20 ng/µl per sample with a DNA Integrity Number (DIN) of 9.**
+  
+	iv) **Store at 4 or 20°C until use.**
+
+Genomic DNA quantification will be performed with a Qubit fluorometer.
 
 Figure @fig-module6-qubit illustrates the Qubit measurement setup used to quantify extracted DNA prior to library preparation.
 
@@ -85,16 +135,13 @@ Figure @fig-module6-library-prep summarizes the rapid barcoding library-preparat
 
 ![Nanopore rapid barcoding workflow for sequencing library preparation. Created with BioRender.com.](images/module-06/nanopore-rapid-barcoding-workflow.png){#fig-module6-library-prep fig-alt="Workflow diagram showing the rapid barcoding steps used to prepare DNA for nanopore sequencing."}
 
-### Data Analysis
+### Data/Results
 
 - Create a BV-BRC account and access the shared workspace.
 - Obtain the Nanopore and Illumina files for your isolate.
 - Run the Comprehensive Genome Analysis workflow.
 - Upload the assembled FASTA file to SeqHub for annotation and exploration.
 
-### Protocol Notes
-
-Record any mistakes, deviations, or strain-specific observations.
 
 ## Results
 
