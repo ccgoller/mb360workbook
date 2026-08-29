@@ -12,10 +12,29 @@ This module compares growth and biofilm formation in *Delftia acidovorans*, *Del
 
 ### Lab Safety
 
-- Wear the required PPE.
-- Clean the bench and pipettors with 70% ethanol.
-- Treat all tips as biohazards.
-- Dispose of plates and gloves in the correct waste streams.
+#### Before Lab:
+- Wear the correct PPE (lab coat, goggles, and gloves).
+- Wipe the lab bench with 70% ethanol.
+- Before working with microorganisms, carefully wipe pipettors with 70% ethanol.
+
+#### During Lab:
+- Treat all tips as potential biohazards.
+- Remove your PPE if you are leaving the lab (water/bio break).
+- Discard samples and disposable lab items in the correct trash bins.
+- Try to keep personal items (computers, phones, etc.) usage to a minimum.
+
+#### After Lab:
+- Wipe your station with 70% alcohol.
+- If you touched any personal items during the lab, wipe them with 70% ethanol before leaving.
+- Dispose of gloves in the main biohazard waste container.
+- Dispose of used petri dishes in the biohazard bin.
+- All liquids containing bacteria must be poured into a beaker for bleach decontamination (can be found on the blue bench paper by this sink labeled "liquid").
+- Glass tubes can be placed into a beaker (on the blue bench paper by this sink, labeled "glass").
+- All bacterial growth plates can be thrown away in the biohazard trash.
+- Return all reusable materials to our storage drawers.
+- Wipe down all surfaces with ethanol.
+- Remove PPE.
+- Wash your hands.
 
 ### Methods: Liquid Culture Setup
 
