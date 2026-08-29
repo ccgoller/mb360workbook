@@ -58,9 +58,9 @@ Each **student researcher pair** will need:
 
   iv) The target cell density for our protocol is **95%T.**
 
-A. Add more bacteria with the swab, if necessary, to get as close to this value as possible by continuing to add bacteria to the tube.
-
-B. Work carefully and keep the tube capped. If necessary, use another swab if you think it has touched another surface.
+::: {.callout-note}
+Add more bacteria with the swab, if necessary, to get as close to this value as possible by continuing to add bacteria to the tube. Work carefully and keep the tube capped. If necessary, use another swab if you think it has touched another surface.
+:::
 
 3. Once you've reached the target cell density at **95%T**, cap the tube and proceed to the next Activity.
 
