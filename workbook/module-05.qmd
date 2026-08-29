@@ -116,8 +116,11 @@ Figure @fig-module5-duet-layout maps the isolate-only, control, and co-culture c
 
 ## Results
 
-Add images of the co-culture plate and any figures generated from the growth data.
-
-## Result Analysis
+### Result Analysis
 
 Compare isolate-only growth to co-culture growth. Explain whether the second organism appeared to support, suppress, or otherwise reshape your isolate's growth profile.
+
+**Add your result analysis.**
+> [!NOTE]
+> Replace the note with your result analysis.
+
