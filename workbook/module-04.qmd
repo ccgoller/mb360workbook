@@ -116,7 +116,8 @@ Write an analysis of your results; explain what these results mean, and if this 
  Replace the note with your result analysis.
 :::
 
-##Discussion
+## Discussion
+
 - What are some advantages and disadvantages of using a multichannel pipette?
 
 - During the inoculation, describe how you ensure that you isolate a "pure culture." Why is a "pure culture" needed for this assay?
