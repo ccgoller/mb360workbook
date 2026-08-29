@@ -120,7 +120,25 @@ Figure @fig-module5-duet-layout maps the isolate-only, control, and co-culture c
 
 Compare isolate-only growth to co-culture growth. Explain whether the second organism appeared to support, suppress, or otherwise reshape your isolate's growth profile.
 
-**Add your result analysis.**
-> [!NOTE]
-> Replace the note with your result analysis.
+::: {.callout-note}
+Replace the note with your result analysis.
+:::
 
+## Discussion 
+
+- In which ways are co-cultures beneficial for research? Think about what co-cultures can tell us about an organism and its interactions with others.
+
+- What factors can affect the growth of an organism? If your organism thrived in co-culture, what kind of beneficial metabolites might be diffusing across that membrane to help it thrive? If your organism did not thrive in co-culture, what metabolites/resources might be shared between both organisms? 
+
+- Identify at least one change made to the lab protocol, whether intentional or accidental (e.g., wrong amount of reagent used, contamination, etc). How did, or could, this change/accident impact your final results?
+
+::: {.callout-note}
+Replace the note with your discussion.
+:::
+
+## Checklist Before Submission
+- [ ] All sections completed
+- [ ] Images pasted and labeled
+- [ ] Discussion questions answered
+- [ ] Reflection written
+- [ ] Notebook saved and pushed to GitHub
