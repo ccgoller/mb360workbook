@@ -139,7 +139,7 @@ Include any tables, figures, images that you’ve generated from your data:
 Replace the note with your results; add images if applicable.
 :::
 
-## Results
+### Results
 
 Include tables, figures, charts, and screenshots generated from your assembly and annotation workflows.
 
