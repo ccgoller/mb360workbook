@@ -90,29 +90,42 @@ Write a short paragraph describing your strain, the experiment your team will pe
 
 ### Methods
 
-Write your methods so another group could reproduce the experiment, including setup, controls, measurements, and the data-analysis plan.
+Write your Methods/Procedures here. The purpose is to enable someone else to replicate your experiment, giving as much detail as needed. Include your data analysis plan as well.
 
-[Add methods here]
+::: {.callout-note}
+Replace the note with the description of the methods you used.
+:::
 
-### Protocol Notes
+## Data/Results
 
-Record any changes, mistakes, or isolate-specific variables during the experiment.
+What results did you get, and what do they mean? Share your results! 
 
-## Results
+::: {.callout-note}
+Replace the note with your results, add images if applicable.
+:::
 
-Summarize what happened and include figures, tables, or photos as needed.
+### Result Analysis
 
-[Add results here]
+Write an analysis of your results; explain what these results mean, and whether this matches what was expected
 
-## Result Analysis
+::: {.callout-note}
+Replace the note with your result analysis.
+:::
 
-Explain what the results mean and whether they matched expectations.
-
-[Add analysis here]
-
-## Discussion Questions
+## Discussion 
 
 1. What did you learn from exploring your genome assembly and annotation with BV-BRC and SeqHub?
 2. Were you able to conduct and repeat your proposed experiment at least once? Why or why not?
 3. What findings did you obtain, and what are their implications?
 4. What experiment would you do next, and why?
+
+::: {.callout-note}
+Replace the note with your discussion.
+:::
+
+## Checklist Before Submission
+- [ ] All sections completed
+- [ ] Images pasted and labeled
+- [ ] Discussion questions answered
+- [ ] Reflection written
+- [ ] Notebook saved and pushed to GitHub
