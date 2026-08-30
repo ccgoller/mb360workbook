@@ -131,17 +131,11 @@ Replace the note with your identified genomes.
 
 ## Data/ Results 
 
-### Data Analysis
-
 Include any tables, figures, images that you’ve generated from your data: 
 
 ::: {.callout-note}
 Replace the note with your results; add images if applicable.
 :::
-
-### Results
-
-Include tables, figures, charts, and screenshots generated from your assembly and annotation workflows.
 
 ### Result Analysis
 
