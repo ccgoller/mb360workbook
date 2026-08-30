@@ -23,8 +23,9 @@ Figure @fig-module8-capstone-banner provides a compact visual divider for the ca
 
 List at least two specific goals for your final experiment.
 
-1. [Add goal here]
-2. [Add goal here]
+::: {.callout-note}
+Add your goals here.
+:::
 
 ## Learning Outcomes
 
@@ -42,15 +43,17 @@ List at least two specific goals for your final experiment.
 
 Specify the lab skills your final experiment develops.
 
-- [Add skill here]
-- [Add skill here]
+::: {.callout-note}
+Add Skills here.
+:::
 
 ### Knowledge
 
 Specify the concepts, tools, and analysis techniques that this final experiment reinforces.
 
-- [Add knowledge area here]
-- [Add knowledge area here]
+::: {.callout-note}
+Add knowledge here.
+:::
 
 ## Task
 
@@ -64,7 +67,10 @@ Successful completion requires full participation in the designed experiment, ca
 
 Write a short paragraph describing your strain, the experiment your team will perform, the science behind it, and how the experiment supports your final research goal.
 
-[Add background here]
+::: {.callout-note}
+Add background here.
+:::
+
 
 ## Procedures
 
@@ -72,21 +78,30 @@ Write a short paragraph describing your strain, the experiment your team will pe
 
 #### Before Lab
 
-- Wear lab coat, goggles, and gloves.
-- Wipe the bench and pipettors with 70% ethanol.
+- Wear the correct PPE (lab coat, goggles, and gloves).
+- Wipe the lab bench with 70% ethanol.
+- Before working with microorganisms, carefully wipe pipettors with 70% ethanol.
 
 #### During Lab
 
 - Treat all tips as potential biohazards.
-- Remove PPE when leaving the lab.
-- Discard samples and disposables correctly.
-- Minimize use of personal devices.
+- Remove your PPE if you are leaving the lab (water/bio break).
+- Discard samples and disposable lab items in the correct trash bins.
+- Try to keep personal items (computers, phones, etc.) usage to a minimum.
 
 #### After Lab
 
-- Wipe the station and any touched personal items with 70% ethanol.
-- Dispose of gloves, plates, liquids, and glass in the correct locations.
-- Return reusable materials, remove PPE, and wash your hands.
+- Wipe your station with 70% alcohol.
+- If you touched any personal items during the lab, wipe them with 70% ethanol before leaving.
+- Dispose of gloves in the main biohazard waste container.
+- Dispose of used petri dishes in the biohazard bin.
+- All liquids containing bacteria must be poured into a beaker for bleach decontamination (can be found on the blue bench paper by this sink labeled "liquid").
+- Glass tubes can be placed into a beaker (on the blue bench paper by this sink, labeled "glass").
+- All bacterial growth plates can be thrown away in the biohazard trash.
+- Return all reusable materials to our storage drawers.
+- Wipe down all surfaces with ethanol.
+- Remove PPE.
+- Wash your hands.
 
 ### Methods
 
