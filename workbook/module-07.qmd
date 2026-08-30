@@ -63,35 +63,115 @@ This is a bioinformatics lab.
 
 ### Methods: Data Analysis
 
-- Access the shared BV-BRC workspace.
-- Obtain the concatenated read files for your isolate.
-- Run the Comprehensive Genome Analysis workflow with long-read and paired short-read data.
-- Create an output folder labeled with the isolate name.
-- Submit the job and monitor the results.
-- Upload the assembled FASTA file to SeqHub.
+1. Create a free [BV-BRC.org](https://www.bv-brc.org/) account. Share your username with your instructors: [BV-BRC Usernames](https://docs.google.com/spreadsheets/d/1lpaj0t5079yliPTzHsdgZJLTRco8sIU4es0Z-gK1eII/edit?usp=sharing). 
+2. Access the sequences in our shared BV-BRC workspace.
+3. Obtain concatenated sequences for your isolate from the shared workspace.
+4. Follow the [Comprehensive Genome Analysis Service tutorial: Comprehensive Genome Analysis (CGA) Service | BV-BRC](https://www.bv-brc.org/docs/tutorial/comprehensive_genome_analysis/comprehensive_genome_analysis.html).
+5. Start a job to assemble and annotate your genome by:
+
+  i) Indicating the file(s) for your long-read Nanopore sequences (**single read**). If available, include the Nanopore data from each run.
+  
+  ii) Indicate the files for your paired Illumina sequences (**paired reads**). There should be R1 and R2 files for your isolate.
+  
+  iii) Leave the assembly parameters on **auto**.
+
+6. Create an output folder in your BV-BRC workspace. Label the folder with your isolate’s name.
+7. **Submit the job on [bv-brc.org](https://www.bv-brc.org/).** 
+8. Wait… ~30 min to overnight, depending on server load and data used for assembly.
+9. Create a free [SeqHub](https://seqhub.org/) account.
+10. Upload the assembled genome FASTA file from [BV-BRC.org](https://www.bv-brc.org/) Comprehensive Genome Analysis Service to annotate and explore in SeqHub. 
 
 ### Methods: Genome Comparisons
 
-- Use Similar Genome Finder in BV-BRC.
-- Compare your isolate against representative and public genomes.
-- Save the result tables and pie-chart images.
-- Use the Genome Alignment workflow for follow-up comparisons.
+1. Use BV-BRC to compare your genome to others in the database. For this, use the **Similar Genome Finder** tool. Review the [tutorial](https://www.bv-brc.org/docs/tutorial/similar_genome_finder/similar_genome_finder.html) for this workflow. 
+2. Select your isolate’s genome.
+3. Run the workflow and compare results using Reference and Representative Genomes and all Public Genomes.
+4. Save your results and pie chart images. 
+5. Record the similar genomes you identified:
+
+::: {.callout-note}
+Replace the note with your identified genomes.
+:::
+
+6. Use the Genome Alignment tool to compare your isolate’s genome to one or more similar genomes you identified in the previous step. Review the [tutorial](https://www.bv-brc.org/docs/tutorial/genome_alignment/genome_alignment.html) for this tool.
 
 ### Methods: Annotation Review and Genome Exploration
 
-- Review coding-sequence counts and other reported features.
-- Record the most abundant functional assignments.
-- Note whether plasmids or antibiotic-resistance genes were identified.
-- Explore low-confidence annotations, hypothetical genes, predicted protein interactions, and genes of interest in SeqHub.
+1. Use the results from the **BV-BRC Comprehensive Genome Analysis** service to review the annotation results.
+2. Select the **annotation report** and review the findings.
+3. Record the number of coding sequences (CDS) and other features found for your discussion. 
+4. Record the top functional assignments of the genes identified. 
 
-### Protocol Notes
+  i) What metabolic properties are most abundant? Record for your Discussion section.
+  
+  ii) How do these findings relate to your Biolog GEN III phenotypic data? Record for your Discussion section.
+ 
+5. Review the CGA report and note whether plasmids or antibiotic resistance genes were identified.
 
-Record any mistakes, deviations, or isolate-specific observations.
+### Methods: Genome Exploration with SeqHub
+
+1. Create a free SeqHub account.
+2. Review the features of this tool: [Documentation](https://seqhub.org/faq) & [Video](youtube.com/watch?v=H50FSLYy0CQ&feature=youtu.be) (7 min).
+3. Find  the FASTA file for your genome in BV-BRC and download it.
+4. Upload the FASTA file to SeqHub.
+5. Explore the genome considering:
+
+  i) Low-confidence annotations. What are they? Are they novel genes?
+  
+  ii) Hypothetical genes. What could they do? Are they similar to other sequences? 
+  
+  iii) Predicted Protein Interactions (PPI) tool. Are there protein interactions that are intriguing and could support your research question?
+  
+  iv) AI Agent. What questions can you ask the agent to learn about the genomic potential of your isolate?
+  
+  v) Protein Folding. Are there proteins of interest that could be folded?
+
+6. Use the (AI) agent to help you understand and search for genes.
+7. Which genes of interest did you identify? Why are they intriguing? Keep these answers in mind when writing your **discussion section**.
+
+## Data/ Results 
+
+### Data Analysis
+
+Include any tables, figures, images that you’ve generated from your data: 
+
+::: {.callout-note}
+Replace the note with your results; add images if applicable.
+:::
 
 ## Results
 
 Include tables, figures, charts, and screenshots generated from your assembly and annotation workflows.
 
-## Result Analysis
+### Result Analysis
 
 Explain how your isolate differs from the SPH-1 reference, how well the genomic data matches the phenotype, and what the assembly metrics suggest about data quality.
+
+::: {.callout-note}
+Replace the note with your result analysis.
+:::
+
+## Discussion 
+
+- How did BV-BRC assemble your genome? How “good” was your assembly? 
+Hint: review the Assembly results folder from BV-BRC and note the number of contigs, their sizes, and any other relevant information.
+
+- What factors can affect the quality of the assembled genome? Compared to other isolates sequenced, is your genome larger? 
+
+- Apart from research, what other applications are there for gene prediction and annotation? 
+
+- What can the Predicted Protein Interactions (PPI) network contribute to your research? 
+
+- Identify at least one change made to the lab protocol, whether intentional or accidental (e.g., wrong amount of reagent used, contamination, etc). How did, or could, this change/accident impact your final results?
+
+::: {.callout-note}
+Replace the note with your discussion.
+:::
+
+## Checklist Before Submission
+- [ ] All sections completed
+- [ ] Images pasted and labeled
+- [ ] Discussion questions answered
+- [ ] Reflection written
+- [ ] Notebook saved and pushed to GitHub
+
