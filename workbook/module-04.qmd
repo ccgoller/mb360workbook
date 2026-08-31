@@ -17,7 +17,20 @@ Complete the in-lab assay setup, collect analyzable data, and finish the ELN ent
 
 ## Skills and Knowledge 
 
+Completing this module will help you develop and practice the following skills and knowledge, which you can include in your curriculum vitae.
 
+&nbsp; **Skills:** This module helps you practice the following essential skills for safe and effective lab work with microbial isolates. Additionally, you will learn to generate, visualize, and analyze bacterial growth curves. After completing this lab, you will gain the following lab skills:
+
+- Lab safety and proper personal protective equipment (PPE)
+- Proper use of Biolog plates and multichannel pipettors
+- Proper use of a turbidimeter to adjust bacterial densities
+- Analysis of growth data of bacteria in 96-well plates
+
+&nbsp; **Knowledge:** This module will also help you become familiar with the following important content in microbial genomics lab settings:
+
+- Understanding PPE requirements for microbial work.
+- Familiarity with phenotypic assays and growth assessment.
+- Seeding of 96-well plates for bacterial growth.
 
 ## Procedures
 
