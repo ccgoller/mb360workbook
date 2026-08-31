@@ -8,7 +8,7 @@ This module compares growth and biofilm formation in *Delftia acidovorans*, *Del
 
 Successful completion requires participation in both assay workflows, collection of analyzable data, and a complete ELN entry.
 
-## Learning outcomes 
+## Learning Outcomes 
 
 1. **List** safety considerations for propagating microbes. **(CO 3, 4, 5)** 🥼
 2. **Explain** the differences between static and shaking growth. **(CO 3, 4, 5)** 🥼
@@ -21,7 +21,7 @@ Successful completion requires participation in both assay workflows, collection
 9. **Interpret** growth data and biofilm data. **(CO 8, 8)** 📈
 10. **Create** an annotated bibliography (five or more sources). *(CO 3)* 🏅
 
-## Skills and knowledge 
+## Skills and Knowledge 
 
 Completing this module will help you develop and practice the following skills and knowledge, which you can include in your curriculum vitae.
 
