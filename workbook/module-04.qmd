@@ -15,6 +15,19 @@ Complete the in-lab assay setup, collect analyzable data, and finish the ELN ent
 
 ## Learning Outcomes 
 
+1. **List** safety considerations for propagating microbes. **(CO 3, 4, 5)** 🥼
+2. **Explain** the purpose of GEN III Biolog plates and metabolic tests **(CO 3, 4, 5)** 🥼
+3. **Describe** the features of biofilms. **(CO 5)** 🥼
+4. **Discuss** the significance of growth curves. **(CO 3, 4, 5)** 🥼 
+5. **Practice** using a multichannel. **(CO 3, 4, 5)** 🥼 
+6. **Practice** using a turbidimeter to adjust the turbidity in the inoculating fluid to a desired value. **(CO 3, 4, 5)** 🥼 
+7. **Practice** consistently seeding 96-well plates without contamination. **(CO 3, 4, 5)** 🥼
+8. **Describe** the purpose, methods, and preliminary results of your GEN III phenotypic characterization experiments. **(CO 3, 8, 2,9)** 📁
+9. **Collect** growth data. **(CO 6, 8)** 📈
+10. **Interpret** growth data from Biolog GEN III plates. **(CO 8, 6,7)** 📈
+11. **Create** a draft for your individual and group projects. **(CO 3, 9)** 🏅
+12. **Analyze** how this experiment contributes to your overall experimental goal. **(CO 1)** 🤔
+
 ## Skills and Knowledge 
 
 Completing this module will help you develop and practice the following skills and knowledge, which you can include in your curriculum vitae.
