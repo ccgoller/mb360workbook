@@ -178,8 +178,6 @@ Write an analysis of your results; explain what these results mean, and if this 
 
 - How has your use of multichannels changed over the course of the semester? Why?
 
-- Identify at least one change made to the lab protocol, whether intentional or accidental (e.g., wrong amount of reagent used, contamination, etc). How did, or could, this change/accident impact your final results?
-
 ::: {.callout-note}
 Replace the note with your discussion.
 :::
