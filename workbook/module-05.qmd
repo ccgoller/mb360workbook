@@ -104,8 +104,10 @@ Figure @fig-module5-duet-layout maps the isolate-only, control, and co-culture c
 
 ## Data/ Results 
 
+Paste a picture of your plate and any figures or images generated from your data: 
+
 ::: {.callout-note}
-Replace the note with data/results.
+Replace the note with your results, add images if applicable.
 :::
 
 ### Result Analysis
