@@ -4,72 +4,60 @@
 [View Slide Deck](slides/module-05-slides.html){.btn target="_blank" rel="noopener noreferrer" aria-label="Open Module 5 slide deck in a new tab"}
 :::
 
-## Overview
-
-Weeks 8 and 9 focus on co-culture experiments that examine how isolates interact through diffusion-mediated contact.
-
-## Purpose
-
-- Evaluate microbial interactions through co-culture growth of different isolates.
-- Observe growth while maintaining fluidic contact across a membrane.
-- Analyze possible inhibition or facilitation patterns.
-- Use pipettes to seed co-culture wells for growth assays.
-- Apply the principles of the Cerillo Duet system to your research question.
-
-## Learning Outcomes
-
-- List safety considerations for propagating microbes.
-- Explain the purpose of Duet wells and co-culture assays.
-- Discuss the significance of microbial fluid interactions.
-- Practice diluting cultures to a target value.
-- Seed wells consistently without contamination.
-- Describe the purpose, methods, and preliminary results of co-culture experiments.
-- Collect and interpret co-culture growth data.
-- Revise the draft for the individual and group projects.
-- Explain how the experiment contributes to the overall research goal.
-
-## Skills and Knowledge
-
-### Skills
-
-- Follow lab safety and PPE protocols.
-- Use Cerillo vertical membrane co-culture systems correctly.
-- Analyze co-culture growth data.
-
-### Knowledge
-
-- PPE requirements for microbial work.
-- Co-culture design and growth assessment.
-- Microbial interaction concepts.
-
-## Task
-
-Review the background and procedure information before lab and work with your partner to set up the co-culture assays and document results.
-
-## Criteria for Success
-
-Successful completion requires participation in assay setup, collection of analyzable data, and a complete ELN record.
-
 ## Background
 
 After characterizing individual growth and metabolism, this module asks how isolates behave in the presence of other organisms. The Cerillo Duet co-culture platform allows isolates to grow in adjacent chambers separated by a membrane that permits exchange of metabolites without direct mixing of cells.
+
+## Criteria for success/ Purpose 
+
+As scientists, we should strive for specificity and accuracy. To complete this module, you will need to participate in the in-lab activities, complete the co-culture assay setup tasks, obtain data to analyze, and complete your lab entry as described.
+
+## Learning Outcomes
+
+1. **List** safety considerations for propagating microbes. **(CO 3, 4, 5)** 🥼
+2. **Explain** the purpose of the Duet wells/plates and co-culture assays. **(CO 3, 4, 5)** 🥼
+3. **Discuss** the significance of microbial fluid interactions. **(CO 3, 4, 5)** 🥼 
+4. **Practice** diluting cultures to a desired value. **(CO 3, 4, 5)** 🥼 
+5. **Practice** consistently seeding wells without contamination. **(CO 3, 4, 5)** 🥼
+6. **Describe** the purpose, methods, and preliminary results of your Duet Co-culture experiments. **(CO 3, 8, 2,9)** 📁
+7. **Collect** co-culture growth data. **(CO 6, 8)** 📈
+8. **Interpret** growth data from Duet co-culture plates. **(CO 8, 6,7)** 📈
+9. **Revise** the draft for your individual and group projects. **(CO 3, 9)** 🏅
+10. **Analyze** how this experiment contributes to your overall experimental goal. **(CO 1)** 🤔
+
+## Skills and Knowledge
+
+Completing this module will help you develop and practice the following skills and knowledge, which you can include in your curriculum vitae.
+
+&nbsp; **Skills:** This module helps you practice the following essential skills for safe and effective lab work with microbial isolates. Additionally, you will learn to generate, visualize, and analyze bacterial co-culture data. After completing this lab, you will gain the following lab skills:
+
+- Lab safety and proper personal protective equipment (PPE)
+- Proper use of Cerillo’s vertical membrane co-culture and pipettors
+- Analysis of growth data for co-cultures
+
+&nbsp; **Knowledge:** This module will also help you become familiar with the following important content in microbial genomics lab settings:
+
+- Understanding PPE requirements for microbial work.
+- Familiarity with co-cultures and growth assessment.
+- Understanding microbial interactions. 
+
 
 ## Procedures
 
 ### Lab Safety
 
-#### Before Lab:
+#### Before Lab
 - Wear the correct PPE (lab coat, goggles, and gloves).
 - Wipe the lab bench with 70% ethanol.
 - Before working with microorganisms, carefully wipe pipettors with 70% ethanol.
 
-#### During Lab:
+#### During Lab
 - Treat all tips as potential biohazards.
 - Remove your PPE if you are leaving the lab (water/bio break).
 - Discard samples and disposable lab items in the correct trash bins.
 - Try to keep personal items (computers, phones, etc.) usage to a minimum.
 
-#### After Lab:
+#### After Lab: 
 - Wipe your station with 70% alcohol.
 - If you touched any personal items during the lab, wipe them with 70% ethanol before leaving.
 - Dispose of gloves in the main biohazard waste container.
@@ -82,14 +70,14 @@ After characterizing individual growth and metabolism, this module asks how isol
 - Remove PPE.
 - Wash your hands.
 
-### Methods
+#### Methods
 
-#### What Was Prepared in Advance
+What Was Prepared in Advance:
 
 1. Start an overnight culture of your isolate in Tryptic Soy Broth (TSB, 2.5 mL per tube) by using a sterile loop to obtain one colony from an agar plate and inoculate TSB. 
 2. Incubate with shaking at 30°C overnight. 
 
-#### Day of the Lab
+#### Methods: Day of the Lab
 
 Figure @fig-module5-duet-layout maps the isolate-only, control, and co-culture conditions across the Cerillo Duet platform.
 
@@ -114,7 +102,11 @@ Figure @fig-module5-duet-layout maps the isolate-only, control, and co-culture c
 9. OD measurements were recorded at 600 nm every 5 minutes. All experiments will be conducted in triplicate, with biological replicates.
 10. Obtain your data to plot and analyze growth curves.
 
-## Results
+## Data/ Results 
+
+::: {.callout-note}
+Replace the note with data/results.
+:::
 
 ### Result Analysis
 
