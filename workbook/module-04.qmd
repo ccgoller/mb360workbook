@@ -82,6 +82,14 @@ We will swab bacterial cells from your agar plates (BUG Agar: **BUG** (Biolog Un
 
 Each **student researcher pair** will need:
 
+- IF-A inoculating fluid
+- BUG agar plate with bacteria (incubated overnight at 33°C from your TSA plates)
+- Biolog GEN3 plate
+- One 200/300 μl multichannel micropipette (p200)
+- Micropipette tips for p200
+- Wipes
+- Tip disposal container
+
 1. Calibrate the turbidimeter to a **"blank"** sample of inoculation fluid in a tube
 
   i) Using the Biolog Turbidimeter, blank the turbidimeter with a clean tube (wiped clean of dirt and fingerprints) containing uninoculated IF-A. Because the tubes used are not optically uniform, they should be blanked individually.
