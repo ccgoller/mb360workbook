@@ -1,12 +1,31 @@
 # Module 3: Microbial Growth Curves
 
+## Background
+
+This module compares growth and biofilm formation in *Delftia acidovorans*, *Delftia tsuruhatensis*, and student isolates while maintaining strong contamination control.
+
 ## Criteria for Success
 
 Successful completion requires participation in both assay workflows, collection of analyzable data, and a complete ELN entry.
 
-## Background
+## Learning outcomes/ objectives 
 
-This module compares growth and biofilm formation in *Delftia acidovorans*, *Delftia tsuruhatensis*, and student isolates while maintaining strong contamination control.
+1. **List** safety considerations for propagating microbes. **(CO 3, 4, 5)** 🥼
+2. **Explain** the differences between static and shaking growth. **(CO 3, 4, 5)** 🥼
+3. **Describe** the features of biofilms. **(CO 5)** 🥼
+4. **Discuss** the significance of growth curves. **(CO 3, 4, 5)** 🥼
+5. **Practice** using a multichannel. **(CO 3, 4, 5)** 🥼 
+6. **Practice** diluting an overnight culture and consistently seeding 96-well plates without contamination. **(CO 3, 4, 5)** 🥼
+7. **Describe** the purpose, methods, and preliminary results of your microbial propagation experiments. **(CO 3, 8)** 📁
+8. **Collect** growth data and biofilm viability data. **(CO 6, 8)** 📈
+9. **Interpret** growth data and biofilm data. **(CO 8, 8)** 📈
+10. **Create** an annotated bibliography (five or more sources). *(CO 3)* 🏅
+
+## Skills and knowledge 
+
+### Skills
+
+### Knowledge
 
 ## Procedures
 
