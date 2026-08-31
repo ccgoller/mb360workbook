@@ -23,9 +23,20 @@ Successful completion requires participation in both assay workflows, collection
 
 ## Skills and knowledge 
 
-### Skills
+Completing this module will help you develop and practice the following skills and knowledge, which you can include in your curriculum vitae.
 
-### Knowledge
+&nbsp; **Skills:** The purpose of this module is to help you practice the following skills that are essential to safe and effective lab work with microbial isolates.
+
+- Working safely with liquid cultures in 96-well plates.
+- Documenting lab work, including protocols and results.
+- Interpreting growth curve and biofilm data.
+- Propagating bacteria in liquid cultures.
+
+&nbsp; **Knowledge:** This module will also help you become familiar with the following important content in microbial genomics lab settings:
+
+- Understanding PPE requirements for microbial work.
+- Familiarity with the propagation of microorganisms in liquid media.
+- Seeding of 96-well plates for bacterial growth and biofilm analyses.
 
 ## Procedures
 
