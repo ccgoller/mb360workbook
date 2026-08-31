@@ -8,7 +8,7 @@ This module compares growth and biofilm formation in *Delftia acidovorans*, *Del
 
 Successful completion requires participation in both assay workflows, collection of analyzable data, and a complete ELN entry.
 
-## Learning outcomes/ objectives 
+## Learning outcomes 
 
 1. **List** safety considerations for propagating microbes. **(CO 3, 4, 5)** 🥼
 2. **Explain** the differences between static and shaking growth. **(CO 3, 4, 5)** 🥼
@@ -166,7 +166,7 @@ Figure @fig-module3-biofilm-viability outlines the wash-and-detection workflow u
 2. Upload the text file to your repository for analysis.
 3. Plot growth curves for your plate and compare each well and isolate.
 
-### Methods: Biofilm Viability
+### Methods: Biofilm Viability Data Analysis
 
 1. Save your raw data and share it with your group. The spreadsheet includes absorbance values for each well after using the WST assay, which produces a color change when cells are metabolically active.
 2. Duplicate the spreadsheet to create a copy you can edit and format for your calculations.
