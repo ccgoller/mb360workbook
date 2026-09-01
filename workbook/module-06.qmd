@@ -14,24 +14,49 @@ Successful completion requires participation in DNA isolation and sequencing pre
 
 ## Learning Outcomes 
 
+1. **List** safety considerations for extracting DNA from microbial isolates. **(CO 3, 4, 5)** 🥼
+2. **Explain** the purpose of the reagents used for DNA extraction. **(CO 3, 4, 5)** 🥼
+3. **Discuss** the significance of high-molecular-weight DNA for sequencing. **(CO 3, 4, 5)** 🥼 
+4. **Practice** extracting DNA from liquid cultures. **(CO 3, 4, 5)** 🥼 
+5. **Practice** quantifying DNA using a Qubit fluorometer. **(CO 3, 4, 5)** 🥼
+6. **Describe** the purpose, methods, and preliminary results of your DNA extraction, quantification, and sequencing experiments. **(CO 3, 2, 8,9)** 📁
+7. **Collect** data from DNA extractions. **(CO 6, 8)** 📈
+8. **Interpret** DNA quantification and sequencing data. **(CO 6, 7,8)** 📈
+9. **Revise** the draft for your individual and group projects. **(CO 3, 9)** 🏅
+10. **Analyze** how this experiment contributes to your overall experimental goal. **(CO 1)** 🤔
+
 ## Skills and Knowledge 
+
+Completing this module will help you develop and practice the following skills and knowledge, which you can include in your curriculum vitae.
+
+&nbsp **Skills:** This module helps you practice the following essential skills for safe and effective lab work with microbial isolates. Additionally, you will learn to extract, sequence, and analyze bacterial DNA. After completing this lab, you will gain the following lab skills:
+
+- Lab safety and proper personal protective equipment (PPE)
+- Microbial DNA extraction and quantification
+- Analysis of microbial DNA sequence data
+
+&nbsp **Knowledge:** This module will also help you become familiar with the following important content in microbial genomics lab settings:
+
+- Understanding PPE requirements for DNA isolation and purification from microbes.
+- Familiarity with DNA extraction and quantification methods 
+- Understanding of Oxford Nanopore Technologies (ONT) DNA sequencing.
 
 ## Procedures
 
 ### Lab Safety
 
-#### Before Lab:
+#### Before Lab
 - Wear the correct PPE (lab coat, goggles, and gloves).
 - Wipe the lab bench with 70% ethanol.
 - Before working with microorganisms, carefully wipe pipettors with 70% ethanol.
 
-#### During Lab:
+#### During Lab
 - Treat all tips as potential biohazards.
 - Remove your PPE if you are leaving the lab (water/bio break).
 - Discard samples and disposable lab items in the correct trash bins.
 - Try to keep personal items (computers, phones, etc.) usage to a minimum.
 
-#### After Lab: 
+#### After Lab
 - Wipe your station with 70% alcohol.
 - If you touched any personal items during the lab, wipe them with 70% ethanol before leaving.
 - Dispose of gloves in the main biohazard waste container.
