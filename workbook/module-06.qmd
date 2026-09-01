@@ -1,9 +1,5 @@
 # Module 6: Microbial Genome Sequencing
 
-## Criteria for Success
-
-Successful completion requires participation in DNA isolation and sequencing preparation, collection of analyzable data, and a complete ELN entry.
-
 ## Background
 
 This module connects phenotype to genotype by sequencing the genome of the isolate. DNA is extracted using the NO-MISS workflow and analyzed with Oxford Nanopore sequencing and downstream genome assembly tools.
@@ -11,6 +7,14 @@ This module connects phenotype to genotype by sequencing the genome of the isola
 Figure @fig-module6-sequencing-overview summarizes the sequencing and downstream analysis pipeline from isolate DNA to annotated genome.
 
 ![Nanopore sequencing and downstream analysis workflow. Created with BioRender.com.](images/module-06/nanopore-sequencing-analysis-workflow.png){#fig-module6-sequencing-overview fig-alt="Workflow diagram showing nanopore sequencing, assembly, and downstream analysis steps."}
+
+## Criteria for Success
+
+Successful completion requires participation in DNA isolation and sequencing preparation, collection of analyzable data, and a complete ELN entry.
+
+## Learning Outcomes 
+
+## Skills and Knowledge 
 
 ## Procedures
 
@@ -40,15 +44,13 @@ Figure @fig-module6-sequencing-overview summarizes the sequencing and downstream
 - Remove PPE.
 - Wash your hands.
 
-### Methods
-
-#### What Was Prepared in Advance
+### Methods: What Was Prepared in Advance
 
 1. Start an overnight culture of your isolate in Tryptic Soy Broth (TSB, 2.5 mL per tube) by using a sterile loop to obtain one colony from an agar plate and inoculate TSB. 
 2. Incubate with shaking at 30°C overnight. 
 3. For general bacterial inputs, reconstitute the lysozyme in TE buffer to 10 mg/ml. We recommend preparing enzymes freshly on the day, as enzymatic activity reduces over time once reconstituted.
 
-#### Day of the Lab
+### Methods: Day of the Lab
 
 4. We will follow the [Nanopore-only Microbial Isolate Sequencing Solution (NO-MISS) associated extraction protocols](https://nanoporetech.com/document/extraction-method-group/nanopore-only-microbial-isolate-sequencing-solution-no-miss-associated).
 5. Obtain your liquid culture and spin down 1.0 mL of culture. 
@@ -135,15 +137,13 @@ Figure @fig-module6-library-prep summarizes the rapid barcoding library-preparat
 
 ![Nanopore rapid barcoding workflow for sequencing library preparation. Created with BioRender.com.](images/module-06/nanopore-rapid-barcoding-workflow.png){#fig-module6-library-prep fig-alt="Workflow diagram showing the rapid barcoding steps used to prepare DNA for nanopore sequencing."}
 
-## Data/ Results
-
-### Library Prep 
+### Methods: Library Prep 
 
 1. We will prepare our samples for sequencing by following the [Nanopore-only Microbial Isolate Sequencing Solution (NO-MISS) from cell cultures using SQK-RBK114 (.24 or .96)](https://nanoporetech.com/document/no-miss-isolate-sequencing-rapid-barcoding-v14#library-preparation-main) protocol.
 2. **Take 10 µl of your DNA and transfer it to a PCR tube to obtain at least 200 ng of DNA.**
 3. Follow the protocol linked above. 
 
-### Data Analysis
+### Methods: Genome Analysis
 
 1. Create a free [BV-BRC.org](https://www.bv-brc.org/) account. Share your username with your instructors.
 2. Access the sequences in our shared BV-BRC workspace.
@@ -162,7 +162,7 @@ Figure @fig-module6-library-prep summarizes the rapid barcoding library-preparat
 8. Create a free [SeqHub](https://seqhub.org/) account.
 9. Upload the assembled genome FASTA file from [BV-BRC.org](https://www.bv-brc.org/) Comprehensive Genome Analysis Service to annotate and explore in SeqHub. 
 
-### Results
+## Data/ Results
 
 Paste a picture of any figures or images generated from your data:
 
@@ -170,7 +170,7 @@ Paste a picture of any figures or images generated from your data:
 Replace the note with your results.
 :::
 
-### Result Analysis
+## Result Analysis
 
 Discuss DNA yield, sample quality, and whether the sequencing-related results matched expectations. Include factors that may have affected DNA recovery and what you would change next time.
 
