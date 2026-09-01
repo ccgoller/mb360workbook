@@ -8,7 +8,7 @@
 
 After characterizing individual growth and metabolism, this module asks how isolates behave in the presence of other organisms. The Cerillo Duet co-culture platform allows isolates to grow in adjacent chambers separated by a membrane that permits exchange of metabolites without direct mixing of cells.
 
-## Criteria for success/ Purpose 
+## Criteria for success 
 
 As scientists, we should strive for specificity and accuracy. To complete this module, you will need to participate in the in-lab activities, complete the co-culture assay setup tasks, obtain data to analyze, and complete your lab entry as described.
 
