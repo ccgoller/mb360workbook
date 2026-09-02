@@ -4,65 +4,6 @@
 [View Slide Deck](slides/module-08-slides.html){.btn target="_blank" rel="noopener noreferrer" aria-label="Open Module 8 slide deck in a new tab"}
 :::
 
-## Overview
-
-Week 15 is the capstone module. Students design or repeat an experiment, analyze the results, and connect the final experiment back to the semester's genomic and phenotypic findings.
-
-Figure @fig-module8-capstone-banner provides a compact visual divider for the capstone week and surfaces the final remaining template image from the source document.
-
-![Capstone module banner carried over from the original workbook template. Created with BioRender.com.](images/template/image6.png){#fig-module8-capstone-banner fig-alt="Horizontal banner graphic from the original workbook template."}
-
-## Purpose
-
-- Identify a focused research question for a specific bacterial strain.
-- Construct an experimental procedure.
-- Determine how to gather accurate and representative data.
-- Analyze results in the context of the experimental design.
-
-## Experiment Goals
-
-List at least two specific goals for your final experiment.
-
-::: {.callout-note}
-Add your goals here.
-:::
-
-## Learning Outcomes
-
-- List safety considerations for working with microbial isolates.
-- Review techniques, concepts, and experiments from the course.
-- Repeat experiments to improve consistency and reproducibility.
-- Describe the purpose, methods, and results of the experiment your team designs.
-- Interpret genomic data, including gene annotations and protein interaction predictions.
-- Revise the draft for the individual and group projects.
-- Explain how the experiment contributes to the overall research goal.
-
-## Skills and Knowledge
-
-### Skills
-
-Specify the lab skills your final experiment develops.
-
-::: {.callout-note}
-Add Skills here.
-:::
-
-### Knowledge
-
-Specify the concepts, tools, and analysis techniques that this final experiment reinforces.
-
-::: {.callout-note}
-Add knowledge here.
-:::
-
-## Task
-
-Review the background and procedure information you have written before coming to lab. Work with your group to carry out the experiment, document all changes, and analyze the resulting data.
-
-## Criteria for Success
-
-Successful completion requires full participation in the designed experiment, careful documentation, and a complete ELN entry with results and reflection.
-
 ## Background
 
 Write a short paragraph describing your strain, the experiment your team will perform, the science behind it, and how the experiment supports your final research goal.
@@ -71,6 +12,35 @@ Write a short paragraph describing your strain, the experiment your team will pe
 Add background here.
 :::
 
+## Criteria for Success
+
+Successful completion requires full participation in the designed experiment, careful documentation, and a complete ELN entry with results and reflection.
+
+## Learning Outcomes
+
+1. **List** safety considerations for working with microbial isolates. **(CO 3, 4, 5)** 🥼
+2. **Review** techniques, concepts, and experiments from the course. **(CO 3, 4, 5)** 🥼 
+3. **Practice** repeating experiments to improve consistency and reproducibility. **(CO 3, 4, 5)** 🥼 
+4. **Describe** the purpose, methods, and results of the experiment your team designs. **(CO 2, 3, 8,9)** 📁
+5. **Interpret** genomic data, including gene annotations and protein interaction predictions. **(CO 6, 7, 8)** 📈
+6. **Revise** the draft for your individual and group projects. **(CO 3, 9)** 🏅
+7. **Analyze** how this experiment contributes to your overall experimental goal. **(CO 1)** 🤔
+
+## Skills and Knowledge
+
+Completing this module will help you develop and practice the following skills and knowledge, which you can include in your curriculum vitae.
+
+&nbsp; **Skills:** This module helps you practice the following essential skills for research and experimental preparation and execution. After completing this lab, you will gain the following lab skills:
+
+::: {.callout-note}
+Add Skills here.
+:::
+
+&nbsp; **Knowledge:** This module will also help you become familiar with the following important content in microbiology lab settings:
+
+::: {.callout-note}
+Add knowledge here.
+:::
 
 ## Procedures
 
