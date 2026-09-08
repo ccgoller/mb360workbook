@@ -21,6 +21,7 @@ This page provides a quick index to the figures embedded throughout the workbook
 ## Module 3
 
 - Figure @fig-module3-growth-layout in [Module 3](module-03.qmd): Growth-curve plate layout. Created with BioRender.com.
+- Figure @fig-module3-biofilm-layout in [Module 3](module-03.qmd): Biofilm assay plate layout. Created with BioRender.com.
 - Figure @fig-module3-biofilm-viability in [Module 3](module-03.qmd): Biofilm viability workflow. Created with BioRender.com.
 
 ## Module 4
