@@ -1,5 +1,9 @@
 # Module 1: Getting Started
 
+:::{.slide-link}
+[View Slide Deck](slides/module-01-slides.html){.btn target="_blank" rel="noopener noreferrer" aria-label="Open Module 1 slide deck in a new tab"}
+:::
+
 ![Micropipette volume display used for introductory pipetting practice. Created with BioRender.com.](images/module-01/micropipette-volume-display.png){#fig-module1-pipette fig-alt="Illustration of a micropipette with the volume display highlighted."}
 
 - Add the correct amount of liquid to each circle and keep each drop within the circle.

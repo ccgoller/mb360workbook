@@ -1,5 +1,9 @@
 # Module 6: Microbial Genome Sequencing
 
+:::{.slide-link}
+[View Slide Deck](slides/module-06-slides.html){.btn target="_blank" rel="noopener noreferrer" aria-label="Open Module 6 slide deck in a new tab"}
+:::
+
 ## Background
 
 This module connects phenotype to genotype by sequencing the genome of the isolate. DNA is extracted using the NO-MISS workflow and analyzed with Oxford Nanopore sequencing and downstream genome assembly tools.
@@ -221,4 +225,3 @@ Replace the note with your discussion.
 - [ ] Discussion questions answered
 - [ ] Reflection written
 - [ ] Notebook saved and pushed to GitHub
-

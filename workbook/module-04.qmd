@@ -1,5 +1,9 @@
 # Module 4:  Microbial Metabolism: Biolog GEN III Characterization of Strains
 
+:::{.slide-link}
+[View Slide Deck](slides/module-04-slides.html){.btn target="_blank" rel="noopener noreferrer" aria-label="Open Module 4 slide deck in a new tab"}
+:::
+
 
 ## Background
 
@@ -188,7 +192,6 @@ Replace the note with your discussion.
 - [ ] Discussion questions answered
 - [ ] Reflection written
 - [ ] Notebook saved and pushed to GitHub
-
 
 
 

@@ -95,6 +95,7 @@ $borderRadius: 10px;
   }
 }
 
+.reveal .slides section[data-background-color="#1f4e79"],
 .reveal .slides section[data-background-color="#3b73a1"],
 .reveal .slides section[data-background-color="#990000"] {
   color: $mb360-white;
@@ -117,12 +118,14 @@ $borderRadius: 10px;
   }
 }
 
+.reveal .slides section[data-background-color="#1f4e79"] .overview-summary,
 .reveal .slides section[data-background-color="#3b73a1"] .overview-summary,
 .reveal .slides section[data-background-color="#990000"] .overview-summary {
   color: $mb360-white;
   font-size: 0.9em;
 }
 
+.reveal .slides section[data-background-color="#1f4e79"] .overview-summary :is(p, li, strong, em),
 .reveal .slides section[data-background-color="#3b73a1"] .overview-summary :is(p, li, strong, em),
 .reveal .slides section[data-background-color="#990000"] .overview-summary :is(p, li, strong, em) {
   color: inherit;
@@ -141,7 +144,7 @@ $borderRadius: 10px;
 
 .reveal h2 {
   padding-bottom: 0.16em;
-  border-bottom: 3px solid rgba($mb360-primary-bright, 0.9);
+  border-bottom: 3px solid $mb360-primary;
 }
 
 .reveal h3 {
@@ -229,7 +232,7 @@ $borderRadius: 10px;
   margin: 0.7em 0;
   padding: 0.6em 0.85em;
   background: $mb360-surface;
-  border-left: 6px solid $mb360-accent;
+  border-left: 6px solid $mb360-primary;
   border-radius: $borderRadius;
   color: $mb360-muted;
   box-shadow: none;
