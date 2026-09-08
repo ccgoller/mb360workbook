@@ -31,7 +31,7 @@ format:
 
 <p class="slide-meta">MB 360 Lab Workbook<br>NC State University | Department of Biological Sciences</p>
 
-## Overview {data-background-color="#1f4e79"}
+## Overview {data-background-color="#3b73a1"}
 
 :::{.overview-summary}
 **Weeks 6–7** · Biolog GEN III phenotypic characterization · Growth measurements · Metabolic interpretation

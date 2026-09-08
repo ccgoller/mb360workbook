@@ -1,5 +1,5 @@
 
-## Overview {data-background-color="#1f4e79"}
+## Overview {data-background-color="#3b73a1"}
 
 :::{.overview-summary}
 **Weeks 8–9** · Co-culture experiments · Diffusion-mediated contact · Growth data analysis
