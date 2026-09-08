@@ -89,11 +89,9 @@ Figure @fig-module3-growth-layout provides a reusable 96-well template for mappi
 
 5. With a multichannel set to **100 ul**, take 8 p200 tips and pipette **100 µl** of culture into columns of a 96-well plate as follows. Keep the plate covered with the lid whenever possible to prevent contamination.
 
-    i. **Columns 1 and 12** will receive TSB alone - pipette last to minimize contamination
-
-    ii. **Columns 2, 3, 4, 5, and 6** will receive TSB + Delftia acidovorans SPH-1
-
-    iii. **Columns 7, 8, 9, 10, and 11** will receive your TSB + Delftia isolate.
+::: {.callout-note}
+Review the protocol changes in the Slides for Module 3. Follow the protocol on the slides to add your isolate to the correct columns.
+:::
 
 6. Carefully seal the plate using Breathe-Easy seals to allow exchange of oxygen, carbon dioxide, and water vapors while preventing microbial/viral contamination and well-to-well cross-contamination. Follow this video on how to use Breathe-Easy: 
 
