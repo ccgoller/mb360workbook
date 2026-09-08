@@ -110,7 +110,7 @@ Paste a picture of your plate and any figures or images generated from your data
 Replace the note with your results, add images if applicable.
 :::
 
-### Result Analysis
+## Result Analysis
 
 Compare isolate-only growth to co-culture growth. Explain whether the second organism appeared to support, suppress, or otherwise reshape your isolate's growth profile.
 
