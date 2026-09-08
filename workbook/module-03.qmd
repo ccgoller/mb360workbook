@@ -75,7 +75,7 @@ Completing this module will help you develop and practice the following skills a
 
 Figure @fig-module3-growth-layout provides a reusable 96-well template for mapping control wells and isolate conditions before loading the plate.
 
-![96-well Plate Layout](images/template/image10.png){#fig-module3-growth-layout fig-alt="96-well plate layout showing controls and sample wells for growth-curve experiments."}
+![Blank 96-well plate layout for planning growth-curve wells and controls.](images/template/image10.png){#fig-module3-growth-layout fig-alt="Blank 96-well plate diagram for organizing growth-curve and control conditions."}
 
 1. For growth curves, obtain your overnight cultures and prepare **1:1000** dilutions as follows:
   a. **25 µl** of overnight culture into **25 ml** of fresh TSB prepared for you for your positive control (_Delftia acidovorans_ SPH-1) and your isolate.
@@ -94,3 +94,82 @@ Figure @fig-module3-growth-layout provides a reusable 96-well template for mappi
     ii. **Column 2** will receive TSB + _Delftia acidovorans_ SPH-1
 
     iii. **Columns 3, 4, 5, 6, 7, 8, 9, 10, and 11** will receive your TSB + _Delftia_ isolate.
+
+6. Seal the plate with a breathable seal and load it into the plate reader.
+7. Incubate at **30°C** with shaking and collect OD600 measurements over **48 hours**.
+
+### Methods: Biofilm Assay Setup
+
+Figure @fig-module3-biofilm-layout shows the 96-well layout used for the Module 3 biofilm assay.
+
+![Biofilm assay plate layout for assigning controls and isolate wells in a 96-well plate.](images/module-03/96-wellplategrowthcurve.png){#fig-module3-biofilm-layout fig-alt="96-well plate layout showing control and isolate wells for the Module 3 biofilm assay."}
+
+1. Prepare fresh **1:1000** dilutions of the positive control, your isolate, and the negative control in fresh TSB.
+2. Transfer **100 µL** of each dilution to the assigned wells in the biofilm plate.
+3. Add the peg lid carefully without contaminating the pegs or splashing between wells.
+4. Incubate the biofilm plate **statically at 30°C for 48 hours**.
+
+### Methods: Biofilm Viability
+
+Figure @fig-module3-biofilm-viability outlines the wash-and-detection workflow used to measure biofilm viability after incubation.
+
+![Biofilm viability workflow using wash plates and detection reagent.](images/module-03/biofilm-viability-workflow.png){#fig-module3-biofilm-viability fig-alt="Workflow diagram showing peg-lid washing steps followed by incubation in detection reagent for a biofilm viability assay."}
+
+1. Wash the peg lid using PBS in separate plates to remove planktonic cells.
+2. Prepare the detection reagent using WST solution, electron mediator reagent, and TSB.
+3. Transfer the washed peg lid to the reagent plate and incubate at **37°C**.
+4. Measure absorbance at **450 nm** after the incubation period.
+
+### Protocol Notes
+
+Record any mistakes, deviations, contamination concerns, or isolate-specific observations in your ELN.
+
+## Data/ Results
+
+### Growth Curves
+
+1. Save your raw plate-reader data and share it with your group.
+2. Format the dataset so it contains time values and well labels for analysis.
+3. Upload the cleaned data file to your repository or shared course location.
+4. Plot the growth curves and compare the control and isolate wells.
+
+::: {.callout-note}
+Replace the note with your growth-curve results and add images if applicable.
+:::
+
+### Biofilm Viability
+
+1. Save and share the raw absorbance values from the biofilm assay.
+2. Subtract the average TSB-only background from each condition.
+3. Calculate the average absorbance and standard deviation for each condition.
+4. Plot the background-corrected averages to compare biofilm formation across isolates.
+
+::: {.callout-note}
+Replace the note with your biofilm viability results and add images if applicable.
+:::
+
+## Result Analysis
+
+Use your code, graphs, and observations to explain whether the observed growth and biofilm behavior matched expectations.
+
+::: {.callout-note}
+Replace the note with your result analysis.
+:::
+
+## Discussion
+
+1. Why are biofilms difficult to eliminate, even when antibiotics are used?
+2. What growth-curve pattern would you expect for your isolate, and why?
+3. How did the biofilm assay layout and controls help you interpret your results?
+
+::: {.callout-note}
+Replace the note with your discussion.
+:::
+
+## Checklist Before Submission
+
+- [ ] All sections completed
+- [ ] Images pasted and labeled
+- [ ] Growth and biofilm data summarized
+- [ ] Discussion questions answered
+- [ ] Notebook saved and pushed to GitHub
