@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.36">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -42,14 +45,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-87aed0b8589e23e45aa8556edf37a91b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-aa873432a3c62897e6c2091c0d30a948.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-87aed0b8589e23e45aa8556edf37a91b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-77a5896a02b4ad985511de0e21379b11.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-1186ef8162c3c73f68abd6432a9e86e2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-77a5896a02b4ad985511de0e21379b11.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -314,9 +317,6 @@ ul.task-list li input[type="checkbox"] {
         </a>
     </div>
   </nav>
-  <div id="quarto-announcement" data-announcement-id="af8f9b28e80c0a0ff55a7389dc14b3b7" class="alert alert-secondary hidden"><i class="bi bi-info-circle quarto-announcement-icon"></i><div class="quarto-announcement-content">
-<p><strong>Information</strong> - Please read Module 1 before proceeding.</p>
-</div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
@@ -357,7 +357,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./module-04.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Module 4: Microbial Metabolism</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Module 4: Microbial Metabolism: Biolog GEN III Characterization of Strains</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -435,34 +435,16 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview"><span class="header-section-number">1.1</span> Overview</a></li>
-  <li><a href="#purpose" id="toc-purpose" class="nav-link" data-scroll-target="#purpose"><span class="header-section-number">1.2</span> Purpose</a></li>
-  <li><a href="#learning-outcomes" id="toc-learning-outcomes" class="nav-link" data-scroll-target="#learning-outcomes"><span class="header-section-number">1.3</span> Learning Outcomes</a></li>
-  <li><a href="#skills-and-knowledge" id="toc-skills-and-knowledge" class="nav-link" data-scroll-target="#skills-and-knowledge"><span class="header-section-number">1.4</span> Skills and Knowledge</a>
+  <li><a href="#methods-volume-challenge" id="toc-methods-volume-challenge" class="nav-link active" data-scroll-target="#methods-volume-challenge"><span class="header-section-number">1.0.1</span> Methods: Volume Challenge</a></li>
+  <li><a href="#protocol-notes" id="toc-protocol-notes" class="nav-link" data-scroll-target="#protocol-notes"><span class="header-section-number">1.0.2</span> Protocol Notes</a></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results"><span class="header-section-number">1.1</span> Results</a></li>
+  <li><a href="#result-analysis" id="toc-result-analysis" class="nav-link" data-scroll-target="#result-analysis"><span class="header-section-number">1.2</span> Result Analysis</a></li>
+  <li><a href="#discussion-questions" id="toc-discussion-questions" class="nav-link" data-scroll-target="#discussion-questions"><span class="header-section-number">1.3</span> Discussion Questions</a></li>
+  <li><a href="#serial-dilutions" id="toc-serial-dilutions" class="nav-link" data-scroll-target="#serial-dilutions"><span class="header-section-number">1.4</span> Serial Dilutions</a>
   <ul class="collapse">
-  <li><a href="#skills" id="toc-skills" class="nav-link" data-scroll-target="#skills"><span class="header-section-number">1.4.1</span> Skills</a></li>
-  <li><a href="#knowledge" id="toc-knowledge" class="nav-link" data-scroll-target="#knowledge"><span class="header-section-number">1.4.2</span> Knowledge</a></li>
-  </ul></li>
-  <li><a href="#task" id="toc-task" class="nav-link" data-scroll-target="#task"><span class="header-section-number">1.5</span> Task</a></li>
-  <li><a href="#criteria-for-success" id="toc-criteria-for-success" class="nav-link" data-scroll-target="#criteria-for-success"><span class="header-section-number">1.6</span> Criteria for Success</a></li>
-  <li><a href="#background" id="toc-background" class="nav-link" data-scroll-target="#background"><span class="header-section-number">1.7</span> Background</a></li>
-  <li><a href="#procedures" id="toc-procedures" class="nav-link" data-scroll-target="#procedures"><span class="header-section-number">1.8</span> Procedures</a>
-  <ul class="collapse">
-  <li><a href="#lab-safety" id="toc-lab-safety" class="nav-link" data-scroll-target="#lab-safety"><span class="header-section-number">1.8.1</span> Lab Safety</a></li>
-  <li><a href="#methods-practice-micropipetting-with-the-pipette-practice-card" id="toc-methods-practice-micropipetting-with-the-pipette-practice-card" class="nav-link" data-scroll-target="#methods-practice-micropipetting-with-the-pipette-practice-card"><span class="header-section-number">1.8.2</span> Methods: Practice Micropipetting With the Pipette Practice Card</a></li>
-  <li><a href="#methods-volume-challenge" id="toc-methods-volume-challenge" class="nav-link" data-scroll-target="#methods-volume-challenge"><span class="header-section-number">1.8.3</span> Methods: Volume Challenge</a></li>
-  <li><a href="#protocol-notes" id="toc-protocol-notes" class="nav-link" data-scroll-target="#protocol-notes"><span class="header-section-number">1.8.4</span> Protocol Notes</a></li>
-  </ul></li>
-  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results"><span class="header-section-number">1.9</span> Results</a></li>
-  <li><a href="#result-analysis" id="toc-result-analysis" class="nav-link" data-scroll-target="#result-analysis"><span class="header-section-number">1.10</span> Result Analysis</a></li>
-  <li><a href="#discussion-questions" id="toc-discussion-questions" class="nav-link" data-scroll-target="#discussion-questions"><span class="header-section-number">1.11</span> Discussion Questions</a></li>
-  <li><a href="#serial-dilutions" id="toc-serial-dilutions" class="nav-link" data-scroll-target="#serial-dilutions"><span class="header-section-number">1.12</span> Serial Dilutions</a>
-  <ul class="collapse">
-  <li><a href="#purpose-1" id="toc-purpose-1" class="nav-link" data-scroll-target="#purpose-1"><span class="header-section-number">1.12.1</span> Purpose</a></li>
-  <li><a href="#background-1" id="toc-background-1" class="nav-link" data-scroll-target="#background-1"><span class="header-section-number">1.12.2</span> Background</a></li>
-  <li><a href="#protocol" id="toc-protocol" class="nav-link" data-scroll-target="#protocol"><span class="header-section-number">1.12.3</span> Protocol</a></li>
-  <li><a href="#planning-prompts" id="toc-planning-prompts" class="nav-link" data-scroll-target="#planning-prompts"><span class="header-section-number">1.12.4</span> Planning Prompts</a></li>
-  <li><a href="#reflection-prompts" id="toc-reflection-prompts" class="nav-link" data-scroll-target="#reflection-prompts"><span class="header-section-number">1.12.5</span> Reflection Prompts</a></li>
+  <li><a href="#purpose" id="toc-purpose" class="nav-link" data-scroll-target="#purpose"><span class="header-section-number">1.4.1</span> Purpose</a></li>
+  <li><a href="#background" id="toc-background" class="nav-link" data-scroll-target="#background"><span class="header-section-number">1.4.2</span> Background</a></li>
+  <li><a href="#protocol" id="toc-protocol" class="nav-link" data-scroll-target="#protocol"><span class="header-section-number">1.4.3</span> Protocol</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -490,77 +472,16 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="overview" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="overview"><span class="header-section-number">1.1</span> Overview</h2>
-<p>Week 1 focuses on safe lab practice, pipetting fundamentals, and the first ELN entries for MB 360. Students review lab safety, practice using micropipettes, and document results in a way that prepares them for the rest of the course.</p>
-</section>
-<section id="purpose" class="level2" data-number="1.2">
-<h2 data-number="1.2" class="anchored" data-anchor-id="purpose"><span class="header-section-number">1.2</span> Purpose</h2>
-<p>The goal of this module is to prepare you to work safely and efficiently in the lab. You will review safety procedures for the teaching labs in Thomas Hall, use personal protective equipment correctly, and practice working with mechanical micropipettors and electronic multichannel pipettes.</p>
-</section>
-<section id="learning-outcomes" class="level2" data-number="1.3">
-<h2 data-number="1.3" class="anchored" data-anchor-id="learning-outcomes"><span class="header-section-number">1.3</span> Learning Outcomes</h2>
-<ul>
-<li><strong>List</strong> the personal protective equipment needed for MB 360.</li>
-<li><strong>Identify</strong> the features of the mechanical pipettes used in the course.</li>
-<li><strong>Explain</strong> how streak plating helps dilute bacteria.</li>
-<li><strong>Describe</strong> the advantages of electronic and multichannel pipettes.</li>
-<li><strong>Create</strong> a lab entry in the ELN system.</li>
-<li><strong>Collect</strong> and <strong>interpret</strong> pipetting data.</li>
-<li><strong>Create</strong> a team charter and communication plan.</li>
-</ul>
-</section>
-<section id="skills-and-knowledge" class="level2" data-number="1.4">
-<h2 data-number="1.4" class="anchored" data-anchor-id="skills-and-knowledge"><span class="header-section-number">1.4</span> Skills and Knowledge</h2>
-<section id="skills" class="level3" data-number="1.4.1">
-<h3 data-number="1.4.1" class="anchored" data-anchor-id="skills"><span class="header-section-number">1.4.1</span> Skills</h3>
-<ul>
-<li>Follow basic safety precautions in a laboratory with live bacterial organisms.</li>
-<li>Transfer a range of liquid volumes reproducibly with pipettors.</li>
-<li>Document protocols, observations, and results in an ELN.</li>
-<li>Interpret variability in pipetting performance.</li>
-</ul>
-</section>
-<section id="knowledge" class="level3" data-number="1.4.2">
-<h3 data-number="1.4.2" class="anchored" data-anchor-id="knowledge"><span class="header-section-number">1.4.2</span> Knowledge</h3>
-<ul>
-<li>Pipettor types and their volume ranges.</li>
-<li>PPE expectations for microbial work.</li>
-</ul>
-</section>
-</section>
-<section id="task" class="level2" data-number="1.5">
-<h2 data-number="1.5" class="anchored" data-anchor-id="task"><span class="header-section-number">1.5</span> Task</h2>
-<p>Review the background and procedures before lab. During class, work with your lab partner to complete the pipetting activities, document all observations, and record any changes you made during the session.</p>
-</section>
-<section id="criteria-for-success" class="level2" data-number="1.6">
-<h2 data-number="1.6" class="anchored" data-anchor-id="criteria-for-success"><span class="header-section-number">1.6</span> Criteria for Success</h2>
-<p>Successful completion requires active participation in the in-lab activities, completion of the pipetting exercises, collection of usable data, and a complete ELN entry with results and reflection.</p>
-</section>
-<section id="background" class="level2" data-number="1.7">
-<h2 data-number="1.7" class="anchored" data-anchor-id="background"><span class="header-section-number">1.7</span> Background</h2>
-<p>The course uses teaching labs in Thomas Hall and focuses on work with <em>Delftia acidovorans</em>. Because environmental isolates may be naturally antibiotic-resistant, all work should minimize exposure and maintain good containment practices.</p>
-</section>
-<section id="procedures" class="level2" data-number="1.8">
-<h2 data-number="1.8" class="anchored" data-anchor-id="procedures"><span class="header-section-number">1.8</span> Procedures</h2>
-<section id="lab-safety" class="level3" data-number="1.8.1">
-<h3 data-number="1.8.1" class="anchored" data-anchor-id="lab-safety"><span class="header-section-number">1.8.1</span> Lab Safety</h3>
-<ul>
-<li>Treat all tips as potential biohazards.</li>
-<li>Clean the bench before and after each session with 70% ethanol.</li>
-<li>Dispose of cultures and plates using the designated biohazard procedures.</li>
-</ul>
-</section>
-<section id="methods-practice-micropipetting-with-the-pipette-practice-card" class="level3" data-number="1.8.2">
-<h3 data-number="1.8.2" class="anchored" data-anchor-id="methods-practice-micropipetting-with-the-pipette-practice-card"><span class="header-section-number">1.8.2</span> Methods: Practice Micropipetting With the Pipette Practice Card</h3>
-<p>Figure <a href="#fig-module1-pipette" class="quarto-xref">Figure&nbsp;<span>1.1</span></a> shows the micropipette volume display students should learn to read before beginning the practice-card exercise.</p>
-<div id="fig-module1-pipette" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Illustration of a micropipette with the volume display highlighted for reading the setting.">
+<div class="slide-link">
+<p><a href="slides/module-01-slides.html" class="btn" target="_blank" rel="noopener noreferrer" aria-label="Open Module 1 slide deck in a new tab">View Slide Deck</a></p>
+</div>
+<div id="fig-module1-pipette" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Illustration of a micropipette with the volume display highlighted.">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-module1-pipette-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/template/image7.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure&nbsp;1.1: Micropipette volume display used for introductory pipetting practice."><img src="images/template/image7.png" class="img-fluid figure-img" alt="Illustration of a micropipette with the volume display highlighted for reading the setting."></a>
+<a href="images/module-01/micropipette-volume-display.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure&nbsp;1.1: Micropipette volume display used for introductory pipetting practice. Created with BioRender.com."><img src="images/module-01/micropipette-volume-display.png" class="img-fluid figure-img" alt="Illustration of a micropipette with the volume display highlighted."></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-module1-pipette-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1.1: Micropipette volume display used for introductory pipetting practice.
+Figure&nbsp;1.1: Micropipette volume display used for introductory pipetting practice. Created with BioRender.com.
 </figcaption>
 </figure>
 </div>
@@ -571,12 +492,11 @@ Figure&nbsp;1.1: Micropipette volume display used for introductory pipetting pra
 <li>Pipette several 5 µL drops and compare them for consistency.</li>
 <li>Combine four 4 µL additions into a single spot, predict the total volume, then test whether you can recover it fully.</li>
 </ul>
-</section>
-<section id="methods-volume-challenge" class="level3" data-number="1.8.3">
-<h3 data-number="1.8.3" class="anchored" data-anchor-id="methods-volume-challenge"><span class="header-section-number">1.8.3</span> Methods: Volume Challenge</h3>
-<p>Your instructor will provide blue, yellow, and red dyed water. Use the Pipette Practice Card to complete the transfer and mixing exercise.</p>
-<section id="mixing-with-a-micropipette" class="level4" data-number="1.8.3.1">
-<h4 data-number="1.8.3.1" class="anchored" data-anchor-id="mixing-with-a-micropipette"><span class="header-section-number">1.8.3.1</span> Mixing With a Micropipette</h4>
+<section id="methods-volume-challenge" class="level3" data-number="1.0.1">
+<h3 data-number="1.0.1" class="anchored" data-anchor-id="methods-volume-challenge"><span class="header-section-number">1.0.1</span> Methods: Volume Challenge</h3>
+<p>Your instructor will provide blue-, yellow-, and red-dyed water. Use the Pipette Practice Card to complete the transfer-and-mixing exercise.</p>
+<section id="mixing-with-a-micropipette" class="level4" data-number="1.0.1.1">
+<h4 data-number="1.0.1.1" class="anchored" data-anchor-id="mixing-with-a-micropipette"><span class="header-section-number">1.0.1.1</span> Mixing With a Micropipette</h4>
 <ul>
 <li>When adding a second liquid to a dot, press only to the first stop.</li>
 <li>Release slowly to draw the same volume back up.</li>
@@ -584,8 +504,8 @@ Figure&nbsp;1.1: Micropipette volume display used for introductory pipetting pra
 <li>Finish by pressing to the second stop and removing the tip cleanly.</li>
 </ul>
 </section>
-<section id="instructions" class="level4" data-number="1.8.3.2">
-<h4 data-number="1.8.3.2" class="anchored" data-anchor-id="instructions"><span class="header-section-number">1.8.3.2</span> Instructions</h4>
+<section id="instructions" class="level4" data-number="1.0.1.2">
+<h4 data-number="1.0.1.2" class="anchored" data-anchor-id="instructions"><span class="header-section-number">1.0.1.2</span> Instructions</h4>
 <ol type="1">
 <li>Add 13.5 µL of blue dye to dot A.</li>
 <li>Add 17.5 µL of yellow dye to dot C.</li>
@@ -600,129 +520,114 @@ Figure&nbsp;1.1: Micropipette volume display used for introductory pipetting pra
 </ol>
 </section>
 </section>
-<section id="protocol-notes" class="level3" data-number="1.8.4">
-<h3 data-number="1.8.4" class="anchored" data-anchor-id="protocol-notes"><span class="header-section-number">1.8.4</span> Protocol Notes</h3>
+<section id="protocol-notes" class="level3" data-number="1.0.2">
+<h3 data-number="1.0.2" class="anchored" data-anchor-id="protocol-notes"><span class="header-section-number">1.0.2</span> Protocol Notes</h3>
 <p>Record any mistakes, deviations, or adjustments made during the experiment.</p>
 </section>
-</section>
-<section id="results" class="level2" data-number="1.9">
-<h2 data-number="1.9" class="anchored" data-anchor-id="results"><span class="header-section-number">1.9</span> Results</h2>
+<section id="results" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="results"><span class="header-section-number">1.1</span> Results</h2>
 <p>Paste a picture of the completed card and annotate it, or add written notes describing your observations.</p>
 </section>
-<section id="result-analysis" class="level2" data-number="1.10">
-<h2 data-number="1.10" class="anchored" data-anchor-id="result-analysis"><span class="header-section-number">1.10</span> Result Analysis</h2>
+<section id="result-analysis" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="result-analysis"><span class="header-section-number">1.2</span> Result Analysis</h2>
 <p>Explain what the results show, whether the liquid transfers matched expectations, and what they suggest about your current pipetting precision.</p>
 </section>
-<section id="discussion-questions" class="level2" data-number="1.11">
-<h2 data-number="1.11" class="anchored" data-anchor-id="discussion-questions"><span class="header-section-number">1.11</span> Discussion Questions</h2>
+<section id="discussion-questions" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="discussion-questions"><span class="header-section-number">1.3</span> Discussion Questions</h2>
 <ol type="1">
 <li>Did you make bubbles while mixing? What caused them?</li>
 <li>Was any liquid left on the card or was there air space in the pipette tip after transfer?</li>
 <li>Based on your results, how would you rate your pipetting skill?</li>
 </ol>
 </section>
-<section id="serial-dilutions" class="level2" data-number="1.12">
-<h2 data-number="1.12" class="anchored" data-anchor-id="serial-dilutions"><span class="header-section-number">1.12</span> Serial Dilutions</h2>
-<section id="purpose-1" class="level3" data-number="1.12.1">
-<h3 data-number="1.12.1" class="anchored" data-anchor-id="purpose-1"><span class="header-section-number">1.12.1</span> Purpose</h3>
+<section id="serial-dilutions" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="serial-dilutions"><span class="header-section-number">1.4</span> Serial Dilutions</h2>
+<section id="purpose" class="level3" data-number="1.4.1">
+<h3 data-number="1.4.1" class="anchored" data-anchor-id="purpose"><span class="header-section-number">1.4.1</span> Purpose</h3>
 <p>Practice accurate small-volume pipetting while learning how serial dilutions work.</p>
 </section>
-<section id="background-1" class="level3" data-number="1.12.2">
-<h3 data-number="1.12.2" class="anchored" data-anchor-id="background-1"><span class="header-section-number">1.12.2</span> Background</h3>
-<p>Serial dilution is the stepwise dilution of a solution by a constant factor. In this module, you will perform a 1:10 serial dilution of crystal violet in a 96-well plate to connect pipetting technique with quantitative analysis.</p>
-<p>Figure <a href="#fig-module1-serial-overview" class="quarto-xref">Figure&nbsp;<span>1.2</span></a> summarizes the repeated transfer logic behind the serial dilution workflow.</p>
+<section id="background" class="level3" data-number="1.4.2">
+<h3 data-number="1.4.2" class="anchored" data-anchor-id="background"><span class="header-section-number">1.4.2</span> Background</h3>
+<p>You will conduct independent research projects using <em>Delftia acidovorans</em> isolates. For these experiments (and for many future experiments in more advanced laboratory classes and independent research experiences), it is critical that you can pipette small volumes of liquid accurately and precisely. Without this skill, your data will not be reproducible.</p>
+<p><strong>Serial dilution</strong> is the step-wise dilution of a solution with a known concentration. For example, in the image below, a solution (“Original inoculum”, a concentrated bacterial culture) is being serially diluted 5 times. In the serial dilution shown, each tube is initially filled with 9 ml of “broth” (a liquid medium used for microbial cultures). In this experiment, the “broth” is our diluent – the liquid being used to dilute our solution. Next, 1 ml of the concentrated original inoculum is added to the first tube. The total volume of liquid in this tube is 10 ml (9 ml broth + 1 ml inoculum). Thus, the concentration of the solution in this tube is 1/10 of the concentration in the original inoculum (1 ml original inoculum/10 ml total volume). After the solution in this tube is mixed well, 1 ml is removed and transferred to the next tube. The concentration of the solution in the second tube is now 1/10 of that in the first tube, and 1/100 of that in the original inoculum. For this reason, we would refer to the experiment shown as a 1:10 serial dilution. Note that we use the same dilution factor for every dilution in the series – that is, each time we dilute by a factor of 10, and after five dilutions, the concentration of our last tube is 1/105, or 1/100,000.</p>
+<p>Serial dilution is the stepwise dilution of a solution by a constant factor. In this module, you will perform a 1:10 serial dilution of crystal violet in a 96-well plate to connect pipetting technique to the logic of dilution.</p>
+<p>Figure <a href="#fig-module1-serial-overview" class="quarto-xref">Figure&nbsp;<span>1.2</span></a> summarizes the repeated-transfer logic underlying the serial dilution workflow.</p>
 <div id="fig-module1-serial-overview" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Diagram showing a serial dilution sequence from a concentrated source through progressively diluted samples.">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-module1-serial-overview-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/template/image15.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Figure&nbsp;1.2: Serial dilution overview showing stepwise dilution from a concentrated starting sample."><img src="images/template/image15.jpg" class="img-fluid figure-img" alt="Diagram showing a serial dilution sequence from a concentrated source through progressively diluted samples."></a>
+<a href="images/module-01/serial-dilution-overview.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Figure&nbsp;1.2: Serial dilution overview showing stepwise dilution from a concentrated starting sample. Created with BioRender.com."><img src="images/module-01/serial-dilution-overview.jpg" class="img-fluid figure-img" alt="Diagram showing a serial dilution sequence from a concentrated source through progressively diluted samples."></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-module1-serial-overview-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1.2: Serial dilution overview showing stepwise dilution from a concentrated starting sample.
+Figure&nbsp;1.2: Serial dilution overview showing stepwise dilution from a concentrated starting sample. Created with BioRender.com.
 </figcaption>
 </figure>
 </div>
 </section>
-<section id="protocol" class="level3" data-number="1.12.3">
-<h3 data-number="1.12.3" class="anchored" data-anchor-id="protocol"><span class="header-section-number">1.12.3</span> Protocol</h3>
+<section id="protocol" class="level3" data-number="1.4.3">
+<h3 data-number="1.4.3" class="anchored" data-anchor-id="protocol"><span class="header-section-number">1.4.3</span> Protocol</h3>
 <p>Use Figure <a href="#fig-module1-microplate" class="quarto-xref">Figure&nbsp;<span>1.3</span></a> to plan the first rows of the microplate before starting the transfers.</p>
 <div id="fig-module1-microplate" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Photo of the top rows of a 96-well microplate used as a planning guide for serial dilution.">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-module1-microplate-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/template/image11.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Figure&nbsp;1.3: Top rows of a 96-well microplate used to plan the serial dilution setup."><img src="images/template/image11.jpg" class="img-fluid figure-img" alt="Photo of the top rows of a 96-well microplate used as a planning guide for serial dilution."></a>
+<a href="images/module-01/serial-dilution-microplate-plan.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Figure&nbsp;1.3: Top rows of a 96-well microplate used to plan the serial dilution setup. Created with BioRender.com."><img src="images/module-01/serial-dilution-microplate-plan.jpg" class="img-fluid figure-img" alt="Photo of the top rows of a 96-well microplate used as a planning guide for serial dilution."></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-module1-microplate-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1.3: Top rows of a 96-well microplate used to plan the serial dilution setup.
+Figure&nbsp;1.3: Top rows of a 96-well microplate used to plan the serial dilution setup. Created with BioRender.com.
 </figcaption>
 </figure>
 </div>
+<p>Today, you will be performing a serial dilution of crystal violet (a purple dye). Instead of tubes, you will perform your dilutions in a 96-well microplate. This is a small, clear plastic plate with 8 rows or 12 small wells. Each well can hold up to ~250 μl of liquid.</p>
+<p>For this protocol, your instructor will provide you with the concentrated solution (crystal violet) and the diluent (water).</p>
+<p>Before pipetting anything, read the entire protocol (Parts 1-3) and create an experimental plan as described on page 3 (your first lab notebook entry, dated today).</p>
+<section id="part-1-lab-partner-1-pipettes-lab-partner-2-watches." class="level4" data-number="1.4.3.1">
+<h4 data-number="1.4.3.1" class="anchored" data-anchor-id="part-1-lab-partner-1-pipettes-lab-partner-2-watches."><span class="header-section-number">1.4.3.1</span> Part 1: Lab partner 1 pipettes, lab partner 2 watches.</h4>
 <ol type="1">
-<li>Add 50 µL of water to each well in row A.</li>
-<li>Add 50 µL of crystal violet to well A1.</li>
-<li>Mix A1 gently, then transfer 50 µL from A1 to A2.</li>
-<li>Repeat across row A through A12.</li>
-<li>Discard the final 50 µL after mixing A12.</li>
-<li>Repeat the same process for rows B, C, and D as assigned between partners.</li>
-<li>Add 100 µL of water to well H12 as a negative control.</li>
-<li>Compare rows visually, then measure absorbance with the plate reader.</li>
+<li>Pipette 50 μl of water into each well in row A of your microplate.</li>
+<li>Carefully raise the plate to eye level and examine the wells from the side. Does it look like you pipetted the same volume into each well?</li>
+<li>Pipette 50 μl of crystal violet solution only into well A1.</li>
+<li>Using your pipetter, mix the liquids in well A1 by slowly and gently “pipetting up and down”. Be sure to depress the pipette plunger only to the first stop.</li>
+<li>After mixing, be sure that you have fully dispensed all of the liquid from your pipette tip.</li>
+<li>Eject your pipette tip into your red waste bag.</li>
+<li>With a new tip, transfer 50 μl from well A1 into well A2.</li>
+<li>Repeat the mixing procedure used for well A1.</li>
+<li>After mixing, be sure that you have fully dispensed all of the liquid from your pipette tip.</li>
+<li>Eject your pipette tip into your red waste bag.</li>
+<li>Repeat this process until you have transferred 50 μl from well A11 into well A12.</li>
+<li>After mixing the liquids in well A12, draw 50 μl into your pipette tip as if you were going to continue diluting into well “A13”.</li>
+<li>Dispense the 50 μl into your waste container and eject your tip.</li>
 </ol>
 </section>
-<section id="planning-prompts" class="level3" data-number="1.12.4">
-<h3 data-number="1.12.4" class="anchored" data-anchor-id="planning-prompts"><span class="header-section-number">1.12.4</span> Planning Prompts</h3>
-<p>Figure <a href="#fig-module1-plate-template" class="quarto-xref">Figure&nbsp;<span>1.4</span></a> can be copied into the ELN or notebook to sketch the intended arrangement of controls and dilutions.</p>
-<div id="fig-module1-plate-template" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Blank 96-well plate diagram labeled by row and column for planning experimental layouts.">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-module1-plate-template-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/template/image10.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Figure&nbsp;1.4: Blank 96-well plate template for planning and annotation."><img src="images/template/image10.png" class="img-fluid figure-img" alt="Blank 96-well plate diagram labeled by row and column for planning experimental layouts."></a>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-module1-plate-template-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1.4: Blank 96-well plate template for planning and annotation.
-</figcaption>
-</figure>
-</div>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Important
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Note that you will need to respond to the questions below as part of your ELN entry, so consider them as you plan your workflow.</p>
-</div>
-</div>
-<ul>
-<li>Where does the water go?</li>
-<li>How much water is added to each well?</li>
-<li>Where is crystal violet added first?</li>
-<li>What transfer step is repeated each time?</li>
-<li>What should happen after mixing well A12?</li>
-</ul>
+<section id="part-2-lab-partner-2-pipets-lab-partner-1-watches." class="level4" data-number="1.4.3.2">
+<h4 data-number="1.4.3.2" class="anchored" data-anchor-id="part-2-lab-partner-2-pipets-lab-partner-1-watches."><span class="header-section-number">1.4.3.2</span> Part 2: Lab partner 2 pipets; lab partner 1 watches.</h4>
+<p>Lab partner 2 should repeat the exact same protocol, using Row B of the microplate.</p>
 </section>
-<section id="reflection-prompts" class="level3" data-number="1.12.5">
-<h3 data-number="1.12.5" class="anchored" data-anchor-id="reflection-prompts"><span class="header-section-number">1.12.5</span> Reflection Prompts</h3>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Note that each module will have a set of reflection questions to help you connect the activities to the learning outcomes. You will need to answer these questions in your ELN entry, so consider them as you work through the activity.</p>
-</div>
-</div>
+<section id="part-3-repeat" class="level4" data-number="1.4.3.3">
+<h4 data-number="1.4.3.3" class="anchored" data-anchor-id="part-3-repeat"><span class="header-section-number">1.4.3.3</span> Part 3: Repeat!</h4>
+<p>Lab partner 1 should repeat the exact same protocol, using Row C, and then lab partner 2 should repeat the exact same protocol, using Row D.</p>
+</section>
+<section id="part-4-add-a-negative-control." class="level4" data-number="1.4.3.4">
+<h4 data-number="1.4.3.4" class="anchored" data-anchor-id="part-4-add-a-negative-control."><span class="header-section-number">1.4.3.4</span> Part 4: Add a Negative Control.</h4>
+<p>Add 100 μl of water to well H12.</p>
+</section>
+<section id="part-5-visual-observations-and-data-analysis." class="level4" data-number="1.4.3.5">
+<h4 data-number="1.4.3.5" class="anchored" data-anchor-id="part-5-visual-observations-and-data-analysis."><span class="header-section-number">1.4.3.5</span> Part 5: Visual observations and data analysis.</h4>
 <ol type="1">
-<li>What is the dilution factor in this series?</li>
-<li>How dilute is the final sample relative to the starting dye?</li>
-<li>Did the visual pattern match your prediction?</li>
-<li>Did the plate reader data match your qualitative observations?</li>
+<li>Compare Rows A and B. Do you see any differences? Consider the overall pattern of color intensity going from left to right (column 1 to column 12), and also compare each well (i.e., compare well A1 to well B1 and A2 to B2). Answer the relevant question on the post-lab.</li>
+<li>Compare Rows C and D. Answer the relevant question on the post-lab.</li>
+<li>Compare Row A to Row C (partner 1’s rows) and Row B to Row D (partner 2’s rows). Answer the relevant question on the post-lab.</li>
+<li>Ask your instructor to help you use the lab’s microplate reader to measure the absorbance of the solutions in each well of your microplate.</li>
+<li>Take a picture of your data.</li>
 </ol>
+<p>Before you start actually pipetting, you should have your plan approved by your instructor. Below is an image of the top two rows of a 96-well microplate. Draw a similar image in your lab notebook. Then, using the serial dilution diagram shown on page 1 as a model, draw how you will set up your serial dilutions. (It is not necessary to draw this twice; just show what you will do with Row A.)</p>
+<p>To do this correctly, read the protocol and indicate the following in your lab notebook using the diagram as appropriate and/or making a bulleted list beside the diagram. 1) Where does the water go? 2) How much water are you pipetting? 3) Where does the crystal violet dye go? 4) How much of the dye will you pipette first? 5) Then what do you do? 6) What steps do you repeat? 7) What do you do after you mix the crystal violet with the water in well A12?</p>
+<p>After you’ve finished drawing your plan, use a pen or pencil to shade the wells in row B to predict the color intensity (darkness or lightness) of the solution in each well.</p>
+<p><strong>Answer the following questions in your lab notebook:</strong> What is the dilution factor for this serial dilution? *If you don’t remember, read back over the explanation of the serial dilution technique above. Compared to the concentrated crystal violet solution provided by your instructor, how dilute will your final sample (well A12 or B12) be?</p>
+<p>After you’ve had your plan checked and completed your dilutions, answer the following questions in your lab notebook: - Does your plate look like you predicted it would? - Compare your results to the shading you drew on page 3. If not, what looks different? - Compare your replicates with your partner’s. Are all four rows similar? If not, what is different?</p>
+<p>After you’ve measured your plate with the plate reader, answer the following question in your lab notebook: - Did the numerical (quantitative) data obtained from the plate reader match your visual (qualitative) observations? Why or why not?</p>
+<p>You can assess how well you performed your serial dilutions by measuring whether each subsequent well shows a decrease in optical density. Do you have any surprises?</p>
 
 
+</section>
 </section>
 </section>
 
@@ -813,7 +718,7 @@ Note
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/ccgoller\.github\.io\/mb360workbook\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

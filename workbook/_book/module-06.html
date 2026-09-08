@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.36">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -42,14 +45,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-87aed0b8589e23e45aa8556edf37a91b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-aa873432a3c62897e6c2091c0d30a948.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-87aed0b8589e23e45aa8556edf37a91b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-77a5896a02b4ad985511de0e21379b11.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-1186ef8162c3c73f68abd6432a9e86e2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-77a5896a02b4ad985511de0e21379b11.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -314,9 +317,6 @@ ul.task-list li input[type="checkbox"] {
         </a>
     </div>
   </nav>
-  <div id="quarto-announcement" data-announcement-id="af8f9b28e80c0a0ff55a7389dc14b3b7" class="alert alert-secondary hidden"><i class="bi bi-info-circle quarto-announcement-icon"></i><div class="quarto-announcement-content">
-<p><strong>Information</strong> - Please read Module 1 before proceeding.</p>
-</div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
@@ -357,7 +357,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./module-04.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Module 4: Microbial Metabolism</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Module 4: Microbial Metabolism: Biolog GEN III Characterization of Strains</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -435,27 +435,22 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview"><span class="header-section-number">6.1</span> Overview</a></li>
-  <li><a href="#purpose" id="toc-purpose" class="nav-link" data-scroll-target="#purpose"><span class="header-section-number">6.2</span> Purpose</a></li>
+  <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background"><span class="header-section-number">6.1</span> Background</a></li>
+  <li><a href="#criteria-for-success" id="toc-criteria-for-success" class="nav-link" data-scroll-target="#criteria-for-success"><span class="header-section-number">6.2</span> Criteria for Success</a></li>
   <li><a href="#learning-outcomes" id="toc-learning-outcomes" class="nav-link" data-scroll-target="#learning-outcomes"><span class="header-section-number">6.3</span> Learning Outcomes</a></li>
-  <li><a href="#skills-and-knowledge" id="toc-skills-and-knowledge" class="nav-link" data-scroll-target="#skills-and-knowledge"><span class="header-section-number">6.4</span> Skills and Knowledge</a>
+  <li><a href="#skills-and-knowledge" id="toc-skills-and-knowledge" class="nav-link" data-scroll-target="#skills-and-knowledge"><span class="header-section-number">6.4</span> Skills and Knowledge</a></li>
+  <li><a href="#procedures" id="toc-procedures" class="nav-link" data-scroll-target="#procedures"><span class="header-section-number">6.5</span> Procedures</a>
   <ul class="collapse">
-  <li><a href="#skills" id="toc-skills" class="nav-link" data-scroll-target="#skills"><span class="header-section-number">6.4.1</span> Skills</a></li>
-  <li><a href="#knowledge" id="toc-knowledge" class="nav-link" data-scroll-target="#knowledge"><span class="header-section-number">6.4.2</span> Knowledge</a></li>
+  <li><a href="#lab-safety" id="toc-lab-safety" class="nav-link" data-scroll-target="#lab-safety"><span class="header-section-number">6.5.1</span> Lab Safety</a></li>
+  <li><a href="#methods-what-was-prepared-in-advance" id="toc-methods-what-was-prepared-in-advance" class="nav-link" data-scroll-target="#methods-what-was-prepared-in-advance"><span class="header-section-number">6.5.2</span> Methods: What Was Prepared in Advance</a></li>
+  <li><a href="#methods-day-of-the-lab" id="toc-methods-day-of-the-lab" class="nav-link" data-scroll-target="#methods-day-of-the-lab"><span class="header-section-number">6.5.3</span> Methods: Day of the Lab</a></li>
+  <li><a href="#methods-library-prep" id="toc-methods-library-prep" class="nav-link" data-scroll-target="#methods-library-prep"><span class="header-section-number">6.5.4</span> Methods: Library Prep</a></li>
+  <li><a href="#methods-genome-analysis" id="toc-methods-genome-analysis" class="nav-link" data-scroll-target="#methods-genome-analysis"><span class="header-section-number">6.5.5</span> Methods: Genome Analysis</a></li>
   </ul></li>
-  <li><a href="#task" id="toc-task" class="nav-link" data-scroll-target="#task"><span class="header-section-number">6.5</span> Task</a></li>
-  <li><a href="#criteria-for-success" id="toc-criteria-for-success" class="nav-link" data-scroll-target="#criteria-for-success"><span class="header-section-number">6.6</span> Criteria for Success</a></li>
-  <li><a href="#background" id="toc-background" class="nav-link" data-scroll-target="#background"><span class="header-section-number">6.7</span> Background</a></li>
-  <li><a href="#procedures" id="toc-procedures" class="nav-link" data-scroll-target="#procedures"><span class="header-section-number">6.8</span> Procedures</a>
-  <ul class="collapse">
-  <li><a href="#lab-safety" id="toc-lab-safety" class="nav-link" data-scroll-target="#lab-safety"><span class="header-section-number">6.8.1</span> Lab Safety</a></li>
-  <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods"><span class="header-section-number">6.8.2</span> Methods</a></li>
-  <li><a href="#data-analysis" id="toc-data-analysis" class="nav-link" data-scroll-target="#data-analysis"><span class="header-section-number">6.8.3</span> Data Analysis</a></li>
-  <li><a href="#protocol-notes" id="toc-protocol-notes" class="nav-link" data-scroll-target="#protocol-notes"><span class="header-section-number">6.8.4</span> Protocol Notes</a></li>
-  </ul></li>
-  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results"><span class="header-section-number">6.9</span> Results</a></li>
-  <li><a href="#result-analysis" id="toc-result-analysis" class="nav-link" data-scroll-target="#result-analysis"><span class="header-section-number">6.10</span> Result Analysis</a></li>
-  <li><a href="#discussion-questions" id="toc-discussion-questions" class="nav-link" data-scroll-target="#discussion-questions"><span class="header-section-number">6.11</span> Discussion Questions</a></li>
+  <li><a href="#data-results" id="toc-data-results" class="nav-link" data-scroll-target="#data-results"><span class="header-section-number">6.6</span> Data/ Results</a></li>
+  <li><a href="#result-analysis" id="toc-result-analysis" class="nav-link" data-scroll-target="#result-analysis"><span class="header-section-number">6.7</span> Result Analysis</a></li>
+  <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion"><span class="header-section-number">6.8</span> Discussion</a></li>
+  <li><a href="#checklist-before-submission" id="toc-checklist-before-submission" class="nav-link" data-scroll-target="#checklist-before-submission"><span class="header-section-number">6.9</span> Checklist Before Submission</a></li>
   </ul>
 </nav>
     </div>
@@ -482,114 +477,224 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="overview" class="level2" data-number="6.1">
-<h2 data-number="6.1" class="anchored" data-anchor-id="overview"><span class="header-section-number">6.1</span> Overview</h2>
-<p>Weeks 11 and 12 focus on DNA isolation, quantification, sequencing preparation, and early genome analysis.</p>
-</section>
-<section id="purpose" class="level2" data-number="6.2">
-<h2 data-number="6.2" class="anchored" data-anchor-id="purpose"><span class="header-section-number">6.2</span> Purpose</h2>
-<ul>
-<li>Evaluate DNA sequencing results and microbial genome assemblies.</li>
-<li>Follow a standard DNA isolation protocol.</li>
-<li>Apply bioinformatics tools to assemble microbial genomes and analyze predicted coding sequences.</li>
-</ul>
-</section>
-<section id="learning-outcomes" class="level2" data-number="6.3">
-<h2 data-number="6.3" class="anchored" data-anchor-id="learning-outcomes"><span class="header-section-number">6.3</span> Learning Outcomes</h2>
-<ul>
-<li>List safety considerations for extracting DNA from microbial isolates.</li>
-<li>Explain the purpose of reagents used for DNA extraction.</li>
-<li>Discuss the significance of high-molecular-weight DNA for sequencing.</li>
-<li>Practice extracting DNA from liquid cultures.</li>
-<li>Practice quantifying DNA with a Qubit fluorometer.</li>
-<li>Describe the purpose, methods, and preliminary results of DNA extraction, quantification, and sequencing experiments.</li>
-<li>Collect and interpret DNA quantification and sequencing data.</li>
-<li>Revise the draft for the individual and group projects.</li>
-<li>Explain how the experiment contributes to the overall research goal.</li>
-</ul>
-</section>
-<section id="skills-and-knowledge" class="level2" data-number="6.4">
-<h2 data-number="6.4" class="anchored" data-anchor-id="skills-and-knowledge"><span class="header-section-number">6.4</span> Skills and Knowledge</h2>
-<section id="skills" class="level3" data-number="6.4.1">
-<h3 data-number="6.4.1" class="anchored" data-anchor-id="skills"><span class="header-section-number">6.4.1</span> Skills</h3>
-<ul>
-<li>Follow lab safety and PPE procedures.</li>
-<li>Extract and quantify microbial DNA.</li>
-<li>Analyze microbial DNA sequence data.</li>
-</ul>
-</section>
-<section id="knowledge" class="level3" data-number="6.4.2">
-<h3 data-number="6.4.2" class="anchored" data-anchor-id="knowledge"><span class="header-section-number">6.4.2</span> Knowledge</h3>
-<ul>
-<li>PPE requirements for DNA isolation and purification.</li>
-<li>DNA extraction and quantification methods.</li>
-<li>Oxford Nanopore Technologies sequencing workflows.</li>
-</ul>
-</section>
-</section>
-<section id="task" class="level2" data-number="6.5">
-<h2 data-number="6.5" class="anchored" data-anchor-id="task"><span class="header-section-number">6.5</span> Task</h2>
-<p>Review the protocol before lab and work with your partner to isolate DNA from overnight cultures in duplicate, record all steps, and document the results.</p>
-</section>
-<section id="criteria-for-success" class="level2" data-number="6.6">
-<h2 data-number="6.6" class="anchored" data-anchor-id="criteria-for-success"><span class="header-section-number">6.6</span> Criteria for Success</h2>
-<p>Successful completion requires participation in DNA isolation and sequencing preparation, collection of analyzable data, and a complete ELN entry.</p>
-</section>
-<section id="background" class="level2" data-number="6.7">
-<h2 data-number="6.7" class="anchored" data-anchor-id="background"><span class="header-section-number">6.7</span> Background</h2>
-<p>This module connects phenotype to genotype by sequencing the genome of the isolate. DNA is extracted using the NO-MISS workflow and analyzed with Oxford Nanopore sequencing and downstream genome analysis tools such as BV-BRC and SeqHub.</p>
+<div class="slide-link">
+<p><a href="slides/module-06-slides.html" class="btn" target="_blank" rel="noopener noreferrer" aria-label="Open Module 6 slide deck in a new tab">View Slide Deck</a></p>
+</div>
+<section id="background" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="background"><span class="header-section-number">6.1</span> Background</h2>
+<p>This module connects phenotype to genotype by sequencing the genome of the isolate. DNA is extracted using the NO-MISS workflow and analyzed with Oxford Nanopore sequencing and downstream genome assembly tools.</p>
 <p>Figure <a href="#fig-module6-sequencing-overview" class="quarto-xref">Figure&nbsp;<span>6.1</span></a> summarizes the sequencing and downstream analysis pipeline from isolate DNA to annotated genome.</p>
-<div id="fig-module6-sequencing-overview" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Workflow diagram showing nanopore sequencing followed by basecalling, assembly, and genome exploration.">
+<div id="fig-module6-sequencing-overview" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Workflow diagram showing nanopore sequencing, assembly, and downstream analysis steps.">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-module6-sequencing-overview-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/template/image4.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure&nbsp;6.1: Nanopore sequencing and downstream analysis workflow."><img src="images/template/image4.png" class="img-fluid figure-img" alt="Workflow diagram showing nanopore sequencing followed by basecalling, assembly, and genome exploration."></a>
+<a href="images/module-06/nanopore-sequencing-analysis-workflow.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure&nbsp;6.1: Nanopore sequencing and downstream analysis workflow. Created with BioRender.com."><img src="images/module-06/nanopore-sequencing-analysis-workflow.png" class="img-fluid figure-img" alt="Workflow diagram showing nanopore sequencing, assembly, and downstream analysis steps."></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-module6-sequencing-overview-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;6.1: Nanopore sequencing and downstream analysis workflow.
+Figure&nbsp;6.1: Nanopore sequencing and downstream analysis workflow. Created with BioRender.com.
 </figcaption>
 </figure>
 </div>
 </section>
-<section id="procedures" class="level2" data-number="6.8">
-<h2 data-number="6.8" class="anchored" data-anchor-id="procedures"><span class="header-section-number">6.8</span> Procedures</h2>
-<section id="lab-safety" class="level3" data-number="6.8.1">
-<h3 data-number="6.8.1" class="anchored" data-anchor-id="lab-safety"><span class="header-section-number">6.8.1</span> Lab Safety</h3>
-<ul>
-<li>Wear lab coat, goggles, and gloves.</li>
-<li>Clean benches and pipettors with 70% ethanol.</li>
-<li>Treat all culture-associated materials as biohazards.</li>
-<li>Decontaminate liquids, plates, and work areas at the end of the session.</li>
-</ul>
+<section id="criteria-for-success" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="criteria-for-success"><span class="header-section-number">6.2</span> Criteria for Success</h2>
+<p>Successful completion requires participation in DNA isolation and sequencing preparation, collection of analyzable data, and a complete ELN entry.</p>
 </section>
-<section id="methods" class="level3" data-number="6.8.2">
-<h3 data-number="6.8.2" class="anchored" data-anchor-id="methods"><span class="header-section-number">6.8.2</span> Methods</h3>
-<section id="what-was-prepared-in-advance" class="level4" data-number="6.8.2.1">
-<h4 data-number="6.8.2.1" class="anchored" data-anchor-id="what-was-prepared-in-advance"><span class="header-section-number">6.8.2.1</span> What Was Prepared in Advance</h4>
-<ul>
-<li>Overnight cultures were started in TSB.</li>
-<li>Lysozyme was prepared in TE buffer at 10 mg/mL.</li>
-</ul>
-</section>
-<section id="day-of-the-lab" class="level4" data-number="6.8.2.2">
-<h4 data-number="6.8.2.2" class="anchored" data-anchor-id="day-of-the-lab"><span class="header-section-number">6.8.2.2</span> Day of the Lab</h4>
+<section id="learning-outcomes" class="level2" data-number="6.3">
+<h2 data-number="6.3" class="anchored" data-anchor-id="learning-outcomes"><span class="header-section-number">6.3</span> Learning Outcomes</h2>
 <ol type="1">
-<li>Pellet 1.0 mL of culture in a DNA LoBind tube.</li>
-<li>Resuspend in TE buffer with lysozyme.</li>
-<li>Add Proteinase K and RNase A.</li>
-<li>Add CTAB buffer and incubate at 56 C for 30 minutes.</li>
-<li>Combine lysate with Monarch gDNA Binding Buffer at a 2:1 ratio.</li>
-<li>Bind DNA to the spin column, wash twice, and elute with preheated Monarch gDNA Elution Buffer.</li>
-<li>Quantify 1 µL of DNA with the Qubit fluorometer.</li>
-<li>Prepare sequencing-ready DNA according to the NO-MISS rapid barcoding workflow.</li>
+<li><strong>List</strong> safety considerations for extracting DNA from microbial isolates. <strong>(CO 3, 4, 5)</strong> 🥼</li>
+<li><strong>Explain</strong> the purpose of the reagents used for DNA extraction. <strong>(CO 3, 4, 5)</strong> 🥼</li>
+<li><strong>Discuss</strong> the significance of high-molecular-weight DNA for sequencing. <strong>(CO 3, 4, 5)</strong> 🥼</li>
+<li><strong>Practice</strong> extracting DNA from liquid cultures. <strong>(CO 3, 4, 5)</strong> 🥼</li>
+<li><strong>Practice</strong> quantifying DNA using a Qubit fluorometer. <strong>(CO 3, 4, 5)</strong> 🥼</li>
+<li><strong>Describe</strong> the purpose, methods, and preliminary results of your DNA extraction, quantification, and sequencing experiments. <strong>(CO 3, 2, 8,9)</strong> 📁</li>
+<li><strong>Collect</strong> data from DNA extractions. <strong>(CO 6, 8)</strong> 📈</li>
+<li><strong>Interpret</strong> DNA quantification and sequencing data. <strong>(CO 6, 7,8)</strong> 📈</li>
+<li><strong>Revise</strong> the draft for your individual and group projects. <strong>(CO 3, 9)</strong> 🏅</li>
+<li><strong>Analyze</strong> how this experiment contributes to your overall experimental goal. <strong>(CO 1)</strong> 🤔</li>
 </ol>
+</section>
+<section id="skills-and-knowledge" class="level2" data-number="6.4">
+<h2 data-number="6.4" class="anchored" data-anchor-id="skills-and-knowledge"><span class="header-section-number">6.4</span> Skills and Knowledge</h2>
+<p>Completing this module will help you develop and practice the following skills and knowledge, which you can include in your curriculum vitae.</p>
+<p>&amp;nbsp <strong>Skills:</strong> This module helps you practice the following essential skills for safe and effective lab work with microbial isolates. Additionally, you will learn to extract, sequence, and analyze bacterial DNA. After completing this lab, you will gain the following lab skills:</p>
+<ul>
+<li>Lab safety and proper personal protective equipment (PPE)</li>
+<li>Microbial DNA extraction and quantification</li>
+<li>Analysis of microbial DNA sequence data</li>
+</ul>
+<p>&amp;nbsp <strong>Knowledge:</strong> This module will also help you become familiar with the following important content in microbial genomics lab settings:</p>
+<ul>
+<li>Understanding PPE requirements for DNA isolation and purification from microbes.</li>
+<li>Familiarity with DNA extraction and quantification methods</li>
+<li>Understanding of Oxford Nanopore Technologies (ONT) DNA sequencing.</li>
+</ul>
+</section>
+<section id="procedures" class="level2" data-number="6.5">
+<h2 data-number="6.5" class="anchored" data-anchor-id="procedures"><span class="header-section-number">6.5</span> Procedures</h2>
+<section id="lab-safety" class="level3" data-number="6.5.1">
+<h3 data-number="6.5.1" class="anchored" data-anchor-id="lab-safety"><span class="header-section-number">6.5.1</span> Lab Safety</h3>
+<section id="before-lab" class="level4" data-number="6.5.1.1">
+<h4 data-number="6.5.1.1" class="anchored" data-anchor-id="before-lab"><span class="header-section-number">6.5.1.1</span> Before Lab</h4>
+<ul>
+<li>Wear the correct PPE (lab coat, goggles, and gloves).</li>
+<li>Wipe the lab bench with 70% ethanol.</li>
+<li>Before working with microorganisms, carefully wipe pipettors with 70% ethanol.</li>
+</ul>
+</section>
+<section id="during-lab" class="level4" data-number="6.5.1.2">
+<h4 data-number="6.5.1.2" class="anchored" data-anchor-id="during-lab"><span class="header-section-number">6.5.1.2</span> During Lab</h4>
+<ul>
+<li>Treat all tips as potential biohazards.</li>
+<li>Remove your PPE if you are leaving the lab (water/bio break).</li>
+<li>Discard samples and disposable lab items in the correct trash bins.</li>
+<li>Try to keep personal items (computers, phones, etc.) usage to a minimum.</li>
+</ul>
+</section>
+<section id="after-lab" class="level4" data-number="6.5.1.3">
+<h4 data-number="6.5.1.3" class="anchored" data-anchor-id="after-lab"><span class="header-section-number">6.5.1.3</span> After Lab</h4>
+<ul>
+<li>Wipe your station with 70% alcohol.</li>
+<li>If you touched any personal items during the lab, wipe them with 70% ethanol before leaving.</li>
+<li>Dispose of gloves in the main biohazard waste container.</li>
+<li>Dispose of used petri dishes in the biohazard bin.</li>
+<li>All liquids containing bacteria must be poured into a beaker for bleach decontamination (can be found on the blue bench paper by this sink labeled “liquid”).</li>
+<li>Glass tubes can be placed into a beaker (on the blue bench paper by this sink, labeled “glass”).</li>
+<li>All bacterial growth plates can be thrown away in the biohazard trash.</li>
+<li>Return all reusable materials to our storage drawers.</li>
+<li>Wipe down all surfaces with ethanol.</li>
+<li>Remove PPE.</li>
+<li>Wash your hands.</li>
+</ul>
+</section>
+</section>
+<section id="methods-what-was-prepared-in-advance" class="level3" data-number="6.5.2">
+<h3 data-number="6.5.2" class="anchored" data-anchor-id="methods-what-was-prepared-in-advance"><span class="header-section-number">6.5.2</span> Methods: What Was Prepared in Advance</h3>
+<ol type="1">
+<li>Start an overnight culture of your isolate in Tryptic Soy Broth (TSB, 2.5 mL per tube) by using a sterile loop to obtain one colony from an agar plate and inoculate TSB.</li>
+<li>Incubate with shaking at 30°C overnight.</li>
+<li>For general bacterial inputs, reconstitute the lysozyme in TE buffer to 10 mg/ml. We recommend preparing enzymes freshly on the day, as enzymatic activity reduces over time once reconstituted.</li>
+</ol>
+</section>
+<section id="methods-day-of-the-lab" class="level3" data-number="6.5.3">
+<h3 data-number="6.5.3" class="anchored" data-anchor-id="methods-day-of-the-lab"><span class="header-section-number">6.5.3</span> Methods: Day of the Lab</h3>
+<ol start="4" type="1">
+<li>We will follow the <a href="https://nanoporetech.com/document/extraction-method-group/nanopore-only-microbial-isolate-sequencing-solution-no-miss-associated">Nanopore-only Microbial Isolate Sequencing Solution (NO-MISS) associated extraction protocols</a>.</li>
+<li>Obtain your liquid culture and spin down 1.0 mL of culture.</li>
+<li>In a fresh 1.5 mL Eppendorf DNA LoBind tube, centrifuge 1,000 µl at 12,000 x g for 1 minute.</li>
+<li>Remove the supernatant and resuspend the pellet in 100 µl TE buffer with 10 µl lysozyme.</li>
+<li>Incubate at 37°C for 10 minutes in a thermomixer at 500 RPM. If a thermomixer is unavailable, the reaction can be incubated stationary and agitated by gently flicking for 10 seconds every two minutes.</li>
+<li>Combine the following reagents with your sample in the 1.5 mL Eppendorf DNA LoBind tube, and mix by vortexing.</li>
+</ol>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Reagent</th>
+<th style="text-align: center;">Volume</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Proteinase K</td>
+<td style="text-align: center;">10 uL</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">RNase A</td>
+<td style="text-align: center;">3 uL</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Total (w/ sample)</td>
+<td style="text-align: center;">113 uL</td>
+</tr>
+</tbody>
+</table>
+<ol start="10" type="1">
+<li>Vortexing your sample before adding the <strong>CTAB buffer allows the enzymes to fully mix with the bacterial cells, as the mixture can become viscous.</strong></li>
+<li>Add 200 µl of CTAB buffer and mix by vortexing. Extractions performed using the CTAB buffer improve sequencing health and output compared to using NEB Lysis Buffer from the Monarch Spin gDNA Extraction Kit.</li>
+</ol>
+<ol type="i">
+<li><strong>IMPORTANT:</strong> The full 30-minute incubation must be completed to ensure the proteinase and RNase activity occurs, regardless of turbidity.</li>
+</ol>
+<ol start="12" type="1">
+<li>Incubate at 56°C for 30 minutes in a thermomixer at 1,000 RPM.</li>
+</ol>
+<ol type="i">
+<li><p><strong>Note:</strong> Depending on the bacterial input, the solution may become fully transparent or may remain hazy.</p></li>
+<li><p><strong>INFO:</strong> The Monarch Spin gDNA Extraction Kit is used for gDNA extraction. The remainder of this method is written following the Genomic DNA Binding and Elution protocol with our recommended alterations.</p></li>
+</ol>
+<ol start="13" type="1">
+<li>Preheat the Monarch® gDNA Elution Buffer to 60°C for later use.</li>
+</ol>
+<ol type="i">
+<li><strong>IMPORTANT:</strong> The ratio of binding buffer to lysate (2:1) is important for the column binding efficiency. We recommend taking through 200 µl of lysate for use with 400 µl of binding buffer per sample. To run more samples from the same isolate, the volumes can be increased in relation to the 2:1 ratio of buffer to lysate.</li>
+</ol>
+<ol start="14" type="1">
+<li>Combine the following reagents in a clean 1.5 mL Eppendorf DNA LoBind tube:</li>
+</ol>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Reagent</th>
+<th style="text-align: center;">Volume</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Lysate from the previous step</td>
+<td style="text-align: center;">200 uL</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Monarch® gDNA Binding Buffer</td>
+<td style="text-align: center;">400 uL</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Total (w/ sample)</td>
+<td style="text-align: center;">600 uL</td>
+</tr>
+</tbody>
+</table>
+<ol start="15" type="1">
+<li><p>Ensure the reaction is thoroughly mixed by pipetting until the liquid is homogeneous. Thorough mixing is essential to ensure the DNA binds properly to the column and to homogenise the CTAB and Monarch® gDNA Binding Buffer, which solidify on initial contact.</p></li>
+<li><p>Transfer the reaction to a Monarch® Spin Column pre-inserted into a Monarch® collection tube, without touching the upper column area.<br>
+</p></li>
+<li><p>Close the tube and centrifuge for 3 minutes at 1,000 x g to bind the gDNA and then for 1 minute at maximum speed (&gt;12,000 x g) to clear the membrane. Do not empty or remove the collection tube from the centrifuge when changing settings.</p></li>
+<li><p>Remove the gDNA spin column from the collection tube and discard the tube with the flow-through.</p></li>
+<li><p>Transfer the gDNA spin column to a new collection tube and add <strong>500 µl Monarch® gDNA Wash Buffer.</strong></p>
+<ol type="i">
+<li><strong>IMPORTANT: Do NOT vortex.</strong></li>
+</ol></li>
+<li><p>Close the collection tube and invert multiple times until the wash buffer reaches the cap.</p></li>
+<li><p>Immediately centrifuge the collection tube for 1 minute at maximum speed (&gt;12,000 x g). Remove the gDNA spin column from the collection tube to discard the flow-through.</p></li>
+<li><p>Re-insert the gDNA spin column into the collection tube, add 500 µl gDNA wash buffer, and close the tube.</p></li>
+<li><p>Immediately centrifuge the collection tube for 1 minute at maximum speed (&gt;12,000 x g). Remove the gDNA spin column from the collection tube to discard the flow-through.</p></li>
+<li><p>After centrifugation, ensure there is no liquid in the gDNA spin column above or below the silica membrane. If there is liquid, repeat the centrifugation until all liquid is removed.</p>
+<ol type="i">
+<li><strong>IMPORTANT:</strong> Preheating the Monarch® gDNA Elution Buffer to 60°C is essential for maximum recovery of larger gDNA fragments.</li>
+</ol></li>
+<li><p>Place the gDNA spin column in a DNase-free 1.5 mL microfuge tube and add <strong>100 µl of preheated Monarch® gDNA Elution Buffer.</strong> Close the tube and incubate at room temperature for 1 minute.</p>
+<ol type="i">
+<li><p><strong>TIP:</strong> If extractions are not yielding high enough concentrations of DNA for 200 ng per sample, less gDNA elution buffer can be run through the column to increase the concentration.</p></li>
+<li><p><strong>Note:</strong> Elution of less than 100 µl results in lower total yield, and elution of less than 50 µl is not recommended.</p></li>
+<li><p><strong>We recommend repeating the elution by passing 100 µl of eluate through the column once more.</strong></p></li>
+</ol></li>
+<li><p>Centrifuge for 1 minute at maximum speed (&gt;12,000 x g) to elute the gDNA into the 1.5 mL microfuge tube. The gDNA spin column can be discarded.</p></li>
+<li><p>Quantify <strong>1 µl of eluted sample using a Qubit fluorometer.</strong></p>
+<ol type="i">
+<li><p>Add 1 µl of eluted sample (DNA) to a Qubit tube with 199 µl of 1X High Sensitivity (HS) Assay mix.</p></li>
+<li><p>Record the DNA concentration in your notes and on the tubes.</p></li>
+<li><p>The <strong>expected yield is ~15-20 ng/µl per sample with a DNA Integrity Number (DIN) of 9.</strong></p></li>
+<li><p><strong>Store at 4 or 20°C until use.</strong></p></li>
+</ol></li>
+</ol>
+<p>Genomic DNA quantification will be performed with a Qubit fluorometer.</p>
 <p>Figure <a href="#fig-module6-qubit" class="quarto-xref">Figure&nbsp;<span>6.2</span></a> illustrates the Qubit measurement setup used to quantify extracted DNA prior to library preparation.</p>
 <div id="fig-module6-qubit" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Workflow diagram showing preparation of a Qubit assay tube and fluorometer-based DNA quantification.">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-module6-qubit-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/template/image2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Figure&nbsp;6.2: Qubit fluorometer workflow for DNA quantification."><img src="images/template/image2.png" class="img-fluid figure-img" alt="Workflow diagram showing preparation of a Qubit assay tube and fluorometer-based DNA quantification."></a>
+<a href="images/module-06/qubit-dna-quantification-workflow.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Figure&nbsp;6.2: Qubit fluorometer workflow for DNA quantification. Created with BioRender.com."><img src="images/module-06/qubit-dna-quantification-workflow.png" class="img-fluid figure-img" alt="Workflow diagram showing preparation of a Qubit assay tube and fluorometer-based DNA quantification."></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-module6-qubit-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;6.2: Qubit fluorometer workflow for DNA quantification.
+Figure&nbsp;6.2: Qubit fluorometer workflow for DNA quantification. Created with BioRender.com.
 </figcaption>
 </figure>
 </div>
@@ -597,43 +702,106 @@ Figure&nbsp;6.2: Qubit fluorometer workflow for DNA quantification.
 <div id="fig-module6-library-prep" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Workflow diagram showing the rapid barcoding steps used to prepare DNA for nanopore sequencing.">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-module6-library-prep-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/template/image5.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Figure&nbsp;6.3: Nanopore rapid barcoding workflow for sequencing library preparation."><img src="images/template/image5.png" class="img-fluid figure-img" alt="Workflow diagram showing the rapid barcoding steps used to prepare DNA for nanopore sequencing."></a>
+<a href="images/module-06/nanopore-rapid-barcoding-workflow.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Figure&nbsp;6.3: Nanopore rapid barcoding workflow for sequencing library preparation. Created with BioRender.com."><img src="images/module-06/nanopore-rapid-barcoding-workflow.png" class="img-fluid figure-img" alt="Workflow diagram showing the rapid barcoding steps used to prepare DNA for nanopore sequencing."></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-module6-library-prep-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;6.3: Nanopore rapid barcoding workflow for sequencing library preparation.
+Figure&nbsp;6.3: Nanopore rapid barcoding workflow for sequencing library preparation. Created with BioRender.com.
 </figcaption>
 </figure>
 </div>
 </section>
-</section>
-<section id="data-analysis" class="level3" data-number="6.8.3">
-<h3 data-number="6.8.3" class="anchored" data-anchor-id="data-analysis"><span class="header-section-number">6.8.3</span> Data Analysis</h3>
-<ul>
-<li>Create a BV-BRC account and access the shared workspace.</li>
-<li>Obtain the Nanopore and Illumina files for your isolate.</li>
-<li>Run the Comprehensive Genome Analysis workflow.</li>
-<li>Upload the assembled FASTA file to SeqHub for annotation and exploration.</li>
-</ul>
-</section>
-<section id="protocol-notes" class="level3" data-number="6.8.4">
-<h3 data-number="6.8.4" class="anchored" data-anchor-id="protocol-notes"><span class="header-section-number">6.8.4</span> Protocol Notes</h3>
-<p>Record any mistakes, deviations, or strain-specific observations.</p>
-</section>
-</section>
-<section id="results" class="level2" data-number="6.9">
-<h2 data-number="6.9" class="anchored" data-anchor-id="results"><span class="header-section-number">6.9</span> Results</h2>
-<p>Add figures, screenshots, concentration values, and any sequencing outputs generated from your data.</p>
-</section>
-<section id="result-analysis" class="level2" data-number="6.10">
-<h2 data-number="6.10" class="anchored" data-anchor-id="result-analysis"><span class="header-section-number">6.10</span> Result Analysis</h2>
-<p>Discuss DNA yield, sample quality, and whether the sequencing-related results matched expectations. Include factors that may have affected DNA recovery and what you would change next time.</p>
-</section>
-<section id="discussion-questions" class="level2" data-number="6.11">
-<h2 data-number="6.11" class="anchored" data-anchor-id="discussion-questions"><span class="header-section-number">6.11</span> Discussion Questions</h2>
+<section id="methods-library-prep" class="level3" data-number="6.5.4">
+<h3 data-number="6.5.4" class="anchored" data-anchor-id="methods-library-prep"><span class="header-section-number">6.5.4</span> Methods: Library Prep</h3>
 <ol type="1">
-<li>How do microbial genome assembly and annotation tools support research?</li>
-<li>What makes nanopore sequencing different from other sequencing approaches?</li>
+<li>We will prepare our samples for sequencing by following the <a href="https://nanoporetech.com/document/no-miss-isolate-sequencing-rapid-barcoding-v14#library-preparation-main">Nanopore-only Microbial Isolate Sequencing Solution (NO-MISS) from cell cultures using SQK-RBK114 (.24 or .96)</a> protocol.</li>
+<li><strong>Take 10 µl of your DNA and transfer it to a PCR tube to obtain at least 200 ng of DNA.</strong></li>
+<li>Follow the protocol linked above.</li>
 </ol>
+</section>
+<section id="methods-genome-analysis" class="level3" data-number="6.5.5">
+<h3 data-number="6.5.5" class="anchored" data-anchor-id="methods-genome-analysis"><span class="header-section-number">6.5.5</span> Methods: Genome Analysis</h3>
+<ol type="1">
+<li><p>Create a free <a href="https://www.bv-brc.org/">BV-BRC.org</a> account. Share your username with your instructors.</p></li>
+<li><p>Access the sequences in our shared BV-BRC workspace.</p></li>
+<li><p>Obtain concatenated sequences for your isolate from the shared workspace.</p></li>
+<li><p>Follow the Comprehensive Genome Analysis Service tutorial: <a href="https://www.bv-brc.org/docs/tutorial/comprehensive_genome_analysis/comprehensive_genome_analysis.html">Comprehensive Genome Analysis (CGA) Service | BV-BRC.</a></p></li>
+<li><p>Start a job to assemble and annotate your genome by</p>
+<ol type="i">
+<li><p>Indicating the file(s) for your long-read Nanopore sequences (single read)</p></li>
+<li><p>Indicate the files for your paired Illumina sequences (paired reads). There should be R1 and R2 files for your isolate.</p></li>
+<li><p>Leave the assembly parameters on auto</p></li>
+</ol></li>
+<li><p><strong>Submit the job.</strong></p></li>
+<li><p>Wait… ~30 min to overnight.</p></li>
+<li><p>Create a free <a href="https://seqhub.org/">SeqHub</a> account.</p></li>
+<li><p>Upload the assembled genome FASTA file from <a href="https://www.bv-brc.org/">BV-BRC.org</a> Comprehensive Genome Analysis Service to annotate and explore in SeqHub.</p></li>
+</ol>
+</section>
+</section>
+<section id="data-results" class="level2" data-number="6.6">
+<h2 data-number="6.6" class="anchored" data-anchor-id="data-results"><span class="header-section-number">6.6</span> Data/ Results</h2>
+<p>Paste a picture of any figures or images generated from your data:</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Replace the note with your results.</p>
+</div>
+</div>
+</section>
+<section id="result-analysis" class="level2" data-number="6.7">
+<h2 data-number="6.7" class="anchored" data-anchor-id="result-analysis"><span class="header-section-number">6.7</span> Result Analysis</h2>
+<p>Discuss DNA yield, sample quality, and whether the sequencing-related results matched expectations. Include factors that may have affected DNA recovery and what you would change next time.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Replace the note with your result analysis.</p>
+</div>
+</div>
+</section>
+<section id="discussion" class="level2" data-number="6.8">
+<h2 data-number="6.8" class="anchored" data-anchor-id="discussion"><span class="header-section-number">6.8</span> Discussion</h2>
+<ul>
+<li><p>In which ways are microbial genome assembly and annotation tools beneficial for research? Think about what additional uses this information can have.</p></li>
+<li><p>What other sequencing tools do you know? What makes nanopore sequencing different from others?</p></li>
+<li><p>Identify at least one change made to the lab protocol, whether intentional or accidental (e.g., wrong amount of reagent used, contamination, etc). How did, or could, this change/accident impact your final results?</p></li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Replace the note with your discussion.</p>
+</div>
+</div>
+</section>
+<section id="checklist-before-submission" class="level2" data-number="6.9">
+<h2 data-number="6.9" class="anchored" data-anchor-id="checklist-before-submission"><span class="header-section-number">6.9</span> Checklist Before Submission</h2>
+<ul class="task-list">
+<li><label><input type="checkbox">All sections completed</label></li>
+<li><label><input type="checkbox">Images pasted and labeled</label></li>
+<li><label><input type="checkbox">Discussion questions answered</label></li>
+<li><label><input type="checkbox">Reflection written</label></li>
+<li><label><input type="checkbox">Notebook saved and pushed to GitHub</label></li>
+</ul>
 
 
 </section>
@@ -725,7 +893,7 @@ Figure&nbsp;6.3: Nanopore rapid barcoding workflow for sequencing library prepar
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/ccgoller\.github\.io\/mb360workbook\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

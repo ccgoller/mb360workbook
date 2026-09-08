@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.36">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -42,14 +45,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-87aed0b8589e23e45aa8556edf37a91b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-aa873432a3c62897e6c2091c0d30a948.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-87aed0b8589e23e45aa8556edf37a91b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-77a5896a02b4ad985511de0e21379b11.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-1186ef8162c3c73f68abd6432a9e86e2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-77a5896a02b4ad985511de0e21379b11.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -314,9 +317,6 @@ ul.task-list li input[type="checkbox"] {
         </a>
     </div>
   </nav>
-  <div id="quarto-announcement" data-announcement-id="af8f9b28e80c0a0ff55a7389dc14b3b7" class="alert alert-secondary hidden"><i class="bi bi-info-circle quarto-announcement-icon"></i><div class="quarto-announcement-content">
-<p><strong>Information</strong> - Please read Module 1 before proceeding.</p>
-</div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
@@ -357,7 +357,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./module-04.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Module 4: Microbial Metabolism</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Module 4: Microbial Metabolism: Biolog GEN III Characterization of Strains</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -435,33 +435,27 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview"><span class="header-section-number">3.1</span> Overview</a></li>
-  <li><a href="#purpose" id="toc-purpose" class="nav-link" data-scroll-target="#purpose"><span class="header-section-number">3.2</span> Purpose</a></li>
+  <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background"><span class="header-section-number">3.1</span> Background</a></li>
+  <li><a href="#criteria-for-success" id="toc-criteria-for-success" class="nav-link" data-scroll-target="#criteria-for-success"><span class="header-section-number">3.2</span> Criteria for Success</a></li>
   <li><a href="#learning-outcomes" id="toc-learning-outcomes" class="nav-link" data-scroll-target="#learning-outcomes"><span class="header-section-number">3.3</span> Learning Outcomes</a></li>
-  <li><a href="#skills-and-knowledge" id="toc-skills-and-knowledge" class="nav-link" data-scroll-target="#skills-and-knowledge"><span class="header-section-number">3.4</span> Skills and Knowledge</a>
+  <li><a href="#skills-and-knowledge" id="toc-skills-and-knowledge" class="nav-link" data-scroll-target="#skills-and-knowledge"><span class="header-section-number">3.4</span> Skills and Knowledge</a></li>
+  <li><a href="#procedures" id="toc-procedures" class="nav-link" data-scroll-target="#procedures"><span class="header-section-number">3.5</span> Procedures</a>
   <ul class="collapse">
-  <li><a href="#skills" id="toc-skills" class="nav-link" data-scroll-target="#skills"><span class="header-section-number">3.4.1</span> Skills</a></li>
-  <li><a href="#knowledge" id="toc-knowledge" class="nav-link" data-scroll-target="#knowledge"><span class="header-section-number">3.4.2</span> Knowledge</a></li>
+  <li><a href="#lab-safety" id="toc-lab-safety" class="nav-link" data-scroll-target="#lab-safety"><span class="header-section-number">3.5.1</span> Lab Safety</a></li>
+  <li><a href="#methods-liquid-culture-setup" id="toc-methods-liquid-culture-setup" class="nav-link" data-scroll-target="#methods-liquid-culture-setup"><span class="header-section-number">3.5.2</span> Methods: Liquid Culture Setup</a></li>
+  <li><a href="#methods-growth-assay-setup" id="toc-methods-growth-assay-setup" class="nav-link" data-scroll-target="#methods-growth-assay-setup"><span class="header-section-number">3.5.3</span> Methods: Growth Assay Setup</a></li>
+  <li><a href="#methods-biofilm-assay-setup" id="toc-methods-biofilm-assay-setup" class="nav-link" data-scroll-target="#methods-biofilm-assay-setup"><span class="header-section-number">3.5.4</span> Methods: Biofilm Assay Setup</a></li>
+  <li><a href="#methods-biofilm-viability" id="toc-methods-biofilm-viability" class="nav-link" data-scroll-target="#methods-biofilm-viability"><span class="header-section-number">3.5.5</span> Methods: Biofilm Viability</a></li>
+  <li><a href="#protocol-notes" id="toc-protocol-notes" class="nav-link" data-scroll-target="#protocol-notes"><span class="header-section-number">3.5.6</span> Protocol Notes</a></li>
   </ul></li>
-  <li><a href="#task" id="toc-task" class="nav-link" data-scroll-target="#task"><span class="header-section-number">3.5</span> Task</a></li>
-  <li><a href="#criteria-for-success" id="toc-criteria-for-success" class="nav-link" data-scroll-target="#criteria-for-success"><span class="header-section-number">3.6</span> Criteria for Success</a></li>
-  <li><a href="#background" id="toc-background" class="nav-link" data-scroll-target="#background"><span class="header-section-number">3.7</span> Background</a></li>
-  <li><a href="#procedures" id="toc-procedures" class="nav-link" data-scroll-target="#procedures"><span class="header-section-number">3.8</span> Procedures</a>
+  <li><a href="#data-results" id="toc-data-results" class="nav-link" data-scroll-target="#data-results"><span class="header-section-number">3.6</span> Data/ Results</a>
   <ul class="collapse">
-  <li><a href="#lab-safety" id="toc-lab-safety" class="nav-link" data-scroll-target="#lab-safety"><span class="header-section-number">3.8.1</span> Lab Safety</a></li>
-  <li><a href="#methods-liquid-culture-setup" id="toc-methods-liquid-culture-setup" class="nav-link" data-scroll-target="#methods-liquid-culture-setup"><span class="header-section-number">3.8.2</span> Methods: Liquid Culture Setup</a></li>
-  <li><a href="#methods-growth-assay-setup" id="toc-methods-growth-assay-setup" class="nav-link" data-scroll-target="#methods-growth-assay-setup"><span class="header-section-number">3.8.3</span> Methods: Growth Assay Setup</a></li>
-  <li><a href="#methods-biofilm-assay-setup" id="toc-methods-biofilm-assay-setup" class="nav-link" data-scroll-target="#methods-biofilm-assay-setup"><span class="header-section-number">3.8.4</span> Methods: Biofilm Assay Setup</a></li>
-  <li><a href="#methods-biofilm-viability" id="toc-methods-biofilm-viability" class="nav-link" data-scroll-target="#methods-biofilm-viability"><span class="header-section-number">3.8.5</span> Methods: Biofilm Viability</a></li>
-  <li><a href="#protocol-notes" id="toc-protocol-notes" class="nav-link" data-scroll-target="#protocol-notes"><span class="header-section-number">3.8.6</span> Protocol Notes</a></li>
+  <li><a href="#growth-curves" id="toc-growth-curves" class="nav-link" data-scroll-target="#growth-curves"><span class="header-section-number">3.6.1</span> Growth Curves</a></li>
+  <li><a href="#biofilm-viability" id="toc-biofilm-viability" class="nav-link" data-scroll-target="#biofilm-viability"><span class="header-section-number">3.6.2</span> Biofilm Viability</a></li>
   </ul></li>
-  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results"><span class="header-section-number">3.9</span> Results</a>
-  <ul class="collapse">
-  <li><a href="#growth-curves" id="toc-growth-curves" class="nav-link" data-scroll-target="#growth-curves"><span class="header-section-number">3.9.1</span> Growth Curves</a></li>
-  <li><a href="#biofilm-viability" id="toc-biofilm-viability" class="nav-link" data-scroll-target="#biofilm-viability"><span class="header-section-number">3.9.2</span> Biofilm Viability</a></li>
-  </ul></li>
-  <li><a href="#result-analysis" id="toc-result-analysis" class="nav-link" data-scroll-target="#result-analysis"><span class="header-section-number">3.10</span> Result Analysis</a></li>
-  <li><a href="#discussion-questions" id="toc-discussion-questions" class="nav-link" data-scroll-target="#discussion-questions"><span class="header-section-number">3.11</span> Discussion Questions</a></li>
+  <li><a href="#result-analysis" id="toc-result-analysis" class="nav-link" data-scroll-target="#result-analysis"><span class="header-section-number">3.7</span> Result Analysis</a></li>
+  <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion"><span class="header-section-number">3.8</span> Discussion</a></li>
+  <li><a href="#checklist-before-submission" id="toc-checklist-before-submission" class="nav-link" data-scroll-target="#checklist-before-submission"><span class="header-section-number">3.9</span> Checklist Before Submission</a></li>
   </ul>
 </nav>
     </div>
@@ -488,85 +482,96 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="overview" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="overview"><span class="header-section-number">3.1</span> Overview</h2>
-<p>Weeks 4 and 5 focus on growth-curve experiments, multichannel pipetting, and biofilm viability assays.</p>
+<div class="slide-link">
+<p><a href="slides/module-03-slides.html" class="btn" target="_blank" rel="noopener noreferrer" aria-label="Open Module 3 slide deck in a new tab">View Slide Deck</a></p>
+</div>
+<section id="background" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="background"><span class="header-section-number">3.1</span> Background</h2>
+<p>This module compares growth and biofilm formation in <em>Delftia acidovorans</em>, <em>Delftia tsuruhatensis</em>, and student isolates while maintaining strong contamination control.</p>
 </section>
-<section id="purpose" class="level2" data-number="3.2">
-<h2 data-number="3.2" class="anchored" data-anchor-id="purpose"><span class="header-section-number">3.2</span> Purpose</h2>
-<ul>
-<li>Evaluate growth rates of different <em>Delftia</em> species.</li>
-<li>Prepare liquid cultures from single colonies for 96-well growth assays.</li>
-<li>Analyze growth parameters from shaking cultures.</li>
-<li>Investigate differences in biofilm formation among isolates.</li>
-</ul>
+<section id="criteria-for-success" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="criteria-for-success"><span class="header-section-number">3.2</span> Criteria for Success</h2>
+<p>Successful completion requires participation in both assay workflows, collection of analyzable data, and a complete ELN entry.</p>
 </section>
 <section id="learning-outcomes" class="level2" data-number="3.3">
 <h2 data-number="3.3" class="anchored" data-anchor-id="learning-outcomes"><span class="header-section-number">3.3</span> Learning Outcomes</h2>
-<ul>
-<li>List safety considerations for propagating microbes.</li>
-<li>Explain the differences between static and shaking growth.</li>
-<li>Describe the features of biofilms.</li>
-<li>Discuss the significance of growth curves.</li>
-<li>Practice using a multichannel pipette.</li>
-<li>Practice diluting overnight cultures and seeding 96-well plates consistently.</li>
-<li>Describe the purpose, methods, and preliminary results of microbial propagation experiments.</li>
-<li>Collect and interpret growth and biofilm data.</li>
-<li>Create an annotated bibliography with at least five sources.</li>
-</ul>
+<ol type="1">
+<li><strong>List</strong> safety considerations for propagating microbes. <strong>(CO 3, 4, 5)</strong> 🥼</li>
+<li><strong>Explain</strong> the differences between static and shaking growth. <strong>(CO 3, 4, 5)</strong> 🥼</li>
+<li><strong>Describe</strong> the features of biofilms. <strong>(CO 5)</strong> 🥼</li>
+<li><strong>Discuss</strong> the significance of growth curves. <strong>(CO 3, 4, 5)</strong> 🥼</li>
+<li><strong>Practice</strong> using a multichannel. <strong>(CO 3, 4, 5)</strong> 🥼</li>
+<li><strong>Practice</strong> diluting an overnight culture and consistently seeding 96-well plates without contamination. <strong>(CO 3, 4, 5)</strong> 🥼</li>
+<li><strong>Describe</strong> the purpose, methods, and preliminary results of your microbial propagation experiments. <strong>(CO 3, 8)</strong> 📁</li>
+<li><strong>Collect</strong> growth data and biofilm viability data. <strong>(CO 6, 8)</strong> 📈</li>
+<li><strong>Interpret</strong> growth data and biofilm data. <strong>(CO 8, 8)</strong> 📈</li>
+<li><strong>Create</strong> an annotated bibliography (five or more sources). <em>(CO 3)</em> 🏅</li>
+</ol>
 </section>
 <section id="skills-and-knowledge" class="level2" data-number="3.4">
 <h2 data-number="3.4" class="anchored" data-anchor-id="skills-and-knowledge"><span class="header-section-number">3.4</span> Skills and Knowledge</h2>
-<section id="skills" class="level3" data-number="3.4.1">
-<h3 data-number="3.4.1" class="anchored" data-anchor-id="skills"><span class="header-section-number">3.4.1</span> Skills</h3>
+<p>Completing this module will help you develop and practice the following skills and knowledge, which you can include in your curriculum vitae.</p>
+<p>&nbsp; <strong>Skills:</strong> The purpose of this module is to help you practice the following skills that are essential to safe and effective lab work with microbial isolates.</p>
 <ul>
-<li>Work safely with liquid cultures in 96-well plates.</li>
-<li>Document protocols and results clearly.</li>
-<li>Interpret growth-curve and biofilm data.</li>
-<li>Propagate bacteria in liquid culture.</li>
+<li>Working safely with liquid cultures in 96-well plates.</li>
+<li>Documenting lab work, including protocols and results.</li>
+<li>Interpreting growth curve and biofilm data.</li>
+<li>Propagating bacteria in liquid cultures.</li>
+</ul>
+<p>&nbsp; <strong>Knowledge:</strong> This module will also help you become familiar with the following important content in microbial genomics lab settings:</p>
+<ul>
+<li>Understanding PPE requirements for microbial work.</li>
+<li>Familiarity with the propagation of microorganisms in liquid media.</li>
+<li>Seeding of 96-well plates for bacterial growth and biofilm analyses.</li>
 </ul>
 </section>
-<section id="knowledge" class="level3" data-number="3.4.2">
-<h3 data-number="3.4.2" class="anchored" data-anchor-id="knowledge"><span class="header-section-number">3.4.2</span> Knowledge</h3>
+<section id="procedures" class="level2" data-number="3.5">
+<h2 data-number="3.5" class="anchored" data-anchor-id="procedures"><span class="header-section-number">3.5</span> Procedures</h2>
+<section id="lab-safety" class="level3" data-number="3.5.1">
+<h3 data-number="3.5.1" class="anchored" data-anchor-id="lab-safety"><span class="header-section-number">3.5.1</span> Lab Safety</h3>
+<section id="before-lab" class="level4" data-number="3.5.1.1">
+<h4 data-number="3.5.1.1" class="anchored" data-anchor-id="before-lab"><span class="header-section-number">3.5.1.1</span> Before Lab:</h4>
 <ul>
-<li>PPE requirements for microbial work.</li>
-<li>Propagation of microorganisms in liquid media.</li>
-<li>Seeding 96-well plates for growth and biofilm analyses.</li>
+<li>Wear the correct PPE (lab coat, goggles, and gloves).</li>
+<li>Wipe the lab bench with 70% ethanol.</li>
+<li>Before working with microorganisms, carefully wipe pipettors with 70% ethanol.</li>
+</ul>
+</section>
+<section id="during-lab" class="level4" data-number="3.5.1.2">
+<h4 data-number="3.5.1.2" class="anchored" data-anchor-id="during-lab"><span class="header-section-number">3.5.1.2</span> During Lab:</h4>
+<ul>
+<li>Treat all tips as potential biohazards.</li>
+<li>Remove your PPE if you are leaving the lab (water/bio break).</li>
+<li>Discard samples and disposable lab items in the correct trash bins.</li>
+<li>Try to keep personal items (computers, phones, etc.) usage to a minimum.</li>
+</ul>
+</section>
+<section id="after-lab" class="level4" data-number="3.5.1.3">
+<h4 data-number="3.5.1.3" class="anchored" data-anchor-id="after-lab"><span class="header-section-number">3.5.1.3</span> After Lab:</h4>
+<ul>
+<li>Wipe your station with 70% alcohol.</li>
+<li>If you touched any personal items during the lab, wipe them with 70% ethanol before leaving.</li>
+<li>Dispose of gloves in the main biohazard waste container.</li>
+<li>Dispose of used petri dishes in the biohazard bin.</li>
+<li>All liquids containing bacteria must be poured into a beaker for bleach decontamination (can be found on the blue bench paper by this sink labeled “liquid”).</li>
+<li>Glass tubes can be placed into a beaker (on the blue bench paper by this sink, labeled “glass”).</li>
+<li>All bacterial growth plates can be thrown away in the biohazard trash.</li>
+<li>Return all reusable materials to our storage drawers.</li>
+<li>Wipe down all surfaces with ethanol.</li>
+<li>Remove PPE.</li>
+<li>Wash your hands.</li>
 </ul>
 </section>
 </section>
-<section id="task" class="level2" data-number="3.5">
-<h2 data-number="3.5" class="anchored" data-anchor-id="task"><span class="header-section-number">3.5</span> Task</h2>
-<p>Review the procedures before lab and work with your partner to complete the growth and biofilm assays and document all observations.</p>
-</section>
-<section id="criteria-for-success" class="level2" data-number="3.6">
-<h2 data-number="3.6" class="anchored" data-anchor-id="criteria-for-success"><span class="header-section-number">3.6</span> Criteria for Success</h2>
-<p>Successful completion requires participation in both assay workflows, collection of analyzable data, and a complete ELN entry.</p>
-</section>
-<section id="background" class="level2" data-number="3.7">
-<h2 data-number="3.7" class="anchored" data-anchor-id="background"><span class="header-section-number">3.7</span> Background</h2>
-<p>This module compares growth and biofilm formation in <em>Delftia acidovorans</em>, <em>Delftia tsuruhatensis</em>, and student isolates while maintaining strong contamination control.</p>
-</section>
-<section id="procedures" class="level2" data-number="3.8">
-<h2 data-number="3.8" class="anchored" data-anchor-id="procedures"><span class="header-section-number">3.8</span> Procedures</h2>
-<section id="lab-safety" class="level3" data-number="3.8.1">
-<h3 data-number="3.8.1" class="anchored" data-anchor-id="lab-safety"><span class="header-section-number">3.8.1</span> Lab Safety</h3>
-<ul>
-<li>Wear the required PPE.</li>
-<li>Clean the bench and pipettors with 70% ethanol.</li>
-<li>Treat all tips as biohazards.</li>
-<li>Dispose of plates and gloves in the correct waste streams.</li>
-</ul>
-</section>
-<section id="methods-liquid-culture-setup" class="level3" data-number="3.8.2">
-<h3 data-number="3.8.2" class="anchored" data-anchor-id="methods-liquid-culture-setup"><span class="header-section-number">3.8.2</span> Methods: Liquid Culture Setup</h3>
+<section id="methods-liquid-culture-setup" class="level3" data-number="3.5.2">
+<h3 data-number="3.5.2" class="anchored" data-anchor-id="methods-liquid-culture-setup"><span class="header-section-number">3.5.2</span> Methods: Liquid Culture Setup</h3>
 <ol type="1">
-<li>Isolated colonies were transferred to liquid medium.</li>
-<li>Inoculated tubes were grown overnight at 30 C with shaking at 200 to 250 RPM.</li>
+<li>Isolated colonies of your bacteria were picked and transferred to a liquid culture medium.</li>
+<li>Inoculated liquid culture tubes were placed in a shaker at 30°C (degrees Celsius) overnight with shaking (200-250 RPM).</li>
 </ol>
 </section>
-<section id="methods-growth-assay-setup" class="level3" data-number="3.8.3">
-<h3 data-number="3.8.3" class="anchored" data-anchor-id="methods-growth-assay-setup"><span class="header-section-number">3.8.3</span> Methods: Growth Assay Setup</h3>
+<section id="methods-growth-assay-setup" class="level3" data-number="3.5.3">
+<h3 data-number="3.5.3" class="anchored" data-anchor-id="methods-growth-assay-setup"><span class="header-section-number">3.5.3</span> Methods: Growth Assay Setup</h3>
 <p>Figure <a href="#fig-module3-growth-layout" class="quarto-xref">Figure&nbsp;<span>3.1</span></a> provides a reusable 96-well template for mapping control wells and isolate conditions before loading the plate.</p>
 <div id="fig-module3-growth-layout" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Blank 96-well plate diagram for organizing growth-curve and control conditions.">
 <figure class="quarto-float quarto-float-fig figure">
@@ -578,80 +583,169 @@ Figure&nbsp;3.1: Blank 96-well plate layout for planning growth-curve wells and 
 </figcaption>
 </figure>
 </div>
-<ul>
-<li>Prepare 1:1000 dilutions of the overnight cultures.</li>
-<li>Use positive and negative controls.</li>
-<li>Pour diluted cultures into sterile reservoirs.</li>
-<li>Use a multichannel pipette to add 100 µL to the assigned 96-well plate columns.</li>
-<li>Seal the plate with a breathable seal.</li>
-<li>Load the plate into the plate reader for 48 hours at 30 C with shaking.</li>
-</ul>
+<ol type="1">
+<li>For growth curves, obtain your overnight cultures and prepare <strong>1:1000</strong> dilutions as follows:</li>
+</ol>
+<ol type="a">
+<li><strong>25 µl</strong> of overnight culture into <strong>25 ml</strong> of fresh TSB prepared for you for your positive control (<em>Delftia acidovorans</em> SPH-1) and your isolate.</li>
+<li><strong>25 µl</strong> of the overnight TSB control into <strong>25 ml</strong> of fresh TSB prepared for you as your negative control</li>
+</ol>
+<ol start="2" type="1">
+<li><p>Mix each 50 mL conical tube by inverting several times and vortexing.</p></li>
+<li><p>Carefully pour your diluted cultures into a white plastic sterile reservoir.</p>
+<ol type="a">
+<li><p>Use one plastic reservoir for the positive control and use a separate one for the negative control</p></li>
+<li><p>Prepare your plastic reservoir when you are ready to use it to avoid contamination!</p></li>
+</ol></li>
+<li><p>With a multichannel set to <strong>100 ul</strong>, take 8 p200 tips and pipette <strong>100 µl</strong> of culture into columns of a 96-well plate as follows. Keep the plate covered with the lid whenever possible to prevent contamination.</p>
+<ol type="i">
+<li><p><strong>Columns 1 and 12</strong> will receive TSB alone - pipette last to minimize contamination</p></li>
+<li><p><strong>Column 2</strong> will receive TSB + <em>Delftia acidovorans</em> SPH-1</p></li>
+<li><p><strong>Columns 3, 4, 5, 6, 7, 8, 9, 10, and 11</strong> will receive your TSB + <em>Delftia</em> isolate.</p></li>
+</ol></li>
+<li><p>Seal the plate with a breathable seal and load it into the plate reader.</p></li>
+<li><p>Incubate at <strong>30°C</strong> with shaking and collect OD600 measurements over <strong>48 hours</strong>.</p></li>
+</ol>
 </section>
-<section id="methods-biofilm-assay-setup" class="level3" data-number="3.8.4">
-<h3 data-number="3.8.4" class="anchored" data-anchor-id="methods-biofilm-assay-setup"><span class="header-section-number">3.8.4</span> Methods: Biofilm Assay Setup</h3>
-<ul>
-<li>Prepare fresh 1:1000 dilutions for the biofilm plate.</li>
-<li>Seed the assigned wells with 100 µL per well.</li>
-<li>Add the peg lid without contaminating the pegs.</li>
-<li>Incubate for 48 hours at 30 C.</li>
-</ul>
-</section>
-<section id="methods-biofilm-viability" class="level3" data-number="3.8.5">
-<h3 data-number="3.8.5" class="anchored" data-anchor-id="methods-biofilm-viability"><span class="header-section-number">3.8.5</span> Methods: Biofilm Viability</h3>
-<p>Figure <a href="#fig-module3-biofilm-viability" class="quarto-xref">Figure&nbsp;<span>3.2</span></a> outlines the wash-and-detection workflow used to measure biofilm viability after incubation.</p>
-<div id="fig-module3-biofilm-viability" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Workflow diagram showing peg-lid washing steps followed by incubation in detection reagent for a biofilm viability assay.">
+<section id="methods-biofilm-assay-setup" class="level3" data-number="3.5.4">
+<h3 data-number="3.5.4" class="anchored" data-anchor-id="methods-biofilm-assay-setup"><span class="header-section-number">3.5.4</span> Methods: Biofilm Assay Setup</h3>
+<p>Figure <a href="#fig-module3-biofilm-layout" class="quarto-xref">Figure&nbsp;<span>3.2</span></a> shows the 96-well layout used for the Module 3 biofilm assay.</p>
+<div id="fig-module3-biofilm-layout" class="quarto-float quarto-figure quarto-figure-center anchored" alt="96-well plate layout showing control and isolate wells for the Module 3 biofilm assay.">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-module3-biofilm-viability-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/template/image1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Figure&nbsp;3.2: Biofilm viability workflow using wash plates and detection reagent."><img src="images/template/image1.png" class="img-fluid figure-img" alt="Workflow diagram showing peg-lid washing steps followed by incubation in detection reagent for a biofilm viability assay."></a>
+<div aria-describedby="fig-module3-biofilm-layout-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="images/module-03/96-wellplategrowthcurve.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Figure&nbsp;3.2: Biofilm assay plate layout for assigning controls and isolate wells in a 96-well plate."><img src="images/module-03/96-wellplategrowthcurve.png" class="img-fluid figure-img" alt="96-well plate layout showing control and isolate wells for the Module 3 biofilm assay."></a>
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-module3-biofilm-viability-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;3.2: Biofilm viability workflow using wash plates and detection reagent.
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-module3-biofilm-layout-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3.2: Biofilm assay plate layout for assigning controls and isolate wells in a 96-well plate.
 </figcaption>
 </figure>
 </div>
-<ul>
-<li>Wash the peg lid using PBS in separate plates.</li>
-<li>Prepare the detection reagent with WST solution, electron mediator reagent, and TSB.</li>
-<li>Transfer the peg lid to the reagent plate and incubate at 37 C.</li>
-<li>Measure absorbance at 450 nm.</li>
-</ul>
+<ol type="1">
+<li>Prepare fresh <strong>1:1000</strong> dilutions of the positive control, your isolate, and the negative control in fresh TSB.</li>
+<li>Transfer <strong>100 µL</strong> of each dilution to the assigned wells in the biofilm plate.</li>
+<li>Add the peg lid carefully without contaminating the pegs or splashing between wells.</li>
+<li>Incubate the biofilm plate <strong>statically at 30°C for 48 hours</strong>.</li>
+</ol>
 </section>
-<section id="protocol-notes" class="level3" data-number="3.8.6">
-<h3 data-number="3.8.6" class="anchored" data-anchor-id="protocol-notes"><span class="header-section-number">3.8.6</span> Protocol Notes</h3>
-<p>Record any mistakes, deviations, or isolate-specific observations.</p>
+<section id="methods-biofilm-viability" class="level3" data-number="3.5.5">
+<h3 data-number="3.5.5" class="anchored" data-anchor-id="methods-biofilm-viability"><span class="header-section-number">3.5.5</span> Methods: Biofilm Viability</h3>
+<p>Figure <a href="#fig-module3-biofilm-viability" class="quarto-xref">Figure&nbsp;<span>3.3</span></a> outlines the wash-and-detection workflow used to measure biofilm viability after incubation.</p>
+<div id="fig-module3-biofilm-viability" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Workflow diagram showing peg-lid washing steps followed by incubation in detection reagent for a biofilm viability assay.">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-module3-biofilm-viability-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="images/module-03/biofilm-viability-workflow.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Figure&nbsp;3.3: Biofilm viability workflow using wash plates and detection reagent."><img src="images/module-03/biofilm-viability-workflow.png" class="img-fluid figure-img" alt="Workflow diagram showing peg-lid washing steps followed by incubation in detection reagent for a biofilm viability assay."></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-module3-biofilm-viability-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3.3: Biofilm viability workflow using wash plates and detection reagent.
+</figcaption>
+</figure>
+</div>
+<ol type="1">
+<li>Wash the peg lid using PBS in separate plates to remove planktonic cells.</li>
+<li>Prepare the detection reagent using WST solution, electron mediator reagent, and TSB.</li>
+<li>Transfer the washed peg lid to the reagent plate and incubate at <strong>37°C</strong>.</li>
+<li>Measure absorbance at <strong>450 nm</strong> after the incubation period.</li>
+</ol>
+</section>
+<section id="protocol-notes" class="level3" data-number="3.5.6">
+<h3 data-number="3.5.6" class="anchored" data-anchor-id="protocol-notes"><span class="header-section-number">3.5.6</span> Protocol Notes</h3>
+<p>Record any mistakes, deviations, contamination concerns, or isolate-specific observations in your ELN.</p>
 </section>
 </section>
-<section id="results" class="level2" data-number="3.9">
-<h2 data-number="3.9" class="anchored" data-anchor-id="results"><span class="header-section-number">3.9</span> Results</h2>
-<section id="growth-curves" class="level3" data-number="3.9.1">
-<h3 data-number="3.9.1" class="anchored" data-anchor-id="growth-curves"><span class="header-section-number">3.9.1</span> Growth Curves</h3>
-<ul>
-<li>Save and share the raw plate-reader data.</li>
-<li>Format the data for analysis.</li>
-<li>Upload the data file to the repository.</li>
-<li>Plot growth curves and compare isolates and wells.</li>
-</ul>
+<section id="data-results" class="level2" data-number="3.6">
+<h2 data-number="3.6" class="anchored" data-anchor-id="data-results"><span class="header-section-number">3.6</span> Data/ Results</h2>
+<section id="growth-curves" class="level3" data-number="3.6.1">
+<h3 data-number="3.6.1" class="anchored" data-anchor-id="growth-curves"><span class="header-section-number">3.6.1</span> Growth Curves</h3>
+<ol type="1">
+<li>Save your raw plate-reader data and share it with your group.</li>
+<li>Format the dataset so it contains time values and well labels for analysis.</li>
+<li>Upload the cleaned data file to your repository or shared course location.</li>
+<li>Plot the growth curves and compare the control and isolate wells.</li>
+</ol>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Replace the note with your growth-curve results and add images if applicable.</p>
+</div>
+</div>
 </section>
-<section id="biofilm-viability" class="level3" data-number="3.9.2">
-<h3 data-number="3.9.2" class="anchored" data-anchor-id="biofilm-viability"><span class="header-section-number">3.9.2</span> Biofilm Viability</h3>
-<ul>
-<li>Save and share the raw absorbance values.</li>
-<li>Subtract the average TSB-only background.</li>
-<li>Calculate average absorbance and standard deviation for each condition.</li>
-<li>Plot the background-corrected averages for comparison.</li>
-</ul>
+<section id="biofilm-viability" class="level3" data-number="3.6.2">
+<h3 data-number="3.6.2" class="anchored" data-anchor-id="biofilm-viability"><span class="header-section-number">3.6.2</span> Biofilm Viability</h3>
+<ol type="1">
+<li>Save and share the raw absorbance values from the biofilm assay.</li>
+<li>Subtract the average TSB-only background from each condition.</li>
+<li>Calculate the average absorbance and standard deviation for each condition.</li>
+<li>Plot the background-corrected averages to compare biofilm formation across isolates.</li>
+</ol>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Replace the note with your biofilm viability results and add images if applicable.</p>
+</div>
+</div>
 </section>
 </section>
-<section id="result-analysis" class="level2" data-number="3.10">
-<h2 data-number="3.10" class="anchored" data-anchor-id="result-analysis"><span class="header-section-number">3.10</span> Result Analysis</h2>
-<p>Use your code and plots to explain whether the observed growth and biofilm behavior matched expectations.</p>
+<section id="result-analysis" class="level2" data-number="3.7">
+<h2 data-number="3.7" class="anchored" data-anchor-id="result-analysis"><span class="header-section-number">3.7</span> Result Analysis</h2>
+<p>Use your code, graphs, and observations to explain whether the observed growth and biofilm behavior matched expectations.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Replace the note with your result analysis.</p>
+</div>
+</div>
 </section>
-<section id="discussion-questions" class="level2" data-number="3.11">
-<h2 data-number="3.11" class="anchored" data-anchor-id="discussion-questions"><span class="header-section-number">3.11</span> Discussion Questions</h2>
+<section id="discussion" class="level2" data-number="3.8">
+<h2 data-number="3.8" class="anchored" data-anchor-id="discussion"><span class="header-section-number">3.8</span> Discussion</h2>
 <ol type="1">
 <li>Why are biofilms difficult to eliminate, even when antibiotics are used?</li>
 <li>What growth-curve pattern would you expect for your isolate, and why?</li>
+<li>How did the biofilm assay layout and controls help you interpret your results?</li>
 </ol>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Replace the note with your discussion.</p>
+</div>
+</div>
+</section>
+<section id="checklist-before-submission" class="level2" data-number="3.9">
+<h2 data-number="3.9" class="anchored" data-anchor-id="checklist-before-submission"><span class="header-section-number">3.9</span> Checklist Before Submission</h2>
+<ul class="task-list">
+<li><label><input type="checkbox">All sections completed</label></li>
+<li><label><input type="checkbox">Images pasted and labeled</label></li>
+<li><label><input type="checkbox">Growth and biofilm data summarized</label></li>
+<li><label><input type="checkbox">Discussion questions answered</label></li>
+<li><label><input type="checkbox">Notebook saved and pushed to GitHub</label></li>
+</ul>
 
 
 </section>
@@ -743,7 +837,7 @@ Figure&nbsp;3.2: Biofilm viability workflow using wash plates and detection reag
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/ccgoller\.github\.io\/mb360workbook\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -1077,8 +1171,8 @@ Figure&nbsp;3.2: Biofilm viability workflow using wash plates and detection reag
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./module-04.html" class="pagination-link" aria-label="Module 4: Microbial Metabolism">
-        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Module 4: Microbial Metabolism</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./module-04.html" class="pagination-link" aria-label="Module 4:  Microbial Metabolism: Biolog GEN III Characterization of Strains">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Module 4: Microbial Metabolism: Biolog GEN III Characterization of Strains</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

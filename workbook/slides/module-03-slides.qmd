@@ -90,7 +90,7 @@ Knowledge
 
 ## Methods: Growth Assay Setup
 
-![Blank 96-well plate layout for planning growth-curve wells and controls.](../images/module-03/growth-curve-96well-layout.png){fig-alt="Blank 96-well plate diagram for organizing growth-curve and control conditions." style="max-height:240px; display:block; margin:0 auto;"}
+![Blank 96-well plate layout for planning growth-curve wells and controls.](../images/template/image10.png){fig-alt="Blank 96-well plate diagram for organizing growth-curve and control conditions." style="max-height:240px; display:block; margin:0 auto;"}
 
 - Prepare 1:1000 dilutions of overnight cultures
 - Use positive and negative controls

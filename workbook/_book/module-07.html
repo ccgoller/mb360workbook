@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.36">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -42,14 +45,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-87aed0b8589e23e45aa8556edf37a91b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-aa873432a3c62897e6c2091c0d30a948.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-87aed0b8589e23e45aa8556edf37a91b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-77a5896a02b4ad985511de0e21379b11.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-1186ef8162c3c73f68abd6432a9e86e2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-77a5896a02b4ad985511de0e21379b11.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -314,9 +317,6 @@ ul.task-list li input[type="checkbox"] {
         </a>
     </div>
   </nav>
-  <div id="quarto-announcement" data-announcement-id="af8f9b28e80c0a0ff55a7389dc14b3b7" class="alert alert-secondary hidden"><i class="bi bi-info-circle quarto-announcement-icon"></i><div class="quarto-announcement-content">
-<p><strong>Information</strong> - Please read Module 1 before proceeding.</p>
-</div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
@@ -357,7 +357,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./module-04.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Module 4: Microbial Metabolism</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Module 4: Microbial Metabolism: Biolog GEN III Characterization of Strains</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -435,28 +435,22 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview"><span class="header-section-number">7.1</span> Overview</a></li>
-  <li><a href="#purpose" id="toc-purpose" class="nav-link" data-scroll-target="#purpose"><span class="header-section-number">7.2</span> Purpose</a></li>
+  <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background"><span class="header-section-number">7.1</span> Background</a></li>
+  <li><a href="#criteria-for-success" id="toc-criteria-for-success" class="nav-link" data-scroll-target="#criteria-for-success"><span class="header-section-number">7.2</span> Criteria for Success</a></li>
   <li><a href="#learning-outcomes" id="toc-learning-outcomes" class="nav-link" data-scroll-target="#learning-outcomes"><span class="header-section-number">7.3</span> Learning Outcomes</a></li>
-  <li><a href="#skills-and-knowledge" id="toc-skills-and-knowledge" class="nav-link" data-scroll-target="#skills-and-knowledge"><span class="header-section-number">7.4</span> Skills and Knowledge</a>
+  <li><a href="#skills-and-knowledge" id="toc-skills-and-knowledge" class="nav-link" data-scroll-target="#skills-and-knowledge"><span class="header-section-number">7.4</span> Skills and Knowledge</a></li>
+  <li><a href="#procedures" id="toc-procedures" class="nav-link" data-scroll-target="#procedures"><span class="header-section-number">7.5</span> Procedures</a>
   <ul class="collapse">
-  <li><a href="#skills" id="toc-skills" class="nav-link" data-scroll-target="#skills"><span class="header-section-number">7.4.1</span> Skills</a></li>
-  <li><a href="#knowledge" id="toc-knowledge" class="nav-link" data-scroll-target="#knowledge"><span class="header-section-number">7.4.2</span> Knowledge</a></li>
+  <li><a href="#lab-safety" id="toc-lab-safety" class="nav-link" data-scroll-target="#lab-safety"><span class="header-section-number">7.5.1</span> Lab Safety</a></li>
+  <li><a href="#methods-data-analysis" id="toc-methods-data-analysis" class="nav-link" data-scroll-target="#methods-data-analysis"><span class="header-section-number">7.5.2</span> Methods: Data Analysis</a></li>
+  <li><a href="#methods-genome-comparisons" id="toc-methods-genome-comparisons" class="nav-link" data-scroll-target="#methods-genome-comparisons"><span class="header-section-number">7.5.3</span> Methods: Genome Comparisons</a></li>
+  <li><a href="#methods-annotation-review-and-genome-exploration" id="toc-methods-annotation-review-and-genome-exploration" class="nav-link" data-scroll-target="#methods-annotation-review-and-genome-exploration"><span class="header-section-number">7.5.4</span> Methods: Annotation Review and Genome Exploration</a></li>
+  <li><a href="#methods-genome-exploration-with-seqhub" id="toc-methods-genome-exploration-with-seqhub" class="nav-link" data-scroll-target="#methods-genome-exploration-with-seqhub"><span class="header-section-number">7.5.5</span> Methods: Genome Exploration with SeqHub</a></li>
   </ul></li>
-  <li><a href="#task" id="toc-task" class="nav-link" data-scroll-target="#task"><span class="header-section-number">7.5</span> Task</a></li>
-  <li><a href="#criteria-for-success" id="toc-criteria-for-success" class="nav-link" data-scroll-target="#criteria-for-success"><span class="header-section-number">7.6</span> Criteria for Success</a></li>
-  <li><a href="#background" id="toc-background" class="nav-link" data-scroll-target="#background"><span class="header-section-number">7.7</span> Background</a></li>
-  <li><a href="#procedures" id="toc-procedures" class="nav-link" data-scroll-target="#procedures"><span class="header-section-number">7.8</span> Procedures</a>
-  <ul class="collapse">
-  <li><a href="#lab-safety" id="toc-lab-safety" class="nav-link" data-scroll-target="#lab-safety"><span class="header-section-number">7.8.1</span> Lab Safety</a></li>
-  <li><a href="#methods-data-analysis" id="toc-methods-data-analysis" class="nav-link" data-scroll-target="#methods-data-analysis"><span class="header-section-number">7.8.2</span> Methods: Data Analysis</a></li>
-  <li><a href="#methods-genome-comparisons" id="toc-methods-genome-comparisons" class="nav-link" data-scroll-target="#methods-genome-comparisons"><span class="header-section-number">7.8.3</span> Methods: Genome Comparisons</a></li>
-  <li><a href="#methods-annotation-review-and-genome-exploration" id="toc-methods-annotation-review-and-genome-exploration" class="nav-link" data-scroll-target="#methods-annotation-review-and-genome-exploration"><span class="header-section-number">7.8.4</span> Methods: Annotation Review and Genome Exploration</a></li>
-  <li><a href="#protocol-notes" id="toc-protocol-notes" class="nav-link" data-scroll-target="#protocol-notes"><span class="header-section-number">7.8.5</span> Protocol Notes</a></li>
-  </ul></li>
-  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results"><span class="header-section-number">7.9</span> Results</a></li>
-  <li><a href="#result-analysis" id="toc-result-analysis" class="nav-link" data-scroll-target="#result-analysis"><span class="header-section-number">7.10</span> Result Analysis</a></li>
-  <li><a href="#discussion-questions" id="toc-discussion-questions" class="nav-link" data-scroll-target="#discussion-questions"><span class="header-section-number">7.11</span> Discussion Questions</a></li>
+  <li><a href="#data-results" id="toc-data-results" class="nav-link" data-scroll-target="#data-results"><span class="header-section-number">7.6</span> Data/ Results</a></li>
+  <li><a href="#result-analysis" id="toc-result-analysis" class="nav-link" data-scroll-target="#result-analysis"><span class="header-section-number">7.7</span> Result Analysis</a></li>
+  <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion"><span class="header-section-number">7.8</span> Discussion</a></li>
+  <li><a href="#checklist-before-submission" id="toc-checklist-before-submission" class="nav-link" data-scroll-target="#checklist-before-submission"><span class="header-section-number">7.9</span> Checklist Before Submission</a></li>
   </ul>
 </nav>
     </div>
@@ -483,129 +477,217 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="overview" class="level2" data-number="7.1">
-<h2 data-number="7.1" class="anchored" data-anchor-id="overview"><span class="header-section-number">7.1</span> Overview</h2>
-<p>Weeks 13 and 14 focus on genome assembly, annotation review, comparative analysis, and connecting genomic results back to phenotype.</p>
-</section>
-<section id="purpose" class="level2" data-number="7.2">
-<h2 data-number="7.2" class="anchored" data-anchor-id="purpose"><span class="header-section-number">7.2</span> Purpose</h2>
-<ul>
-<li>Evaluate DNA sequencing results and microbial genome assemblies.</li>
-<li>Submit an assembly job to BV-BRC.</li>
-<li>Apply bioinformatics tools to assemble genomes and analyze predicted coding sequences.</li>
-</ul>
-</section>
-<section id="learning-outcomes" class="level2" data-number="7.3">
-<h2 data-number="7.3" class="anchored" data-anchor-id="learning-outcomes"><span class="header-section-number">7.3</span> Learning Outcomes</h2>
-<ul>
-<li>Explain the purpose of the bioinformatics tools and workflows used.</li>
-<li>Discuss the significance of genome assembly.</li>
-<li>Practice using web-based bioinformatics tools.</li>
-<li>Explore genome assemblies and annotations.</li>
-<li>Describe the workflow for microbial genome assembly.</li>
-<li>Collect and interpret genomic data in the context of phenotypic analyses.</li>
-<li>Revise the draft for the individual and group projects.</li>
-<li>Explain how this work contributes to the overall experimental goal.</li>
-</ul>
-</section>
-<section id="skills-and-knowledge" class="level2" data-number="7.4">
-<h2 data-number="7.4" class="anchored" data-anchor-id="skills-and-knowledge"><span class="header-section-number">7.4</span> Skills and Knowledge</h2>
-<section id="skills" class="level3" data-number="7.4.1">
-<h3 data-number="7.4.1" class="anchored" data-anchor-id="skills"><span class="header-section-number">7.4.1</span> Skills</h3>
-<ul>
-<li>Perform sequence-read quality review.</li>
-<li>Assemble microbial genomes.</li>
-<li>Annotate and explore genome content.</li>
-</ul>
-</section>
-<section id="knowledge" class="level3" data-number="7.4.2">
-<h3 data-number="7.4.2" class="anchored" data-anchor-id="knowledge"><span class="header-section-number">7.4.2</span> Knowledge</h3>
-<ul>
-<li>Steps required to assemble a microbial genome.</li>
-<li>Tools for filtering, assembly, annotation, and metabolic modeling.</li>
-<li>Cloud-based bioinformatics workflow submission.</li>
-</ul>
-</section>
-</section>
-<section id="task" class="level2" data-number="7.5">
-<h2 data-number="7.5" class="anchored" data-anchor-id="task"><span class="header-section-number">7.5</span> Task</h2>
-<p>Work in pairs to obtain, explore, and interpret genome data and then connect those results to the phenotypic evidence collected earlier in the course.</p>
-</section>
-<section id="criteria-for-success" class="level2" data-number="7.6">
-<h2 data-number="7.6" class="anchored" data-anchor-id="criteria-for-success"><span class="header-section-number">7.6</span> Criteria for Success</h2>
-<p>Successful completion requires use of BV-BRC and SeqHub, careful documentation of outputs, and a complete ELN entry.</p>
-</section>
-<section id="background" class="level2" data-number="7.7">
-<h2 data-number="7.7" class="anchored" data-anchor-id="background"><span class="header-section-number">7.7</span> Background</h2>
-<p>Students now use sequence data generated earlier in the course to compare isolates with <em>Delftia acidovorans</em> SPH-1 and other related genomes. The goal is to identify genetic features that explain observed growth and metabolic behavior.</p>
+<div class="slide-link">
+<p><a href="slides/module-07-slides.html" class="btn" target="_blank" rel="noopener noreferrer" aria-label="Open Module 7 slide deck in a new tab">View Slide Deck</a></p>
+</div>
+<section id="background" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="background"><span class="header-section-number">7.1</span> Background</h2>
+<p>Students now use sequence data generated earlier in the course to compare isolates with <em>Delftia acidovorans</em> SPH-1 and other related genomes. The goal is to identify genetic features that explain the observed phenotype.</p>
 <p>Figure <a href="#fig-module7-sequencing-overview" class="quarto-xref">Figure&nbsp;<span>7.1</span></a> is reused from the sequencing workflow to anchor where assembly, annotation, and comparative analysis fit into the broader pipeline.</p>
-<div id="fig-module7-sequencing-overview" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Workflow diagram showing how sequencing data moves into assembly, annotation, and comparative analysis.">
+<div id="fig-module7-sequencing-overview" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Workflow diagram showing how sequencing data feed into genome assembly and annotation.">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-module7-sequencing-overview-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/template/image4.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure&nbsp;7.1: Sequencing-analysis pipeline reused for genome assembly and comparative interpretation."><img src="images/template/image4.png" class="img-fluid figure-img" alt="Workflow diagram showing how sequencing data moves into assembly, annotation, and comparative analysis."></a>
+<a href="images/template/image4.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure&nbsp;7.1: Sequencing-analysis pipeline reused for genome assembly and comparative interpretation. Created with BioRender.com."><img src="images/template/image4.png" class="img-fluid figure-img" alt="Workflow diagram showing how sequencing data feed into genome assembly and annotation."></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-module7-sequencing-overview-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;7.1: Sequencing-analysis pipeline reused for genome assembly and comparative interpretation.
+Figure&nbsp;7.1: Sequencing-analysis pipeline reused for genome assembly and comparative interpretation. Created with BioRender.com.
 </figcaption>
 </figure>
 </div>
 </section>
-<section id="procedures" class="level2" data-number="7.8">
-<h2 data-number="7.8" class="anchored" data-anchor-id="procedures"><span class="header-section-number">7.8</span> Procedures</h2>
-<section id="lab-safety" class="level3" data-number="7.8.1">
-<h3 data-number="7.8.1" class="anchored" data-anchor-id="lab-safety"><span class="header-section-number">7.8.1</span> Lab Safety</h3>
+<section id="criteria-for-success" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="criteria-for-success"><span class="header-section-number">7.2</span> Criteria for Success</h2>
+<p>Successful completion requires use of BV-BRC and SeqHub, careful documentation of outputs, and a complete ELN entry.</p>
+</section>
+<section id="learning-outcomes" class="level2" data-number="7.3">
+<h2 data-number="7.3" class="anchored" data-anchor-id="learning-outcomes"><span class="header-section-number">7.3</span> Learning Outcomes</h2>
+<ol type="1">
+<li><strong>List</strong> safety considerations for extracting DNA from microbial isolates. <strong>(CO 3, 4, 5)</strong> 🥼</li>
+<li><strong>Explain</strong> the purpose of the bioinformatics tools and workflows used. <strong>(CO 3, 4, 5)</strong> 🥼</li>
+<li><strong>Discuss</strong> the significance of genome assembly. <strong>(CO 3, 4, 5)</strong> 🥼</li>
+<li><strong>Practice</strong> using web-based bioinformatics tools. <strong>(CO 3, 4, 5)</strong> 🥼</li>
+<li><strong>Practice</strong> exploring genome assemblies and gene annotations. <strong>(CO 3, 4, 5)</strong> 🥼</li>
+<li><strong>Describe</strong> the workflow for assembly of microbial genomes. <strong>(CO 2, 3, 8,9)</strong> 📁</li>
+<li><strong>Collect</strong> data from genome sequencing. <strong>(CO 6, 8)</strong> 📈</li>
+<li><strong>Interpret</strong> genomic data in the context of phenotypic analyses. <strong>(CO 6, 7,8)</strong> 📈</li>
+<li><strong>Revise</strong> the draft for your individual and group projects. <strong>(CO 3, 9)</strong> 🏅</li>
+<li><strong>Analyze</strong> how this experiment contributes to your overall experimental goal. <strong>(CO 1)</strong> 🤔</li>
+</ol>
+</section>
+<section id="skills-and-knowledge" class="level2" data-number="7.4">
+<h2 data-number="7.4" class="anchored" data-anchor-id="skills-and-knowledge"><span class="header-section-number">7.4</span> Skills and Knowledge</h2>
+<p>Completing this module will help you develop and practice the following skills and knowledge, which you can include in your curriculum vitae.</p>
+<p>&nbsp; <strong>Skills:</strong> This module helps you practice the following essential skills for molecular biologists using sequencing technologies. You will learn to analyze sequence data using several tools. After completing this lab, you will gain the following lab skills:</p>
+<ul>
+<li>Sequence read quality control (trimming/filtering) for long and short reads</li>
+<li>Microbial genome assembly</li>
+<li>Genome annotation and exploration</li>
+</ul>
+<p>&nbsp; <strong>Knowledge:</strong> This module will also help you become familiar with the following important content in microbial genomics lab settings:</p>
+<ul>
+<li>Understanding the steps required to assemble a microbial genome</li>
+<li>Familiarity with tools for read trimming/filtering, assembly, annotation, and metabolic modeling</li>
+<li>Understanding of cloud-based bioinformatics tool submission process</li>
+</ul>
+</section>
+<section id="procedures" class="level2" data-number="7.5">
+<h2 data-number="7.5" class="anchored" data-anchor-id="procedures"><span class="header-section-number">7.5</span> Procedures</h2>
+<section id="lab-safety" class="level3" data-number="7.5.1">
+<h3 data-number="7.5.1" class="anchored" data-anchor-id="lab-safety"><span class="header-section-number">7.5.1</span> Lab Safety</h3>
 <p>This is a bioinformatics lab.</p>
 </section>
-<section id="methods-data-analysis" class="level3" data-number="7.8.2">
-<h3 data-number="7.8.2" class="anchored" data-anchor-id="methods-data-analysis"><span class="header-section-number">7.8.2</span> Methods: Data Analysis</h3>
-<ul>
-<li>Access the shared BV-BRC workspace.</li>
-<li>Obtain the concatenated read files for your isolate.</li>
-<li>Run the Comprehensive Genome Analysis workflow with long-read and paired short-read data.</li>
-<li>Create an output folder labeled with the isolate name.</li>
-<li>Submit the job and monitor the results.</li>
-<li>Upload the assembled FASTA file to SeqHub.</li>
-</ul>
-</section>
-<section id="methods-genome-comparisons" class="level3" data-number="7.8.3">
-<h3 data-number="7.8.3" class="anchored" data-anchor-id="methods-genome-comparisons"><span class="header-section-number">7.8.3</span> Methods: Genome Comparisons</h3>
-<ul>
-<li>Use Similar Genome Finder in BV-BRC.</li>
-<li>Compare your isolate against representative and public genomes.</li>
-<li>Save the result tables and pie-chart images.</li>
-<li>Use the Genome Alignment workflow for follow-up comparisons.</li>
-</ul>
-</section>
-<section id="methods-annotation-review-and-genome-exploration" class="level3" data-number="7.8.4">
-<h3 data-number="7.8.4" class="anchored" data-anchor-id="methods-annotation-review-and-genome-exploration"><span class="header-section-number">7.8.4</span> Methods: Annotation Review and Genome Exploration</h3>
-<ul>
-<li>Review coding-sequence counts and other reported features.</li>
-<li>Record the most abundant functional assignments.</li>
-<li>Note whether plasmids or antibiotic-resistance genes were identified.</li>
-<li>Explore low-confidence annotations, hypothetical genes, predicted protein interactions, and genes of interest in SeqHub.</li>
-</ul>
-</section>
-<section id="protocol-notes" class="level3" data-number="7.8.5">
-<h3 data-number="7.8.5" class="anchored" data-anchor-id="protocol-notes"><span class="header-section-number">7.8.5</span> Protocol Notes</h3>
-<p>Record any mistakes, deviations, or isolate-specific observations.</p>
-</section>
-</section>
-<section id="results" class="level2" data-number="7.9">
-<h2 data-number="7.9" class="anchored" data-anchor-id="results"><span class="header-section-number">7.9</span> Results</h2>
-<p>Include tables, figures, charts, and screenshots generated from your assembly and annotation workflows.</p>
-</section>
-<section id="result-analysis" class="level2" data-number="7.10">
-<h2 data-number="7.10" class="anchored" data-anchor-id="result-analysis"><span class="header-section-number">7.10</span> Result Analysis</h2>
-<p>Explain how your isolate differs from the SPH-1 reference, how well the genomic data matches the phenotype, and what the assembly metrics suggest about data quality.</p>
-</section>
-<section id="discussion-questions" class="level2" data-number="7.11">
-<h2 data-number="7.11" class="anchored" data-anchor-id="discussion-questions"><span class="header-section-number">7.11</span> Discussion Questions</h2>
+<section id="methods-data-analysis" class="level3" data-number="7.5.2">
+<h3 data-number="7.5.2" class="anchored" data-anchor-id="methods-data-analysis"><span class="header-section-number">7.5.2</span> Methods: Data Analysis</h3>
 <ol type="1">
-<li>How did BV-BRC assemble your genome, and how good was the assembly?</li>
-<li>What factors affect genome assembly quality?</li>
-<li>What applications beyond research rely on gene prediction and annotation?</li>
-<li>What can predicted protein interaction networks contribute to your project?</li>
+<li>Create a free <a href="https://www.bv-brc.org/">BV-BRC.org</a> account. Share your username with your instructors: <a href="https://docs.google.com/spreadsheets/d/1lpaj0t5079yliPTzHsdgZJLTRco8sIU4es0Z-gK1eII/edit?usp=sharing">BV-BRC Usernames</a>.</li>
+<li>Access the sequences in our shared BV-BRC workspace.</li>
+<li>Obtain concatenated sequences for your isolate from the shared workspace.</li>
+<li>Follow the <a href="https://www.bv-brc.org/docs/tutorial/comprehensive_genome_analysis/comprehensive_genome_analysis.html">Comprehensive Genome Analysis Service tutorial: Comprehensive Genome Analysis (CGA) Service | BV-BRC</a>.</li>
+<li>Start a job to assemble and annotate your genome by:</li>
 </ol>
+<ol type="i">
+<li><p>Indicating the file(s) for your long-read Nanopore sequences (<strong>single read</strong>). If available, include the Nanopore data from each run.</p></li>
+<li><p>Indicate the files for your paired Illumina sequences (<strong>paired reads</strong>). There should be R1 and R2 files for your isolate.</p></li>
+<li><p>Leave the assembly parameters on <strong>auto</strong>.</p></li>
+</ol>
+<ol start="6" type="1">
+<li>Create an output folder in your BV-BRC workspace. Label the folder with your isolate’s name.</li>
+<li><strong>Submit the job on <a href="https://www.bv-brc.org/">bv-brc.org</a>.</strong></li>
+<li>Wait… ~30 min to overnight, depending on server load and data used for assembly.</li>
+<li>Create a free <a href="https://seqhub.org/">SeqHub</a> account.</li>
+<li>Upload the assembled genome FASTA file from <a href="https://www.bv-brc.org/">BV-BRC.org</a> Comprehensive Genome Analysis Service to annotate and explore in SeqHub.</li>
+</ol>
+</section>
+<section id="methods-genome-comparisons" class="level3" data-number="7.5.3">
+<h3 data-number="7.5.3" class="anchored" data-anchor-id="methods-genome-comparisons"><span class="header-section-number">7.5.3</span> Methods: Genome Comparisons</h3>
+<ol type="1">
+<li>Use BV-BRC to compare your genome to others in the database. For this, use the <strong>Similar Genome Finder</strong> tool. Review the <a href="https://www.bv-brc.org/docs/tutorial/similar_genome_finder/similar_genome_finder.html">tutorial</a> for this workflow.</li>
+<li>Select your isolate’s genome.</li>
+<li>Run the workflow and compare results using Reference and Representative Genomes and all Public Genomes.</li>
+<li>Save your results and pie chart images.</li>
+<li>Record the similar genomes you identified:</li>
+</ol>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Replace the note with your identified genomes.</p>
+</div>
+</div>
+<ol start="6" type="1">
+<li>Use the Genome Alignment tool to compare your isolate’s genome to one or more similar genomes you identified in the previous step. Review the <a href="https://www.bv-brc.org/docs/tutorial/genome_alignment/genome_alignment.html">tutorial</a> for this tool.</li>
+</ol>
+</section>
+<section id="methods-annotation-review-and-genome-exploration" class="level3" data-number="7.5.4">
+<h3 data-number="7.5.4" class="anchored" data-anchor-id="methods-annotation-review-and-genome-exploration"><span class="header-section-number">7.5.4</span> Methods: Annotation Review and Genome Exploration</h3>
+<ol type="1">
+<li>Use the results from the <strong>BV-BRC Comprehensive Genome Analysis</strong> service to review the annotation results.</li>
+<li>Select the <strong>annotation report</strong> and review the findings.</li>
+<li>Record the number of coding sequences (CDS) and other features found for your discussion.</li>
+<li>Record the top functional assignments of the genes identified.</li>
+</ol>
+<ol type="i">
+<li><p>What metabolic properties are most abundant? Record for your Discussion section.</p></li>
+<li><p>How do these findings relate to your Biolog GEN III phenotypic data? Record for your Discussion section.</p></li>
+</ol>
+<ol start="5" type="1">
+<li>Review the CGA report and note whether plasmids or antibiotic resistance genes were identified.</li>
+</ol>
+</section>
+<section id="methods-genome-exploration-with-seqhub" class="level3" data-number="7.5.5">
+<h3 data-number="7.5.5" class="anchored" data-anchor-id="methods-genome-exploration-with-seqhub"><span class="header-section-number">7.5.5</span> Methods: Genome Exploration with SeqHub</h3>
+<ol type="1">
+<li>Create a free SeqHub account.</li>
+<li>Review the features of this tool: <a href="https://seqhub.org/faq">Documentation</a> &amp; <a href="youtube.com/watch?v=H50FSLYy0CQ&amp;feature=youtu.be">Video</a> (7 min).</li>
+<li>Find the FASTA file for your genome in BV-BRC and download it.</li>
+<li>Upload the FASTA file to SeqHub.</li>
+<li>Explore the genome considering:</li>
+</ol>
+<ol type="i">
+<li><p>Low-confidence annotations. What are they? Are they novel genes?</p></li>
+<li><p>Hypothetical genes. What could they do? Are they similar to other sequences?</p></li>
+<li><p>Predicted Protein Interactions (PPI) tool. Are there protein interactions that are intriguing and could support your research question?</p></li>
+<li><p>AI Agent. What questions can you ask the agent to learn about the genomic potential of your isolate?</p></li>
+<li><p>Protein Folding. Are there proteins of interest that could be folded?</p></li>
+</ol>
+<ol start="6" type="1">
+<li>Use the (AI) agent to help you understand and search for genes.</li>
+<li>Which genes of interest did you identify? Why are they intriguing? Keep these answers in mind when writing your <strong>discussion section</strong>.</li>
+</ol>
+</section>
+</section>
+<section id="data-results" class="level2" data-number="7.6">
+<h2 data-number="7.6" class="anchored" data-anchor-id="data-results"><span class="header-section-number">7.6</span> Data/ Results</h2>
+<p>Include any tables, figures, images that you’ve generated from your data:</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Replace the note with your results; add images if applicable.</p>
+</div>
+</div>
+</section>
+<section id="result-analysis" class="level2" data-number="7.7">
+<h2 data-number="7.7" class="anchored" data-anchor-id="result-analysis"><span class="header-section-number">7.7</span> Result Analysis</h2>
+<p>Explain how your isolate differs from the SPH-1 reference, how well the genomic data matches the phenotype, and what the assembly metrics suggest about data quality.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Replace the note with your result analysis.</p>
+</div>
+</div>
+</section>
+<section id="discussion" class="level2" data-number="7.8">
+<h2 data-number="7.8" class="anchored" data-anchor-id="discussion"><span class="header-section-number">7.8</span> Discussion</h2>
+<ul>
+<li><p>How did BV-BRC assemble your genome? How “good” was your assembly? Hint: review the Assembly results folder from BV-BRC and note the number of contigs, their sizes, and any other relevant information.</p></li>
+<li><p>What factors can affect the quality of the assembled genome? Compared to other isolates sequenced, is your genome larger?</p></li>
+<li><p>Apart from research, what other applications are there for gene prediction and annotation?</p></li>
+<li><p>What can the Predicted Protein Interactions (PPI) network contribute to your research?</p></li>
+<li><p>Identify at least one change made to the lab protocol, whether intentional or accidental (e.g., wrong amount of reagent used, contamination, etc). How did, or could, this change/accident impact your final results?</p></li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Replace the note with your discussion.</p>
+</div>
+</div>
+</section>
+<section id="checklist-before-submission" class="level2" data-number="7.9">
+<h2 data-number="7.9" class="anchored" data-anchor-id="checklist-before-submission"><span class="header-section-number">7.9</span> Checklist Before Submission</h2>
+<ul class="task-list">
+<li><label><input type="checkbox">All sections completed</label></li>
+<li><label><input type="checkbox">Images pasted and labeled</label></li>
+<li><label><input type="checkbox">Discussion questions answered</label></li>
+<li><label><input type="checkbox">Reflection written</label></li>
+<li><label><input type="checkbox">Notebook saved and pushed to GitHub</label></li>
+</ul>
 
 
 </section>
@@ -697,7 +779,7 @@ Figure&nbsp;7.1: Sequencing-analysis pipeline reused for genome assembly and com
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/ccgoller\.github\.io\/mb360workbook\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.36">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -42,14 +45,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-87aed0b8589e23e45aa8556edf37a91b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-aa873432a3c62897e6c2091c0d30a948.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-87aed0b8589e23e45aa8556edf37a91b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-77a5896a02b4ad985511de0e21379b11.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-1186ef8162c3c73f68abd6432a9e86e2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-77a5896a02b4ad985511de0e21379b11.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -314,9 +317,6 @@ ul.task-list li input[type="checkbox"] {
         </a>
     </div>
   </nav>
-  <div id="quarto-announcement" data-announcement-id="af8f9b28e80c0a0ff55a7389dc14b3b7" class="alert alert-secondary hidden"><i class="bi bi-info-circle quarto-announcement-icon"></i><div class="quarto-announcement-content">
-<p><strong>Information</strong> - Please read Module 1 before proceeding.</p>
-</div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
@@ -357,7 +357,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./module-04.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Module 4: Microbial Metabolism</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Module 4: Microbial Metabolism: Biolog GEN III Characterization of Strains</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -435,26 +435,20 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview"><span class="header-section-number">5.1</span> Overview</a></li>
-  <li><a href="#purpose" id="toc-purpose" class="nav-link" data-scroll-target="#purpose"><span class="header-section-number">5.2</span> Purpose</a></li>
+  <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background"><span class="header-section-number">5.1</span> Background</a></li>
+  <li><a href="#criteria-for-success" id="toc-criteria-for-success" class="nav-link" data-scroll-target="#criteria-for-success"><span class="header-section-number">5.2</span> Criteria for success</a></li>
   <li><a href="#learning-outcomes" id="toc-learning-outcomes" class="nav-link" data-scroll-target="#learning-outcomes"><span class="header-section-number">5.3</span> Learning Outcomes</a></li>
-  <li><a href="#skills-and-knowledge" id="toc-skills-and-knowledge" class="nav-link" data-scroll-target="#skills-and-knowledge"><span class="header-section-number">5.4</span> Skills and Knowledge</a>
+  <li><a href="#skills-and-knowledge" id="toc-skills-and-knowledge" class="nav-link" data-scroll-target="#skills-and-knowledge"><span class="header-section-number">5.4</span> Skills and Knowledge</a></li>
+  <li><a href="#procedures" id="toc-procedures" class="nav-link" data-scroll-target="#procedures"><span class="header-section-number">5.5</span> Procedures</a>
   <ul class="collapse">
-  <li><a href="#skills" id="toc-skills" class="nav-link" data-scroll-target="#skills"><span class="header-section-number">5.4.1</span> Skills</a></li>
-  <li><a href="#knowledge" id="toc-knowledge" class="nav-link" data-scroll-target="#knowledge"><span class="header-section-number">5.4.2</span> Knowledge</a></li>
+  <li><a href="#lab-safety" id="toc-lab-safety" class="nav-link" data-scroll-target="#lab-safety"><span class="header-section-number">5.5.1</span> Lab Safety</a></li>
   </ul></li>
-  <li><a href="#task" id="toc-task" class="nav-link" data-scroll-target="#task"><span class="header-section-number">5.5</span> Task</a></li>
-  <li><a href="#criteria-for-success" id="toc-criteria-for-success" class="nav-link" data-scroll-target="#criteria-for-success"><span class="header-section-number">5.6</span> Criteria for Success</a></li>
-  <li><a href="#background" id="toc-background" class="nav-link" data-scroll-target="#background"><span class="header-section-number">5.7</span> Background</a></li>
-  <li><a href="#procedures" id="toc-procedures" class="nav-link" data-scroll-target="#procedures"><span class="header-section-number">5.8</span> Procedures</a>
+  <li><a href="#data-results" id="toc-data-results" class="nav-link" data-scroll-target="#data-results"><span class="header-section-number">5.6</span> Data/ Results</a>
   <ul class="collapse">
-  <li><a href="#lab-safety" id="toc-lab-safety" class="nav-link" data-scroll-target="#lab-safety"><span class="header-section-number">5.8.1</span> Lab Safety</a></li>
-  <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods"><span class="header-section-number">5.8.2</span> Methods</a></li>
-  <li><a href="#protocol-notes" id="toc-protocol-notes" class="nav-link" data-scroll-target="#protocol-notes"><span class="header-section-number">5.8.3</span> Protocol Notes</a></li>
+  <li><a href="#result-analysis" id="toc-result-analysis" class="nav-link" data-scroll-target="#result-analysis"><span class="header-section-number">5.6.1</span> Result Analysis</a></li>
   </ul></li>
-  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results"><span class="header-section-number">5.9</span> Results</a></li>
-  <li><a href="#result-analysis" id="toc-result-analysis" class="nav-link" data-scroll-target="#result-analysis"><span class="header-section-number">5.10</span> Result Analysis</a></li>
-  <li><a href="#discussion-questions" id="toc-discussion-questions" class="nav-link" data-scroll-target="#discussion-questions"><span class="header-section-number">5.11</span> Discussion Questions</a></li>
+  <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion"><span class="header-section-number">5.7</span> Discussion</a></li>
+  <li><a href="#checklist-before-submission" id="toc-checklist-before-submission" class="nav-link" data-scroll-target="#checklist-before-submission"><span class="header-section-number">5.8</span> Checklist Before Submission</a></li>
   </ul>
 </nav>
     </div>
@@ -481,126 +475,198 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="overview" class="level2" data-number="5.1">
-<h2 data-number="5.1" class="anchored" data-anchor-id="overview"><span class="header-section-number">5.1</span> Overview</h2>
-<p>Weeks 8 and 9 focus on co-culture experiments that examine how isolates interact through diffusion-mediated contact.</p>
+<div class="slide-link">
+<p><a href="slides/module-05-slides.html" class="btn" target="_blank" rel="noopener noreferrer" aria-label="Open Module 5 slide deck in a new tab">View Slide Deck</a></p>
+</div>
+<section id="background" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="background"><span class="header-section-number">5.1</span> Background</h2>
+<p>After characterizing individual growth and metabolism, this module asks how isolates behave in the presence of other organisms. The Cerillo Duet co-culture platform allows isolates to grow in adjacent chambers separated by a membrane that permits exchange of metabolites without direct mixing of cells.</p>
 </section>
-<section id="purpose" class="level2" data-number="5.2">
-<h2 data-number="5.2" class="anchored" data-anchor-id="purpose"><span class="header-section-number">5.2</span> Purpose</h2>
-<ul>
-<li>Evaluate microbial interactions through co-culture growth of different isolates.</li>
-<li>Observe growth while maintaining fluidic contact across a membrane.</li>
-<li>Analyze possible inhibition or facilitation patterns.</li>
-<li>Use pipettes to seed co-culture wells for growth assays.</li>
-<li>Apply the principles of the Cerillo Duet system to your research question.</li>
-</ul>
+<section id="criteria-for-success" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="criteria-for-success"><span class="header-section-number">5.2</span> Criteria for success</h2>
+<p>As scientists, we should strive for specificity and accuracy. To complete this module, you will need to participate in the in-lab activities, complete the co-culture assay setup tasks, obtain data to analyze, and complete your lab entry as described.</p>
 </section>
 <section id="learning-outcomes" class="level2" data-number="5.3">
 <h2 data-number="5.3" class="anchored" data-anchor-id="learning-outcomes"><span class="header-section-number">5.3</span> Learning Outcomes</h2>
-<ul>
-<li>List safety considerations for propagating microbes.</li>
-<li>Explain the purpose of Duet wells and co-culture assays.</li>
-<li>Discuss the significance of microbial fluid interactions.</li>
-<li>Practice diluting cultures to a target value.</li>
-<li>Seed wells consistently without contamination.</li>
-<li>Describe the purpose, methods, and preliminary results of co-culture experiments.</li>
-<li>Collect and interpret co-culture growth data.</li>
-<li>Revise the draft for the individual and group projects.</li>
-<li>Explain how the experiment contributes to the overall research goal.</li>
-</ul>
+<ol type="1">
+<li><strong>List</strong> safety considerations for propagating microbes. <strong>(CO 3, 4, 5)</strong> 🥼</li>
+<li><strong>Explain</strong> the purpose of the Duet wells/plates and co-culture assays. <strong>(CO 3, 4, 5)</strong> 🥼</li>
+<li><strong>Discuss</strong> the significance of microbial fluid interactions. <strong>(CO 3, 4, 5)</strong> 🥼</li>
+<li><strong>Practice</strong> diluting cultures to a desired value. <strong>(CO 3, 4, 5)</strong> 🥼</li>
+<li><strong>Practice</strong> consistently seeding wells without contamination. <strong>(CO 3, 4, 5)</strong> 🥼</li>
+<li><strong>Describe</strong> the purpose, methods, and preliminary results of your Duet Co-culture experiments. <strong>(CO 3, 8, 2,9)</strong> 📁</li>
+<li><strong>Collect</strong> co-culture growth data. <strong>(CO 6, 8)</strong> 📈</li>
+<li><strong>Interpret</strong> growth data from Duet co-culture plates. <strong>(CO 8, 6,7)</strong> 📈</li>
+<li><strong>Revise</strong> the draft for your individual and group projects. <strong>(CO 3, 9)</strong> 🏅</li>
+<li><strong>Analyze</strong> how this experiment contributes to your overall experimental goal. <strong>(CO 1)</strong> 🤔</li>
+</ol>
 </section>
 <section id="skills-and-knowledge" class="level2" data-number="5.4">
 <h2 data-number="5.4" class="anchored" data-anchor-id="skills-and-knowledge"><span class="header-section-number">5.4</span> Skills and Knowledge</h2>
-<section id="skills" class="level3" data-number="5.4.1">
-<h3 data-number="5.4.1" class="anchored" data-anchor-id="skills"><span class="header-section-number">5.4.1</span> Skills</h3>
+<p>Completing this module will help you develop and practice the following skills and knowledge, which you can include in your curriculum vitae.</p>
+<p>&nbsp; <strong>Skills:</strong> This module helps you practice the following essential skills for safe and effective lab work with microbial isolates. Additionally, you will learn to generate, visualize, and analyze bacterial co-culture data. After completing this lab, you will gain the following lab skills:</p>
 <ul>
-<li>Follow lab safety and PPE protocols.</li>
-<li>Use Cerillo vertical membrane co-culture systems correctly.</li>
-<li>Analyze co-culture growth data.</li>
+<li>Lab safety and proper personal protective equipment (PPE)</li>
+<li>Proper use of Cerillo’s vertical membrane co-culture and pipettors</li>
+<li>Analysis of growth data for co-cultures</li>
+</ul>
+<p>&nbsp; <strong>Knowledge:</strong> This module will also help you become familiar with the following important content in microbial genomics lab settings:</p>
+<ul>
+<li>Understanding PPE requirements for microbial work.</li>
+<li>Familiarity with co-cultures and growth assessment.</li>
+<li>Understanding microbial interactions.</li>
 </ul>
 </section>
-<section id="knowledge" class="level3" data-number="5.4.2">
-<h3 data-number="5.4.2" class="anchored" data-anchor-id="knowledge"><span class="header-section-number">5.4.2</span> Knowledge</h3>
+<section id="procedures" class="level2" data-number="5.5">
+<h2 data-number="5.5" class="anchored" data-anchor-id="procedures"><span class="header-section-number">5.5</span> Procedures</h2>
+<section id="lab-safety" class="level3" data-number="5.5.1">
+<h3 data-number="5.5.1" class="anchored" data-anchor-id="lab-safety"><span class="header-section-number">5.5.1</span> Lab Safety</h3>
+<section id="before-lab" class="level4" data-number="5.5.1.1">
+<h4 data-number="5.5.1.1" class="anchored" data-anchor-id="before-lab"><span class="header-section-number">5.5.1.1</span> Before Lab</h4>
 <ul>
-<li>PPE requirements for microbial work.</li>
-<li>Co-culture design and growth assessment.</li>
-<li>Microbial interaction concepts.</li>
+<li>Wear the correct PPE (lab coat, goggles, and gloves).</li>
+<li>Wipe the lab bench with 70% ethanol.</li>
+<li>Before working with microorganisms, carefully wipe pipettors with 70% ethanol.</li>
 </ul>
 </section>
-</section>
-<section id="task" class="level2" data-number="5.5">
-<h2 data-number="5.5" class="anchored" data-anchor-id="task"><span class="header-section-number">5.5</span> Task</h2>
-<p>Review the background and procedure information before lab and work with your partner to set up the co-culture assays and document results.</p>
-</section>
-<section id="criteria-for-success" class="level2" data-number="5.6">
-<h2 data-number="5.6" class="anchored" data-anchor-id="criteria-for-success"><span class="header-section-number">5.6</span> Criteria for Success</h2>
-<p>Successful completion requires participation in assay setup, collection of analyzable data, and a complete ELN record.</p>
-</section>
-<section id="background" class="level2" data-number="5.7">
-<h2 data-number="5.7" class="anchored" data-anchor-id="background"><span class="header-section-number">5.7</span> Background</h2>
-<p>After characterizing individual growth and metabolism, this module asks how isolates behave in the presence of other organisms. The Cerillo Duet co-culture platform allows isolates to grow in adjacent chambers separated by a membrane that permits exchange of metabolites without direct mixing of cells.</p>
-</section>
-<section id="procedures" class="level2" data-number="5.8">
-<h2 data-number="5.8" class="anchored" data-anchor-id="procedures"><span class="header-section-number">5.8</span> Procedures</h2>
-<section id="lab-safety" class="level3" data-number="5.8.1">
-<h3 data-number="5.8.1" class="anchored" data-anchor-id="lab-safety"><span class="header-section-number">5.8.1</span> Lab Safety</h3>
+<section id="during-lab" class="level4" data-number="5.5.1.2">
+<h4 data-number="5.5.1.2" class="anchored" data-anchor-id="during-lab"><span class="header-section-number">5.5.1.2</span> During Lab</h4>
 <ul>
-<li>Wear required PPE and clean benches and pipettors with 70% ethanol.</li>
-<li>Treat all tips as biohazards.</li>
-<li>Decontaminate liquids, glass, and work surfaces after lab.</li>
+<li>Treat all tips as potential biohazards.</li>
+<li>Remove your PPE if you are leaving the lab (water/bio break).</li>
+<li>Discard samples and disposable lab items in the correct trash bins.</li>
+<li>Try to keep personal items (computers, phones, etc.) usage to a minimum.</li>
 </ul>
 </section>
-<section id="methods" class="level3" data-number="5.8.2">
-<h3 data-number="5.8.2" class="anchored" data-anchor-id="methods"><span class="header-section-number">5.8.2</span> Methods</h3>
-<section id="what-was-prepared-in-advance" class="level4" data-number="5.8.2.1">
-<h4 data-number="5.8.2.1" class="anchored" data-anchor-id="what-was-prepared-in-advance"><span class="header-section-number">5.8.2.1</span> What Was Prepared in Advance</h4>
+<section id="after-lab" class="level4" data-number="5.5.1.3">
+<h4 data-number="5.5.1.3" class="anchored" data-anchor-id="after-lab"><span class="header-section-number">5.5.1.3</span> After Lab:</h4>
 <ul>
-<li>Overnight cultures of each isolate were started in 2.5 mL TSB and incubated at 30 C with shaking.</li>
+<li>Wipe your station with 70% alcohol.</li>
+<li>If you touched any personal items during the lab, wipe them with 70% ethanol before leaving.</li>
+<li>Dispose of gloves in the main biohazard waste container.</li>
+<li>Dispose of used petri dishes in the biohazard bin.</li>
+<li>All liquids containing bacteria must be poured into a beaker for bleach decontamination (can be found on the blue bench paper by this sink labeled “liquid”).</li>
+<li>Glass tubes can be placed into a beaker (on the blue bench paper by this sink, labeled “glass”).</li>
+<li>All bacterial growth plates can be thrown away in the biohazard trash.</li>
+<li>Return all reusable materials to our storage drawers.</li>
+<li>Wipe down all surfaces with ethanol.</li>
+<li>Remove PPE.</li>
+<li>Wash your hands.</li>
 </ul>
 </section>
-<section id="day-of-the-lab" class="level4" data-number="5.8.2.2">
-<h4 data-number="5.8.2.2" class="anchored" data-anchor-id="day-of-the-lab"><span class="header-section-number">5.8.2.2</span> Day of the Lab</h4>
+<section id="methods" class="level4" data-number="5.5.1.4">
+<h4 data-number="5.5.1.4" class="anchored" data-anchor-id="methods"><span class="header-section-number">5.5.1.4</span> Methods</h4>
+<p>What Was Prepared in Advance:</p>
+<ol type="1">
+<li>Start an overnight culture of your isolate in Tryptic Soy Broth (TSB, 2.5 mL per tube) by using a sterile loop to obtain one colony from an agar plate and inoculate TSB.</li>
+<li>Incubate with shaking at 30°C overnight.</li>
+</ol>
+</section>
+<section id="methods-day-of-the-lab" class="level4" data-number="5.5.1.5">
+<h4 data-number="5.5.1.5" class="anchored" data-anchor-id="methods-day-of-the-lab"><span class="header-section-number">5.5.1.5</span> Methods: Day of the Lab</h4>
 <p>Figure <a href="#fig-module5-duet-layout" class="quarto-xref">Figure&nbsp;<span>5.1</span></a> maps the isolate-only, control, and co-culture conditions across the Cerillo Duet platform.</p>
 <div id="fig-module5-duet-layout" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Diagram of a Cerillo Duet co-culture plate with paired chambers for controls and co-culture conditions.">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-module5-duet-layout-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/template/image14.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure&nbsp;5.1: Cerillo Duet co-culture layout with isolate-only, control, and co-culture conditions."><img src="images/template/image14.png" class="img-fluid figure-img" alt="Diagram of a Cerillo Duet co-culture plate with paired chambers for controls and co-culture conditions."></a>
+<a href="images/template/image14.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure&nbsp;5.1: Cerillo Duet co-culture layout with isolate-only, control, and co-culture conditions. Created with BioRender.com."><img src="images/template/image14.png" class="img-fluid figure-img" alt="Diagram of a Cerillo Duet co-culture plate with paired chambers for controls and co-culture conditions."></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-module5-duet-layout-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;5.1: Cerillo Duet co-culture layout with isolate-only, control, and co-culture conditions.
+Figure&nbsp;5.1: Cerillo Duet co-culture layout with isolate-only, control, and co-culture conditions. Created with BioRender.com.
 </figcaption>
 </figure>
 </div>
-<ol type="1">
-<li>Dilute the overnight culture 1:1000 into fresh TSB.</li>
-<li>Add 800 µL of diluted culture to triplicate wells for the isolate-only condition.</li>
-<li>Add 800 µL of TSB to the adjacent control wells.</li>
-<li>Add 800 µL of diluted SPH-1 to the paired experimental wells for co-culture.</li>
-<li>Seal the plate carefully.</li>
-<li>Incubate with shaking at 30 C for 24 to 48 hours.</li>
-<li>Analyze OD600 measurements collected every 5 minutes.</li>
+<ol start="3" type="1">
+<li>Obtain your liquid culture and dilute it <strong>1:1000</strong> into fresh Tryptic Soy Broth in a 15 mL tube with 10 mL of TSB.</li>
+</ol>
+<ol type="i">
+<li>For a 1:1000 dilution, you will need 10 mL of TSB and 10 µL <strong>of liquid culture.</strong></li>
+</ol>
+<ol start="4" type="1">
+<li>Carefully pipette <strong>800 µl of your diluted culture</strong> into triplicate wells.</li>
+</ol>
+<ol type="i">
+<li>Add <strong>800 µl of TSB</strong> to the adjacent wells. These will be your growth controls.</li>
+</ol>
+<ol start="5" type="1">
+<li>Carefully pipette <strong>800 µl of your diluted culture</strong> into triplicate wells.</li>
+</ol>
+<ol type="i">
+<li>Add <strong>800 µL of 1:1000-diluted SPH-1.</strong> These will be your <strong>co-culture experimental assays.</strong></li>
+</ol>
+<ol start="6" type="1">
+<li><p>Work carefully to prevent cross-contamination of wells.</p></li>
+<li><p>Once all wells are prepared, carefully seal the co-culture wells with sealing tape.</p></li>
+<li><p>Incubate with shaking at 30°C for 24-48 hours.</p></li>
+<li><p>OD measurements were recorded at 600 nm every 5 minutes. All experiments will be conducted in triplicate, with biological replicates.</p></li>
+<li><p>Obtain your data to plot and analyze growth curves.</p></li>
 </ol>
 </section>
 </section>
-<section id="protocol-notes" class="level3" data-number="5.8.3">
-<h3 data-number="5.8.3" class="anchored" data-anchor-id="protocol-notes"><span class="header-section-number">5.8.3</span> Protocol Notes</h3>
-<p>Record any mistakes, deviations, or strain-specific observations.</p>
 </section>
-</section>
-<section id="results" class="level2" data-number="5.9">
-<h2 data-number="5.9" class="anchored" data-anchor-id="results"><span class="header-section-number">5.9</span> Results</h2>
-<p>Add images of the co-culture plate and any figures generated from the growth data.</p>
-</section>
-<section id="result-analysis" class="level2" data-number="5.10">
-<h2 data-number="5.10" class="anchored" data-anchor-id="result-analysis"><span class="header-section-number">5.10</span> Result Analysis</h2>
+<section id="data-results" class="level2" data-number="5.6">
+<h2 data-number="5.6" class="anchored" data-anchor-id="data-results"><span class="header-section-number">5.6</span> Data/ Results</h2>
+<p>Paste a picture of your plate and any figures or images generated from your data:</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Replace the note with your results, add images if applicable.</p>
+</div>
+</div>
+<section id="result-analysis" class="level3" data-number="5.6.1">
+<h3 data-number="5.6.1" class="anchored" data-anchor-id="result-analysis"><span class="header-section-number">5.6.1</span> Result Analysis</h3>
 <p>Compare isolate-only growth to co-culture growth. Explain whether the second organism appeared to support, suppress, or otherwise reshape your isolate’s growth profile.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Replace the note with your result analysis.</p>
+</div>
+</div>
 </section>
-<section id="discussion-questions" class="level2" data-number="5.11">
-<h2 data-number="5.11" class="anchored" data-anchor-id="discussion-questions"><span class="header-section-number">5.11</span> Discussion Questions</h2>
-<ol type="1">
-<li>How can co-culture systems help researchers understand microbial behavior?</li>
-<li>What kinds of metabolites or resources might explain improved or reduced growth in co-culture?</li>
-</ol>
+</section>
+<section id="discussion" class="level2" data-number="5.7">
+<h2 data-number="5.7" class="anchored" data-anchor-id="discussion"><span class="header-section-number">5.7</span> Discussion</h2>
+<ul>
+<li><p>In which ways are co-cultures beneficial for research? Think about what co-cultures can tell us about an organism and its interactions with others.</p></li>
+<li><p>What factors can affect the growth of an organism? If your organism thrived in co-culture, what kind of beneficial metabolites might be diffusing across that membrane to help it thrive? If your organism did not thrive in co-culture, what metabolites/resources might be shared between both organisms?</p></li>
+<li><p>Identify at least one change made to the lab protocol, whether intentional or accidental (e.g., wrong amount of reagent used, contamination, etc). How did, or could, this change/accident impact your final results?</p></li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Replace the note with your discussion.</p>
+</div>
+</div>
+</section>
+<section id="checklist-before-submission" class="level2" data-number="5.8">
+<h2 data-number="5.8" class="anchored" data-anchor-id="checklist-before-submission"><span class="header-section-number">5.8</span> Checklist Before Submission</h2>
+<ul class="task-list">
+<li><label><input type="checkbox">All sections completed</label></li>
+<li><label><input type="checkbox">Images pasted and labeled</label></li>
+<li><label><input type="checkbox">Discussion questions answered</label></li>
+<li><label><input type="checkbox">Reflection written</label></li>
+<li><label><input type="checkbox">Notebook saved and pushed to GitHub</label></li>
+</ul>
 
 
 </section>
@@ -692,7 +758,7 @@ Figure&nbsp;5.1: Cerillo Duet co-culture layout with isolate-only, control, and 
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/ccgoller\.github\.io\/mb360workbook\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -1021,8 +1087,8 @@ Figure&nbsp;5.1: Cerillo Duet co-culture layout with isolate-only, control, and 
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./module-04.html" class="pagination-link" aria-label="Module 4: Microbial Metabolism">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Module 4: Microbial Metabolism</span></span>
+      <a href="./module-04.html" class="pagination-link" aria-label="Module 4:  Microbial Metabolism: Biolog GEN III Characterization of Strains">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Module 4: Microbial Metabolism: Biolog GEN III Characterization of Strains</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
