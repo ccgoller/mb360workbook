@@ -60,7 +60,7 @@ Knowledge
 
 ## Methods: Biofilm Viability Assay
 
-![Crystal violet staining layout for quantifying biofilm biomass in a 96-well plate.](../images/module-04/biolog-geniii-incubation-results.png){fig-alt="96-well plate diagram indicating wells used for biofilm staining with crystal violet." style="max-height:240px; display:block; margin:0 auto;"}
+![Crystal violet staining layout for quantifying biofilm biomass in a 96-well plate.](../images/module-03/96-wellplategrowthcurve.png){fig-alt="96-well plate diagram indicating wells used for biofilm staining with crystal violet." style="max-height:240px; display:block; margin:0 auto;"}
 
 1. Remove medium from static-growth wells at 24 h and 48 h time points
 2. Wash each well gently with **sterile PBS** (×2) to remove planktonic cells
