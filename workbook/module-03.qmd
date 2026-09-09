@@ -91,7 +91,7 @@ Review the protocol changes in the Slides for Module 3. Follow the protocol on t
 
 Figure @fig-module3-growth-layout provides a reusable 96-well template for mapping control wells and isolate conditions before loading the plate.
 
-![Blank 96-well plate layout for planning growth-curve wells and controls. Created with BioRender.com.](96-wellplatelayoutforgrowthcurves (1).png){#fig-module3-growth-layout fig-alt="Blank 96-well plate diagram for organizing growth-curve and control conditions."}
+![Blank 96-well plate layout for planning growth-curve wells and controls. Created with BioRender.com.](images/module-03/96-wellplatelayoutforgrowthcurves (1).png){#fig-module3-growth-layout fig-alt="Blank 96-well plate diagram for organizing growth-curve and control conditions."}
 
 6. Carefully seal the plate using Breathe-Easy seals to allow exchange of oxygen, carbon dioxide, and water vapors while preventing microbial/viral contamination and well-to-well cross-contamination. Follow this video on how to use Breathe-Easy: 
 
