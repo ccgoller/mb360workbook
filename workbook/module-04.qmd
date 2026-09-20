@@ -147,12 +147,11 @@ If using Breathe-Easy film, follow the video: {{< video https://www.youtube.com/
   i) A Time column
   ii) Well columns labeled A1 through H12
   iii) No metadata rows above the table
-3. Upload the .csv file to your respective Lab folder in your repository. Use the provided notebook to:
+3. Upload the .csv file to your respective Lab folder in your repository.
+You may use the code from Lab-3 to create graphs of your data; alternatively, your team can use Excel or any other data analysis methods to:  
   i) Validate the dataset structure
-  ii) Convert time to minutes
-  iii) Plot growth curves for all wells and isolates
-
-Run the code with your data to produce the results and charts necessary for results analysis.
+  ii) Plot growth curves for all wells and isolates
+  iii) Compare growth curves among wells 
 
 ::: {.callout-note}
 Replace the note with your results; add images if applicable.
