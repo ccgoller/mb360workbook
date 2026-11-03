@@ -4,7 +4,7 @@ numbered: false
 unnumbered: true
 number-sections: false
 about:
-  template: broadside
+  template: trestles
   image: images/about/carlos-goller-portrait.jpg
   image-shape: rounded
   links:
