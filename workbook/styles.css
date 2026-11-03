@@ -334,3 +334,22 @@ body.quarto-dark .slide-link a.btn:focus-visible {
   outline: 3px solid #1a1a1a;
   outline-offset: 2px;
 }
+.quarto-about-trestles .about-image {
+  width: 200px;
+  max-width: 100%;
+  height: auto;
+  max-height: 260px;
+  object-fit: cover;
+  margin: 0 auto 1rem;
+}
+
+.quarto-about-trestles .about-contents,
+.quarto-about-broadside .about-contents {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.quarto-about-broadside .about-image {
+  max-width: 200px;
+  height: auto;
+}
