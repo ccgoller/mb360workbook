@@ -338,8 +338,7 @@ body.quarto-dark .slide-link a.btn:focus-visible {
   width: 200px;
   max-width: 100%;
   height: auto;
-  max-height: 260px;
-  object-fit: cover;
+  object-fit: contain;
   margin: 0 auto 1rem;
 }
 
