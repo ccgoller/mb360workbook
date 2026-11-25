@@ -6,53 +6,41 @@ This knowledge check covers the key learning outcomes from Module 2: Microbial P
 
 When observing colony morphology on a TSA plate, which of the following should you do?
 
-- [x] Observe the colonies without opening the plate
+- [ ] Observe the colonies without opening the plate
 - [ ] Open the plate to get a closer look
 - [ ] Touch the colonies to feel their texture
 - [ ] Smell the plate to detect contamination
 
-:::{.callout-note}
-**Explanation:** To prevent contamination and maintain sterility, observe colonies with the plate closed. Photography with a black background helps document observations for analysis.
-:::
 
 ## Question 2: Bacterial Growth Stages
 
 What are the typical stages of bacterial growth on a growth curve?
 
 - [ ] Lag, exponential, stationary phases only
-- [x] Lag, exponential, stationary, and death phases
+- [ ] Lag, exponential, stationary, and death phases
 - [ ] Exponential and stationary phases only
 - [ ] Constant growth throughout
 
-:::{.callout-note}
-**Explanation:** A complete bacterial growth curve includes the lag phase (adaptation), exponential phase (rapid growth), stationary phase (growth plateau), and death phase (decline).
-:::
 
 ## Question 3: Sterilization Between Streaking Zones
 
 Why do we sterilize the loop between zones during streak plating?
 
 - [ ] To prevent the loop from getting too hot
-- [x] To dilute the bacterial population and obtain isolated colonies
+- [ ] To dilute the bacterial population and obtain isolated colonies
 - [ ] To clean off old bacteria before adding new ones
 - [ ] Because it's required by safety protocols
 
-:::{.callout-note}
-**Explanation:** Sterilizing between zones removes most of the bacteria from the loop, ensuring fewer cells are transferred to the next zone. This progressive dilution helps produce isolated single colonies.
-:::
 
 ## Question 4: Plate Labeling Best Practice
 
 According to the protocol, where should labels be placed on a culture plate and why?
 
 - [ ] Anywhere on the bottom
-- [x] Near the edge on the bottom so they don't obscure the agar surface
+- [ ] Near the edge on the bottom so they don't obscure the agar surface
 - [ ] On the lid of the plate
 - [ ] On both the top and bottom for redundancy
 
-:::{.callout-note}
-**Explanation:** Labels should be placed on the bottom of the plate near the edge. This allows full visibility of the agar surface while maintaining all necessary identification information.
-:::
 
 ## Question 5: Media Types
 
@@ -61,24 +49,18 @@ Which of the following is NOT a type of media discussed in Module 2?
 - [ ] Complex media
 - [ ] Defined media
 - [ ] Selective media
-- [x] Optically clear media
+- [ ] Optically clear media
 
-:::{.callout-note}
-**Explanation:** The module discusses complex, defined, selective, enriched, and differential media. While some media may be optically clear, this is not a standard classification type for the purpose of microbial culture.
-:::
 
 ## Question 6: Liquid Culture Inoculation
 
 What is the recommended temperature and shaking speed for incubating liquid cultures of *Delftia acidovorans* according to the protocol?
 
-- [x] 30°C with shaking at 200–250 RPM
+- [ ] 30°C with shaking at 200–250 RPM
 - [ ] 37°C with shaking at 150 RPM
 - [ ] Room temperature without shaking
 - [ ] 25°C with continuous vigorous shaking
 
-:::{.callout-note}
-**Explanation:** The protocol specifies 30°C incubation with shaking at 200–250 RPM. This temperature is appropriate for mesophilic environmental isolates like *Delftia acidovorans*.
-:::
 
 ---
 

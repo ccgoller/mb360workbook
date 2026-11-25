@@ -7,78 +7,60 @@ This knowledge check covers the key learning outcomes from Module 6: Microbial G
 What is the primary goal of the DNA extraction protocol in this module?
 
 - [ ] To identify all genes in the genome
-- [x] To obtain high-molecular-weight DNA from cells that is clean and suitable for sequencing
+- [ ] To obtain high-molecular-weight DNA from cells that is clean and suitable for sequencing
 - [ ] To measure bacterial cell count
 - [ ] To separate chromosomal from plasmid DNA
 
-:::{.callout-note}
-**Explanation:** The extraction protocol is designed to yield high-quality, high-molecular-weight genomic DNA free of proteins, RNA, and contaminants—essential for successful sequencing.
-:::
 
 ## Question 2: DNA Extraction Reagents
 
 What is the purpose of the lysis buffer in the DNA extraction protocol?
 
 - [ ] To kill the bacterial cells
-- [x] To rupture the cell membrane and cell wall, releasing cellular contents including DNA
+- [ ] To rupture the cell membrane and cell wall, releasing cellular contents including DNA
 - [ ] To precipitate proteins
 - [ ] To remove RNA specifically
 
-:::{.callout-note}
-**Explanation:** The lysis buffer breaks down cell membranes and walls, allowing access to the genomic DNA contained within. This is the first critical step in DNA extraction.
-:::
 
 ## Question 3: Why High-Molecular-Weight DNA?
 
 Why is high-molecular-weight DNA important for genome sequencing?
 
 - [ ] It sequences faster
-- [x] It indicates intact genomic DNA without degradation, which improves sequencing library quality and read length
+- [ ] It indicates intact genomic DNA without degradation, which improves sequencing library quality and read length
 - [ ] It is less expensive to sequence
 - [ ] It eliminates the need for assembly
 
-:::{.callout-note}
-**Explanation:** High-molecular-weight DNA means the genomic DNA is intact rather than fragmented. This produces better sequencing results and longer sequence reads.
-:::
 
 ## Question 4: Qubit Fluorometer Function
 
 What does the Qubit fluorometer measure?
 
 - [ ] DNA purity
-- [x] DNA concentration by using fluorescent dyes that bind to double-stranded DNA
+- [ ] DNA concentration by using fluorescent dyes that bind to double-stranded DNA
 - [ ] Protein concentration
 - [ ] Fragment size distribution
 
-:::{.callout-note}
-**Explanation:** The Qubit uses dyes that fluoresce when bound to double-stranded DNA. The fluorescence intensity is proportional to DNA concentration, giving a quick, accurate measurement.
-:::
 
 ## Question 5: DNA Purity Assessment
 
 After DNA extraction, you measure your sample at 260 nm and 280 nm using a spectrophotometer. A ratio of 1.8 is typically considered:
 
 - [ ] High protein contamination
-- [x] Good DNA purity with minimal protein contamination
+- [ ] Good DNA purity with minimal protein contamination
 - [ ] High salt contamination
 - [ ] The sample should be re-extracted
 
-:::{.callout-note}
-**Explanation:** A 260/280 ratio of approximately 1.8 indicates pure double-stranded DNA. Ratios significantly lower suggest protein contamination; higher ratios suggest RNA contamination.
-:::
 
 ## Question 6: Liquid vs. Solid Culture DNA
 
 Why do we extract DNA from liquid cultures rather than directly from agar plates?
 
 - [ ] It is faster
-- [x] Liquid cultures provide higher cell density and more consistent DNA yield compared to picking colonies from plates
+- [ ] Liquid cultures provide higher cell density and more consistent DNA yield compared to picking colonies from plates
 - [ ] It avoids contamination
 - [ ] There is no practical difference
 
-:::{.callout-note}
-**Explanation:** Overnight liquid cultures contain a higher density of cells than what can be practically harvested from agar. This yields more DNA with better quality and consistency.
-:::
 
 ---
 
