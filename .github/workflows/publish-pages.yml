@@ -29,6 +29,8 @@ jobs:
 
       - name: Install TinyTeX
         run: quarto install tinytex --no-prompt
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Render site
         run: quarto render
