@@ -1,19 +1,28 @@
-# Module 1 Knowledge Check
+---
+format:
+  html:
+    include-after-body:
+      text: |
+        <script src="knowledge-check.js" data-knowledge-check data-answers="2,2,1,2,2" defer></script>
+        <noscript><p>Enable JavaScript to select and submit answers. You can still review the questions below.</p></noscript>
+---
+
+# Module 1 Knowledge Check {.unnumbered}
 
 This knowledge check covers the key learning outcomes from Module 1: Getting Started. Test your understanding of pipetting techniques and volume measurement accuracy.
 
-## Question 1: Pipette Volume Accuracy
+## Question 1: Pipette Volume Practice
 
-What is the typical acceptable accuracy range for a micropipette according to the protocol?
+When combining four 4 µL additions into a single spot on the practice card, what total volume should you predict before testing recovery?
 
-- [ ] ±0.5%
-- [ ] ±2%
-- [ ] ±5%
-- [ ] ±10%
+- [ ] 4 µL
+- [ ] 16 µL
+- [ ] 8 µL
+- [ ] 20 µL
 
 ## Question 2: Serial Dilution Factor
 
-In the serial dilution protocol described in Module 1, what is the dilution factor used for each transfer?
+In the worked example in Module 1, 1 mL of inoculum is added to 9 mL of broth at each step. What is the dilution factor for each transfer?
 
 - [ ] 1:5
 - [ ] 1:10

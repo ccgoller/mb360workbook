@@ -15,11 +15,8 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -51,9 +48,53 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Upload artifact
+        id: artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: workbook/_book
+
+    outputs:
+      artifact_id: ${{ steps.artifact.outputs.artifact_id }}
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Wait for uploaded Pages artifact
+        uses: actions/github-script@v7
+        env:
+          ARTIFACT_ID: ${{ needs.build.outputs.artifact_id }}
+        with:
+          script: |
+            const artifactId = process.env.ARTIFACT_ID;
+            if (!artifactId) {
+              throw new Error("The build did not return a Pages artifact ID.");
+            }
+            for (let attempt = 1; attempt <= 12; attempt++) {
+              const artifacts = await github.paginate(
+                github.rest.actions.listWorkflowRunArtifacts,
+                { ...context.repo, run_id: context.runId, per_page: 100 }
+              );
+              if (artifacts.some(artifact =>
+                String(artifact.id) === artifactId &&
+                artifact.name === "github-pages" && !artifact.expired
+              )) {
+                core.info(`Pages artifact ${artifactId} is ready.`);
+                return;
+              }
+              core.info(`Pages artifact not visible yet (attempt ${attempt}/12).`);
+              if (attempt < 12) {
+                await new Promise(resolve => setTimeout(resolve, 5000));
+              }
+            }
+            throw new Error(`Pages artifact ${artifactId} was not visible after 12 checks.`);
 
       - name: Deploy to GitHub Pages
         id: deployment

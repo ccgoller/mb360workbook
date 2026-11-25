@@ -1,4 +1,13 @@
-# Module 3 Knowledge Check
+---
+format:
+  html:
+    include-after-body:
+      text: |
+        <script src="knowledge-check.js" data-knowledge-check data-answers="2,1,3,2,2,3" defer></script>
+        <noscript><p>Enable JavaScript to select and submit answers. You can still review the questions below.</p></noscript>
+---
+
+# Module 3 Knowledge Check {.unnumbered}
 
 This knowledge check covers the key learning outcomes from Module 3: Microbial Growth Curves. Test your understanding of static versus shaking growth, biofilms, and growth curve interpretation.
 
@@ -24,7 +33,7 @@ Which of the following is NOT a typical feature of a biofilm?
 
 ## Question 3: Growth Curve Interpretation
 
-If a bacterial culture shows no change in optical density for several hours, which phase of the growth curve is it in?
+After exponential growth, a bacterial culture's optical density reaches a plateau without declining for several hours. Which phase does this pattern most likely indicate?
 
 - [ ] Lag phase
 - [ ] Exponential phase

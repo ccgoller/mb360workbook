@@ -1,4 +1,13 @@
-# Module 5 Knowledge Check
+---
+format:
+  html:
+    include-after-body:
+      text: |
+        <script src="knowledge-check.js" data-knowledge-check data-answers="2,2,2,2,2,3" defer></script>
+        <noscript><p>Enable JavaScript to select and submit answers. You can still review the questions below.</p></noscript>
+---
+
+# Module 5 Knowledge Check {.unnumbered}
 
 This knowledge check covers the key learning outcomes from Module 5: Microbial Interactions. Test your understanding of co-culture assays and microbial interactions using Duet plates.
 

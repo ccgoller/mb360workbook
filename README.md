@@ -81,3 +81,26 @@ If you want a CI-equivalent full render that includes the downloadable PDF outpu
 GitHub Pages deployment is automated through GitHub Actions using:
 
 - [/.github/workflows/publish-pages.yml](.github/workflows/publish-pages.yml)
+
+The build job renders the book in all configured formats and the slide decks,
+then uploads the Pages artifact. A separate deployment job checks that the
+uploaded artifact is visible before publishing. If it remains unavailable after
+12 checks, the workflow fails explicitly rather than reporting a successful deployment.
+
+## Knowledge Checks
+
+Each module has a nested, unnumbered knowledge-check page with its existing URL.
+On the website, select an option and press **Submit answer** for each question.
+Feedback and the correct answer appear only after submission; changing the
+selection hides the previous feedback until you submit again.
+
+These are client-side practice activities, not secure assessments: answer keys
+are discoverable in the HTML source. JavaScript is required for submissions.
+PDF, EPUB, and DOCX downloads retain the questions without answer keys or
+interactive controls.
+
+Answer positions (one-based) are defined in each knowledge-check page's
+HTML-only script metadata. When editing questions, keep those positions aligned
+with the options. Render with `quarto render --to html` and confirm all eight
+pages have nested navigation, no preselected answers, and feedback that remains
+hidden until submission.
