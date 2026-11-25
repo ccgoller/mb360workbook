@@ -5,8 +5,6 @@ $mb360-primary-bright: #cc0000;
 $mb360-primary-deep: #6e0000;
 $mb360-ink: #1a1a1a;
 $mb360-muted: #595959;
-$mb360-accent: #fac800;    // workbook dark-mode primary / emphasis only
-$mb360-accent-soft: #fff2b3;
 $mb360-surface: #f8f4f4;
 $mb360-white: #ffffff;
 $mb360-border: #d4d4d4;
@@ -27,7 +25,7 @@ $heading3Size: 1.05em;
 $heading4Size: 0.92em;
 $linkColor: $mb360-primary;
 $linkColorHover: $mb360-primary-deep;
-$selectionBackgroundColor: rgba($mb360-accent, 0.35);
+$selectionBackgroundColor: #d4d4d4;
 $selectionColor: $mb360-ink;
 $codeFont: "JetBrains Mono", "Fira Code", Consolas, monospace;
 $blockMargin: 0.55em;
@@ -95,7 +93,6 @@ $borderRadius: 10px;
   }
 }
 
-.reveal .slides section[data-background-color="#1f4e79"],
 .reveal .slides section[data-background-color="#990000"] {
   color: $mb360-white;
 
@@ -117,13 +114,11 @@ $borderRadius: 10px;
   }
 }
 
-.reveal .slides section[data-background-color="#1f4e79"] .overview-summary,
 .reveal .slides section[data-background-color="#990000"] .overview-summary {
   color: $mb360-white;
   font-size: 0.9em;
 }
 
-.reveal .slides section[data-background-color="#1f4e79"] .overview-summary :is(p, li, strong, em),
 .reveal .slides section[data-background-color="#990000"] .overview-summary :is(p, li, strong, em) {
   color: inherit;
 }
@@ -229,7 +224,7 @@ $borderRadius: 10px;
   margin: 0.7em 0;
   padding: 0.6em 0.85em;
   background: $mb360-surface;
-  border-left: 6px solid $mb360-accent;
+  border-left: 6px solid $mb360-primary;
   border-radius: $borderRadius;
   color: $mb360-muted;
   box-shadow: none;
@@ -266,6 +261,7 @@ $borderRadius: 10px;
 .reveal .footer {
   color: $mb360-muted;
   font-size: 0.52em;
+  background: $mb360-white;
 }
 
 .reveal .slide-logo {
@@ -310,14 +306,26 @@ $borderRadius: 10px;
 }
 
 .reveal :is(a, button, .controls button):focus-visible {
-  outline: 3px solid $mb360-accent;
+  outline: 3px solid $mb360-white;
   outline-offset: 3px;
+  box-shadow: 0 0 0 6px $mb360-ink;
   border-radius: 0.2em;
 }
 
 // Fallback for browsers that do not yet support :focus-visible.
 .reveal a:focus,
 .reveal button:focus {
-  outline: 3px solid $mb360-accent;
+  outline: 3px solid $mb360-white;
   outline-offset: 3px;
+  box-shadow: 0 0 0 6px $mb360-ink;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal *,
+  .reveal *::before,
+  .reveal *::after {
+    transition-duration: 0s !important;
+    animation-duration: 0s !important;
+    animation-iteration-count: 1 !important;
+  }
 }

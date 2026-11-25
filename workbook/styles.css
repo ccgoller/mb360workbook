@@ -17,13 +17,29 @@ body.quarto-light {
 }
 
 .knowledge-check-question label {
-  display: block;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
   padding: 0.5rem;
   cursor: pointer;
 }
 
 .knowledge-check-question input {
-  margin-right: 0.5rem;
+  flex: 0 0 auto;
+  margin: 0.25rem 0 0;
+}
+
+.knowledge-check-question .btn-primary {
+  color: #ffffff;
+  background-color: #990000;
+  border-color: #990000;
+}
+
+.knowledge-check-question .btn-primary:hover,
+.knowledge-check-question .btn-primary:focus-visible {
+  color: #ffffff;
+  background-color: #cc0000;
+  border-color: #cc0000;
 }
 
 .knowledge-check-question label:focus-within {
