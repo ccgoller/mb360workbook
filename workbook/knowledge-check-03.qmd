@@ -1,0 +1,92 @@
+# Module 3 Knowledge Check
+
+This knowledge check covers the key learning outcomes from Module 3: Microbial Growth Curves. Test your understanding of static versus shaking growth, biofilms, and growth curve interpretation.
+
+## Question 1: Static vs. Shaking Growth
+
+What is the primary difference between static and shaking liquid culture growth?
+
+- [ ] Static growth uses agar; shaking uses liquid
+- [x] Static growth has limited oxygen and no agitation; shaking culture has continuous aeration and mixing
+- [ ] Static growth occurs at room temperature; shaking at 30°C
+- [ ] They produce identical results
+
+:::{.callout-note}
+**Explanation:** Shaking provides continuous oxygen availability and mixing, which typically results in faster and more uniform growth compared to static cultures with limited oxygen diffusion.
+:::
+
+## Question 2: Biofilm Characteristics
+
+Which of the following is NOT a typical feature of a biofilm?
+
+- [x] Individual planktonic cells
+- [ ] Extracellular matrix
+- [ ] Multiple cell layers
+- [ ] Reduced growth rate compared to planktonic cells
+
+:::{.callout-note}
+**Explanation:** Biofilms are communities of cells held together in an extracellular matrix. By definition, they are not individual planktonic cells—planktonic cells are the opposite of biofilm-associated cells.
+:::
+
+## Question 3: Growth Curve Interpretation
+
+If a bacterial culture shows no change in optical density for several hours, which phase of the growth curve is it in?
+
+- [ ] Lag phase
+- [ ] Exponential phase
+- [x] Stationary phase
+- [ ] Death phase
+
+:::{.callout-note}
+**Explanation:** The stationary phase is when growth rate equals death rate, resulting in no net change in cell density. The optical density plateaus during this phase.
+:::
+
+## Question 4: Multichannel Pipette Use
+
+What is an advantage of using a multichannel pipette for seeding a 96-well plate?
+
+- [ ] It is more accurate than a single-channel pipette
+- [x] It allows simultaneous transfer to multiple wells, saving time and improving consistency
+- [ ] It requires no calibration
+- [ ] It is easier to sterilize
+
+:::{.callout-note}
+**Explanation:** The multichannel pipette transfers to 8 or 12 wells simultaneously, significantly reducing pipetting time and improving consistency across the plate.
+:::
+
+## Question 5: Growth Curve Analysis
+
+You observe that your culture's optical density doubled every 20 minutes for 2 hours. Which phase are you observing?
+
+- [ ] Lag phase
+- [x] Exponential phase
+- [ ] Stationary phase
+- [ ] Death phase
+
+:::{.callout-note}
+**Explanation:** Regular doubling of density at consistent intervals is the hallmark of exponential (log) phase growth, when cells are dividing at their maximum rate.
+:::
+
+## Question 6: Contamination Detection
+
+How can you detect contamination in a 96-well plate growth assay?
+
+- [ ] Only by visual inspection
+- [ ] Only by measuring optical density
+- [x] By observing unexpected growth patterns, unusual colors, or turbidity in control wells
+- [ ] Contamination cannot be detected during the assay
+
+:::{.callout-note}
+**Explanation:** Contamination can appear as unexpected growth in negative controls, unusual optical density patterns, or visible cloudiness in control wells. Multiple detection methods together provide the best assessment.
+:::
+
+---
+
+**Review these learning outcomes to deepen your understanding:**
+
+- Explain the differences between static and shaking growth
+- Describe the features of biofilms
+- Discuss the significance of growth curves
+- Collect and interpret growth data
+
+**Next Steps:** If you found any questions challenging, revisit the growth curve analysis section and practice interpreting your experimental data.

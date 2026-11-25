@@ -1,0 +1,92 @@
+# Module 4 Knowledge Check
+
+This knowledge check covers the key learning outcomes from Module 4: Microbial Metabolism. Test your understanding of Biolog GEN III phenotypic characterization and metabolic profiling.
+
+## Question 1: Purpose of Biolog GEN III Plates
+
+What is the primary purpose of using Biolog GEN III MicroPlates?
+
+- [ ] To measure bacterial cell size
+- [x] To test bacterial growth across 94 different metabolic conditions and carbon sources simultaneously
+- [ ] To perform antibiotic sensitivity testing
+- [ ] To identify bacterial species through morphology
+
+:::{.callout-note}
+**Explanation:** Biolog GEN III plates contain 94 different carbon sources and metabolic tests in a single plate, allowing you to characterize the phenotypic capabilities of your isolate comprehensively.
+:::
+
+## Question 2: Turbidimeter Use
+
+What does a turbidimeter measure and why is it used in this protocol?
+
+- [ ] It measures the age of the bacterial culture
+- [x] It measures light transmittance to adjust bacterial cell density to a standard inoculum concentration
+- [ ] It detects genetic mutations
+- [ ] It identifies which nutrients the bacteria can use
+
+:::{.callout-note}
+**Explanation:** The turbidimeter measures optical density (transmittance), which reflects cell density. Adjusting to 95% transmittance ensures consistent inoculum density across the assay.
+:::
+
+## Question 3: Inoculum Preparation
+
+According to the protocol, what media is used to prepare the bacterial suspension for the Biolog plate?
+
+- [ ] TSB (Tryptic Soy Broth)
+- [x] IF-A inoculating fluid
+- [ ] BUG agar broth
+- [ ] Distilled water
+
+:::{.callout-note}
+**Explanation:** The protocol specifies IF-A inoculating fluid for preparing the cell suspension. Bacteria are grown on BUG agar first, then swabbed into IF-A for turbidimeter adjustment.
+:::
+
+## Question 4: Biolog Plate Volume
+
+How much inoculum is added to each well of the Biolog GEN III plate?
+
+- [ ] 50 µL
+- [x] 100 µL
+- [ ] 200 µL
+- [ ] 250 µL
+
+:::{.callout-note}
+**Explanation:** The protocol calls for 100 µL of adjusted inoculum per well, which is a standard volume for 96-well plate assays.
+:::
+
+## Question 5: Incubation Conditions
+
+Which of the following describes the incubation setup for Biolog plates in this protocol?
+
+- [ ] All plates incubated statically only
+- [x] One plate in the plate reader with continuous monitoring, one incubated statically at 33°C
+- [ ] All plates incubated with shaking
+- [ ] All plates at room temperature in the dark
+
+:::{.callout-note}
+**Explanation:** The dual incubation approach allows for real-time kinetic data collection in the plate reader while also maintaining a static backup plate for 1–2 days at 33°C.
+:::
+
+## Question 6: Metabolic Profile Interpretation
+
+If a well in the Biolog plate shows no color development (no growth), what does this indicate?
+
+- [ ] Contamination
+- [x] The bacterial isolate cannot metabolize that particular carbon source or condition
+- [ ] The plate was incubated incorrectly
+- [ ] A pipetting error occurred
+
+:::{.callout-note}
+**Explanation:** The dye in Biolog wells changes color in response to metabolic activity. Absence of color indicates no growth on that particular substrate, suggesting the isolate lacks the metabolic capability for that condition.
+:::
+
+---
+
+**Review these learning outcomes to deepen your understanding:**
+
+- Explain the purpose of GEN III Biolog plates and metabolic tests
+- Discuss the significance of growth curves
+- Practice using a turbidimeter
+- Collect and interpret growth data from Biolog GEN III plates
+
+**Next Steps:** If you found any questions challenging, revisit the Biolog plate interpretation section and practice analyzing growth patterns.
