@@ -1,0 +1,92 @@
+# Module 5 Knowledge Check
+
+This knowledge check covers the key learning outcomes from Module 5: Microbial Interactions. Test your understanding of co-culture assays and microbial interactions using Duet plates.
+
+## Question 1: Purpose of Co-culture Assays
+
+What is the primary purpose of using co-culture assays in this module?
+
+- [ ] To identify antibiotic resistance
+- [x] To investigate how microbial isolates interact when grown together in the same environment
+- [ ] To measure individual bacterial growth rates
+- [ ] To test metabolic capabilities one at a time
+
+:::{.callout-note}
+**Explanation:** Co-culture assays allow you to observe how organisms behave together—including competition, cooperation, or inhibition—rather than viewing them as individuals.
+:::
+
+## Question 2: Duet Plate Design
+
+What is unique about the Duet plate design compared to standard 96-well plates?
+
+- [ ] It has 384 wells instead of 96
+- [x] It has separated wells that allow two strains to grow in proximity but independently, with a diffusion barrier between them
+- [ ] It has temperature gradients across the wells
+- [ ] It has integrated oxygen sensors
+
+:::{.callout-note}
+**Explanation:** The Duet plate features a diffusion-based design that allows for volatile compound exchange and limited diffusion between strains while maintaining spatial separation.
+:::
+
+## Question 3: Culture Dilution
+
+Why is it important to dilute cultures to a consistent density before seeding Duet plates?
+
+- [ ] It reduces contamination risk
+- [x] It ensures that all wells start with comparable cell densities, making growth data comparable and interpretable
+- [ ] It slows bacterial growth
+- [ ] It prevents biofilm formation
+
+:::{.callout-note}
+**Explanation:** Standardized inoculum density ensures that differences in growth between co-cultures are due to interactions rather than differences in starting cell numbers.
+:::
+
+## Question 4: Microbial Fluid Interactions
+
+Which of the following is an example of microbial interaction in a co-culture?
+
+- [ ] Only competitive growth for nutrients
+- [x] Competition, cooperation, quorum sensing, or production of inhibitory compounds
+- [ ] Only cooperative growth
+- [ ] No interactions occur between different species
+
+:::{.callout-note}
+**Explanation:** Microbial interactions can include competition for resources, mutualistic cooperation, chemical signaling (quorum sensing), and production of antimicrobial or inhibitory compounds.
+:::
+
+## Question 5: Data Interpretation Challenge
+
+You observe that in a co-culture of Strain A and Strain B on Duet plates, Strain A grows well alone but shows reduced growth when co-cultured with Strain B. Strain B shows similar growth in both conditions. What does this suggest?
+
+- [ ] Strain B is growing better overall
+- [x] Strain B may be producing an inhibitory compound or competing for a critical resource that affects Strain A
+- [ ] The experiment failed
+- [ ] No interaction is occurring
+
+:::{.callout-note}
+**Explanation:** The differential response between strains—where one is affected and the other is not—suggests a directional interaction, possibly competition or inhibition by Strain B against Strain A.
+:::
+
+## Question 6: Well Contamination
+
+What is the most reliable way to detect contamination in Duet well assays?
+
+- [ ] Only visual inspection
+- [ ] Smell the plate
+- [x] Compare growth patterns to controls, observe unexpected turbidity or color changes in negative controls, and check for unexpected growth in wells that should be sterile
+- [ ] Measure only optical density
+
+:::{.callout-note}
+**Explanation:** Multiple assessment methods—including controls, visual inspection, and unexpected growth patterns—together provide the most reliable contamination detection.
+:::
+
+---
+
+**Review these learning outcomes to deepen your understanding:**
+
+- Explain the purpose of Duet wells/plates and co-culture assays
+- Discuss the significance of microbial fluid interactions
+- Practice consistently seeding wells without contamination
+- Collect and interpret growth data from Duet co-culture plates
+
+**Next Steps:** If you found any questions challenging, revisit the section on microbial interactions and practice analyzing your co-culture data.

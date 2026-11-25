@@ -1,0 +1,79 @@
+# Module 1 Knowledge Check
+
+This knowledge check covers the key learning outcomes from Module 1: Getting Started. Test your understanding of pipetting techniques and volume measurement accuracy.
+
+## Question 1: Pipette Volume Accuracy
+
+What is the typical acceptable accuracy range for a micropipette according to the protocol?
+
+- [ ] ±0.5%
+- [x] ±2%
+- [ ] ±5%
+- [ ] ±10%
+
+:::{.callout-note}
+**Explanation:** Pipettes are typically accurate to ±2%. This specification helps guide expectations for gravimetric analysis experiments.
+:::
+
+## Question 2: Serial Dilution Factor
+
+In the serial dilution protocol described in Module 1, what is the dilution factor used for each transfer?
+
+- [ ] 1:5
+- [x] 1:10
+- [ ] 1:100
+- [ ] Variable
+
+:::{.callout-note}
+**Explanation:** The module uses a 1:10 serial dilution, where each tube is diluted 10-fold from the previous. After five dilutions, the final concentration is 1/10^5 or 1/100,000.
+:::
+
+## Question 3: Micropipette Mixing
+
+When mixing two liquids in a micropipette tip, what is the correct procedure?
+
+- [x] Press only to the first stop when drawing up, then release slowly
+- [ ] Press all the way to the second stop each time
+- [ ] Press to the first stop, then to the second stop together
+- [ ] Use quick repeated motions to mix thoroughly
+
+:::{.callout-note}
+**Explanation:** To mix properly, press only to the first stop to draw the same volume back up. Repeat until mixed. Only press to the second stop at the end when finished dispensing.
+:::
+
+## Question 4: Serial Dilution Setup
+
+In the crystal violet serial dilution protocol, how many microliters of water are pipetted into each well of row A?
+
+- [ ] 25 µL
+- [x] 50 µL
+- [ ] 100 µL
+- [ ] 150 µL
+
+:::{.callout-note}
+**Explanation:** The protocol specifies 50 µL of water into each well in row A. The same volume of crystal violet solution is then added to well A1 for the dilution series.
+:::
+
+## Question 5: Drop Collection Practice
+
+When practicing the drop-collection exercise on the pipette practice card, what should you observe to assess pipetting consistency?
+
+- [ ] Only whether drops stay within the circles
+- [x] The relative uniformity of drop size and volume consistency across replicate transfers
+- [ ] The color intensity of the dye used
+- [ ] How quickly the drops evaporate
+
+:::{.callout-note}
+**Explanation:** Consistency in drop size indicates good pipetting technique. Comparing replicate drops of the same volume helps assess your precision and skill level.
+:::
+
+---
+
+**Review these learning outcomes to deepen your understanding:**
+
+- Explain how streak plating helps dilute bacteria
+- Identify the features of mechanical micropipettes
+- Collect and interpret pipetting data
+- Create a team charter and communication plan
+
+**Next Steps:** If you found any questions challenging, revisit those sections in Module 1 and practice the corresponding techniques in lab.
