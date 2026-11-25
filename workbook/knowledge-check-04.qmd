@@ -1,4 +1,13 @@
-# Module 4 Knowledge Check
+---
+format:
+  html:
+    include-after-body:
+      text: |
+        <script src="knowledge-check.js" data-knowledge-check data-answers="2,2,2,2,2,2" defer></script>
+        <noscript><p>Enable JavaScript to select and submit answers. You can still review the questions below.</p></noscript>
+---
+
+# Module 4 Knowledge Check {.unnumbered}
 
 This knowledge check covers the key learning outcomes from Module 4: Microbial Metabolism. Test your understanding of Biolog GEN III phenotypic characterization and metabolic profiling.
 
@@ -54,10 +63,10 @@ Which of the following describes the incubation setup for Biolog plates in this 
 
 ## Question 6: Metabolic Profile Interpretation
 
-If a well in the Biolog plate shows no color development (no growth), what does this indicate?
+If the controls perform as expected but a test well in the Biolog plate shows no color development, what does this suggest?
 
 - [ ] Contamination
-- [ ] The bacterial isolate cannot metabolize that particular carbon source or condition
+- [ ] No detectable metabolic activity for that carbon source or condition under the assay conditions
 - [ ] The plate was incubated incorrectly
 - [ ] A pipetting error occurred
 

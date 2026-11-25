@@ -1,4 +1,13 @@
-# Module 2 Knowledge Check
+---
+format:
+  html:
+    include-after-body:
+      text: |
+        <script src="knowledge-check.js" data-knowledge-check data-answers="1,2,2,2,4,1" defer></script>
+        <noscript><p>Enable JavaScript to select and submit answers. You can still review the questions below.</p></noscript>
+---
+
+# Module 2 Knowledge Check {.unnumbered}
 
 This knowledge check covers the key learning outcomes from Module 2: Microbial Propagation. Test your understanding of plate streaking, colony morphology, and bacterial culture propagation.
 
@@ -54,10 +63,10 @@ Which of the following is NOT a type of media discussed in Module 2?
 
 ## Question 6: Liquid Culture Inoculation
 
-What is the recommended temperature and shaking speed for incubating liquid cultures of *Delftia acidovorans* according to the protocol?
+What are the incubation conditions for the initial liquid cultures of *Delftia acidovorans* according to the protocol?
 
-- [ ] 30°C with shaking at 200–250 RPM
-- [ ] 37°C with shaking at 150 RPM
+- [ ] 30°C with shaking for 24 hours
+- [ ] 37°C with shaking for 24 hours
 - [ ] Room temperature without shaking
 - [ ] 25°C with continuous vigorous shaking
 

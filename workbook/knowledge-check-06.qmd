@@ -1,4 +1,13 @@
-# Module 6 Knowledge Check
+---
+format:
+  html:
+    include-after-body:
+      text: |
+        <script src="knowledge-check.js" data-knowledge-check data-answers="2,2,2,2,2,2" defer></script>
+        <noscript><p>Enable JavaScript to select and submit answers. You can still review the questions below.</p></noscript>
+---
+
+# Module 6 Knowledge Check {.unnumbered}
 
 This knowledge check covers the key learning outcomes from Module 6: Microbial Genome Sequencing. Test your understanding of DNA extraction, quantification, and preparation for sequencing.
 

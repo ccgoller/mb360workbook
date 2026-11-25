@@ -7,6 +7,35 @@ body.quarto-light {
   --bs-link-hover-color-rgb: 153, 0, 0;
 }
 
+.knowledge-check-question fieldset {
+  margin-bottom: 1rem;
+}
+
+.knowledge-check-question .task-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.knowledge-check-question label {
+  display: block;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.knowledge-check-question input {
+  margin-right: 0.5rem;
+}
+
+.knowledge-check-question label:focus-within {
+  outline: 2px solid var(--bs-link-color);
+  outline-offset: 2px;
+}
+
+.knowledge-check-feedback {
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
 body.quarto-dark {
   --bs-primary: #fac800;
   --bs-primary-rgb: 250, 200, 0;

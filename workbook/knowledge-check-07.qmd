@@ -1,4 +1,13 @@
-# Module 7 Knowledge Check
+---
+format:
+  html:
+    include-after-body:
+      text: |
+        <script src="knowledge-check.js" data-knowledge-check data-answers="2,2,2,2,2,2" defer></script>
+        <noscript><p>Enable JavaScript to select and submit answers. You can still review the questions below.</p></noscript>
+---
+
+# Module 7 Knowledge Check {.unnumbered}
 
 This knowledge check covers the key learning outcomes from Module 7: Data Analysis and Experimental Design. Test your understanding of bioinformatics tools, genome assembly, and data interpretation.
 
@@ -7,7 +16,7 @@ This knowledge check covers the key learning outcomes from Module 7: Data Analys
 What is the primary purpose of genome assembly in bioinformatics?
 
 - [ ] To identify all proteins in the cell
-- [ ] To reconstruct a complete or nearly complete genome from short sequencing reads
+- [ ] To reconstruct a complete or nearly complete genome from sequencing reads
 - [ ] To identify contaminating sequences
 - [ ] To measure gene expression levels
 
