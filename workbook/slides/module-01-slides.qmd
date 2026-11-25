@@ -25,7 +25,7 @@ format:
     include-after-body: slide-accessibility.html
 ---
 
-## Module 1: Getting Started {.title-slide data-background-color="#1f4e79"}
+## Module 1: Getting Started {.title-slide data-background-color="#990000"}
 
 <p class="slide-subtitle">MB 360: Scientific Inquiry in Microbiology At the Bench</p>
 

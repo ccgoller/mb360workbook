@@ -25,13 +25,13 @@ format:
     include-after-body: slide-accessibility.html
 ---
 
-## Module 4: Microbial Metabolism {.title-slide data-background-color="#1f4e79"}
+## Module 4: Microbial Metabolism {.title-slide data-background-color="#990000"}
 
 <p class="slide-subtitle">MB 360: Scientific Inquiry in Microbiology At the Bench</p>
 
 <p class="slide-meta">MB 360 Lab Workbook<br>NC State University | Department of Biological Sciences</p>
 
-## Overview {data-background-color="#1f4e79"}
+## Overview {data-background-color="#990000"}
 
 :::{.overview-summary}
 **Weeks 6–7** · Biolog GEN III phenotypic characterization · Growth measurements · Metabolic interpretation
