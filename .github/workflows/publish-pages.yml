@@ -28,6 +28,8 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Install TinyTeX
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: quarto install tinytex --no-prompt
 
       - name: Render site
