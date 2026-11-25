@@ -7,13 +7,9 @@ This knowledge check covers the key learning outcomes from Module 1: Getting Sta
 What is the typical acceptable accuracy range for a micropipette according to the protocol?
 
 - [ ] ±0.5%
-- [x] ±2%
+- [ ] ±2%
 - [ ] ±5%
 - [ ] ±10%
-
-:::{.callout-note}
-**Explanation:** Pipettes are typically accurate to ±2%. This specification helps guide expectations for gravimetric analysis experiments.
-:::
 
 ## Question 2: Serial Dilution Factor
 
