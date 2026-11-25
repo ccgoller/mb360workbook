@@ -7,78 +7,60 @@ This knowledge check covers the key learning outcomes from Module 8: Share Your 
 When designing your capstone experiment, what is the most important consideration?
 
 - [ ] Using the most expensive equipment available
-- [x] Formulating a clear research question that connects to your earlier experiments and can be answered with available methods
+- [ ] Formulating a clear research question that connects to your earlier experiments and can be answered with available methods
 - [ ] Conducting as many replicates as possible
 - [ ] Choosing the most difficult procedure
 
-:::{.callout-note}
-**Explanation:** A well-defined research question guides every aspect of experimental design, from hypotheses to methods to data analysis. It is the foundation of scientific inquiry.
-:::
 
 ## Question 2: Reproducibility and Consistency
 
 Throughout this course, you have repeated techniques multiple times. Why is this emphasis on reproducibility important?
 
 - [ ] To waste time
-- [x] To demonstrate that your results are reliable and not due to chance; consistent results indicate sound technique and methodology
+- [ ] To demonstrate that your results are reliable and not due to chance; consistent results indicate sound technique and methodology
 - [ ] Because lab time must be filled
 - [ ] Only the first attempt is scientifically valid
 
-:::{.callout-note}
-**Explanation:** Reproducibility—the ability to obtain similar results across multiple independent trials—is a cornerstone of scientific validity and builds confidence in conclusions.
-:::
 
 ## Question 3: Integrating Multiple Data Types
 
 Your capstone project involves phenotypic (Biolog), growth curve, and genomic data. Why integrate all three data types?
 
 - [ ] To confuse readers
-- [x] To provide multiple independent lines of evidence supporting your conclusions; different data types answer different questions about your isolate
+- [ ] To provide multiple independent lines of evidence supporting your conclusions; different data types answer different questions about your isolate
 - [ ] They are redundant; only one is necessary
 - [ ] To increase the page count of your report
 
-:::{.callout-note}
-**Explanation:** Triangulation using multiple data sources strengthens conclusions. Phenotypic data shows metabolic capabilities; growth data reveals kinetics; genomic data reveals genetic potential and evolutionary relationships.
-:::
 
 ## Question 4: Communicating Scientific Results
 
 What is the primary audience for scientific communication of your results?
 
 - [ ] Only your instructor
-- [x] Other researchers and educators who need to understand your findings and methods to evaluate and build upon your work
+- [ ] Other researchers and educators who need to understand your findings and methods to evaluate and build upon your work
 - [ ] Only people in your lab
 - [ ] Social media followers
 
-:::{.callout-note}
-**Explanation:** Scientific communication should be clear, complete, and accurate enough that others can understand your work, evaluate your methods, and potentially reproduce or extend your findings.
-:::
 
 ## Question 5: Limitations and Future Directions
 
 An important part of scientific communication is discussing limitations of your study. Which of the following is a valid limitation?
 
 - [ ] The experiment was hard to do
-- [x] We only tested three carbon sources instead of all 94; conclusions may not apply to other conditions
+- [ ] We only tested three carbon sources instead of all 94; conclusions may not apply to other conditions
 - [ ] We didn't have enough time
 - [ ] The technique was not interesting
 
-:::{.callout-note}
-**Explanation:** Valid limitations describe scope constraints (which conditions were tested?), sample size, methodology constraints, or external factors that could affect generalization of results.
-:::
 
 ## Question 6: Linking Results to Broader Concepts
 
 Throughout this course, you have studied microbial metabolism, genomics, and interactions. When presenting your capstone results, how should you connect them to these broader concepts?
 
 - [ ] They should not be connected; focus only on your isolate
-- [x] Discuss how your isolate's characteristics fit into microbial biology, ecology, or biotechnology applications; explain why your findings matter beyond the lab
+- [ ] Discuss how your isolate's characteristics fit into microbial biology, ecology, or biotechnology applications; explain why your findings matter beyond the lab
 - [ ] Only discuss equipment used
 - [ ] Connect to random topics
 
-:::{.callout-note}
-**Explanation:** Placing your findings in context—explaining their significance to broader microbiology—demonstrates understanding and helps readers appreciate the importance of your work.
-:::
 
 ---
 

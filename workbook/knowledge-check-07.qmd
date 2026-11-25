@@ -7,78 +7,60 @@ This knowledge check covers the key learning outcomes from Module 7: Data Analys
 What is the primary purpose of genome assembly in bioinformatics?
 
 - [ ] To identify all proteins in the cell
-- [x] To reconstruct a complete or nearly complete genome from short sequencing reads
+- [ ] To reconstruct a complete or nearly complete genome from short sequencing reads
 - [ ] To identify contaminating sequences
 - [ ] To measure gene expression levels
 
-:::{.callout-note}
-**Explanation:** Genome assembly algorithms take overlapping sequence reads and computationally stitch them together to recreate the original genome sequence.
-:::
 
 ## Question 2: Significance of Assembly Quality
 
 Why is high-quality genome assembly important for downstream analysis?
 
 - [ ] It makes analysis faster only
-- [x] It ensures accurate gene annotations, predictions of gene function, and reliable evolutionary comparisons
+- [ ] It ensures accurate gene annotations, predictions of gene function, and reliable evolutionary comparisons
 - [ ] Assembly quality does not matter for downstream analysis
 - [ ] Only the total number of reads matters
 
-:::{.callout-note}
-**Explanation:** High-quality assemblies have fewer gaps and misassemblies, leading to more accurate identification of genes and their functions, which is essential for meaningful analysis.
-:::
 
 ## Question 3: Gene Annotation
 
 What is gene annotation in the context of genome analysis?
 
 - [ ] Adding notes to lab notebook entries
-- [x] The process of identifying genes and predicting their functions from genomic sequence data
+- [ ] The process of identifying genes and predicting their functions from genomic sequence data
 - [ ] Coloring genes on a map
 - [ ] Measuring how genes are expressed
 
-:::{.callout-note}
-**Explanation:** Gene annotation involves computational and manual identification of genes, their locations, their structure, and predictions of their biological function.
-:::
 
 ## Question 4: Web-Based Bioinformatics Tools
 
 Which of the following is an advantage of using web-based bioinformatics platforms for genome analysis?
 
 - [ ] They require no bioinformatics knowledge
-- [x] They provide accessible analysis without requiring personal installation of complex software; suitable for educational and preliminary analyses
+- [ ] They provide accessible analysis without requiring personal installation of complex software; suitable for educational and preliminary analyses
 - [ ] They are always faster than local analysis
 - [ ] They eliminate the need to understand your data
 
-:::{.callout-note}
-**Explanation:** Web-based tools lower the barrier to entry for bioinformatics analysis, making sophisticated tools accessible to researchers without extensive computational infrastructure.
-:::
 
 ## Question 5: Phylogenetic Analysis
 
 If you perform a phylogenetic analysis of your isolate's genome and find it clusters with a known species, what does this suggest?
 
 - [ ] Your isolate is definitely that species
-- [x] Your isolate is likely closely related to that species evolutionarily; additional analysis is needed for definitive identification
+- [ ] Your isolate is likely closely related to that species evolutionarily; additional analysis is needed for definitive identification
 - [ ] The analysis failed
 - [ ] No conclusion can be drawn
 
-:::{.callout-note}
-**Explanation:** Phylogenetic positioning provides strong evidence of evolutionary relationship, but formal species identification typically requires additional characteristics beyond genome sequence similarity.
-:::
 
 ## Question 6: Integrating Phenotypic and Genomic Data
 
 Why is it valuable to combine phenotypic data (from Biolog plates) with genomic data in your analysis?
 
 - [ ] To fill time
-- [x] To connect observable characteristics with genetic potential and identify genes responsible for specific phenotypes
+- [ ] To connect observable characteristics with genetic potential and identify genes responsible for specific phenotypes
 - [ ] They provide redundant information
 - [ ] Only one type of data is necessary
 
-:::{.callout-note}
-**Explanation:** Phenotypic data shows what the organism actually does under test conditions; genomic data shows what it has the genetic capacity to do. Together, they provide a complete picture.
-:::
 
 ---
 
