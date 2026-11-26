@@ -463,4 +463,12 @@ body.quarto-dark .slide-link a.btn:focus-visible {
   #quarto-header .navbar .navbar-collapse .dropdown-item {
     white-space: normal;
   }
+
+  /* The navbar menus already cover every chapter on small screens, so drop
+     the collapsed-sidebar bar Quarto adds under the navbar to avoid a
+     duplicate menu row. */
+  #quarto-header .quarto-secondary-nav,
+  #quarto-sidebar-glass {
+    display: none !important;
+  }
 }
