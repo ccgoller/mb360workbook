@@ -26,72 +26,73 @@ book:
 
   navbar:
     left:
-      - icon: book
-        href: index.qmd
-        text: "Home"
+      - text: "Modules"
+        menu:
+        - text: "Module 1: Getting Started"
+          href: module-01.qmd
+        - text: "Module 2: Microbial Propagation"
+          href: module-02.qmd
+        - text: "Module 3: Microbial Growth Curves"
+          href: module-03.qmd
+        - text: "Module 4: Microbial Metabolism"
+          href: module-04.qmd
+        - text: "Module 5: Microbial Interactions"
+          href: module-05.qmd
+        - text: "Module 6: Microbial Genome Sequencing"
+          href: module-06.qmd
+        - text: "Module 7: Data Analysis and Experimental Design"
+          href: module-07.qmd
+        - text: "Module 8: Share Your Results"
+          href: module-08.qmd
+      - text: "Knowledge Checks"
+        menu:
+        - text: "Knowledge Check 1: Getting Started"
+          href: knowledge-check-01.qmd
+        - text: "Knowledge Check 2: Microbial Propagation"
+          href: knowledge-check-02.qmd
+        - text: "Knowledge Check 3: Microbial Growth Curves"
+          href: knowledge-check-03.qmd
+        - text: "Knowledge Check 4: Microbial Metabolism"
+          href: knowledge-check-04.qmd
+        - text: "Knowledge Check 5: Microbial Interactions"
+          href: knowledge-check-05.qmd
+        - text: "Knowledge Check 6: Microbial Genome Sequencing"
+          href: knowledge-check-06.qmd
+        - text: "Knowledge Check 7: Data Analysis and Experimental Design"
+          href: knowledge-check-07.qmd
+        - text: "Knowledge Check 8: Share Your Results"
+          href: knowledge-check-08.qmd
+      - text: "Slides"
+        menu:
+        - text: "Module 1 Slides"
+          href: slides/module-01-slides.html
+        - text: "Module 2 Slides"
+          href: slides/module-02-slides.html
+        - text: "Module 3 Slides"
+          href: slides/module-03-slides.html
+        - text: "Module 4 Slides"
+          href: slides/module-04-slides.html
+        - text: "Module 5 Slides"
+          href: slides/module-05-slides.html
+        - text: "Module 6 Slides"
+          href: slides/module-06-slides.html
+        - text: "Module 7 Slides"
+          href: slides/module-07-slides.html
+        - text: "Module 8 Slides"
+          href: slides/module-08-slides.html
+      - text: "Resources"
+        menu:
+        - text: "Supplies and Reagents"
+          href: appendix-supplies-reagents.qmd
+        - text: "References"
+          href: references.qmd
+        - text: "Figures Index"
+          href: figures.qmd
+        - text: "About the Authors"
+          href: about.qmd
   sidebar:
     logo: MB360logo-transparent.png
     title: "MB 360 Lab Workbook"
-
-    contents:
-      - text: "Workbook Home"
-        href: index.qmd
-      - text: "Modules"
-        contents:
-          - text: "Module 1: Getting Started"
-            href: module-01.qmd
-            contents:
-              - text: "Knowledge Check 1"
-                href: knowledge-check-01.qmd
-          - text: "Module 2: Microbial Propagation"
-            href: module-02.qmd
-            contents:
-              - text: "Knowledge Check 2"
-                href: knowledge-check-02.qmd
-          - text: "Module 3: Microbial Growth Curves"
-            href: module-03.qmd
-            contents:
-              - text: "Knowledge Check 3"
-                href: knowledge-check-03.qmd
-          - text: "Module 4: Microbial Metabolism"
-            href: module-04.qmd
-            contents:
-              - text: "Knowledge Check 4"
-                href: knowledge-check-04.qmd
-          - text: "Module 5: Microbial Interactions"
-            href: module-05.qmd
-            contents:
-              - text: "Knowledge Check 5"
-                href: knowledge-check-05.qmd
-          - text: "Module 6: Microbial Genome Sequencing"
-            href: module-06.qmd
-            contents:
-              - text: "Knowledge Check 6"
-                href: knowledge-check-06.qmd
-          - text: "Module 7: Data Analysis and Experimental Design"
-            href: module-07.qmd
-            contents:
-              - text: "Knowledge Check 7"
-                href: knowledge-check-07.qmd
-          - text: "Module 8: Share Your Results"
-            href: module-08.qmd
-            contents:
-              - text: "Knowledge Check 8"
-                href: knowledge-check-08.qmd
-      - text: "Appendix"
-        contents:
-          - text: "Supplies and Reagents"
-            href: appendix-supplies-reagents.qmd
-      - text: "References"
-        href: references.qmd
-      - text: "About the Authors"
-        contents:
-          - text: "Carlos C. Goller"
-            href: about.qmd
-          - text: "Camila Loyola"
-            href: about-camila.qmd
-      - text: "Figures Index"
-        href: figures.qmd
 
   title: "MB 360 Lab Workbook"
   subtitle: "MB 360: Scientific Inquiry in Microbiology At the Bench | Microbial Metabolism and Genomics"
