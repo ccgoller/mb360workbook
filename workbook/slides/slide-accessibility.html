@@ -13,22 +13,6 @@
         slides.setAttribute("aria-label", `${deckTitle} slide deck`);
       }
 
-      const generatedTitleSlide = document.getElementById("title-slide");
-      if (generatedTitleSlide?.classList.contains("quarto-title-block")) {
-        generatedTitleSlide.remove();
-      }
-
-      const titleHeading = document.querySelector(".reveal .slides section.title-slide h2");
-      if (titleHeading) {
-        const topHeading = document.createElement("h1");
-        topHeading.innerHTML = titleHeading.innerHTML;
-        topHeading.className = titleHeading.className;
-        if (titleHeading.id) {
-          topHeading.id = titleHeading.id;
-        }
-        titleHeading.replaceWith(topHeading);
-      }
-
       const footer = document.querySelector(".reveal .footer");
       if (footer) {
         footer.setAttribute("role", "contentinfo");

@@ -67,10 +67,11 @@ From the `workbook/` directory of the cloned repository:
 - Preview an individual slide deck while editing: `quarto preview slides/module-01-slides.qmd`
 - Open a generated deck from `_book/slides/`, for example `_book/slides/module-01-slides.html`
 - The shared accessible RevealJS theme for module decks lives in `workbook/slides/theme-mb360.scss`
+- The title slide for every deck is generated from `workbook/slides/title-slide.html` (module title, logo, subtitle, authors); set the module title in each deck's YAML `title`
 
 Quick accessibility/rendering checks for each deck:
 
-- Confirm the first visible slide is the intended title slide (no extra blank Quarto title slide)
+- Confirm the first visible slide is the red title slide showing the module title and MB 360 logo
 - Tab through links and slide controls to verify visible focus indicators
 - Verify dark-background slides keep high-contrast text and informative image alt text
 
