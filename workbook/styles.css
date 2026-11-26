@@ -411,3 +411,56 @@ body.quarto-dark .slide-link a.btn:focus-visible {
   max-width: 200px;
   height: auto;
 }
+
+/* Keep the navigation menus visible on phones/tablets instead of hiding
+   them behind the hamburger toggle. */
+@media (max-width: 991.98px) {
+  #quarto-header .navbar .navbar-toggler {
+    display: none;
+  }
+
+  #quarto-header .navbar .navbar-collapse {
+    display: flex !important;
+    flex-basis: 100%;
+    height: auto !important;
+    position: relative;
+  }
+
+  #quarto-header .navbar .navbar-collapse .navbar-nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.15rem 0.25rem;
+    width: 100%;
+    max-height: none;
+    overflow: visible;
+  }
+
+  #quarto-header .navbar .navbar-collapse .nav-item.dropdown {
+    position: static;
+  }
+
+  #quarto-header .navbar .navbar-collapse .nav-item {
+    display: inline-block;
+  }
+
+  #quarto-header .navbar .navbar-collapse .nav-link {
+    padding: 0.35rem 0.6rem;
+    font-size: 0.95rem;
+    white-space: nowrap;
+  }
+
+  /* Open menus as a full-width panel directly under the menu row. */
+  #quarto-header .navbar .navbar-collapse .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    width: auto;
+    max-height: 70vh;
+    overflow-y: auto;
+  }
+
+  #quarto-header .navbar .navbar-collapse .dropdown-item {
+    white-space: normal;
+  }
+}
