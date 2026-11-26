@@ -6,6 +6,7 @@ number-sections: false
 about:
   template: trestles
   image: images/about/carlos-goller-portrait.jpg
+  image-alt: "Portrait of Carlos C. Goller"
   image-shape: rounded
   links:
     - icon: linkedin

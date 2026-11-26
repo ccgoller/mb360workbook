@@ -1,7 +1,7 @@
 # Module 3: Microbial Growth Curves
 
 :::{.slide-link}
-[View Slide Deck](slides/module-03-slides.html){.btn target="_blank" rel="noopener noreferrer" aria-label="Open Module 3 slide deck in a new tab"}
+[View Slide Deck](slides/module-03-slides.html){.btn target="_blank" rel="noopener noreferrer" aria-label="View Slide Deck for Module 3 (opens in a new tab)"}
 :::
 
 ## Background
@@ -99,7 +99,7 @@ Figure @fig-module3-growth-layout provides a reusable 96-well template for mappi
 
 6. Carefully seal the plate using Breathe-Easy seals to allow exchange of oxygen, carbon dioxide, and water vapors while preventing microbial/viral contamination and well-to-well cross-contamination. Follow this video on how to use Breathe-Easy: 
 
-{{< video https://www.youtube.com/watch?v=rk_F4fURBMU >}}
+{{< video https://www.youtube.com/watch?v=rk_F4fURBMU title="How to apply Breathe-Easy sealing film to a microplate" >}}
 
 7. Label the side of the plate with your **team name, group number, Delftia isolate, and date.**
 8. Gently place the plate in the Agilent LogPhase600 plate reader, verifying that position A1 is on the top right. Ensure it is locked into position.

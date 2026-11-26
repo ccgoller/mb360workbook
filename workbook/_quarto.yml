@@ -92,6 +92,7 @@ book:
           href: about.qmd
   sidebar:
     logo: MB360logo-transparent.png
+    logo-alt: "MB 360 Lab Workbook home"
     title: "MB 360 Lab Workbook"
 
   title: "MB 360 Lab Workbook"
@@ -143,6 +144,8 @@ format:
       light: default
       dark: darkly
     css: styles.css
+    number-sections: false
+    include-after-body: a11y-enhancements.html
     lightbox: true
     page-footer:
       center: "MB 360 Lab Workbook | Carlos C. Goller, Ph.D."

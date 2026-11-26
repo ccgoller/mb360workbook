@@ -1,7 +1,7 @@
 # Module 1: Getting Started
 
 :::{.slide-link}
-[View Slide Deck](slides/module-01-slides.html){.btn target="_blank" rel="noopener noreferrer" aria-label="Open Module 1 slide deck in a new tab"}
+[View Slide Deck](slides/module-01-slides.html){.btn target="_blank" rel="noopener noreferrer" aria-label="View Slide Deck for Module 1 (opens in a new tab)"}
 :::
 
 ![Micropipette volume display used for introductory pipetting practice. Created with BioRender.com.](images/module-01/micropipette-volume-display.png){#fig-module1-pipette fig-alt="Illustration of a micropipette with the volume display highlighted."}
@@ -12,18 +12,18 @@
 - Pipette several 5 µL drops and compare them for consistency.
 - Combine four 4 µL additions into a single spot, predict the total volume, then test whether you can recover it fully.
 
-### Methods: Volume Challenge
+## Methods: Volume Challenge
 
 Your instructor will provide blue-, yellow-, and red-dyed water. Use the Pipette Practice Card to complete the transfer-and-mixing exercise.
 
-#### Mixing With a Micropipette
+### Mixing With a Micropipette
 
 - When adding a second liquid to a dot, press only to the first stop.
 - Release slowly to draw the same volume back up.
 - Repeat until the colors are mixed evenly.
 - Finish by pressing to the second stop and removing the tip cleanly.
 
-#### Instructions
+### Instructions
 
 1. Add 13.5 µL of blue dye to dot A.
 2. Add 17.5 µL of yellow dye to dot C.
@@ -36,7 +36,7 @@ Your instructor will provide blue-, yellow-, and red-dyed water. Use the Pipette
 9. Mix 3.5 µL from dot A into dot B.
 10. Mix 5 µL from dot C into dot D.
 
-### Protocol Notes
+## Protocol Notes
 
 Record any mistakes, deviations, or adjustments made during the experiment.
 

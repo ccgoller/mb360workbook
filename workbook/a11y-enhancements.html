@@ -1,0 +1,80 @@
+<script>
+  (() => {
+    // Skip link must be the first focusable element; Quarto's include-before-body
+    // lands inside <main>, so insert it at the top of <body> instead.
+    if (!document.querySelector(".skip-link")) {
+      const skip = document.createElement("a");
+      skip.className = "skip-link visually-hidden-focusable";
+      skip.href = "#quarto-document-content";
+      skip.textContent = "Skip to main content";
+      document.body.prepend(skip);
+    }
+    const main = document.getElementById("quarto-document-content");
+    if (main && !main.hasAttribute("tabindex")) main.setAttribute("tabindex", "-1");
+
+    const enhance = () => {
+      document.querySelectorAll(".aa-DetachedSearchButton:not([aria-label])").forEach((btn) => {
+        btn.setAttribute("aria-label", "Search this book");
+      });
+      document.querySelectorAll('.aa-Autocomplete[role="combobox"]:not([aria-label])').forEach((box) => {
+        box.setAttribute("aria-label", "Search this book");
+      });
+      document.querySelectorAll(".aa-Input:not([aria-label])").forEach((input) => {
+        input.setAttribute("aria-label", "Search this book");
+      });
+
+      // Give repeated landmarks distinguishable names.
+      const landmarks = [
+        ["#quarto-header .navbar", "Site navigation"],
+        ["#quarto-sidebar", "Book chapters"],
+        ["#TOC", "On this page"],
+        [".quarto-secondary-nav", "Chapter navigation"],
+        [".page-navigation", "Previous and next chapter"],
+      ];
+      landmarks.forEach(([selector, label]) => {
+        const node = document.querySelector(selector);
+        if (node && !node.getAttribute("aria-label")) node.setAttribute("aria-label", label);
+      });
+
+      // About pages render the title block and image outside <main>, which
+      // creates a second banner landmark and orphaned content.
+      const about = document.querySelector('[class^="quarto-about-"]');
+      if (about) {
+        const header = about.querySelector("header#title-block-header");
+        const aboutMain = about.querySelector("main#quarto-document-content");
+        if (header && aboutMain && header.nextElementSibling === aboutMain) {
+          aboutMain.prepend(header);
+        } else if (header && !header.getAttribute("role")) {
+          header.setAttribute("role", "group");
+          header.setAttribute("aria-label", "Page title");
+        }
+        about.querySelectorAll(".about-entity:not([role])").forEach((entity) => {
+          if (entity.children.length === 0) {
+            entity.setAttribute("aria-hidden", "true");
+            return;
+          }
+          entity.setAttribute("role", "complementary");
+          entity.setAttribute("aria-label", "Author photo and links");
+        });
+      }
+
+      // Quarto 1.6 drops sidebar.logo-alt from the rendered sidebar logo.
+      document.querySelectorAll(".sidebar-logo-link").forEach((link) => {
+        if (!link.getAttribute("aria-label")) link.setAttribute("aria-label", "MB 360 Lab Workbook home");
+      });
+
+      // Prev/next links: include the visible text in the accessible name.
+      document.querySelectorAll(".page-navigation .pagination-link[aria-label]").forEach((link) => {
+        const visible = link.querySelector(".nav-page-text")?.textContent.trim().replace(/\s+/g, " ");
+        if (!visible) return;
+        const direction = link.closest(".nav-page-previous") ? "Previous" : link.closest(".nav-page-next") ? "Next" : "";
+        link.setAttribute("aria-label", direction ? `${direction}: ${visible}` : visible);
+      });
+    };
+
+    enhance();
+    const observer = new MutationObserver(enhance);
+    observer.observe(document.body, { childList: true, subtree: true });
+    window.addEventListener("load", () => setTimeout(() => observer.disconnect(), 5000));
+  })();
+</script>

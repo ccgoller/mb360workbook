@@ -1,7 +1,7 @@
 # Module 4:  Microbial Metabolism: Biolog GEN III Characterization of Strains
 
 :::{.slide-link}
-[View Slide Deck](slides/module-04-slides.html){.btn target="_blank" rel="noopener noreferrer" aria-label="Open Module 4 slide deck in a new tab"}
+[View Slide Deck](slides/module-04-slides.html){.btn target="_blank" rel="noopener noreferrer" aria-label="View Slide Deck for Module 4 (opens in a new tab)"}
 :::
 
 ## Background
@@ -140,7 +140,7 @@ Figure @fig-module4-biolog-incubation shows the expected appearance of an inocul
 
 ![Biolog GEN III plate after incubation with visible growth response. Created with BioRender.com.](images/module-04/biolog-geniii-incubation-results.png){#fig-module4-biolog-incubation fig-alt="Illustration of a Biolog GEN III plate after incubation with visible growth."}
 
-If using Breathe-Easy film, follow the video: {{< video https://www.youtube.com/watch?v=rk_F4fURBMU >}}
+If using Breathe-Easy film, follow the video: {{< video https://www.youtube.com/watch?v=rk_F4fURBMU title="How to apply Breathe-Easy sealing film to a microplate" >}}
 
 ## Data/ Results
 
