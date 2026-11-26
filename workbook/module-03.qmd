@@ -1,5 +1,9 @@
 # Module 3: Microbial Growth Curves
 
+:::{.slide-link}
+[View Slide Deck](slides/module-03-slides.html){.btn target="_blank" rel="noopener noreferrer" aria-label="Open Module 3 slide deck in a new tab"}
+:::
+
 ## Background
 
 This module compares growth and biofilm formation in *Delftia acidovorans*, *Delftia tsuruhatensis*, and student isolates while maintaining strong contamination control.
