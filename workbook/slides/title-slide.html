@@ -1,0 +1,16 @@
+<section id="$idprefix$title-slide" class="title-slide"$for(title-slide-attributes/pairs)$ $it.key$="$it.value$"$endfor$>
+$if(logo)$
+  <img class="title-logo" src="$logo$" alt="MB 360 Lab Workbook logo">
+$endif$
+  <p class="title-kicker">MB 360 Lab Workbook</p>
+  <h1 class="title">$title$</h1>
+$if(subtitle)$
+  <p class="subtitle">$subtitle$</p>
+$endif$
+$if(author)$
+  <p class="author">$for(author)$$author$$sep$ &middot; $endfor$</p>
+$endif$
+$for(institute)$
+  <p class="institute">$institute$</p>
+$endfor$
+</section>
