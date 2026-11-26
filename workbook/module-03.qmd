@@ -6,7 +6,7 @@
 
 ## Background
 
-This module compares growth and biofilm formation in *Delftia acidovorans*, *Delftia tsuruhatensis*, and student isolates while maintaining strong contamination control.
+This module compares growth and biofilm formation in *Delftia acidovorans* [@wen1999delftia], *Delftia tsuruhatensis* [@shigematsu2003tsuruhatensis], and student isolates while maintaining strong contamination control. Growth curves follow the classic lag, exponential, and stationary phases described by @monod1949growth, and growth rates can be estimated from optical density data [@hall2014growthrates]. Biofilms are structured, surface-attached communities that behave differently from planktonic cells [@flemming2016biofilms]; we quantify them with a microtiter-plate assay [@otoole2011biofilm; @dojindo_b603].
 
 ## Criteria for Success
 
@@ -102,13 +102,13 @@ Figure @fig-module3-growth-layout provides a reusable 96-well template for mappi
 {{< video https://www.youtube.com/watch?v=rk_F4fURBMU >}}
 
 7. Label the side of the plate with your **team name, group number, Delftia isolate, and date.**
-8. Gently place the plate in the Agilent LogPhase600 plate reader, verifying that position A1 is on the top right. Ensure it is locked into position.
+8. Gently place the plate in the Agilent LogPhase600 plate reader [@agilent_logphase600], verifying that position A1 is on the top right. Ensure it is locked into position.
 9. Note the position (1-4) of your plate and wait for the instructors to start growth curves at 30°C with shaking for 48 hours.
 10. Instructors will share with you the spreadsheet with absorbance readings at 600 nm and time points when the run finishes.
 
 ### Methods: Biofilm Assay Setup
 
-For biofilm formation and viability, we will use the Dojindo Biofilm Viability Assay B603:
+For biofilm formation and viability, we will use the Dojindo Biofilm Viability Assay B603 [@dojindo_b603]:
 
 1. For “seeding” your plate, take your overnight cultures and prepare **1:1000 dilutions** as follows:
 

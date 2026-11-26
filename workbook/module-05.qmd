@@ -6,7 +6,7 @@
 
 ## Background
 
-After characterizing individual growth and metabolism, this module asks how isolates behave in the presence of other organisms. The Cerillo Duet co-culture platform allows isolates to grow in adjacent chambers separated by a membrane that permits exchange of metabolites without direct mixing of cells.
+After characterizing individual growth and metabolism, this module asks how isolates behave in the presence of other organisms. The Cerillo Duet co-culture platform [@cerillo_duet] allows isolates to grow in adjacent chambers separated by a membrane that permits exchange of metabolites without direct mixing of cells. Defined pairs of bacteria, including *D. acidovorans* SPH-1, have long been used to study how metabolic exchange shapes community function [@schleheck2004sph1].
 
 ## Criteria for success 
 

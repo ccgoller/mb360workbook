@@ -50,7 +50,7 @@ You should complete the solid- and liquid-media propagation tasks, collect obser
 
 ## Background
 
-Our lab experiments will use the bacterium *Delftia acidovorans*. Since we will work with environmental isolates that may be naturally antibiotic-resistant, we want to minimize exposure and contain any potential biohazards. We will work with several different isolates. Each group will characterize one isolate.
+Our lab experiments will use the bacterium *Delftia acidovorans* [@wen1999delftia], including the reference strain SPH-1 [@schleheck2004sph1]. Since we will work with environmental isolates that may be naturally antibiotic-resistant, we want to minimize exposure and contain any potential biohazards. We will work with several different isolates. Each group will characterize one isolate.
 
 ## Procedures
 

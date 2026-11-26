@@ -1,4 +1,6 @@
 # References {.unnumbered}
 
+This page lists the primary literature, protocols, and tools cited throughout the workbook. In-text citations in each module link to the entries below.
+
 ::: {#refs}
 :::

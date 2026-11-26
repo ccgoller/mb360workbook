@@ -6,7 +6,7 @@
 
 ## Background
 
-Students now use sequence data generated earlier in the course to compare isolates with *Delftia acidovorans* SPH-1 and other related genomes. The goal is to identify genetic features that explain the observed phenotype.
+Students now use sequence data generated earlier in the course to compare isolates with *Delftia acidovorans* SPH-1 and other related genomes. The goal is to identify genetic features that explain the observed phenotype. The BV-BRC Comprehensive Genome Analysis service [@olson2023bvbrc] assembles long reads with Flye [@kolmogorov2019flye], evaluates assembly quality with QUAST [@gurevich2013quast], and annotates genomes with RASTtk [@brettin2015rasttk]. The Similar Genome Finder uses Mash distances [@ondov2016mash], and the Genome Alignment tool is built on progressiveMauve [@darling2010progressivemauve]. Annotated genomes can then be explored interactively in SeqHub [@seqhub].
 
 Figure @fig-module7-sequencing-overview is reused from the sequencing workflow to anchor where assembly, annotation, and comparative analysis fit into the broader pipeline.
 

@@ -6,7 +6,7 @@
 
 ## Background
 
-Biolog Blood Universal Growth agar and GEN III MicroPlates make it possible to test bacterial growth across many environmental and chemical conditions at once. The plate uses metabolic dye chemistry to report growth and biochemical activity across up to 94 tests.
+Biolog Blood Universal Growth agar and GEN III MicroPlates make it possible to test bacterial growth across many environmental and chemical conditions at once. The plate uses metabolic dye chemistry to report growth and biochemical activity across up to 94 tests [@biolog_geniii]. This phenotype microarray approach was developed to characterize bacterial metabolism at high throughput [@bochner2001phenotype; @bochner2009phenotypic].
 
 Figure @fig-module4-biolog-layout shows the overall GEN III plate layout used to interpret the phenotypic results.
 

@@ -6,7 +6,7 @@
 
 ## Background
 
-This module connects phenotype to genotype by sequencing the genome of the isolate. DNA is extracted using the NO-MISS workflow and analyzed with Oxford Nanopore sequencing and downstream genome assembly tools.
+This module connects phenotype to genotype by sequencing the genome of the isolate. DNA is extracted using the NO-MISS workflow [@ont_nomiss_extraction; @ont_nomiss_library], quantified with a Qubit fluorometer [@thermo_qubit_hs], and analyzed with Oxford Nanopore long-read sequencing [@wang2021nanopore; @wick2017minion] and downstream genome assembly tools in BV-BRC [@olson2023bvbrc].
 
 Figure @fig-module6-sequencing-overview summarizes the sequencing and downstream analysis pipeline from isolate DNA to annotated genome.
 

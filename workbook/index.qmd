@@ -1,6 +1,6 @@
 # MB 360 ELN Workbook {.unnumbered}
 
-This Quarto book reorganizes the MB 360 schedule and ELN outline into eight modules that follow the flow of the course from basic lab technique to final project design.
+This Quarto book reorganizes the MB 360 schedule and ELN outline into eight modules that follow the flow of the course from basic lab technique to final project design. The course is structured as a course-based undergraduate research experience (CURE) [@auchincloss2014cure].
 
 ## How To Use This Book
 
