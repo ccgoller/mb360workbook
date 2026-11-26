@@ -23,12 +23,10 @@ format:
     self-contained: true
     template-partials:
       - title-slide.html
-    title-slide-attributes:
-      data-background-color: "#990000"
     include-after-body: slide-accessibility.html
 ---
 
-## Overview {data-background-color="#990000"}
+## Overview {.overview-slide}
 
 :::{.overview-summary}
 **Weeks 13–14** · Genome assembly · Annotation review · Comparative analysis · Phenotype connection

@@ -71,7 +71,7 @@ From the `workbook/` directory of the cloned repository:
 
 Quick accessibility/rendering checks for each deck:
 
-- Confirm the first visible slide is the red title slide showing the module title and MB 360 logo
+- Confirm the first visible slide is the white title slide showing the module title and MB 360 logo
 - Tab through links and slide controls to verify visible focus indicators
 - Verify dark-background slides keep high-contrast text and informative image alt text
 

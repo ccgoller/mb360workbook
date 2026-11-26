@@ -52,6 +52,7 @@ $borderRadius: 10px;
 }
 
 // Title slide: generated from title-slide.html with the module title and logo.
+// Clean white background with a red accent bar and gray supporting text.
 .reveal .slides section#title-slide {
   display: flex !important;
   flex-direction: column;
@@ -59,21 +60,20 @@ $borderRadius: 10px;
   align-items: flex-start;
   height: 100%;
   padding: 2.5rem 3.5rem;
-  color: $mb360-white;
+  color: $mb360-ink;
   text-align: left;
+  background: $mb360-white;
+  box-shadow: inset 22px 0 0 0 $mb360-primary;
 
   .title-logo {
     display: block;
-    height: 120px;
+    height: 130px;
     width: auto;
     margin: 0 0 1em;
-    padding: 0.4em;
-    background: $mb360-white;
-    border-radius: 14px;
   }
 
   .title-kicker {
-    color: rgba($mb360-white, 0.82);
+    color: $mb360-muted;
     font-size: 0.62em;
     font-weight: 700;
     letter-spacing: 0.12em;
@@ -82,17 +82,17 @@ $borderRadius: 10px;
   }
 
   h1.title {
-    color: $mb360-white;
+    color: $mb360-primary;
     font-size: 2.1em;
     line-height: 1.1;
     max-width: 18em;
     margin: 0 0 0.35em;
     padding-bottom: 0.3em;
-    border-bottom: 4px solid rgba($mb360-white, 0.55);
+    border-bottom: 4px solid $mb360-primary;
   }
 
   .subtitle {
-    color: rgba($mb360-white, 0.96);
+    color: $mb360-ink;
     font-size: 0.86em;
     font-weight: 600;
     max-width: 28em;
@@ -101,58 +101,53 @@ $borderRadius: 10px;
 
   .author,
   .institute {
-    color: rgba($mb360-white, 0.9);
+    color: $mb360-muted;
     font-size: 0.64em;
     line-height: 1.35;
     margin: 0 0 0.15em;
   }
 }
 
-.reveal .slides section[data-background-color="#990000"] {
-  color: $mb360-white;
-
-  h1,
-  h2,
-  h3,
-  h4,
-  p,
-  li,
-  strong,
-  em,
-  a,
-  .column-label {
-    color: $mb360-white;
-  }
-
-  a {
-    text-decoration-color: rgba($mb360-white, 0.72);
+// Overview slide: white background, gray summary panel, red highlights.
+.reveal .slides section.overview-slide {
+  h2 {
+    border-bottom-color: $mb360-primary;
   }
 
   ul > li::marker {
-    color: $mb360-white;
-  }
-
-  h2 {
-    border-bottom-color: rgba($mb360-white, 0.6);
+    color: $mb360-primary;
   }
 }
 
-.reveal .slides section[data-background-color="#990000"] .overview-summary {
-  color: $mb360-white;
+.reveal .slides section.overview-slide .overview-summary {
+  color: $mb360-ink;
   font-size: 0.9em;
+  padding: 0.6em 1em 0.4em;
+  background: $mb360-surface;
+  border-left: 8px solid $mb360-primary;
+  border-radius: 0 $borderRadius $borderRadius 0;
 }
 
-.reveal .slides section[data-background-color="#990000"] .overview-summary > p:first-child {
+.reveal .slides section.overview-slide .overview-summary > p:first-child {
   display: inline-block;
   padding: 0.25em 0.7em;
   margin-bottom: 0.6em;
-  background: rgba($mb360-white, 0.14);
+  background: $mb360-primary;
+  color: $mb360-white;
   border-radius: 999px;
   font-size: 0.9em;
+
+  strong {
+    color: $mb360-white;
+  }
 }
 
-.reveal .slides section[data-background-color="#990000"] .overview-summary :is(p, li, strong, em) {
+.reveal .slides section.overview-slide .overview-summary :is(p, li, em) {
   color: inherit;
+}
+
+.reveal .slides section.overview-slide .overview-summary li strong {
+  color: $mb360-primary;
 }
 
 .reveal h1,
