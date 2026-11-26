@@ -1,4 +1,3 @@
-
 ---
 title: "Module 3: Microbial Growth Curves"
 subtitle: "MB 360: Scientific Inquiry in Microbiology At the Bench"
