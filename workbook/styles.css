@@ -472,3 +472,56 @@ body.quarto-dark .slide-link a.btn:focus-visible {
     display: none !important;
   }
 }
+
+/* Accessibility: skip link and contrast fixes */
+.skip-link {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  z-index: 2000;
+  padding: 0.5rem 1rem;
+  background: #ffffff;
+  color: #990000;
+  font-weight: 600;
+  border: 2px solid #990000;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+/* Quarto's default #0d6efd on the TOC background is 4.02:1; use theme red. */
+body.quarto-light .sidebar nav[role="doc-toc"] ul > li > a.active,
+body.quarto-light .sidebar nav[role="doc-toc"] ul > li > ul > li > a.active {
+  color: #990000 !important;
+  border-left-color: #990000;
+}
+
+body.quarto-light .sidebar nav[role="doc-toc"] a:hover {
+  color: #6e0000;
+}
+
+#title-block-header.quarto-title-block.default .quarto-title-meta-heading {
+  opacity: 1;
+}
+
+body.quarto-light .quarto-title-meta-heading {
+  color: #595959;
+}
+
+body.quarto-dark .quarto-title-meta-heading {
+  color: #b8b8b8;
+}
+
+body.quarto-light .quarto-title-breadcrumbs .breadcrumb-item a .chapter-title,
+body.quarto-light .quarto-title-breadcrumbs .breadcrumb-item a {
+  color: #595959;
+}
+
+body.quarto-dark .quarto-title-breadcrumbs .breadcrumb-item a .chapter-title,
+body.quarto-dark .quarto-title-breadcrumbs .breadcrumb-item a {
+  color: #c4c4c4;
+}
+
+body.quarto-dark .page-navigation .nav-page-text,
+body.quarto-dark .page-navigation .pagination-link {
+  color: #c4c4c4;
+}

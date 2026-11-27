@@ -36,9 +36,11 @@ questions.forEach((section, index) => {
     input.required = true;
     input.name = `question-${index + 1}`;
     input.value = String(optionIndex + 1);
-    const label = document.createElement("label");
-    label.append(...option.childNodes);
-    option.append(label);
+    if (!option.querySelector("label")) {
+      const label = document.createElement("label");
+      label.append(...option.childNodes);
+      option.append(label);
+    }
   });
 
   const submit = document.createElement("button");

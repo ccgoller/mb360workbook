@@ -13,15 +13,19 @@
         slides.setAttribute("aria-label", `${deckTitle} slide deck`);
       }
 
-      const footer = document.querySelector(".reveal .footer");
-      if (footer) {
-        footer.setAttribute("role", "contentinfo");
-      }
-
       const controls = document.querySelector(".reveal .controls");
       if (controls) {
-        controls.setAttribute("role", "navigation");
         controls.setAttribute("aria-label", "Slide navigation controls");
+      }
+
+      document.querySelectorAll(".slide-menu-button a:not([aria-label])").forEach((link) => {
+        link.setAttribute("aria-label", "Open slide menu");
+      });
+
+      // Reveal disables pinch-zoom by default; re-enable it for low-vision users.
+      const viewport = document.querySelector('meta[name="viewport"]');
+      if (viewport && /user-scalable=no/.test(viewport.getAttribute("content") || "")) {
+        viewport.setAttribute("content", "width=device-width, initial-scale=1.0");
       }
 
       document.querySelectorAll(".reveal .slide-number, .reveal .slide-logo").forEach((node) => {
@@ -44,7 +48,7 @@
 
     const observer = new MutationObserver(() => {
       enhanceSlides();
-      if (document.querySelector(".reveal .controls") && document.querySelector(".reveal .slide-logo")) {
+      if (document.querySelector(".reveal .controls") && document.querySelector(".reveal .slide-logo") && document.querySelector(".slide-menu-button a[aria-label]")) {
         observer.disconnect();
       }
     });

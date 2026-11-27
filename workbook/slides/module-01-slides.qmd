@@ -10,7 +10,7 @@ format:
   revealjs:
     theme: [default, theme-mb360.scss]
     logo: ../MB360logo-transparent.png
-    footer: "MB 360 Lab Workbook | NC State University"
+    footer: "[Module 1 workbook page](../module-01.html) | MB 360 Lab Workbook | NC State University"
     slide-number: true
     controls: true
     progress: true
