@@ -57,6 +57,6 @@ August 1998 - May 2002
 
 ## Additional Links
 
-- [BSC 495: The Hidden World's Code](https://ccgoller.github.io/bsc-fungal-genomics-lab/)
+- [BSC 495: The Hidden World's Code](https://go.ncsu.edu/mycoed)
 - [GitHub Profile](https://github.com/ccgoller)
 - [LinkedIn Profile](https://linkedin.com/in/ccgoller)
