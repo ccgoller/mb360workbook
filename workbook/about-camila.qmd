@@ -20,5 +20,7 @@ North Carolina State University
 ## Role in MB 360
 
 - Graduate Teaching Assistant
+  - Spring 2026 semester
+  - Fall 2026 semester
 - Supports laboratory instruction and student mentoring
 - Contributes to workbook implementation and module delivery
