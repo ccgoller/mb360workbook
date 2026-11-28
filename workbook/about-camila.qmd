@@ -4,8 +4,14 @@ numbered: false
 unnumbered: true
 number-sections: false
 about:
-  template: broadside
+  template: trestles
+  image: images/about/camila-loyola-portrait.jpg
+  image-alt: "Portrait of Camila Loyola"
   image-shape: rounded
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/camila-loyola-789513206/
 ---
 
 Camila Loyola is a Graduate Teaching Assistant in MB 360 and a student in the Master of Microbial Biotechnology program at North Carolina State University.
